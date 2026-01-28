@@ -30,6 +30,58 @@ function showToast(message) {
   }, 2200);
 }
 
+let alarmAudioCtx = null;
+function playAlarmSound() {
+  try {
+    const AudioCtx = window.AudioContext || window.webkitAudioContext;
+    if (!AudioCtx) return;
+    alarmAudioCtx = alarmAudioCtx || new AudioCtx();
+    const ctx = alarmAudioCtx;
+    const osc = ctx.createOscillator();
+    const gain = ctx.createGain();
+    osc.type = 'sine';
+    osc.frequency.value = 880;
+    gain.gain.setValueAtTime(0.0001, ctx.currentTime);
+    gain.gain.exponentialRampToValueAtTime(0.35, ctx.currentTime + 0.02);
+    gain.gain.exponentialRampToValueAtTime(0.0001, ctx.currentTime + 1.0);
+    osc.connect(gain).connect(ctx.destination);
+    osc.start();
+    osc.stop(ctx.currentTime + 1.05);
+  } catch {}
+  if (navigator.vibrate) navigator.vibrate([180, 90, 180]);
+}
+
+async function maybeRequestNotificationPermission() {
+  if (!('Notification' in window)) return;
+  if (Notification.permission !== 'default') return;
+  const ok = confirm('Allow notifications for timer alerts?');
+  if (!ok) return;
+  try { await Notification.requestPermission(); } catch {}
+}
+
+async function notifyTimerDone(title, body) {
+  if (!('Notification' in window)) return false;
+  if (Notification.permission !== 'granted') return false;
+  try {
+    if ('serviceWorker' in navigator) {
+      const reg = await navigator.serviceWorker.ready;
+      await reg.showNotification(title, {
+        body,
+        tag: 'recipe-timer',
+        renotify: true,
+        icon: 'icons/icon-192.png',
+        badge: 'icons/icon-192.png'
+      });
+      return true;
+    }
+  } catch {}
+  try {
+    new Notification(title, { body });
+    return true;
+  } catch {}
+  return false;
+}
+
 function initWakeLockButton() {
   const btn = byId('keepAwakeBtn');
   if (!btn) return;
@@ -371,7 +423,7 @@ function renderSteps(r){
   return `<ol>${steps.map((s,i) => {
     const dur = parseDuration(s);
     const controls = dur ? timerControlsHTML(dur) : optionalTimerHTML();
-    return `<li data-step-index="${i}">${s}${controls}</li>`;
+    return `<li data-step-index="${i}" data-step-text="${escapeHtml(s)}">${s}${controls}</li>`;
   }).join('')}</ol>`;
 }
 
@@ -400,15 +452,28 @@ function attachTimers(){
     let remaining = defaultSeconds;
     let interval = null;
     const display = ctrl.querySelector('[data-remaining]');
+    const stepText = ctrl.closest('li')?.getAttribute('data-step-text') || 'Timer';
 
     function render(){ const mm = Math.floor(remaining/60); const ss = remaining%60; display.textContent = `${String(mm).padStart(2,'0')}:${String(ss).padStart(2,'0')}`; ctrl.parentElement.classList.toggle('timer-running', !!interval); }
-    function tick(){ remaining = Math.max(0, remaining-1); render(); if (remaining === 0){ clearInterval(interval); interval=null; render(); try{ new AudioContext(); }catch(e){} showToast("Timer done"); }}
+    function tick(){
+      remaining = Math.max(0, remaining-1);
+      render();
+      if (remaining === 0){
+        clearInterval(interval);
+        interval = null;
+        render();
+        playAlarmSound();
+        notifyTimerDone('Timer done', stepText);
+        showToast("Timer done");
+      }
+    }
 
     ctrl.addEventListener('click', (e) => {
       const btn = e.target.closest('button'); if (!btn) return; const action = btn.getAttribute('data-action');
       if (action === 'plus'){ remaining += 60; render(); }
       else if (action === 'minus'){ remaining = Math.max(0, remaining-60); render(); }
       else if (action === 'start'){
+        maybeRequestNotificationPermission();
         if (remaining === 0) remaining = defaultSeconds || 60;
         if (interval){ clearInterval(interval); interval=null; render(); btn.textContent='⏱ Start'; }
         else { interval=setInterval(tick, 1000); render(); btn.textContent='Pause'; }
