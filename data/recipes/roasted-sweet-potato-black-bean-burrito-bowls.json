@@ -1,0 +1,99 @@
+{
+  "slug": "roasted-sweet-potato-black-bean-burrito-bowls",
+  "title": "Roasted Sweet Potato & Black Bean Burrito Bowls",
+  "image": "images/sweet-potato-black-bean-burrito-bowls.jpg",
+  "time": "≈55 min",
+  "servings": 4,
+  "style": "Colorful vegan burrito bowls with roasted sweet potatoes, creamy refried black beans, and herbed rice.",
+  "tags": [
+    "Vegan",
+    "Gluten-Free"
+  ],
+  "categories": [
+    "Dinner",
+    "Bowl",
+    "Plant-based"
+  ],
+  "keywords": [
+    "burrito bowls",
+    "sweet potato bowls",
+    "black bean bowls",
+    "vegan dinner"
+  ],
+  "description": "Hearty burrito bowls with spiced roasted sweet potatoes, homemade refried black beans, and cilantro-lime rice.",
+  "ingredients": {
+    "sections": [
+      {
+        "title": "Roasted Sweet Potatoes",
+        "items": [
+          { "qty": "1", "unit": "large", "item": "sweet potato", "note": "peeled optional, cubed" },
+          { "qty": "2-3", "unit": "tsp", "item": "oil of choice" },
+          { "qty": "1", "unit": "tsp", "item": "ground cumin" },
+          { "qty": "1", "unit": "tsp", "item": "granulated garlic" },
+          { "qty": "1", "unit": "tsp", "item": "paprika" },
+          { "qty": "0.5", "unit": "tsp", "item": "smoked paprika" }
+        ]
+      },
+      {
+        "title": "Refried Black Beans",
+        "items": [
+          { "qty": "2", "unit": "tsp", "item": "olive oil" },
+          { "qty": "1", "unit": "cup", "item": "green bell pepper", "note": "small diced" },
+          { "qty": "0.33", "unit": "cup", "item": "onion", "note": "diced" },
+          {
+            "qty": "1-2",
+            "unit": "tbsp",
+            "item": "jalapeño",
+            "note": "chopped, optional"
+          },
+          { "qty": "2-3", "unit": "cloves", "item": "garlic", "note": "minced" },
+          {
+            "qty": "2",
+            "unit": "cans",
+            "item": "black beans",
+            "note": "15 oz each, do not drain"
+          },
+          { "qty": "2", "unit": "tsp", "item": "ground cumin" },
+          { "qty": "1", "unit": "tsp", "item": "paprika" },
+          {
+            "qty": "0.5",
+            "unit": "tsp",
+            "item": "smoked paprika",
+            "note": "optional"
+          },
+          { "qty": "", "unit": "", "item": "salt & pepper", "note": "to taste" }
+        ]
+      },
+      {
+        "title": "Rice & Assembly",
+        "items": [
+          {
+            "qty": "2",
+            "unit": "cups",
+            "item": "cooked rice or grain",
+            "note": "white, brown, or cauliflower rice"
+          },
+          { "qty": "0.5", "unit": "", "item": "lime", "note": "juiced" },
+          {
+            "qty": "",
+            "unit": "",
+            "item": "fresh cilantro",
+            "note": "chopped"
+          }
+        ]
+      }
+    ]
+  },
+  "steps": [
+    "Preheat oven to 425°F (220°C). Toss sweet potato cubes with oil and spices. Roast on a sheet pan for 30–35 minutes until fork-tender.",
+    "Heat olive oil in a skillet over medium heat. Cook onion and green pepper 3–5 minutes until softened. Add garlic and jalapeño; cook 1 minute.",
+    "Add black beans with their liquid and spices. Simmer briefly, then mash to desired consistency. Season with salt and pepper.",
+    "Stir lime juice, cilantro, and salt into cooked rice.",
+    "Assemble bowls with rice, roasted sweet potatoes, and refried beans. Add desired toppings and serve with chips or tortillas."
+  ],
+  "tips": [
+    "Great topped with guacamole, salsa, or vegan sour cream.",
+    "Use cauliflower rice for a low-carb option.",
+    "Beans thicken as they cool—add water if needed."
+  ]
+}

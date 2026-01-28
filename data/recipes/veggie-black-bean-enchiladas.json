@@ -1,0 +1,100 @@
+{
+  "slug": "veggie-black-bean-enchiladas",
+  "title": "Veggie Black Bean Enchiladas",
+  "image": "images/veggie-black-bean-enchiladas.jpg",
+  "time": "≈60 min",
+  "servings": 4,
+  "style": "Hearty vegetarian enchiladas loaded with vegetables, black beans, and homemade red sauce.",
+  "tags": [
+    "Vegetarian"
+  ],
+  "categories": [
+    "Dinner",
+    "Baked",
+    "Mexican-inspired"
+  ],
+  "keywords": [
+    "vegetarian enchiladas",
+    "black bean enchiladas",
+    "veggie enchiladas",
+    "meatless dinner"
+  ],
+  "description": "Vegetarian enchiladas stuffed with black beans, broccoli, bell pepper, and spinach, topped with a rich homemade red sauce.",
+  "ingredients": {
+    "sections": [
+      {
+        "title": "Vegetable Filling",
+        "items": [
+          { "qty": "2", "unit": "tbsp", "item": "olive oil" },
+          { "qty": "1", "unit": "cup", "item": "red onion", "note": "chopped" },
+          { "qty": "1", "unit": "", "item": "red bell pepper", "note": "chopped" },
+          {
+            "qty": "1",
+            "unit": "lb",
+            "item": "broccoli or cauliflower",
+            "note": "small florets, bite-sized"
+          },
+          { "qty": "1", "unit": "tsp", "item": "ground cumin" },
+          { "qty": "0.25", "unit": "tsp", "item": "ground cinnamon" },
+          {
+            "qty": "5-6",
+            "unit": "oz",
+            "item": "baby spinach",
+            "note": "about 5 cups packed"
+          },
+          {
+            "qty": "1",
+            "unit": "can",
+            "item": "black beans",
+            "note": "15 oz, drained & rinsed"
+          },
+          { "qty": "0.5", "unit": "tsp", "item": "fine salt", "note": "to taste" },
+          { "qty": "", "unit": "", "item": "black pepper", "note": "to taste" }
+        ]
+      },
+      {
+        "title": "Assembly",
+        "items": [
+          {
+            "qty": "2",
+            "unit": "cups",
+            "item": "enchilada sauce",
+            "note": "homemade or store-bought"
+          },
+          {
+            "qty": "1",
+            "unit": "cup",
+            "item": "Monterey Jack cheese",
+            "note": "shredded, divided"
+          },
+          {
+            "qty": "8",
+            "unit": "",
+            "item": "whole wheat tortillas",
+            "note": "8-inch"
+          },
+          {
+            "qty": "",
+            "unit": "",
+            "item": "fresh cilantro",
+            "note": "chopped, for garnish"
+          }
+        ]
+      }
+    ]
+  },
+  "steps": [
+    "Preheat oven to 400°F (205°C). Lightly grease a 9×13-inch baking dish.",
+    "Heat olive oil in a large skillet over medium heat. Sauté onion with a pinch of salt for 5–7 minutes until translucent. Add broccoli and bell pepper, cover, and cook 8–9 minutes until tender and lightly golden.",
+    "Add cumin and cinnamon; cook 30 seconds until fragrant. Add spinach in batches, stirring until wilted.",
+    "Transfer mixture to a bowl. Stir in black beans, 1/4 cup cheese, and about 2 tablespoons enchilada sauce. Season with salt and pepper.",
+    "Spread 1/4 cup enchilada sauce over the bottom of the baking dish. Fill each tortilla with about 1/2 cup filling, roll tightly, and place seam-side down in the dish.",
+    "Pour remaining sauce over enchiladas, leaving ends exposed. Sprinkle with remaining cheese.",
+    "Bake uncovered for 20 minutes. Move to upper rack for 3–6 minutes if needed until golden and bubbly. Rest 10 minutes before serving. Garnish with cilantro."
+  ],
+  "tips": [
+    "Make it vegan by skipping the cheese or using a dairy-free alternative.",
+    "Warm tortillas before rolling to prevent cracking, especially corn tortillas.",
+    "Leftovers keep well refrigerated for up to 4 days."
+  ]
+}
