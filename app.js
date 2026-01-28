@@ -74,6 +74,16 @@ function timeToMinutes(str) {
   return single ? +single[1] : null;
 }
 
+const UNDER_30_TAG = 'Under 30 min';
+function getEffectiveTags(recipe) {
+  const tags = Array.isArray(recipe.tags) ? [...recipe.tags] : [];
+  const minutes = timeToMinutes(recipe.time);
+  if (minutes !== null && minutes <= 30 && !tags.includes(UNDER_30_TAG)) {
+    tags.push(UNDER_30_TAG);
+  }
+  return tags;
+}
+
 // PWA registration (production only; disabled on localhost/127.x)
 if ('serviceWorker' in navigator && !/^(localhost|127\.0\.0\.1)$/.test(location.hostname)) {
   window.addEventListener('load', () => {
@@ -97,7 +107,7 @@ function initHome(){
   const tagCount = byId('tagCount');
   if(!grid || !filtersEl) return;
 
-  const allTags = [...new Set(INDEX.flatMap(r => r.tags ?? []))].sort();
+  const allTags = [...new Set(INDEX.flatMap(r => getEffectiveTags(r)))].sort();
   if (recipeCount) recipeCount.textContent = String(INDEX.length);
   if (tagCount) tagCount.textContent = String(allTags.length);
   const FILTERS = ['★ Starred', ...allTags];
@@ -121,10 +131,10 @@ function initHome(){
     const favs = getFavs();
 
     let items = INDEX
-      .filter(r => !ACTIVE_TAG || (ACTIVE_TAG === '★ Starred' ? favs.has(r.slug) : (r.tags || []).includes(ACTIVE_TAG)))
+      .filter(r => !ACTIVE_TAG || (ACTIVE_TAG === '★ Starred' ? favs.has(r.slug) : getEffectiveTags(r).includes(ACTIVE_TAG)))
       .filter(r => {
         if (!q) return true;
-        const hay = [r.title, r.description, r.style, ...(r.tags || [])].join(' ').toLowerCase();
+        const hay = [r.title, r.description, r.style, ...getEffectiveTags(r)].join(' ').toLowerCase();
         return hay.includes(q);
       })
       .sort((a,b) => {
@@ -153,7 +163,7 @@ function initHome(){
           <h2 class="card-title">${escapeHtml(r.title)}</h2>
           <div class="card-meta">
             ${r.time ? `<span>${r.time}</span>` : ''}
-            ${(r.tags || []).slice(0,2).map(t => `<span>${escapeHtml(t)}</span>`).join('')}
+            ${getEffectiveTags(r).slice(0,2).map(t => `<span>${escapeHtml(t)}</span>`).join('')}
           </div>
         </div>`;
       card.querySelector('.star-btn').addEventListener('click', (ev) => {
@@ -202,7 +212,7 @@ function renderRecipe(root, r){
           ${r.time ? `<span>Time: ${r.time}</span>` : ''}
           ${r.style ? `<span>${escapeHtml(r.style)}</span>` : ''}
         </div>
-        <div class="badges">${(r.tags || []).map(t => `<span class="badge">${escapeHtml(t)}</span>`).join('')}</div>
+        <div class="badges">${getEffectiveTags(r).map(t => `<span class="badge">${escapeHtml(t)}</span>`).join('')}</div>
         <div class="actions">
           <button class="btn" id="copyIngredientsBtn">Copy ingredients</button>
           <button class="btn" id="shareBtn">Share</button>
