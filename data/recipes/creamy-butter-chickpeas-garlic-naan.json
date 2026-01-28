@@ -1,0 +1,184 @@
+{
+  "slug": "creamy-butter-chickpeas-garlic-naan",
+  "title": "Creamy Butter Chickpeas & Garlic Naan",
+  "image": "images/butter-chickpeas.jpg",
+  "time": "≈30 min",
+  "servings": 4,
+  "style": "Comforting, creamy chickpeas with quick stovetop naan (vegan option).",
+  "tags": [
+    "Comfort",
+    "Under 30 min",
+    "Vegan option"
+  ],
+  "categories": [
+    "Dinner",
+    "One-pan",
+    "Plant-based"
+  ],
+  "keywords": [
+    "butter chickpeas",
+    "chickpea curry",
+    "garlic naan",
+    "vegan"
+  ],
+  "description": "Le Cocque-inspired butter chickpeas with a quick, garlicky stovetop naan.",
+  "ingredients": {
+    "sections": [
+      {
+        "title": "Chickpeas",
+        "items": [
+          {
+            "qty": "1-2",
+            "unit": "tbsp",
+            "item": "neutral oil"
+          },
+          {
+            "qty": "1",
+            "unit": "",
+            "item": "medium onion",
+            "note": "finely chopped"
+          },
+          {
+            "qty": "3",
+            "unit": "cloves",
+            "item": "garlic",
+            "note": "minced"
+          },
+          {
+            "qty": "1",
+            "unit": "tbsp",
+            "item": "ginger",
+            "note": "minced or grated"
+          },
+          {
+            "qty": "1-2",
+            "unit": "tsp",
+            "item": "garam masala"
+          },
+          {
+            "qty": "1",
+            "unit": "tsp",
+            "item": "ground cumin"
+          },
+          {
+            "qty": "0.5",
+            "unit": "tsp",
+            "item": "turmeric"
+          },
+          {
+            "qty": "0.5-1",
+            "unit": "tsp",
+            "item": "mild paprika or chilli powder",
+            "note": "optional"
+          },
+          {
+            "qty": "1",
+            "unit": "tbsp",
+            "item": "tomato paste"
+          },
+          {
+            "qty": "2",
+            "unit": "cans",
+            "item": "chickpeas",
+            "note": "drained & rinsed (~800 g)"
+          },
+          {
+            "qty": "1",
+            "unit": "can",
+            "item": "full-fat coconut milk",
+            "note": "(400 ml) or creamy dairy/coconut alt"
+          },
+          {
+            "qty": "0.5",
+            "unit": "can",
+            "item": "water/veg stock",
+            "note": "to loosen sauce (~200 ml)"
+          },
+          {
+            "qty": "1-2",
+            "unit": "tbsp",
+            "item": "nutritional yeast or vegan butter",
+            "note": "optional for richer 'butter' taste"
+          },
+          {
+            "qty": "",
+            "unit": "",
+            "item": "salt & black pepper",
+            "note": "to taste"
+          },
+          {
+            "qty": "0.5",
+            "unit": "",
+            "item": "lemon or lime",
+            "note": "juice"
+          },
+          {
+            "qty": "",
+            "unit": "",
+            "item": "fresh coriander",
+            "note": "to finish"
+          }
+        ]
+      },
+      {
+        "title": "Garlic Naan (quick stovetop)",
+        "items": [
+          {
+            "qty": "250",
+            "unit": "g",
+            "item": "all-purpose flour",
+            "note": "(or whole wheat mix)"
+          },
+          {
+            "qty": "1",
+            "unit": "tsp",
+            "item": "baking powder"
+          },
+          {
+            "qty": "0.5",
+            "unit": "tsp",
+            "item": "salt"
+          },
+          {
+            "qty": "1",
+            "unit": "tbsp",
+            "item": "yoghurt",
+            "note": "dairy or plant-based"
+          },
+          {
+            "qty": "120-150",
+            "unit": "ml",
+            "item": "warm water"
+          },
+          {
+            "qty": "1-2",
+            "unit": "tbsp",
+            "item": "oil or melted vegan butter"
+          },
+          {
+            "qty": "2-3",
+            "unit": "cloves",
+            "item": "garlic",
+            "note": "minced"
+          },
+          {
+            "qty": "",
+            "unit": "",
+            "item": "fresh parsley or coriander",
+            "note": "optional for sprinkling"
+          }
+        ]
+      }
+    ]
+  },
+  "steps": [
+    "<strong>Butter Chickpeas:</strong> Heat oil over medium. Sauté onion 5–7 min until soft and lightly golden. Add garlic and ginger 1 min. Add spices; toast ~30 sec. Stir in tomato paste.",
+    "Add chickpeas; toss to coat. Pour in coconut milk and water/stock; simmer gently ~10–12 min until sauce thickens. Stir in nutritional yeast/vegan butter if using; season with salt & pepper. Finish with lemon/lime and coriander.",
+    "<strong>Quick Garlic Naan:</strong> Mix flour, baking powder, salt. Add yoghurt + warm water → soft dough. Knead 3–4 min. Heat skillet medium-high. Divide into 6 balls; flatten. Brush with oil/butter and sprinkle garlic. Cook 2–3 min per side until puffed and spotted. Brush with extra garlic butter + herbs."
+  ],
+  "tips": [
+    "For extra buttery depth, swirl in vegan butter or cashew cream at the end.",
+    "Make naan gluten-free by using a 1:1 GF flour blend (texture varies).",
+    "Dial heat up with extra paprika or chilli flakes."
+  ]
+}

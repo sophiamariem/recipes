@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 180">
+    <!-- soft background -->
+    <rect x="0" y="0" width="180" height="180" rx="40" fill="#FFE8EE"/>
+
+    <!-- plate -->
+    <ellipse cx="90" cy="94" rx="64" ry="50" fill="#FFF2F5"/>
+    <ellipse cx="90" cy="96" rx="56" ry="42" fill="#FADDE5"/>
+    <ellipse cx="90" cy="92" rx="48" ry="34" fill="#FFFFFF"/>
+
+    <!-- face -->
+    <circle cx="76" cy="92" r="5" fill="#5A3A42"/>
+    <circle cx="104" cy="92" r="5" fill="#5A3A42"/>
+    <path d="M80 106 Q90 114 100 106"
+          stroke="#5A3A42"
+          stroke-width="4"
+          fill="none"
+          stroke-linecap="round"/>
+</svg>

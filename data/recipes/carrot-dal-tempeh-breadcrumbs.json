@@ -1,0 +1,164 @@
+{
+  "slug": "carrot-dal-tempeh-breadcrumbs",
+  "title": "Carrot Dal with Tempeh Breadcrumbs",
+  "image": "images/carrot-dal.jpg",
+  "time": "35–40 min",
+  "servings": 3,
+  "style": "Protein-rich, wholesome plant-based dal with crunchy tempeh topping",
+  "tags": [
+    "Vegan",
+    "High Protein",
+    "Dairy-free",
+    "Gluten-free option"
+  ],
+  "categories": [
+    "Dinner",
+    "Dal",
+    "Plant-based"
+  ],
+  "keywords": [
+    "dal",
+    "lentils",
+    "carrots",
+    "tempeh",
+    "breadcrumbs",
+    "vegan protein"
+  ],
+  "description": "Comforting lentil dal loaded with carrots and topped with super-crispy tempeh breadcrumbs.",
+  "ingredients": {
+    "sections": [
+      {
+        "title": "Dal",
+        "items": [
+          {
+            "qty": "200",
+            "unit": "g",
+            "item": "red lentils",
+            "note": "(or split yellow lentils, rinsed)"
+          },
+          {
+            "qty": "3-4",
+            "unit": "",
+            "item": "large carrots",
+            "note": "finely diced or grated"
+          },
+          {
+            "qty": "1",
+            "unit": "",
+            "item": "medium onion",
+            "note": "finely chopped"
+          },
+          {
+            "qty": "3",
+            "unit": "cloves",
+            "item": "garlic",
+            "note": "minced"
+          },
+          {
+            "qty": "1",
+            "unit": "",
+            "item": "thumb-size ginger",
+            "note": "grated"
+          },
+          {
+            "qty": "1-2",
+            "unit": "tsp",
+            "item": "cumin",
+            "note": "seeds or ground"
+          },
+          {
+            "qty": "1",
+            "unit": "tsp",
+            "item": "turmeric"
+          },
+          {
+            "qty": "1",
+            "unit": "tsp",
+            "item": "curry powder or garam masala"
+          },
+          {
+            "qty": "0.5",
+            "unit": "tsp",
+            "item": "chilli flakes",
+            "note": "(optional)"
+          },
+          {
+            "qty": "400",
+            "unit": "ml",
+            "item": "water or vegetable stock"
+          },
+          {
+            "qty": "200",
+            "unit": "ml",
+            "item": "coconut milk",
+            "note": "(optional for creaminess)"
+          },
+          {
+            "qty": "",
+            "unit": "",
+            "item": "salt & pepper",
+            "note": "to taste"
+          },
+          {
+            "qty": "0.5",
+            "unit": "",
+            "item": "lemon/lime",
+            "note": "juice"
+          }
+        ]
+      },
+      {
+        "title": "Tempeh Breadcrumbs Topping",
+        "items": [
+          {
+            "qty": "200",
+            "unit": "g",
+            "item": "tempeh",
+            "note": "torn or crumbled"
+          },
+          {
+            "qty": "1",
+            "unit": "tbsp",
+            "item": "tamari",
+            "note": "(or soy sauce)"
+          },
+          {
+            "qty": "0.5",
+            "unit": "tsp",
+            "item": "garlic granules",
+            "note": "(or 1 clove minced)"
+          },
+          {
+            "qty": "1-2",
+            "unit": "tbsp",
+            "item": "olive oil",
+            "note": "for baking/frying"
+          },
+          {
+            "qty": "2-3",
+            "unit": "tbsp",
+            "item": "breadcrumbs",
+            "note": "(gluten-free if needed)"
+          },
+          {
+            "qty": "",
+            "unit": "",
+            "item": "smoked paprika or curry seasoning",
+            "note": "pinch, optional"
+          }
+        ]
+      }
+    ]
+  },
+  "steps": [
+    "<strong>Cook the Dal Base:</strong> Rinse lentils until water runs clear. Heat oil in a large pan over medium. Soften onion 3–4 min; add garlic and ginger 1 min. Add cumin, turmeric, curry/garam masala, chilli flakes; bloom 30–45 sec. Stir in carrots.",
+    "Add lentils and water/stock; bring to a boil then reduce heat. Simmer 12–15 min until carrots and lentils are soft. Stir in coconut milk (optional) and simmer 5 min. Season with salt, pepper, and finish with lemon/lime juice.",
+    "<strong>Tempeh Breadcrumbs:</strong> Heat oven to 200°C / 400°F (fan). Toss crumbled tempeh with tamari, garlic granules, a little oil. Mix in breadcrumbs and seasoning. Spread on a tray; bake 12–18 min, turning halfway, until crisp and golden. (Or pan-fry until crisp.)",
+    "Serve bowls of dal topped generously with the crunchy tempeh crumbs. Add extra lemon/lime or herbs."
+  ],
+  "tips": [
+    "Loosen thick dal with hot water.",
+    "Boost heat with fresh chilli or extra flakes.",
+    "Swap tempeh crumbs for roasted chickpeas for another protein crunch."
+  ]
+}

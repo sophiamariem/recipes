@@ -1,0 +1,182 @@
+{
+  "slug": "coconut-lime-tofu",
+  "title": "Coconut Lime Tofu",
+  "image": "images/coconut-lime-tofu.jpg",
+  "time": "",
+  "servings": null,
+  "style": "Bright, zesty coconut curry with sriracha, red curry paste and tofu.",
+  "tags": [
+    "Vegan",
+    "Dairy-free",
+    "High Protein"
+  ],
+  "categories": [
+    "Dinner",
+    "Curry",
+    "Plant-based"
+  ],
+  "keywords": [
+    "tofu",
+    "coconut",
+    "lime",
+    "red curry"
+  ],
+  "description": "Zingy coconut-lime sauce with aromatic red curry paste and crispy-edged tofu.",
+  "ingredients": {
+    "sections": [
+      {
+        "title": "For the red curry paste",
+        "items": [
+          {
+            "qty": "9-10",
+            "unit": "",
+            "item": "dried red chillies",
+            "note": "Kashmiri if available"
+          },
+          {
+            "qty": "3-4",
+            "unit": "cloves",
+            "item": "garlic"
+          },
+          {
+            "qty": "4-5",
+            "unit": "",
+            "item": "kaffir lime leaves"
+          },
+          {
+            "qty": "1",
+            "unit": "inch",
+            "item": "galangal/ginger"
+          },
+          {
+            "qty": "2",
+            "unit": "",
+            "item": "lemongrass stalks",
+            "note": "finely chopped (~2\" each)"
+          },
+          {
+            "qty": "1",
+            "unit": "",
+            "item": "medium onion"
+          },
+          {
+            "qty": "0.5",
+            "unit": "tsp",
+            "item": "coriander powder"
+          },
+          {
+            "qty": "0.5",
+            "unit": "tsp",
+            "item": "cumin powder"
+          },
+          {
+            "qty": "",
+            "unit": "",
+            "item": "white or black peppercorns",
+            "note": "pinch"
+          },
+          {
+            "qty": "",
+            "unit": "",
+            "item": "salt",
+            "note": "to taste"
+          }
+        ]
+      },
+      {
+        "title": "For the coconut-lime tofu curry",
+        "items": [
+          {
+            "qty": "1",
+            "unit": "block",
+            "item": "silken-firm tofu"
+          },
+          {
+            "qty": "3-4",
+            "unit": "tbsp",
+            "item": "corn flour"
+          },
+          {
+            "qty": "3-4",
+            "unit": "tbsp",
+            "item": "sesame oil"
+          },
+          {
+            "qty": "0.5",
+            "unit": "",
+            "item": "onion",
+            "note": "sliced"
+          },
+          {
+            "qty": "3-4",
+            "unit": "cloves",
+            "item": "garlic",
+            "note": "minced"
+          },
+          {
+            "qty": "1",
+            "unit": "",
+            "item": "knob ginger",
+            "note": "grated"
+          },
+          {
+            "qty": "1-2",
+            "unit": "tbsp",
+            "item": "sriracha or hot sauce"
+          },
+          {
+            "qty": "1-2",
+            "unit": "tbsp",
+            "item": "red curry paste",
+            "note": "store-bought or homemade"
+          },
+          {
+            "qty": "250-350",
+            "unit": "ml",
+            "item": "coconut milk"
+          },
+          {
+            "qty": "1-2",
+            "unit": "tsp",
+            "item": "brown sugar"
+          },
+          {
+            "qty": "1-2",
+            "unit": "tbsp",
+            "item": "light soy sauce"
+          },
+          {
+            "qty": "0.5-1",
+            "unit": "",
+            "item": "lemon",
+            "note": "juiced (or lime)"
+          },
+          {
+            "qty": "",
+            "unit": "",
+            "item": "scallions",
+            "note": "for garnish"
+          },
+          {
+            "qty": "",
+            "unit": "",
+            "item": "sesame seeds",
+            "note": "for garnish"
+          }
+        ]
+      }
+    ]
+  },
+  "steps": [
+    "Blend curry paste ingredients to a smooth paste (soak chillies if tough).",
+    "Toss tofu cubes in corn flour; pan-fry in sesame oil until crisp at edges. Set aside.",
+    "Sauté onion, garlic, ginger. Stir in sriracha and red curry paste; cook until fragrant.",
+    "Pour in coconut milk; simmer to desired thickness. Season with brown sugar and soy sauce.",
+    "Return tofu; simmer briefly. Finish with lemon/lime juice. Garnish with scallions and sesame."
+  ],
+  "tips": [
+    "Use tamari for gluten-free.",
+    "Adjust curry paste and sriracha for heat preference.",
+    "Silken-firm tofu is delicate—turn gently while frying."
+  ]
+}

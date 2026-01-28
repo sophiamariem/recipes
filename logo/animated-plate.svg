@@ -1,0 +1,51 @@
+<svg width="240" height="200" viewBox="0 0 240 200" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- shadow -->
+  <ellipse cx="120" cy="160" rx="70" ry="14" fill="#E9B8C5" opacity="0.5"/>
+
+  <!-- wobble group -->
+  <g transform-origin="120px 110px">
+    <animateTransform
+            attributeName="transform"
+            type="rotate"
+            values="0 120 110;2 120 110;-2 120 110;0 120 110"
+            dur="3.5s"
+            repeatCount="indefinite"/>
+
+    <!-- outer rim -->
+    <ellipse cx="120" cy="110" rx="90" ry="70" fill="#FFF2F5"/>
+
+    <!-- rim thickness -->
+    <ellipse cx="120" cy="112" rx="82" ry="62" fill="#FADDE5"/>
+
+    <!-- plate well -->
+    <ellipse cx="120" cy="108" rx="72" ry="52" fill="#FFFFFF"/>
+
+    <!-- face -->
+    <!-- cheeks -->
+    <ellipse cx="92" cy="118" rx="8" ry="6" fill="#F6A8BC"/>
+    <ellipse cx="148" cy="118" rx="8" ry="6" fill="#F6A8BC"/>
+
+    <!-- eyes -->
+    <ellipse cx="100" cy="108" rx="5" ry="7" fill="#5A3A42"/>
+    <ellipse cx="140" cy="108" rx="5" ry="7" fill="#5A3A42"/>
+
+    <!-- blink -->
+    <g>
+      <animate attributeName="opacity"
+               values="1;1;0;1"
+               dur="4s"
+               repeatCount="indefinite"/>
+      <ellipse cx="100" cy="108" rx="5" ry="7" fill="#5A3A42"/>
+      <ellipse cx="140" cy="108" rx="5" ry="7" fill="#5A3A42"/>
+    </g>
+
+    <!-- smile -->
+    <path d="M104 124 Q120 134 136 124"
+          stroke="#5A3A42"
+          stroke-width="3"
+          fill="none"
+          stroke-linecap="round"/>
+
+  </g>
+</svg>
