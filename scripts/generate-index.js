@@ -3,52 +3,139 @@
 const fs = require('fs');
 const path = require('path');
 
-const RECIPES_DIR = path.join(__dirname, '..', 'data', 'recipes');
+const ROOT = path.join(__dirname, '..');
+const RECIPES_DIR = path.join(ROOT, 'data', 'recipes');
 const INDEX_PATH = path.join(RECIPES_DIR, '_index.json');
 
+function rel(p) {
+    try { return path.relative(process.cwd(), p) || p; }
+    catch { return p; }
+}
+
+function lineColAt(str, index) {
+    let line = 1, col = 1;
+    for (let i = 0; i < index && i < str.length; i++) {
+        if (str[i] === '\n') { line++; col = 1; }
+        else { col++; }
+    }
+    return { line, col };
+}
+
+function codeFrame(src, line, col, context = 2) {
+    const lines = src.split('\n');
+    const start = Math.max(1, line - context);
+    const end = Math.min(lines.length, line + context);
+    const width = String(end).length;
+    const out = [];
+
+    for (let ln = start; ln <= end; ln++) {
+        const prefix = (ln === line ? '>' : ' ') + ' ' + String(ln).padStart(width, ' ') + ' | ';
+        out.push(prefix + lines[ln - 1]);
+        if (ln === line) {
+            const caretPad = ' '.repeat(prefix.length + Math.max(col - 1, 0));
+            out.push(caretPad + '^');
+        }
+    }
+    return out.join('\n');
+}
+
+function parseJSONWithContext(raw, filePath) {
+    try {
+        return { ok: true, data: JSON.parse(raw) };
+    } catch (err) {
+        let pos = null;
+        const m = /position\s+(\d+)/i.exec(err.message);
+        if (m) pos = Number(m[1]);
+
+        let frame = '';
+        let where = '';
+        if (pos !== null && Number.isFinite(pos)) {
+            const { line, col } = lineColAt(raw, pos);
+            where = `:${line}:${col}`;
+            frame = '\n' + codeFrame(raw, line, col) + '\n';
+        }
+
+        const hint =
+            /\bUnexpected token\b/.test(err.message) &&
+            (/\]|\}/.test(err.message) || (pos !== null && raw.slice(Math.max(0, pos - 5), pos + 5).match(/[\]\}]/)))
+                ? '\nHint: looks like a possible trailing comma near that bracket. Remove the trailing comma.' : '';
+
+        return {
+            ok: false,
+            error: new Error(`Invalid JSON: ${rel(filePath)}${where ? where : ''}\n${err.message}${hint}${frame}`)
+        };
+    }
+}
+
 function loadRecipes() {
-  const entries = fs.readdirSync(RECIPES_DIR, { withFileTypes: true });
-  return entries
-    .filter((entry) => entry.isFile())
-    .map((entry) => entry.name)
-    .filter((name) => name.endsWith('.json') && name !== '_index.json')
-    .map((name) => {
-      const fullPath = path.join(RECIPES_DIR, name);
-      const raw = fs.readFileSync(fullPath, 'utf8');
-      const data = JSON.parse(raw);
-      const slug = data.slug || path.basename(name, '.json');
-      return {
-        slug,
-        title: data.title || slug,
-        image: data.image || '',
-        time: data.time || '',
-        tags: Array.isArray(data.tags) ? data.tags : [],
-        description: data.description || '',
-        style: data.style || ''
-      };
-    })
-    .sort((a, b) => a.title.localeCompare(b.title));
+    const entries = fs.readdirSync(RECIPES_DIR, { withFileTypes: true });
+    const files = entries
+        .filter((e) => e.isFile())
+        .map((e) => e.name)
+        .filter((name) => name.endsWith('.json') && name !== '_index.json')
+        .sort((a, b) => a.localeCompare(b));
+
+    const results = [];
+    const failures = [];
+
+    for (const name of files) {
+        const fullPath = path.join(RECIPES_DIR, name);
+        const raw = fs.readFileSync(fullPath, 'utf8');
+
+        const parsed = parseJSONWithContext(raw, fullPath);
+        if (!parsed.ok) {
+            failures.push(parsed.error);
+            continue;
+        }
+        const data = parsed.data;
+
+        const slug = data.slug || path.basename(name, '.json');
+        results.push({
+            slug,
+            title: data.title || slug,
+            image: data.image || '',
+            time: data.time || '',
+            tags: Array.isArray(data.tags) ? data.tags : [],
+            description: data.description || '',
+            style: data.style || ''
+        });
+    }
+
+    if (failures.length) {
+        const divider = '\n' + '-'.repeat(72) + '\n';
+        const message =
+            `\nFound ${failures.length} JSON error(s) in ${rel(RECIPES_DIR)}:` +
+            divider +
+            failures.map((e, i) => `#${i + 1}\n${e.message}`).join(divider) +
+            '\n';
+        const err = new Error(message);
+        err.failures = failures;
+        throw err;
+    }
+
+    results.sort((a, b) => a.title.localeCompare(b.title));
+    return results;
 }
 
 function writeIndex(recipes) {
-  const json = JSON.stringify(recipes, null, 2);
-  fs.writeFileSync(INDEX_PATH, `${json}\n`);
+    const json = JSON.stringify(recipes, null, 2);
+    fs.writeFileSync(INDEX_PATH, `${json}\n`);
 }
 
 function generateIndex() {
-  const recipes = loadRecipes();
-  writeIndex(recipes);
-  return recipes.length;
+    const recipes = loadRecipes();
+    writeIndex(recipes);
+    return recipes.length;
 }
 
 if (require.main === module) {
-  try {
-    const count = generateIndex();
-    console.log(`Wrote ${count} recipes to ${path.relative(process.cwd(), INDEX_PATH)}`);
-  } catch (err) {
-    console.error('Failed to generate index:', err.message);
-    process.exitCode = 1;
-  }
+    try {
+        const count = generateIndex();
+        console.log(`Wrote ${count} recipes to ${rel(INDEX_PATH)}`);
+    } catch (err) {
+        console.error(err.message);
+        process.exitCode = 1;
+    }
 }
 
 module.exports = { generateIndex };
