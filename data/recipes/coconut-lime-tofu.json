@@ -1,37 +1,44 @@
 {
   "slug": "coconut-lime-tofu",
-  "title": "Coconut Lime Tofu",
+  "title": "Creamy Coconut Lime Tofu",
   "image": "images/coconut-lime-tofu.jpg",
-  "time": "",
-  "servings": null,
-  "style": "Bright, zesty coconut curry with sriracha, red curry paste and tofu.",
+  "time": "≈15 min",
+  "servings": 2,
+  "style": "Rich, creamy coconut-lime tofu with Thai-inspired red curry heat.",
   "tags": [
+    "One-pan",
     "Vegan",
+    "Gluten-free",
     "Dairy-free",
     "High Protein"
   ],
   "categories": [
     "Dinner",
     "Curry",
-    "Plant-based"
+    "Plant-based",
+    "Asian-inspired"
   ],
   "keywords": [
     "tofu",
     "coconut",
     "lime",
-    "red curry"
+    "red curry",
+    "coconut tofu",
+    "lime tofu",
+    "red curry tofu",
+    "thai tofu curry"
   ],
-  "description": "Zingy coconut-lime sauce with aromatic red curry paste and crispy-edged tofu.",
+  "description": "A fast yet deeply flavoured coconut lime tofu that tastes like it’s been simmering for hours. Perfect over steamed rice.",
   "ingredients": {
     "sections": [
       {
-        "title": "For the red curry paste",
+        "title": "Homemade Red Curry Paste",
         "items": [
           {
             "qty": "9-10",
             "unit": "",
             "item": "dried red chillies",
-            "note": "Kashmiri if available"
+            "note": "Kashmiri preferred"
           },
           {
             "qty": "3-4",
@@ -46,13 +53,13 @@
           {
             "qty": "1",
             "unit": "inch",
-            "item": "galangal/ginger"
+            "item": "galangal or ginger"
           },
           {
             "qty": "2",
-            "unit": "",
-            "item": "lemongrass stalks",
-            "note": "finely chopped (~2\" each)"
+            "unit": "stalks",
+            "item": "lemongrass",
+            "note": "about 2 inches each, finely chopped"
           },
           {
             "qty": "1",
@@ -62,12 +69,12 @@
           {
             "qty": "0.5",
             "unit": "tsp",
-            "item": "coriander powder"
+            "item": "ground coriander"
           },
           {
             "qty": "0.5",
             "unit": "tsp",
-            "item": "cumin powder"
+            "item": "ground cumin"
           },
           {
             "qty": "",
@@ -84,7 +91,7 @@
         ]
       },
       {
-        "title": "For the coconut-lime tofu curry",
+        "title": "Coconut Lime Tofu Curry",
         "items": [
           {
             "qty": "1",
@@ -99,7 +106,8 @@
           {
             "qty": "3-4",
             "unit": "tbsp",
-            "item": "sesame oil"
+            "item": "sesame oil",
+            "note": "or neutral oil"
           },
           {
             "qty": "0.5",
@@ -115,8 +123,8 @@
           },
           {
             "qty": "1",
-            "unit": "",
-            "item": "knob ginger",
+            "unit": "knob",
+            "item": "ginger",
             "note": "grated"
           },
           {
@@ -149,7 +157,7 @@
             "qty": "0.5-1",
             "unit": "",
             "item": "lemon",
-            "note": "juiced (or lime)"
+            "note": "juiced"
           },
           {
             "qty": "",
@@ -168,15 +176,16 @@
     ]
   },
   "steps": [
-    "Blend curry paste ingredients to a smooth paste (soak chillies if tough).",
-    "Toss tofu cubes in corn flour; pan-fry in sesame oil until crisp at edges. Set aside.",
-    "Sauté onion, garlic, ginger. Stir in sriracha and red curry paste; cook until fragrant.",
-    "Pour in coconut milk; simmer to desired thickness. Season with brown sugar and soy sauce.",
-    "Return tofu; simmer briefly. Finish with lemon/lime juice. Garnish with scallions and sesame."
+    "<strong>Red Curry Paste:</strong> Deseed chillies and soak in warm water 15 min; reserve 1–2 tbsp soaking water. Blitz onion first into a loose paste. Add chillies and remaining paste ingredients; blend smooth, adding reserved water as needed.",
+    "<strong>Prepare Tofu:</strong> Wrap tofu in kitchen towels, weigh down lightly, and drain 10–15 min. Pat dry, slice, and coat lightly with corn flour.",
+    "Heat 1–2 tbsp oil in a pan over medium. Pan-fry tofu until golden on both sides. Remove and set aside.",
+    "In the same pan, add remaining oil, onion, garlic, ginger, curry paste, and hot sauce. Cook 2–3 min until fragrant.",
+    "Stir in coconut milk, brown sugar, soy sauce, and lemon juice. Simmer a few minutes until slightly thickened.",
+    "Return tofu to the pan and gently coat in the sauce. Garnish with scallions and sesame seeds. Serve hot with rice."
   ],
   "tips": [
-    "Use tamari for gluten-free.",
-    "Adjust curry paste and sriracha for heat preference.",
-    "Silken-firm tofu is delicate—turn gently while frying."
+    "Use firm tofu if you want extra crisp edges.",
+    "Add kaffir lime zest or lime juice at the end for extra brightness.",
+    "Great with jasmine rice or coconut rice."
   ]
 }

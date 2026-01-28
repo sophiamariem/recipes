@@ -1,0 +1,173 @@
+{
+  "slug": "vegan-protein-salad",
+  "title": "High-Protein Vegan Salad",
+  "image": "images/vegan-protein-salad.jpg",
+  "time": "≈40 min",
+  "servings": 4,
+  "style": "Hearty, nourishing salad packed with plant-based protein and fibre.",
+  "tags": [
+    "High Protein",
+    "Vegan",
+    "Gluten-free"
+  ],
+  "categories": [
+    "Main",
+    "Salad",
+    "Plant-based"
+  ],
+  "keywords": [
+    "vegan protein salad",
+    "tempeh salad",
+    "high protein vegan"
+  ],
+  "description": "A satisfying vegan protein salad with marinated tempeh, baked tofu, chickpeas, and greens—delivering ~30 g plant-based protein per serving.",
+  "ingredients": {
+    "sections": [
+      {
+        "title": "Marinated Tempeh",
+        "items": [
+          {
+            "qty": "250",
+            "unit": "g",
+            "item": "tempeh",
+            "note": "cubed"
+          },
+          {
+            "qty": "0.25",
+            "unit": "cup",
+            "item": "balsamic vinegar",
+            "note": "60 ml"
+          },
+          {
+            "qty": "2",
+            "unit": "tbsp",
+            "item": "soy sauce or tamari",
+            "note": "30 ml"
+          },
+          {
+            "qty": "2",
+            "unit": "tbsp",
+            "item": "maple syrup",
+            "note": "30 ml"
+          },
+          {
+            "qty": "1",
+            "unit": "tsp",
+            "item": "garlic powder"
+          },
+          {
+            "qty": "",
+            "unit": "",
+            "item": "salt & black pepper",
+            "note": "pinch"
+          }
+        ]
+      },
+      {
+        "title": "Baked Tofu",
+        "items": [
+          {
+            "qty": "350",
+            "unit": "g",
+            "item": "firm or extra-firm tofu"
+          },
+          {
+            "qty": "2",
+            "unit": "tbsp",
+            "item": "soy sauce"
+          },
+          {
+            "qty": "1",
+            "unit": "tsp",
+            "item": "garlic powder"
+          },
+          {
+            "qty": "",
+            "unit": "",
+            "item": "salt & black pepper",
+            "note": "pinch"
+          }
+        ]
+      },
+      {
+        "title": "Salad Assembly",
+        "items": [
+          {
+            "qty": "4",
+            "unit": "cups",
+            "item": "broccoli",
+            "note": "chopped, lightly steamed"
+          },
+          {
+            "qty": "4",
+            "unit": "cups",
+            "item": "arugula, spinach, or mixed greens"
+          },
+          {
+            "qty": "2",
+            "unit": "cups",
+            "item": "cucumber",
+            "note": "diced"
+          },
+          {
+            "qty": "1",
+            "unit": "",
+            "item": "avocado",
+            "note": "diced"
+          },
+          {
+            "qty": "1",
+            "unit": "cup",
+            "item": "chickpeas",
+            "note": "drained & rinsed"
+          },
+          {
+            "qty": "8",
+            "unit": "tbsp",
+            "item": "hemp seeds",
+            "note": "1–2 tbsp per serving"
+          },
+          {
+            "qty": "",
+            "unit": "",
+            "item": "tahini or dressing of choice",
+            "note": "for drizzling"
+          },
+          {
+            "qty": "",
+            "unit": "",
+            "item": "fresh lemon",
+            "note": "for serving"
+          },
+          {
+            "qty": "",
+            "unit": "",
+            "item": "salt & black pepper",
+            "note": "to taste"
+          }
+        ]
+      }
+    ]
+  },
+  "steps": [
+    "<strong>Marinate Tempeh:</strong> Mix balsamic vinegar, soy sauce, maple syrup, garlic powder, salt, and pepper in a shallow dish. Add tempeh and marinate 20–30 min.",
+    "Preheat oven to 400°F (200°C). Bake marinated tempeh on a lined tray for 20 min, spooning any remaining marinade over once baked.",
+    "<strong>Bake Tofu:</strong> Toss tofu with soy sauce, garlic powder, salt, and pepper. Bake on a lined tray at 400°F for 20–30 min until browned. Can bake alongside tempeh.",
+    "<strong>Steam Broccoli:</strong> Bring water to a boil, steam broccoli for ~4 min until bright green and just tender. Remove and cool slightly.",
+    "<strong>Assemble Salad:</strong> Divide greens between 4 bowls. Top with broccoli, cucumber, chickpeas, avocado, tempeh, tofu, and hemp seeds.",
+    "Drizzle with tahini or dressing of choice, finish with lemon juice, season to taste, and serve."
+  ],
+  "tips": [
+    "For meal prep, keep greens, avocado, and dressing separate until serving.",
+    "Swap chickpeas for edamame or lentils if preferred.",
+    "Great with maple dijon, lemon tahini, or ginger peanut dressing."
+  ],
+  "nutrition": {
+    "calories": "596 kcal",
+    "protein": "31 g",
+    "carbohydrates": "43 g",
+    "fat": "37 g",
+    "fiber": "14 g",
+    "sugar": "12 g"
+  }
+}

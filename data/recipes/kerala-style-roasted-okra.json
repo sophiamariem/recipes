@@ -1,0 +1,94 @@
+{
+  "slug": "kerala-style-roasted-okra",
+  "title": "Kerala Style Roasted Okra (Vendakka Mezhukkupuratti)",
+  "image": "images/kerala-roasted-okra.webp",
+  "time": "≈25 min",
+  "servings": 4,
+  "style": "Crispy, spice-roasted okra with classic Kerala flavours and zero slime.",
+  "tags": [
+    "Vegan",
+    "Gluten-free",
+    "South Indian"
+  ],
+  "categories": [
+    "Sides",
+    "Plant-based",
+    "Indian"
+  ],
+  "keywords": [
+    "vendakka mezhukkupuratti",
+    "kerala okra",
+    "okra stir fry",
+    "bhindi fry vegan"
+  ],
+  "description": "A simple Kerala-style okra stir-fry that’s crispy, aromatic, and perfectly spiced—no slime, just flavour.",
+  "ingredients": {
+    "sections": [
+      {
+        "title": "Roasted Okra",
+        "items": [
+          {
+            "qty": "1",
+            "unit": "lb",
+            "item": "okra"
+          },
+          {
+            "qty": "2",
+            "unit": "tbsp",
+            "item": "avocado oil",
+            "note": "or coconut oil"
+          },
+          {
+            "qty": "1",
+            "unit": "tsp",
+            "item": "brown mustard seeds"
+          },
+          {
+            "qty": "6-8",
+            "unit": "",
+            "item": "curry leaves"
+          },
+          {
+            "qty": "0.5",
+            "unit": "tsp",
+            "item": "ground turmeric"
+          },
+          {
+            "qty": "1",
+            "unit": "tsp",
+            "item": "cayenne pepper"
+          },
+          {
+            "qty": "0.5",
+            "unit": "tsp",
+            "item": "ground cumin"
+          },
+          {
+            "qty": "",
+            "unit": "",
+            "item": "salt",
+            "note": "to taste"
+          }
+        ]
+      }
+    ]
+  },
+  "steps": [
+    "Rinse okra and pat completely dry with a kitchen towel to prevent sliminess.",
+    "Slice okra into ¼-inch rounds.",
+    "Heat oil in a sauté pan over medium-high heat. Add mustard seeds and allow them to pop.",
+    "Add curry leaves and sliced okra. Let roast undisturbed for a couple of minutes.",
+    "Gently stir occasionally so all sides cook evenly.",
+    "Once okra starts browning at the edges and slime has mostly disappeared, add turmeric, cayenne, cumin, and salt. Mix well.",
+    "Reduce heat to medium and cook a few more minutes until spices are fragrant and okra is cooked through.",
+    "Serve hot as a side dish."
+  ],
+  "tips": [
+    "High heat is key to keeping the okra crisp and non-slimy.",
+    "Add diced red onion before the okra for extra sweetness.",
+    "Finish with grated coconut for a traditional Kerala variation."
+  ],
+  "nutrition": {
+    "calories": "106 kcal per serving"
+  }
+}

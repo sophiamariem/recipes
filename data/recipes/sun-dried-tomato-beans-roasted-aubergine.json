@@ -1,0 +1,169 @@
+{
+  "slug": "sun-dried-tomato-beans-roasted-aubergine",
+  "title": "Sun-Dried Tomato Beans & Roasted Aubergine",
+  "image": "images/sun-dried-tomato-beans-aubergine.webp",
+  "time": "≈30 min",
+  "servings": 3,
+  "style": "Saucy, creamy, and comforting high-protein beans with sweet-savoury roasted aubergine.",
+  "tags": [
+    "High Protein",
+    "Vegan",
+    "Gluten-free"
+  ],
+  "categories": [
+    "Dinner",
+    "Bowl",
+    "Plant-based"
+  ],
+  "keywords": [
+    "sun-dried tomato beans",
+    "roasted aubergine",
+    "high protein vegan",
+    "creamy beans"
+  ],
+  "description": "Creamy sun-dried tomato borlotti beans paired with tamari-maple roasted aubergine—ready in 30 minutes and perfect for meal prep.",
+  "ingredients": {
+    "sections": [
+      {
+        "title": "Roasted Aubergine",
+        "items": [
+          {
+            "qty": "1",
+            "unit": "",
+            "item": "aubergine",
+            "note": "cut into small chunks"
+          },
+          {
+            "qty": "1",
+            "unit": "tbsp",
+            "item": "olive oil"
+          },
+          {
+            "qty": "1",
+            "unit": "tbsp",
+            "item": "tamari soy sauce"
+          },
+          {
+            "qty": "1",
+            "unit": "tbsp",
+            "item": "maple syrup"
+          },
+          {
+            "qty": "1",
+            "unit": "clove",
+            "item": "garlic",
+            "note": "left whole, skin on"
+          },
+          {
+            "qty": "",
+            "unit": "",
+            "item": "salt & black pepper",
+            "note": "to taste"
+          }
+        ]
+      },
+      {
+        "title": "Sun-Dried Tomato Beans",
+        "items": [
+          {
+            "qty": "1",
+            "unit": "tbsp",
+            "item": "olive oil"
+          },
+          {
+            "qty": "2",
+            "unit": "",
+            "item": "spring onions",
+            "note": "sliced"
+          },
+          {
+            "qty": "2",
+            "unit": "cloves",
+            "item": "garlic",
+            "note": "crushed"
+          },
+          {
+            "qty": "200",
+            "unit": "g",
+            "item": "cherry tomatoes",
+            "note": "halved"
+          },
+          {
+            "qty": "1",
+            "unit": "tin",
+            "item": "borlotti beans",
+            "note": "400 g total, 240 g drained"
+          },
+          {
+            "qty": "80",
+            "unit": "g",
+            "item": "sun-dried tomatoes",
+            "note": "chopped"
+          },
+          {
+            "qty": "120",
+            "unit": "g",
+            "item": "thick coconut yoghurt or coconut cream"
+          },
+          {
+            "qty": "2",
+            "unit": "tbsp",
+            "item": "tomato purée"
+          },
+          {
+            "qty": "0.5",
+            "unit": "",
+            "item": "lemon",
+            "note": "juiced (~1 tbsp)"
+          },
+          {
+            "qty": "60",
+            "unit": "g",
+            "item": "baby spinach",
+            "note": "chopped"
+          }
+        ]
+      },
+      {
+        "title": "To Serve",
+        "items": [
+          {
+            "qty": "",
+            "unit": "",
+            "item": "bread or toast",
+            "note": "optional"
+          },
+          {
+            "qty": "3",
+            "unit": "tbsp",
+            "item": "coconut yoghurt"
+          },
+          {
+            "qty": "3",
+            "unit": "tbsp",
+            "item": "pine nuts",
+            "note": "toasted"
+          },
+          {
+            "qty": "",
+            "unit": "",
+            "item": "fresh basil & black pepper",
+            "note": "to finish"
+          }
+        ]
+      }
+    ]
+  },
+  "steps": [
+    "<strong>Roast Aubergine:</strong> Preheat oven to 180°C fan / 200°C. Toss aubergine with olive oil, tamari, maple syrup, salt, and pepper on a lined tray. Add whole garlic clove and roast 25 min, stirring halfway.",
+    "<strong>Cook Beans:</strong> Heat olive oil in a large pan over medium-high heat. Add spring onions, garlic, and cherry tomatoes. Cover and cook ~10 min until tomatoes burst, stirring and lightly mashing.",
+    "Drain beans, reserving liquid. Add beans, ~100 g bean liquid, sun-dried tomatoes, coconut yoghurt, and tomato purée. Stir and warm through ~10 min.",
+    "Add lemon juice and spinach; cook 5 min until spinach wilts.",
+    "<strong>Serve:</strong> Spoon beans into bowls, top with roasted aubergine, extra yoghurt, pine nuts, basil, and black pepper. Serve with bread if desired."
+  ],
+  "tips": [
+    "Keeps well in the fridge for 2–3 days and freezes for up to 1 month.",
+    "Swap borlotti beans for cannellini or butter beans.",
+    "Add chilli flakes or harissa for heat."
+  ]
+}

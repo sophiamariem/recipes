@@ -8,35 +8,124 @@
       "Vegan",
       "High Protein",
       "Dairy-free",
-      "Gluten-free option"
+      "Gluten-free"
     ],
     "description": "Comforting lentil dal loaded with carrots and topped with super-crispy tempeh breadcrumbs.",
     "style": "Protein-rich, wholesome plant-based dal with crunchy tempeh topping"
   },
   {
-    "slug": "coconut-lime-tofu",
-    "title": "Coconut Lime Tofu",
-    "image": "images/coconut-lime-tofu.jpg",
-    "time": "",
-    "tags": [
-      "Vegan",
-      "Dairy-free",
-      "High Protein"
-    ],
-    "description": "Zingy coconut-lime sauce with aromatic red curry paste and crispy-edged tofu.",
-    "style": "Bright, zesty coconut curry with sriracha, red curry paste and tofu."
-  },
-  {
     "slug": "creamy-butter-chickpeas-garlic-naan",
     "title": "Creamy Butter Chickpeas & Garlic Naan",
-    "image": "images/butter-chickpeas.jpg",
+    "image": "images/butter-chickpeas.webp",
     "time": "≈30 min",
     "tags": [
-      "Comfort",
-      "Under 30 min",
-      "Vegan option"
+      "Vegan"
     ],
     "description": "Le Cocque-inspired butter chickpeas with a quick, garlicky stovetop naan.",
     "style": "Comforting, creamy chickpeas with quick stovetop naan (vegan option)."
+  },
+  {
+    "slug": "coconut-lime-tofu",
+    "title": "Creamy Coconut Lime Tofu",
+    "image": "images/coconut-lime-tofu.jpg",
+    "time": "≈15 min",
+    "tags": [
+      "One-pan",
+      "Vegan",
+      "Gluten-free",
+      "Dairy-free",
+      "High Protein"
+    ],
+    "description": "A fast yet deeply flavoured coconut lime tofu that tastes like it’s been simmering for hours. Perfect over steamed rice.",
+    "style": "Rich, creamy coconut-lime tofu with Thai-inspired red curry heat."
+  },
+  {
+    "slug": "crispy-chilli-garlic-tofu",
+    "title": "Crispy Chilli Garlic Tofu",
+    "image": "images/crispy-chilli-garlic-tofu.webp",
+    "time": "≈20 min",
+    "tags": [
+      "Spicy",
+      "Vegan",
+      "High Protein"
+    ],
+    "description": "Golden fried tofu coated in a glossy chilli-garlic sauce with tamari, agave, and crispy chilli oil.",
+    "style": "Ultra-crispy tofu tossed in a sticky, spicy chilli-garlic sauce."
+  },
+  {
+    "slug": "vegan-protein-salad",
+    "title": "High-Protein Vegan Salad",
+    "image": "images/vegan-protein-salad.jpg",
+    "time": "≈40 min",
+    "tags": [
+      "High Protein",
+      "Vegan",
+      "Gluten-free"
+    ],
+    "description": "A satisfying vegan protein salad with marinated tempeh, baked tofu, chickpeas, and greens—delivering ~30 g plant-based protein per serving.",
+    "style": "Hearty, nourishing salad packed with plant-based protein and fibre."
+  },
+  {
+    "slug": "kerala-style-roasted-okra",
+    "title": "Kerala Style Roasted Okra (Vendakka Mezhukkupuratti)",
+    "image": "images/kerala-roasted-okra.webp",
+    "time": "≈25 min",
+    "tags": [
+      "Vegan",
+      "Gluten-free",
+      "South Indian"
+    ],
+    "description": "A simple Kerala-style okra stir-fry that’s crispy, aromatic, and perfectly spiced—no slime, just flavour.",
+    "style": "Crispy, spice-roasted okra with classic Kerala flavours and zero slime."
+  },
+  {
+    "slug": "protein-packed-buddha-bowl",
+    "title": "Protein-Packed Buddha Bowl",
+    "image": "images/protein-packed-buddha-bowl.jpg",
+    "time": "≈35 min",
+    "tags": [
+      "Vegan",
+      "Gluten-free"
+    ],
+    "description": "An easy, protein-packed buddha bowl with brown rice, chickpeas, roasted sweet potato, and a punchy peanut-maple dressing.",
+    "style": "Simple, nourishing buddha bowl with roasted sweet potato and a creamy peanut dressing."
+  },
+  {
+    "slug": "five-spice-tofu-mushroom-bowl",
+    "title": "Sticky Tofu & Mushroom Bowl",
+    "image": "images/five-spice-tofu-bowl.avif",
+    "time": "≈30 min",
+    "tags": [
+      "Oven-roasted",
+      "Vegan",
+      "High Protein"
+    ],
+    "description": "Golden roasted tofu and mushrooms tossed in a savoury soy–chilli glaze, served over rice with quick-pickled cucumber and fresh herbs.",
+    "style": "Crispy roasted tofu and shiitake mushrooms with bold five-spice flavour and a punchy soy-chili glaze."
+  },
+  {
+    "slug": "sun-dried-tomato-beans-roasted-aubergine",
+    "title": "Sun-Dried Tomato Beans & Roasted Aubergine",
+    "image": "images/sun-dried-tomato-beans-aubergine.webp",
+    "time": "≈30 min",
+    "tags": [
+      "High Protein",
+      "Vegan",
+      "Gluten-free"
+    ],
+    "description": "Creamy sun-dried tomato borlotti beans paired with tamari-maple roasted aubergine—ready in 30 minutes and perfect for meal prep.",
+    "style": "Saucy, creamy, and comforting high-protein beans with sweet-savoury roasted aubergine."
+  },
+  {
+    "slug": "tahini-chilli-tofu-stir-fry",
+    "title": "Tahini Chilli Tofu Stir-Fry",
+    "image": "images/tahini-chilli-tofu.webp",
+    "time": "≈35 min",
+    "tags": [
+      "High Protein",
+      "Vegan"
+    ],
+    "description": "Golden baked tofu tossed with udon noodles, greens, and a rich tahini chilli sauce that’s savoury, spicy, and deeply satisfying.",
+    "style": "Crispy baked tofu with chewy noodles and a creamy, spicy tahini chilli sauce."
   }
 ]

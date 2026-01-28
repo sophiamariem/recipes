@@ -1,0 +1,124 @@
+{
+  "slug": "sticky-tofu-mushroom-bowl",
+  "title": "Sticky Tofu & Mushroom Bowl",
+  "image": "images/five-spice-tofu-bowl.avif",
+  "time": "≈30 min",
+  "servings": 2,
+  "style": "Crispy roasted tofu and shiitake mushrooms with bold five-spice flavour and a punchy soy-chili glaze.",
+  "tags": [
+    "Oven-roasted",
+    "Vegan",
+    "High Protein"
+  ],
+  "categories": [
+    "Dinner",
+    "Bowl",
+    "Plant-based"
+  ],
+  "keywords": [
+    "tofu bowl",
+    "five spice tofu",
+    "shiitake mushrooms",
+    "vegan rice bowl"
+  ],
+  "description": "Golden roasted tofu and mushrooms tossed in a savoury soy–chilli glaze, served over rice with quick-pickled cucumber and fresh herbs.",
+  "ingredients": {
+    "sections": [
+      {
+        "title": "Rice Bowl Base",
+        "items": [
+          {
+            "qty": "1",
+            "unit": "cup",
+            "item": "rice",
+            "note": "cooked per package directions"
+          }
+        ]
+      },
+      {
+        "title": "Roasted Tofu & Mushrooms",
+        "items": [
+          {
+            "qty": "12",
+            "unit": "oz",
+            "item": "extra-firm silken tofu",
+            "note": "patted dry and broken into pieces"
+          },
+          {
+            "qty": "8",
+            "unit": "oz",
+            "item": "shiitake mushrooms",
+            "note": "stemmed and sliced (227 g)"
+          },
+          {
+            "qty": "4",
+            "unit": "tbsp",
+            "item": "neutral oil",
+            "note": "divided"
+          },
+          {
+            "qty": "1",
+            "unit": "tsp",
+            "item": "Chinese five-spice powder"
+          },
+          {
+            "qty": "",
+            "unit": "",
+            "item": "kosher salt",
+            "note": "to taste"
+          }
+        ]
+      },
+      {
+        "title": "Soy-Chilli Glaze & Toppings",
+        "items": [
+          {
+            "qty": "0.25",
+            "unit": "cup",
+            "item": "reduced-sodium soy sauce"
+          },
+          {
+            "qty": "1",
+            "unit": "tbsp",
+            "item": "dark brown sugar"
+          },
+          {
+            "qty": "2",
+            "unit": "tsp",
+            "item": "chilli garlic sauce"
+          },
+          {
+            "qty": "1",
+            "unit": "",
+            "item": "English cucumber",
+            "note": "thinly sliced"
+          },
+          {
+            "qty": "1.5",
+            "unit": "tbsp",
+            "item": "rice vinegar"
+          },
+          {
+            "qty": "",
+            "unit": "",
+            "item": "scallions, sesame seeds, cilantro",
+            "note": "for serving"
+          }
+        ]
+      }
+    ]
+  },
+  "steps": [
+    "Heat oven to 450°F (230°C). Cook rice according to package directions.",
+    "<strong>Roast Tofu:</strong> Pat tofu dry and break into small pieces on a rimmed baking sheet. Drizzle with 2 tbsp oil, season with five-spice powder and ~¼ tsp salt. Toss gently and roast 10 min.",
+    "<strong>Quick Pickle:</strong> Toss sliced cucumber with rice vinegar and ~¼ tsp salt. Set aside.",
+    "<strong>Add Mushrooms:</strong> Toss mushrooms with remaining 2 tbsp oil and ~¼ tsp salt. Scatter over tofu and gently mix. Roast another 8–10 min until golden and crisp.",
+    "<strong>Glaze:</strong> Whisk soy sauce, brown sugar, and chilli garlic sauce. Pour over tofu-mushroom mixture and roast 2 min more to caramelize.",
+    "Serve tofu and mushrooms over rice with pickled cucumber, scallions, sesame seeds, and cilantro."
+  ],
+  "tips": [
+    "Extra-firm silken tofu roasts especially crisp while staying tender inside.",
+    "Add a squeeze of lime or drizzle of sesame oil to finish.",
+    "Works great with jasmine rice, brown rice, or quinoa."
+  ]
+}

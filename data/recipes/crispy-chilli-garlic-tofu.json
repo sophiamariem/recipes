@@ -1,0 +1,122 @@
+{
+  "slug": "crispy-chilli-garlic-tofu",
+  "title": "Crispy Chilli Garlic Tofu",
+  "image": "images/crispy-chilli-garlic-tofu.webp",
+  "time": "≈20 min",
+  "servings": 2,
+  "style": "Ultra-crispy tofu tossed in a sticky, spicy chilli-garlic sauce.",
+  "tags": [
+    "Spicy",
+    "Vegan",
+    "High Protein"
+  ],
+  "categories": [
+    "Dinner",
+    "Stir-fry",
+    "Plant-based"
+  ],
+  "keywords": [
+    "crispy tofu",
+    "chilli garlic tofu",
+    "spicy tofu",
+    "vegan tofu"
+  ],
+  "description": "Golden fried tofu coated in a glossy chilli-garlic sauce with tamari, agave, and crispy chilli oil.",
+  "ingredients": {
+    "sections": [
+      {
+        "title": "Crispy Tofu",
+        "items": [
+          {
+            "qty": "300-400",
+            "unit": "g",
+            "item": "firm tofu",
+            "note": "torn into rough chunks"
+          },
+          {
+            "qty": "5",
+            "unit": "tbsp",
+            "item": "cornstarch"
+          },
+          {
+            "qty": "",
+            "unit": "",
+            "item": "salt & black pepper",
+            "note": "to season"
+          }
+        ]
+      },
+      {
+        "title": "Chilli Garlic Sauce",
+        "items": [
+          {
+            "qty": "2",
+            "unit": "tbsp",
+            "item": "crispy chilli oil"
+          },
+          {
+            "qty": "2",
+            "unit": "tbsp",
+            "item": "tamari or dark soy sauce"
+          },
+          {
+            "qty": "0.5",
+            "unit": "tbsp",
+            "item": "agave syrup"
+          },
+          {
+            "qty": "0.5",
+            "unit": "tbsp",
+            "item": "rice vinegar"
+          },
+          {
+            "qty": "4",
+            "unit": "tbsp",
+            "item": "water"
+          },
+          {
+            "qty": "2",
+            "unit": "tsp",
+            "item": "cornstarch"
+          }
+        ]
+      },
+      {
+        "title": "Aromatics & Garnish",
+        "items": [
+          {
+            "qty": "4",
+            "unit": "cloves",
+            "item": "garlic",
+            "note": "minced"
+          },
+          {
+            "qty": "2",
+            "unit": "large",
+            "item": "spring onions",
+            "note": "sliced, whites and greens separated"
+          },
+          {
+            "qty": "",
+            "unit": "",
+            "item": "sesame seeds",
+            "note": "to garnish"
+          }
+        ]
+      }
+    ]
+  },
+  "steps": [
+    "Toss tofu with 5 tbsp cornstarch and season with salt and pepper. Fry in oil until golden and crisp. Remove and set aside.",
+    "<strong>Make Sauce:</strong> Whisk chilli oil, tamari, agave, rice vinegar, water, and remaining cornstarch in a small bowl.",
+    "In the same pan, fry garlic and spring onion whites ~30 sec until fragrant.",
+    "Add sauce mixture and cook until thickened.",
+    "Return tofu to the pan and toss until evenly coated.",
+    "Serve garnished with spring onion greens and sesame seeds."
+  ],
+  "tips": [
+    "Tearing tofu creates more craggy edges for extra crispiness.",
+    "Serve with rice or noodles to soak up the sauce.",
+    "Add extra chilli oil for more heat."
+  ]
+}

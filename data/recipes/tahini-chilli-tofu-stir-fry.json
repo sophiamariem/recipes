@@ -1,0 +1,166 @@
+{
+  "slug": "tahini-chilli-tofu-stir-fry",
+  "title": "Tahini Chilli Tofu Stir-Fry",
+  "image": "images/tahini-chilli-tofu.webp",
+  "time": "≈35 min",
+  "servings": 2,
+  "style": "Crispy baked tofu with chewy noodles and a creamy, spicy tahini chilli sauce.",
+  "tags": [
+    "High Protein",
+    "Vegan"
+  ],
+  "categories": [
+    "Dinner",
+    "Stir-fry",
+    "Plant-based"
+  ],
+  "keywords": [
+    "tahini tofu",
+    "chilli tofu",
+    "udon stir fry",
+    "sesame noodles"
+  ],
+  "description": "Golden baked tofu tossed with udon noodles, greens, and a rich tahini chilli sauce that’s savoury, spicy, and deeply satisfying.",
+  "ingredients": {
+    "sections": [
+      {
+        "title": "Crispy Baked Tofu",
+        "items": [
+          {
+            "qty": "500",
+            "unit": "g",
+            "item": "firm tofu",
+            "note": "cut into 1 cm cubes"
+          },
+          {
+            "qty": "1",
+            "unit": "tsp",
+            "item": "MSG"
+          },
+          {
+            "qty": "1",
+            "unit": "tsp",
+            "item": "salt"
+          },
+          {
+            "qty": "1",
+            "unit": "tbsp",
+            "item": "soy sauce"
+          },
+          {
+            "qty": "1",
+            "unit": "tbsp",
+            "item": "olive oil"
+          },
+          {
+            "qty": "1",
+            "unit": "tbsp",
+            "item": "cornstarch"
+          }
+        ]
+      },
+      {
+        "title": "Tahini Chilli Sauce",
+        "items": [
+          {
+            "qty": "4",
+            "unit": "tbsp",
+            "item": "tahini"
+          },
+          {
+            "qty": "4",
+            "unit": "tbsp",
+            "item": "soy sauce",
+            "note": "plus extra to finish"
+          },
+          {
+            "qty": "1",
+            "unit": "tbsp",
+            "item": "maple syrup"
+          },
+          {
+            "qty": "1",
+            "unit": "tbsp",
+            "item": "rice vinegar"
+          },
+          {
+            "qty": "1",
+            "unit": "tbsp",
+            "item": "chilli oil"
+          },
+          {
+            "qty": "1-2",
+            "unit": "tbsp",
+            "item": "water",
+            "note": "to loosen sauce"
+          }
+        ]
+      },
+      {
+        "title": "Stir-Fry",
+        "items": [
+          {
+            "qty": "150",
+            "unit": "g",
+            "item": "udon noodles"
+          },
+          {
+            "qty": "1",
+            "unit": "tbsp",
+            "item": "olive oil"
+          },
+          {
+            "qty": "20",
+            "unit": "g",
+            "item": "ginger",
+            "note": "finely chopped"
+          },
+          {
+            "qty": "3",
+            "unit": "cloves",
+            "item": "garlic",
+            "note": "finely chopped"
+          },
+          {
+            "qty": "100",
+            "unit": "g",
+            "item": "tenderstem broccoli",
+            "note": "bite-sized pieces"
+          },
+          {
+            "qty": "100",
+            "unit": "g",
+            "item": "kale",
+            "note": "chopped"
+          },
+          {
+            "qty": "50",
+            "unit": "g",
+            "item": "spring onions",
+            "note": "thinly sliced"
+          },
+          {
+            "qty": "3",
+            "unit": "tbsp",
+            "item": "mixed sesame seeds",
+            "note": "to garnish"
+          }
+        ]
+      }
+    ]
+  },
+  "steps": [
+    "<strong>Prepare Tofu:</strong> Bring a saucepan of water to the boil with MSG and salt. Add tofu and simmer 7–8 min. Drain and allow to steam-dry in a colander until surface moisture evaporates.",
+    "Preheat oven to 200°C. Toss tofu with soy sauce, olive oil, and cornstarch. Spread on a lined tray and bake 20–25 min, turning halfway, until golden and crisp.",
+    "<strong>Cook Noodles:</strong> Boil udon noodles in salted water 4–5 min until al dente. Drain and rinse under cold water; set aside.",
+    "<strong>Make Sauce:</strong> Whisk tahini, soy sauce, maple syrup, rice vinegar, chilli oil, and water until smooth and pourable.",
+    "Heat olive oil in a large pan over medium-high. Stir-fry ginger and garlic ~1 min until fragrant. Add broccoli and kale; cook ~4 min until just tender.",
+    "Add noodles, baked tofu, sauce, and spring onions. Toss well to coat and heat through.",
+    "Serve topped with mixed sesame seeds. Finish with extra soy sauce or a squeeze of lime if desired."
+  ],
+  "tips": [
+    "Simmering tofu first gives it a firmer, meatier texture.",
+    "Swap udon for rice noodles or soba if preferred.",
+    "Add extra chilli oil or crispy chilli for more heat."
+  ]
+}
