@@ -14,6 +14,20 @@
     "style": "Protein-rich, wholesome plant-based dal with crunchy tempeh topping"
   },
   {
+    "slug": "chickpea-paneer-curry",
+    "title": "Creamy Butter Chickpea with Golden Paneer or Seitan Curry",
+    "image": "images/creamy-chickpea-paneer-curry.jpg",
+    "time": "≈40 min",
+    "tags": [
+      "One-pan",
+      "Vegetarian",
+      "Vegan",
+      "Gluten-free"
+    ],
+    "description": "A rich, slow-simmered chickpea curry finished with cream or coconut milk and topped with crispy golden paneer or seitan. Even better the next day.",
+    "style": "Comforting, creamy chickpea curry with spiced tomato gravy and golden paneer or seitan."
+  },
+  {
     "slug": "creamy-butter-chickpeas-garlic-naan",
     "title": "Creamy Butter Chickpeas & Garlic Naan",
     "image": "images/butter-chickpeas.webp",
