@@ -14,6 +14,12 @@
   --chip-bg: #fff2df;
   --chip-border: #f3c9a7;
   --chip-text: #4b3624;
+  --logo-shadow: #e9b8c5;
+  --logo-plate: #fff2f5;
+  --logo-rim: #fadde5;
+  --logo-well: #ffffff;
+  --logo-cheek: #f6a8bc;
+  --logo-eye: #5a3a42;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -30,6 +36,12 @@
     --chip-bg: #2a231a;
     --chip-border: #433727;
     --chip-text: #f1e6d7;
+    --logo-shadow: #e9b8c5;
+    --logo-plate: #fff2f5;
+    --logo-rim: #fadde5;
+    --logo-well: #ffffff;
+    --logo-cheek: #f6a8bc;
+    --logo-eye: #5a3a42;
   }
 }
 
@@ -47,6 +59,12 @@
   --chip-bg: #fff2df;
   --chip-border: #f3c9a7;
   --chip-text: #4b3624;
+  --logo-shadow: #e9b8c5;
+  --logo-plate: #fff2f5;
+  --logo-rim: #fadde5;
+  --logo-well: #ffffff;
+  --logo-cheek: #f6a8bc;
+  --logo-eye: #5a3a42;
 }
 
 :root[data-theme="dark"] {
@@ -63,6 +81,12 @@
   --chip-bg: #30261b;
   --chip-border: #4a3a29;
   --chip-text: #f5eadc;
+  --logo-shadow: #e9b8c5;
+  --logo-plate: #fff2f5;
+  --logo-rim: #fadde5;
+  --logo-well: #ffffff;
+  --logo-cheek: #f6a8bc;
+  --logo-eye: #5a3a42;
 }
 
 * {
@@ -155,6 +179,35 @@ body > * {
 .logo-obj {
   width: 44px;
   height: 44px;
+}
+
+.logo-plate .logo-shadow {
+  fill: var(--logo-shadow);
+  opacity: 0.5;
+}
+
+.logo-plate .logo-outer {
+  fill: var(--logo-plate);
+}
+
+.logo-plate .logo-rim {
+  fill: var(--logo-rim);
+}
+
+.logo-plate .logo-well {
+  fill: var(--logo-well);
+}
+
+.logo-plate .logo-cheek {
+  fill: var(--logo-cheek);
+}
+
+.logo-plate .logo-eye {
+  fill: var(--logo-eye);
+}
+
+.logo-plate .logo-smile {
+  stroke: var(--logo-eye);
 }
 
 .search-wrap {

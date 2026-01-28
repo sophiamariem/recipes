@@ -25,7 +25,33 @@
 <header class="site-header">
   <div class="container header-inner">
     <div class="brand">
-      <object class="logo-obj" data="logo/animated-plate.svg" type="image/svg+xml" aria-label="Sophia's Recipes logo" title="Sophia's Recipes"></object>
+      <svg class="logo-obj logo-plate" width="240" height="200" viewBox="0 0 240 200" role="img" aria-label="Sophia's Recipes logo" xmlns="http://www.w3.org/2000/svg">
+        <ellipse class="logo-shadow" cx="120" cy="160" rx="70" ry="14"/>
+        <g transform-origin="120px 110px">
+          <animateTransform
+            attributeName="transform"
+            type="rotate"
+            values="0 120 110;2 120 110;-2 120 110;0 120 110"
+            dur="3.5s"
+            repeatCount="indefinite"/>
+          <ellipse class="logo-outer" cx="120" cy="110" rx="90" ry="70"/>
+          <ellipse class="logo-rim" cx="120" cy="112" rx="82" ry="62"/>
+          <ellipse class="logo-well" cx="120" cy="108" rx="72" ry="52"/>
+          <ellipse class="logo-cheek" cx="92" cy="118" rx="8" ry="6"/>
+          <ellipse class="logo-cheek" cx="148" cy="118" rx="8" ry="6"/>
+          <ellipse class="logo-eye" cx="100" cy="108" rx="5" ry="7"/>
+          <ellipse class="logo-eye" cx="140" cy="108" rx="5" ry="7"/>
+          <g>
+            <animate attributeName="opacity"
+              values="1;1;0;1"
+              dur="4s"
+              repeatCount="indefinite"/>
+            <ellipse class="logo-eye" cx="100" cy="108" rx="5" ry="7"/>
+            <ellipse class="logo-eye" cx="140" cy="108" rx="5" ry="7"/>
+          </g>
+          <path class="logo-smile" d="M104 124 Q120 134 136 124" stroke-width="3" fill="none" stroke-linecap="round"/>
+        </g>
+      </svg>
       <div class="brand-text">
         <span class="eyebrow">Recipe notebook</span>
         <h1>Sophia's Recipes</h1>
