@@ -30,6 +30,67 @@ function showToast(message) {
   }, 2200);
 }
 
+function initWakeLockButton() {
+  const btn = byId('keepAwakeBtn');
+  if (!btn) return;
+
+  let wakeLock = null;
+  let wantWake = false;
+
+  function updateButton() {
+    btn.textContent = wantWake ? 'Awake on' : 'Keep awake';
+    btn.setAttribute('aria-pressed', String(wantWake));
+  }
+
+  async function requestWakeLock(silent = false) {
+    if (!('wakeLock' in navigator)) {
+      if (!silent) showToast('Keep awake not supported');
+      wantWake = false;
+      updateButton();
+      return;
+    }
+    try {
+      wakeLock = await navigator.wakeLock.request('screen');
+      if (!silent) showToast('Screen will stay awake');
+      wakeLock.addEventListener('release', () => {
+        wakeLock = null;
+      });
+    } catch (err) {
+      wakeLock = null;
+      wantWake = false;
+      updateButton();
+      if (!silent) showToast('Could not enable keep awake');
+    }
+  }
+
+  function releaseWakeLock() {
+    if (wakeLock) {
+      wakeLock.release();
+      wakeLock = null;
+    }
+  }
+
+  btn.addEventListener('click', async () => {
+    wantWake = !wantWake;
+    updateButton();
+    if (wantWake) await requestWakeLock();
+    else {
+      releaseWakeLock();
+      showToast('Keep awake off');
+    }
+  });
+
+  document.addEventListener('visibilitychange', () => {
+    if (document.visibilityState === 'visible' && wantWake && !wakeLock) {
+      requestWakeLock(true);
+    } else if (document.visibilityState !== 'visible') {
+      wakeLock = null;
+    }
+  });
+
+  updateButton();
+}
+
 function initThemeToggle() {
   const buttons = qsa('[data-theme-toggle]');
   if (buttons.length === 0) return;
@@ -377,5 +438,6 @@ function injectSchema(r){
 }
 
 // Start
+initWakeLockButton();
 initThemeToggle();
 loadIndex().then(initRecipePage);
