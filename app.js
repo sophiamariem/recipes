@@ -38,7 +38,6 @@ function initWakeLockButton() {
   let wantWake = false;
 
   function updateButton() {
-    btn.textContent = wantWake ? 'Awake on' : 'Keep awake';
     btn.setAttribute('aria-pressed', String(wantWake));
   }
 
@@ -54,6 +53,9 @@ function initWakeLockButton() {
       if (!silent) showToast('Screen will stay awake');
       wakeLock.addEventListener('release', () => {
         wakeLock = null;
+        if (wantWake && document.visibilityState === 'visible') {
+          requestWakeLock(true);
+        }
       });
     } catch (err) {
       wakeLock = null;
