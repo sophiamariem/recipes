@@ -1,0 +1,163 @@
+{
+  "slug": "chickpea-paneer-curry",
+  "title": "Creamy Butter Chickpea with Golden Paneer or Seitan Curry",
+  "image": "images/creamy-chickpea-paneer-curry.jpg",
+  "time": "≈40 min",
+  "servings": 3,
+  "style": "Comforting, creamy chickpea curry with spiced tomato gravy and golden paneer or seitan.",
+  "tags": [
+    "One-pan",
+    "Vegetarian",
+    "Vegan",
+    "Gluten-free"
+  ],
+  "categories": [
+    "Dinner",
+    "Curry",
+    "Indian-inspired",
+    "Comfort Food"
+  ],
+  "keywords": [
+    "chickpea curry",
+    "paneer curry",
+    "seitan curry",
+    "creamy curry",
+    "garam masala curry",
+    "chana curry"
+  ],
+  "description": "A rich, slow-simmered chickpea curry finished with cream or coconut milk and topped with crispy golden paneer or seitan. Even better the next day.",
+  "ingredients": {
+    "sections": [
+      {
+        "title": "Curry",
+        "items": [
+          {
+            "qty": "2",
+            "unit": "tbsp",
+            "item": "butter or vegan butter"
+          },
+          {
+            "qty": "1",
+            "unit": "tbsp",
+            "item": "oil"
+          },
+          {
+            "qty": "1",
+            "unit": "large",
+            "item": "onion",
+            "note": "finely chopped"
+          },
+          {
+            "qty": "4",
+            "unit": "cloves",
+            "item": "garlic",
+            "note": "minced"
+          },
+          {
+            "qty": "1",
+            "unit": "tbsp",
+            "item": "ginger",
+            "note": "grated"
+          },
+          {
+            "qty": "2",
+            "unit": "tsp",
+            "item": "garam masala"
+          },
+          {
+            "qty": "1",
+            "unit": "tsp",
+            "item": "ground cumin"
+          },
+          {
+            "qty": "1",
+            "unit": "tsp",
+            "item": "paprika or mild chilli powder"
+          },
+          {
+            "qty": "1",
+            "unit": "tbsp",
+            "item": "tomato purée"
+          },
+          {
+            "qty": "1",
+            "unit": "× 400 g tin",
+            "item": "chopped tomatoes"
+          },
+          {
+            "qty": "2",
+            "unit": "× 400 g tins",
+            "item": "chickpeas",
+            "note": "drained"
+          },
+          {
+            "qty": "250",
+            "unit": "ml",
+            "item": "cream or coconut milk"
+          },
+          {
+            "qty": "",
+            "unit": "",
+            "item": "salt"
+          },
+          {
+            "qty": "",
+            "unit": "",
+            "item": "sugar",
+            "note": "small pinch"
+          },
+          {
+            "qty": "",
+            "unit": "",
+            "item": "lemon juice",
+            "note": "to taste"
+          }
+        ]
+      },
+      {
+        "title": "Paneer / Seitan",
+        "items": [
+          {
+            "qty": "200–250",
+            "unit": "g",
+            "item": "paneer or seitan"
+          },
+          {
+            "qty": "",
+            "unit": "",
+            "item": "oil",
+            "note": "for frying"
+          },
+          {
+            "qty": "",
+            "unit": "",
+            "item": "salt",
+            "note": "pinch"
+          },
+          {
+            "qty": "",
+            "unit": "",
+            "item": "paprika",
+            "note": "pinch"
+          }
+        ]
+      }
+    ]
+  },
+  "steps": [
+    "<strong>Curry:</strong> Heat butter and oil in a wide pan over medium heat. Add onion and cook 10 minutes until very soft and lightly golden.",
+    "Add garlic and ginger; cook 1 minute until fragrant.",
+    "Stir in garam masala, cumin, and paprika. Toast briefly.",
+    "Add tomato purée, then chopped tomatoes. Simmer 10 minutes until thickened.",
+    "Stir in chickpeas and cream or coconut milk. Simmer 10–15 minutes until rich and cohesive.",
+    "Season with salt, a small pinch of sugar, and lemon juice to balance.",
+    "<strong>Paneer / Seitan:</strong> Cut into bite-size pieces.",
+    "Heat oil in a pan and fry until deeply golden on all sides. Season lightly with salt and paprika.",
+    "Reheat curry gently and stir paneer or seitan in just before serving to preserve texture."
+  ],
+  "tips": [
+    "Adding the paneer at the end keeps it crisp and prevents it from going rubbery.",
+    "This curry tastes even better the next day as the flavours deepen.",
+    "Serve with basmati rice, naan, or roti."
+  ]
+}
