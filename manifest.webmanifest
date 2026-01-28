@@ -1,6 +1,6 @@
 {
   "name": "Sophia's Recipes",
-  "short_name": "Sophia's",
+  "short_name": "My Recipes",
   "start_url": "index.html",
   "scope": ".",
   "display": "standalone",
