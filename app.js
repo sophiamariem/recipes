@@ -16,6 +16,20 @@ function formatQty(n) {
   return s;
 }
 
+function showToast(message) {
+  const host = byId('toastHost');
+  if (!host) return;
+  const toast = document.createElement('div');
+  toast.className = 'toast';
+  toast.textContent = message;
+  host.appendChild(toast);
+  requestAnimationFrame(() => toast.classList.add('show'));
+  setTimeout(() => {
+    toast.classList.remove('show');
+    toast.addEventListener('transitionend', () => toast.remove(), { once: true });
+  }, 2200);
+}
+
 function initThemeToggle() {
   const buttons = qsa('[data-theme-toggle]');
   if (buttons.length === 0) return;
@@ -225,13 +239,14 @@ function renderRecipe(root, r){
 
   byId('copyIngredientsBtn')?.addEventListener('click', () => {
     const text = plainIngredientText(r);
-    navigator.clipboard.writeText(text).then(() => alert('Ingredients copied!'));
+    navigator.clipboard.writeText(text).then(() => showToast('Ingredients copied'));
   });
 
   byId('shareBtn')?.addEventListener('click', async () => {
     const shareData = { title: r.title, text: r.description || r.title, url: location.href };
-    if (navigator.share) { try { await navigator.share(shareData); } catch {} }
-    else { await navigator.clipboard.writeText(location.href); alert('Link copied!'); }
+    if (navigator.share) { try { await navigator.share(shareData); return; } catch {} }
+    await navigator.clipboard.writeText(location.href);
+    showToast('Link copied');
   });
 
   const scaleInput = byId('scaleInput');
@@ -313,7 +328,7 @@ function attachTimers(){
     const display = ctrl.querySelector('[data-remaining]');
 
     function render(){ const mm = Math.floor(remaining/60); const ss = remaining%60; display.textContent = `${String(mm).padStart(2,'0')}:${String(ss).padStart(2,'0')}`; ctrl.parentElement.classList.toggle('timer-running', !!interval); }
-    function tick(){ remaining = Math.max(0, remaining-1); render(); if (remaining === 0){ clearInterval(interval); interval=null; render(); try{ new AudioContext(); }catch(e){} alert("⏱ Time's up!"); }}
+    function tick(){ remaining = Math.max(0, remaining-1); render(); if (remaining === 0){ clearInterval(interval); interval=null; render(); try{ new AudioContext(); }catch(e){} showToast("Timer done"); }}
 
     ctrl.addEventListener('click', (e) => {
       const btn = e.target.closest('button'); if (!btn) return; const action = btn.getAttribute('data-action');

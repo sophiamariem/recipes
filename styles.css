@@ -347,6 +347,36 @@ body > * {
   border-top: 1px solid var(--border);
 }
 
+#toastHost {
+  position: fixed;
+  right: 1.5rem;
+  bottom: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  z-index: 50;
+  pointer-events: none;
+}
+
+.toast {
+  background: var(--card);
+  color: var(--text);
+  border: 1px solid var(--border);
+  border-left: 4px solid var(--accent);
+  border-radius: 12px;
+  padding: 0.6rem 0.85rem;
+  box-shadow: var(--shadow);
+  opacity: 0;
+  transform: translateY(8px);
+  transition: opacity 0.2s ease, transform 0.2s ease;
+  font-size: 0.92rem;
+}
+
+.toast.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
 .recipe-header {
   display: flex;
   flex-direction: column;
@@ -523,6 +553,16 @@ body > * {
   }
   .recipe-hero {
     height: 220px;
+  }
+  #toastHost {
+    right: 50%;
+    transform: translateX(50%);
+    width: calc(100% - 2rem);
+    align-items: center;
+  }
+  .toast {
+    width: 100%;
+    text-align: center;
   }
 }
 
