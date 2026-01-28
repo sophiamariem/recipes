@@ -110,7 +110,8 @@ function initHome(){
   const allTags = [...new Set(INDEX.flatMap(r => getEffectiveTags(r)))].sort();
   if (recipeCount) recipeCount.textContent = String(INDEX.length);
   if (tagCount) tagCount.textContent = String(allTags.length);
-  const FILTERS = ['★ Starred', ...allTags];
+  const otherTags = allTags.filter(tag => tag !== UNDER_30_TAG);
+  const FILTERS = ['★ Starred', UNDER_30_TAG, ...otherTags];
 
   function renderFilters(){
     filtersEl.innerHTML = '';
