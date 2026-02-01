@@ -1,0 +1,95 @@
+{
+  "slug": "chili-pan-mee-mushrooms-eggplant",
+  "title": "Chili Pan Mee with Mushrooms & Eggplant",
+  "image": "images/chili-pan-mee.jpg",
+  "time": "25 min",
+  "servings": 2,
+  "style": "Malaysian-style chewy noodles tossed with spicy sambal, umami mushroom-eggplant mince, and greens",
+  "tags": [
+    "Vegan",
+    "Dairy-free",
+    "Asian",
+    "Spicy"
+  ],
+  "categories": [
+    "Dinner",
+    "Noodles",
+    "Asian"
+  ],
+  "keywords": [
+    "pan mee",
+    "Malaysian noodles",
+    "mushrooms",
+    "eggplant",
+    "sambal",
+    "spicy noodles"
+  ],
+  "description": "Chewy flat noodles tossed with a spicy homemade sambal paste, topped with umami-rich mushroom and eggplant mince, fresh greens, and a hint of toasted sesame.",
+  "ingredients": {
+    "sections": [
+      {
+        "title": "Homemade Sambal Paste",
+        "items": [
+          { "qty": "4", "unit": "", "item": "dried red chilies", "note": "6 if allium-free" },
+          { "qty": "2", "unit": "", "item": "shallots" },
+          { "qty": "3", "unit": "cloves", "item": "garlic" },
+          { "qty": "1", "unit": "", "item": "fresh red chili" },
+          { "qty": "1", "unit": "tsp", "item": "vegan shrimp paste", "note": "or sambal belacan" },
+          { "qty": "3", "unit": "tbsp", "item": "neutral oil" },
+          { "qty": "2", "unit": "tsp", "item": "coconut sugar" },
+          { "qty": "0.5", "unit": "tsp", "item": "salt", "note": "adjust to taste" }
+        ]
+      },
+      {
+        "title": "Mushroom-Eggplant Mince",
+        "items": [
+          { "qty": "4–5", "unit": "", "item": "shiitake mushrooms", "note": "finely minced or blended" },
+          { "qty": "1", "unit": "medium", "item": "eggplant", "note": "finely minced or chopped" },
+          { "qty": "1", "unit": "tbsp", "item": "sesame oil" },
+          { "qty": "2", "unit": "cloves", "item": "garlic", "note": "minced" },
+          { "qty": "1.5", "unit": "tbsp", "item": "light soy sauce" },
+          { "qty": "0.5", "unit": "tbsp", "item": "dark soy sauce" },
+          { "qty": "0.5", "unit": "tbsp", "item": "vegan oyster sauce" },
+          { "qty": "1", "unit": "tsp", "item": "sweetener", "note": "sugar or alternative" },
+          { "qty": "0.5", "unit": "tsp", "item": "white pepper" },
+          { "qty": "1", "unit": "tsp", "item": "cornstarch", "note": "mixed with 1 tbsp water for slurry" }
+        ]
+      },
+      {
+        "title": "Noodles & Toppings",
+        "items": [
+          { "qty": "2", "unit": "servings", "item": "ban mian noodles" },
+          { "qty": "4", "unit": "stalks", "item": "kailan or bok choy" },
+          { "qty": "1", "unit": "tbsp", "item": "dark soy sauce" },
+          { "qty": "2", "unit": "tsp", "item": "toasted sesame oil" }
+        ]
+      },
+      {
+        "title": "Optional Upgrades",
+        "items": [
+          { "qty": "", "unit": "", "item": "toasted peanuts or cashews", "note": "for crunch" },
+          { "qty": "", "unit": "", "item": "chopped fresh herbs", "note": "cilantro or Thai basil" },
+          { "qty": "", "unit": "", "item": "extra chili flakes", "note": "for more heat" },
+          { "qty": "", "unit": "", "item": "drizzle of sesame oil or chili oil", "note": "to finish" }
+        ]
+      }
+    ]
+  },
+  "steps": [
+    "<strong>Prepare Sambal Paste:</strong> Soak dried red chilies in boiling water 1–2 min. Blend with shallots, garlic, fresh chili, and a splash of water to a smooth paste.",
+    "Heat oil in a pan over medium. Fry the chili paste 2–3 min until fragrant and slightly darker. Add coconut sugar, fry 1 min, then set aside.",
+    "<strong>Cook Noodles:</strong> Boil ban mian noodles according to package instructions. Drain, reserving some noodle water for later.",
+    "<strong>Prepare Mushroom-Eggplant Mince:</strong> Mince mushrooms and eggplant finely. Heat sesame oil and garlic in a pan, sauté 30 sec.",
+    "Add eggplant and mushrooms, sauté until half-cooked. Add light & dark soy sauce, vegan oyster sauce, sweetener, and a splash of noodle water. Continue cooking.",
+    "Add white pepper and cornstarch slurry. Simmer 2–3 min with lid closed until thickened.",
+    "<strong>Assemble Bowls:</strong> Divide noodles into bowls. Toss with 1/2 tbsp dark soy sauce and 1 tsp sesame oil per serving.",
+    "Top with blanched greens, mushroom-eggplant mince, and sambal paste. Mix thoroughly before eating.",
+    "<strong>Optional Finish:</strong> Add toasted nuts, fresh herbs, extra chili flakes, or drizzle of sesame/chili oil for more texture and aroma."
+  ],
+  "tips": [
+    "Blanch greens quickly to retain crunch and bright color.",
+    "Reserve some noodle water to adjust sauce consistency.",
+    "Finely mincing eggplant and mushrooms helps them cling to the noodles for maximum flavor.",
+    "Sambal can be made in advance and stored in the fridge for up to a week."
+  ]
+}

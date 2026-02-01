@@ -1,0 +1,91 @@
+{
+  "slug": "kimchi-burritos",
+  "title": "Kimchi Burritos with Black Beans & Veggies",
+  "image": "images/kimchi-burritos.webp",
+  "time": "30 min",
+  "servings": 3,
+  "style": "Savory, spicy, and tangy fusion burrito filled with kimchi, black beans, rice, and melty cheese",
+  "tags": [
+    "Vegetarian",
+    "Asian Fusion",
+    "Spicy",
+    "Comfort Food",
+    "Quick Meal"
+  ],
+  "categories": [
+    "Dinner",
+    "Lunch",
+    "Fusion",
+    "Burritos"
+  ],
+  "keywords": [
+    "kimchi",
+    "burrito",
+    "black beans",
+    "rice",
+    "spicy",
+    "fusion",
+    "cheese",
+    "veggie"
+  ],
+  "description": "A quick, flavorful fusion burrito combining tangy kimchi, black beans, veggies, rice, and melty cheese. Perfect for a 20–30 minute weeknight dinner with optional spice adjustments.",
+  "ingredients": {
+    "sections": [
+      {
+        "title": "Vegetables & Aromatics",
+        "items": [
+          { "qty": "1-2", "unit": "tbsp", "item": "olive oil" },
+          { "qty": "1", "unit": "", "item": "onion", "note": "diced" },
+          { "qty": "4", "unit": "cloves", "item": "garlic", "note": "roughly chopped" },
+          { "qty": "1", "unit": "", "item": "red bell pepper", "note": "diced" },
+          { "qty": "1", "unit": "tsp", "item": "ginger", "note": "finely grated" }
+        ]
+      },
+      {
+        "title": "Filling",
+        "items": [
+          { "qty": "186", "unit": "g", "item": "rice", "note": "leftover rice works well" },
+          { "qty": "75", "unit": "g", "item": "kimchi", "note": "chopped, more to taste" },
+          { "qty": "400", "unit": "g", "item": "black beans", "note": "drained" },
+          { "qty": "1/2", "unit": "tsp", "item": "salt", "note": "or to taste" },
+          { "qty": "", "unit": "", "item": "pepper", "note": "to taste" },
+          { "qty": "1-3", "unit": "tsp", "item": "gochujang, sriracha, or garlic chili paste", "note": "adjust spice to taste" },
+          { "qty": "2", "unit": "", "item": "green onions", "note": "chopped" },
+          { "qty": "4", "unit": "g", "item": "cilantro", "note": "chopped" }
+        ]
+      },
+      {
+        "title": "Cheese & Wraps",
+        "items": [
+          { "qty": "112", "unit": "g", "item": "shredded cheese", "note": "pepper jack or meltable vegan cheese" },
+          { "qty": "3-4", "unit": "", "item": "extra-large tortillas", "note": "30 cm, warmed, or gluten-free wraps" }
+        ]
+      },
+      {
+        "title": "Optional Garnishes",
+        "items": [
+          { "qty": "", "unit": "", "item": "hot sauce or sriracha" },
+          { "qty": "", "unit": "", "item": "sour cream or vegan sour cream" },
+          { "qty": "", "unit": "", "item": "extra cilantro" }
+        ]
+      }
+    ]
+  },
+  "steps": [
+    "<strong>Saute Aromatics:</strong> Heat olive oil in a large skillet over medium heat. Add onion, garlic, and bell pepper, and cook 4–5 minutes until tender. Add ginger and stir 1 minute.",
+    "<strong>Add Filling:</strong> Stir in rice, chopped kimchi, and black beans. If mixture seems dry, add a splash of water to loosen.",
+    "<strong>Season:</strong> Add salt, pepper, green onions, and cilantro. Lower heat to low. Taste and adjust seasoning and spice (add more kimchi, gochujang, or sriracha if desired).",
+    "<strong>Melt Cheese:</strong> Fold shredded cheese into the filling, stirring gently until melty and stringy. Avoid overcooking.",
+    "<strong>Assemble Burritos:</strong> Warm tortillas until pliable. Divide filling in the center of each tortilla, fold in edges, and roll tightly.",
+    "<strong>Optional Toasting:</strong> For extra crispiness, toast the burritos in a lightly oiled skillet over medium heat until golden.",
+    "<strong>Serve:</strong> Serve immediately with optional hot sauce, sour cream, or cilantro garnish."
+  ],
+  "tips": [
+    "Kimchi spice varies; start conservatively if sensitive to heat.",
+    "Substitute black beans with cooked ground meat or leftover chicken for a non-vegetarian version.",
+    "Warm tortillas before rolling to prevent cracking.",
+    "Store leftovers in the fridge for up to 3 days or freeze up to 3 months.",
+    "Reheat burritos in a skillet or oven for best texture; microwaving may make them soggy.",
+    "Add extra gochujang or kimchi for more heat and flavor."
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "slug": "creamy-gochujang-pasta-indian-twist",
+  "title": "Creamy Gochujang Pasta with Indian-Spiced Umami Twist",
+  "image": "images/creamy-gochujang-pasta.jpg",
+  "time": "25–30 min",
+  "servings": 2,
+  "style": "Creamy, umami-rich fusion pasta combining Korean heat, Indian spices, and toasted sesame",
+  "tags": [
+    "Vegetarian",
+    "Asian-Indian Fusion",
+    "Spicy",
+    "Umami-rich",
+    "Comfort Food"
+  ],
+  "categories": [
+    "Dinner",
+    "Pasta",
+    "Fusion"
+  ],
+  "keywords": [
+    "gochujang",
+    "pasta",
+    "creamy",
+    "miso",
+    "toasted sesame",
+    "Indian spices",
+    "umami"
+  ],
+  "description": "A glossy, clingy, umami-rich creamy pasta with gochujang heat, Indian spices, miso depth, and a finishing touch of toasted sesame and fresh parsley.",
+  "ingredients": {
+    "sections": [
+      {
+        "title": "Pasta & Sauce",
+        "items": [
+          { "qty": "227", "unit": "g", "item": "pasta", "note": "cooked al dente" },
+          { "qty": "1", "unit": "tbsp", "item": "butter" },
+          { "qty": "1", "unit": "tbsp", "item": "oil" },
+          { "qty": "2", "unit": "", "item": "shallots", "note": "finely diced" },
+          { "qty": "1", "unit": "tbsp", "item": "garlic", "note": "finely minced" },
+          { "qty": "2", "unit": "tbsp", "item": "gochujang paste" },
+          { "qty": "1", "unit": "tbsp", "item": "tomato paste" },
+          { "qty": "1", "unit": "tsp", "item": "red chili flakes" },
+          { "qty": "1", "unit": "tsp", "item": "salt" },
+          { "qty": "1", "unit": "tsp", "item": "cumin powder" },
+          { "qty": "1", "unit": "tsp", "item": "coriander powder" },
+          { "qty": "0.5", "unit": "tsp", "item": "garam masala" },
+          { "qty": "0.25", "unit": "tsp", "item": "turmeric powder" },
+          { "qty": "0.5", "unit": "tsp", "item": "red chili powder" },
+          { "qty": "1", "unit": "cup", "item": "whole milk", "note": "or cashew cream for vegan version" },
+          { "qty": "1", "unit": "tsp", "item": "white miso paste", "note": "for depth of umami" }
+        ]
+      },
+      {
+        "title": "Herbs & Finishing",
+        "items": [
+          { "qty": "1", "unit": "tsp", "item": "toasted sesame oil", "note": "finish for nutty aroma" },
+          { "qty": "2", "unit": "tsp", "item": "toasted sesame seeds" },
+          { "qty": "0.25", "unit": "cup", "item": "parsley", "note": "finely chopped" }
+        ]
+      },
+      {
+        "title": "Optional Upgrades",
+        "items": [
+          { "qty": "", "unit": "", "item": "grated Parmesan or vegan cheese", "note": "for extra richness" },
+          { "qty": "", "unit": "", "item": "extra milk or cream", "note": "if sauce needs thinning" },
+          { "qty": "", "unit": "", "item": "sautéed mushrooms or spinach", "note": "adds extra veggies and umami" },
+          { "qty": "", "unit": "", "item": "extra toasted sesame seeds", "note": "for texture and nuttiness" },
+          { "qty": "", "unit": "", "item": "squeeze of lime or lemon juice", "note": "brightens the sauce" }
+        ]
+      }
+    ]
+  },
+  "steps": [
+    "<strong>Cook Aromatics:</strong> Heat butter and oil over medium heat. Add shallots and cook until soft and translucent, 3–4 minutes.",
+    "Add garlic, gochujang paste, and red chili flakes. Stir 1–2 minutes until fragrant.",
+    "<strong>Bloom Spices & Tomato Paste:</strong> Stir in cumin, coriander, garam masala, turmeric, red chili powder, tomato paste, and salt. Cook 30–45 seconds to bloom the spices.",
+    "<strong>Add Milk & Miso:</strong> Lower heat to medium-low. Add milk (or cashew cream) and miso paste, whisk to combine. Simmer 2–3 minutes until sauce thickens slightly.",
+    "<strong>Add Pasta & Optional Veggies:</strong> Toss in cooked pasta and any optional roasted mushrooms or spinach. Stir well to coat evenly.",
+    "<strong>Finish with Sesame & Herbs:</strong> Drizzle in toasted sesame oil and stir in toasted sesame seeds. Sprinkle chopped parsley, adjust salt and chili to taste, and serve hot."
+  ],
+  "tips": [
+    "Bloom the spices properly for deeper, more complex flavour.",
+    "Use white miso and toasted sesame oil to layer umami.",
+    "Reserve a splash of pasta water to loosen sauce if needed.",
+    "Optional roasted mushrooms or spinach add extra texture and richness.",
+    "Add extra chili flakes or gochujang for more heat.",
+    "Serve immediately for glossy, clingy sauce."
+  ]
+}

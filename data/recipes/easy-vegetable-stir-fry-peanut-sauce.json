@@ -1,0 +1,80 @@
+{
+  "slug": "easy-vegetable-stir-fry-peanut-sauce",
+  "title": "Easy Vegetable Stir-Fry with Creamy Peanut Sauce",
+  "image": "images/vegetable-peanut-stir-fry.jpg",
+  "time": "25–30 min",
+  "servings": 2,
+  "style": "Quick, colorful stir-fry with a creamy, nutty peanut sauce",
+  "tags": [
+    "Vegan",
+    "Dairy-free",
+    "Gluten-free option",
+    "Quick meal"
+  ],
+  "categories": [
+    "Dinner",
+    "Main",
+    "Stir-fry"
+  ],
+  "keywords": [
+    "vegetable stir fry",
+    "peanut sauce",
+    "vegan noodles",
+    "quick dinner",
+    "weeknight meal"
+  ],
+  "description": "A vibrant stir-fry of fresh vegetables and noodles tossed in a creamy, flavorful peanut sauce — ready in under 30 minutes.",
+  "ingredients": {
+    "sections": [
+      {
+        "title": "Stir-Fry",
+        "items": [
+          { "qty": "1", "unit": "tbsp", "item": "peanut oil", "note": "or sunflower oil" },
+          { "qty": "1", "unit": "clove", "item": "garlic", "note": "peeled and diced" },
+          { "qty": "1", "unit": "thumb-size piece", "item": "ginger", "note": "peeled and grated" },
+          { "qty": "1", "unit": "", "item": "onion", "note": "peeled and diced" },
+          { "qty": "350", "unit": "g", "item": "mixed vegetables", "note": "fresh or frozen, e.g., broccoli, carrots, cauliflower" },
+          { "qty": "1", "unit": "handful", "item": "snow peas", "note": "or sugar snap peas" },
+          { "qty": "6–8", "unit": "", "item": "baby corn" },
+          { "qty": "100", "unit": "g", "item": "noodles", "note": "glass noodles or preferred type" },
+          { "qty": "1", "unit": "handful", "item": "peanuts", "note": "for garnish and crunch" }
+        ]
+      },
+      {
+        "title": "Peanut Sauce",
+        "items": [
+          { "qty": "2", "unit": "tbsp", "item": "peanut butter", "note": "crunchy works well" },
+          { "qty": "2", "unit": "tbsp", "item": "soy sauce", "note": "light or dark" },
+          { "qty": "2", "unit": "tbsp", "item": "sweet chili sauce" },
+          { "qty": "60", "unit": "ml", "item": "water" },
+          { "qty": "1", "unit": "tbsp", "item": "maple syrup" },
+          { "qty": "", "unit": "", "item": "lemongrass", "note": "1 stick, optional for aroma" }
+        ]
+      },
+      {
+        "title": "Optional – To Serve",
+        "items": [
+          { "qty": "", "unit": "", "item": "extra peanuts or cashews" },
+          { "qty": "", "unit": "", "item": "fresh herbs", "note": "cilantro or basil" },
+          { "qty": "", "unit": "", "item": "lime wedges" },
+          { "qty": "", "unit": "", "item": "chili oil or sriracha", "note": "for extra heat" }
+        ]
+      }
+    ]
+  },
+  "steps": [
+    "<strong>Prep Ingredients:</strong> Chop onion, garlic, ginger, snow peas, and baby corn. Thaw any frozen vegetables. Cook noodles according to package instructions and set aside.",
+    "<strong>Make the Peanut Sauce:</strong> In a bowl, mix peanut butter, soy sauce, sweet chili sauce, water, maple syrup, and lemongrass (if using) until creamy.",
+    "<strong>Cook the Stir-Fry:</strong> Heat oil in a wok or large pan until shimmering. Add garlic, ginger, onion, snow peas, and baby corn; stir-fry for 40 seconds.",
+    "Add remaining vegetables and stir-fry 4–5 minutes until tender but crisp.",
+    "<strong>Combine Sauce & Noodles:</strong> Reduce heat slightly. Add peanut sauce and noodles to the pan, tossing to coat evenly. If needed, add a splash more water to loosen the sauce.",
+    "Stir in peanuts and cook 3–5 more minutes until everything is heated through and glossy. Remove lemongrass before serving.",
+    "<strong>Serve:</strong> Plate immediately, finishing with optional peanuts, fresh herbs, lime wedges, or chili oil for extra punch."
+  ],
+  "tips": [
+    "Glass noodles absorb the sauce beautifully; soak or cook as directed for best texture.",
+    "Toast peanuts beforehand for extra crunch and aroma.",
+    "You can swap vegetables freely — just maintain similar cook times to keep crisp-tender texture.",
+    "Add a small drizzle of lime juice at the end for brightness and balance."
+  ]
+}

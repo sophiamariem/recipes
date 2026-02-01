@@ -1,0 +1,201 @@
+{
+  "slug": "sweet-potato-black-bean-tacos",
+  "title": "Sweet Potato & Black Bean Tacos with Avocado-Pepita Sauce",
+  "image": "images/sweet-potato-black-bean-tacos.jpg",
+  "time": "55–60 min",
+  "servings": 4,
+  "style": "Hearty roasted veg tacos with creamy, crunchy avocado-pepita sauce",
+  "tags": [
+    "Vegetarian",
+    "Vegan option",
+    "Gluten-free",
+    "Crowd-pleaser"
+  ],
+  "categories": [
+    "Dinner",
+    "Tacos",
+    "Mexican-inspired"
+  ],
+  "keywords": [
+    "sweet potato tacos",
+    "black bean tacos",
+    "vegetarian tacos",
+    "avocado sauce",
+    "pepitas"
+  ],
+  "description": "Roasted sweet potatoes, spiced black beans, and a punchy avocado-pepita sauce layered into warm corn tortillas.",
+  "ingredients": {
+    "sections": [
+      {
+        "title": "Roasted Sweet Potatoes",
+        "items": [
+          {
+            "qty": "900",
+            "unit": "g",
+            "item": "sweet potatoes",
+            "note": "peeled and cut into 1-inch chunks"
+          },
+          {
+            "qty": "2",
+            "unit": "tbsp",
+            "item": "olive oil"
+          },
+          {
+            "qty": "0.25",
+            "unit": "tsp",
+            "item": "cayenne pepper",
+            "note": "optional"
+          },
+          {
+            "qty": "0.25",
+            "unit": "tsp",
+            "item": "fine salt"
+          }
+        ]
+      },
+      {
+        "title": "Spicy Black Beans",
+        "items": [
+          {
+            "qty": "1",
+            "unit": "tbsp",
+            "item": "olive oil"
+          },
+          {
+            "qty": "1",
+            "unit": "",
+            "item": "small onion",
+            "note": "finely chopped"
+          },
+          {
+            "qty": "2",
+            "unit": "tsp",
+            "item": "ground cumin"
+          },
+          {
+            "qty": "0.25",
+            "unit": "tsp",
+            "item": "chilli powder"
+          },
+          {
+            "qty": "2",
+            "unit": "cans",
+            "item": "black beans",
+            "note": "rinsed and drained"
+          },
+          {
+            "qty": "80",
+            "unit": "ml",
+            "item": "water"
+          },
+          {
+            "qty": "1",
+            "unit": "tsp",
+            "item": "sherry vinegar or lime juice"
+          },
+          {
+            "qty": "",
+            "unit": "",
+            "item": "salt & black pepper",
+            "note": "to taste"
+          }
+        ]
+      },
+      {
+        "title": "Avocado–Pepita Sauce",
+        "items": [
+          {
+            "qty": "2",
+            "unit": "",
+            "item": "avocados",
+            "note": "pitted"
+          },
+          {
+            "qty": "1",
+            "unit": "cup",
+            "item": "fresh coriander",
+            "note": "mostly leaves"
+          },
+          {
+            "qty": "0.5",
+            "unit": "cup",
+            "item": "pepitas",
+            "note": "toasted"
+          },
+          {
+            "qty": "1",
+            "unit": "",
+            "item": "jalapeño",
+            "note": "seeded (or chilli flakes to taste)"
+          },
+          {
+            "qty": "2",
+            "unit": "cloves",
+            "item": "garlic"
+          },
+          {
+            "qty": "2",
+            "unit": "tbsp",
+            "item": "lime juice"
+          },
+          {
+            "qty": "2",
+            "unit": "tbsp",
+            "item": "water"
+          },
+          {
+            "qty": "0.5",
+            "unit": "tsp",
+            "item": "fine salt"
+          },
+          {
+            "qty": "",
+            "unit": "",
+            "item": "black pepper",
+            "note": "to taste"
+          }
+        ]
+      },
+      {
+        "title": "To Assemble",
+        "items": [
+          {
+            "qty": "8–10",
+            "unit": "",
+            "item": "small corn tortillas"
+          },
+          {
+            "qty": "",
+            "unit": "",
+            "item": "crumbled feta",
+            "note": "optional; skip for vegan"
+          }
+        ]
+      },
+      {
+        "title": "Optional – To Serve",
+        "items": [
+          { "qty": "", "unit": "", "item": "pickled red onions or radishes" },
+          { "qty": "", "unit": "", "item": "pickled jalapeños" },
+          { "qty": "", "unit": "", "item": "hot sauce" },
+          { "qty": "", "unit": "", "item": "extra toasted pepitas" }
+        ]
+      }
+    ]
+  },
+  "steps": [
+    "<strong>Roast the Sweet Potatoes:</strong> Heat oven to 220°C / 425°F. Toss sweet potatoes with olive oil, cayenne (if using), and salt. Spread on a lined tray and roast 30–40 minutes, turning halfway, until tender and caramelised.",
+    "<strong>Cook the Beans:</strong> Heat olive oil in a saucepan over medium heat. Add onion with a pinch of salt and cook 5–8 minutes until soft.",
+    "Add cumin and chilli powder; cook 30 seconds. Add beans and water, cover, and simmer 5 minutes.",
+    "Uncover and mash roughly half the beans for a creamy, cohesive texture. Remove from heat, stir in vinegar or lime juice, and season well.",
+    "<strong>Make the Sauce:</strong> Toast pepitas in a dry pan until fragrant and lightly popping. Cool slightly.",
+    "Blend avocados, coriander, jalapeño, garlic, lime juice, water, salt, and pepper until smooth. Pulse in most of the pepitas, leaving some texture. Adjust seasoning.",
+    "<strong>Warm Tortillas:</strong> Warm tortillas in a dry pan or directly over a low flame until pliable.",
+    "<strong>Assemble:</strong> Spoon beans onto tortillas, top with roasted sweet potatoes, and finish with avocado-pepita sauce. Add feta (if using) and any optional toppings."
+  ],
+  "tips": [
+    "Mashing beans slightly is key — it stops tacos from feeling dry.",
+    "The pepita sauce should be spoonable, not pourable.",
+    "Pickled elements aren’t optional in spirit — they balance the richness."
+  ]
+}

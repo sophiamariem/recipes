@@ -39,16 +39,16 @@
         "title": "Roasted Tofu & Mushrooms",
         "items": [
           {
-            "qty": "12",
-            "unit": "oz",
+            "qty": "340",
+            "unit": "g",
             "item": "extra-firm silken tofu",
             "note": "patted dry and broken into pieces"
           },
           {
-            "qty": "8",
-            "unit": "oz",
+            "qty": "227",
+            "unit": "g",
             "item": "shiitake mushrooms",
-            "note": "stemmed and sliced (227 g)"
+            "note": "stemmed and sliced"
           },
           {
             "qty": "4",

@@ -1,0 +1,91 @@
+{
+  "slug": "roasted-eggplant-tomato-orzo",
+  "title": "Roasted Eggplant and Tomato Orzo Pasta",
+  "image": "images/roasted-eggplant-tomato-orzo.jpg",
+  "time": "35 min",
+  "servings": 4,
+  "style": "Light, fresh, Mediterranean-inspired pasta with roasted eggplant, cherry tomatoes, herbs, and a bright lemon-garlic dressing",
+  "tags": [
+    "Vegetarian",
+    "Mediterranean",
+    "Gluten-Free Option",
+    "Summer",
+    "Healthy",
+    "Weeknight Dinner"
+  ],
+  "categories": [
+    "Dinner",
+    "Pasta",
+    "Vegetarian",
+    "Mediterranean"
+  ],
+  "keywords": [
+    "eggplant",
+    "tomato",
+    "orzo",
+    "feta",
+    "lemon-garlic dressing",
+    "herbs",
+    "pine nuts",
+    "Mediterranean",
+    "vegetarian"
+  ],
+  "description": "A light and fresh pasta dish featuring roasted eggplant and cherry tomatoes tossed with whole wheat orzo, fresh herbs, toasted pine nuts, feta, and a bright lemon-garlic dressing. Perfect for a healthy weeknight dinner.",
+  "ingredients": {
+    "sections": [
+      {
+        "title": "Roasted Eggplant",
+        "items": [
+          { "qty": "450", "unit": "g", "item": "eggplant", "note": "cubed into 2 cm pieces" },
+          { "qty": "30", "unit": "ml", "item": "olive oil" },
+          { "qty": "", "unit": "", "item": "salt and pepper", "note": "to taste" }
+        ]
+      },
+      {
+        "title": "Roasted Tomatoes",
+        "items": [
+          { "qty": "150", "unit": "g", "item": "cherry or grape tomatoes", "note": "halved" },
+          { "qty": "5", "unit": "ml", "item": "olive oil" },
+          { "qty": "", "unit": "", "item": "salt and pepper", "note": "to taste" }
+        ]
+      },
+      {
+        "title": "Orzo & Mix-ins",
+        "items": [
+          { "qty": "225", "unit": "g", "item": "whole wheat orzo" },
+          { "qty": "50", "unit": "g", "item": "feta", "note": "crumbled" },
+          { "qty": "15", "unit": "g", "item": "fresh basil", "note": "chopped" },
+          { "qty": "15", "unit": "g", "item": "fresh parsley", "note": "chopped" },
+          { "qty": "15", "unit": "g", "item": "pine nuts", "note": "toasted" }
+        ]
+      },
+      {
+        "title": "Lemon-Garlic Dressing",
+        "items": [
+          { "qty": "30", "unit": "ml", "item": "olive oil", "note": "more to taste" },
+          { "qty": "15", "unit": "ml", "item": "lemon juice" },
+          { "qty": "2", "unit": "cloves", "item": "garlic", "note": "pressed or minced" },
+          { "qty": "1.5", "unit": "ml", "item": "salt", "note": "more to taste" },
+          { "qty": "0.5", "unit": "ml", "item": "red pepper flakes" },
+          { "qty": "", "unit": "", "item": "freshly ground black pepper", "note": "to taste" }
+        ]
+      }
+    ]
+  },
+  "steps": [
+    "<strong>Preheat Oven:</strong> Set oven to 200°C. Line a large and a small rimmed baking sheet with parchment paper.",
+    "<strong>Roast Eggplant:</strong> Toss cubed eggplant with 30 ml olive oil, salt, and pepper. Spread in a single layer on the large sheet. Roast on the middle rack for 25 minutes, tossing halfway through.",
+    "<strong>Roast Tomatoes:</strong> Toss halved tomatoes with 5 ml olive oil, salt, and pepper. Add to the upper rack of the oven after tossing eggplant. Roast for 12 minutes until tender and slightly wrinkled.",
+    "<strong>Cook Orzo:</strong> Bring a large pot of salted water to a boil. Cook orzo until al dente, about 9 minutes. Reserve 240 ml pasta water, then drain and transfer to a large bowl.",
+    "<strong>Prepare Dressing:</strong> Whisk together olive oil, lemon juice, garlic, salt, red pepper flakes, and black pepper. Pour over warm orzo and toss to coat.",
+    "<strong>Combine Pasta & Veggies:</strong> Add roasted eggplant, tomatoes, feta, basil, parsley, and toasted pine nuts to the orzo. Toss to combine. If dry, add a few tablespoons of reserved pasta water or extra olive oil. Adjust seasoning with salt and pepper.",
+    "<strong>Serve:</strong> Serve immediately, warm or at room temperature."
+  ],
+  "tips": [
+    "Make it vegan by omitting feta; add sliced Kalamata olives for salty punch.",
+    "Use gluten-free pasta instead of orzo if needed; cook according to package instructions.",
+    "Roast eggplant and tomatoes so they finish at the same time by timing the tomatoes later.",
+    "Reserve pasta cooking water to adjust consistency and keep pasta moist.",
+    "Serve with extra fresh herbs for a bright finish."
+  ]
+}

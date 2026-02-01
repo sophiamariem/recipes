@@ -37,8 +37,8 @@
           { "qty": "1", "unit": "tsp", "item": "ground cumin" },
           { "qty": "0.25", "unit": "tsp", "item": "ground cinnamon" },
           {
-            "qty": "5-6",
-            "unit": "oz",
+            "qty": "142-170",
+            "unit": "g",
             "item": "baby spinach",
             "note": "about 5 cups packed"
           },
@@ -46,7 +46,7 @@
             "qty": "1",
             "unit": "can",
             "item": "black beans",
-            "note": "15 oz, drained & rinsed"
+            "note": "425 g, drained & rinsed"
           },
           { "qty": "0.5", "unit": "tsp", "item": "fine salt", "note": "to taste" },
           { "qty": "", "unit": "", "item": "black pepper", "note": "to taste" }
