@@ -1,5 +1,19 @@
 [
   {
+    "slug": "black-bean-lentil-chilli-crispy-corn",
+    "title": "Black Bean & Lentil Chilli with Crispy Corn",
+    "image": "images/black-bean-lentil-chilli.jpeg",
+    "time": "45 min",
+    "tags": [
+      "Vegan",
+      "High Protein",
+      "Dairy-free",
+      "Gluten-free"
+    ],
+    "description": "Deeply satisfying black bean and lentil chilli finished with smoky spices, lime, and crunchy roasted corn.",
+    "style": "Hearty, smoky plant-based chilli with protein-rich beans and lentils"
+  },
+  {
     "slug": "carrot-dal-tempeh-breadcrumbs",
     "title": "Carrot Dal with Tempeh Breadcrumbs",
     "image": "images/carrot-dal.jpg",
@@ -52,6 +66,20 @@
     ],
     "description": "A fast yet deeply flavoured coconut lime tofu that tastes like it’s been simmering for hours. Perfect over steamed rice.",
     "style": "Rich, creamy coconut-lime tofu with Thai-inspired red curry heat."
+  },
+  {
+    "slug": "creamy-red-lentil-dal-crispy-crumbs",
+    "title": "Creamy Red Lentil Dal with Crispy Halloumi / Tofu / Seitan Crumbs",
+    "image": "images/creamy-red-lentil-dal.jpg",
+    "time": "40–45 min",
+    "tags": [
+      "Vegetarian",
+      "High Protein",
+      "Gluten-free option",
+      "Comfort Food"
+    ],
+    "description": "Rich, spoon-coating red lentil dal finished with lemon and topped with crispy halloumi, tofu, or seitan crumbs for contrast.",
+    "style": "Ultra-creamy spiced red lentil dal topped with crunchy savoury crumbs"
   },
   {
     "slug": "crispy-chilli-garlic-tofu",
@@ -153,6 +181,20 @@
     ],
     "description": "Golden baked tofu tossed with udon noodles, greens, and a rich tahini chilli sauce that’s savoury, spicy, and deeply satisfying.",
     "style": "Crispy baked tofu with chewy noodles and a creamy, spicy tahini chilli sauce."
+  },
+  {
+    "slug": "tofu-tikka-masala",
+    "title": "Tofu Tikka Masala",
+    "image": "images/tofu-tikka-masala.jpg",
+    "time": "45–50 min",
+    "tags": [
+      "Vegetarian",
+      "Vegan option",
+      "High Protein",
+      "Gluten-free"
+    ],
+    "description": "Classic-style tikka masala made with oven-roasted tofu folded into a rich, spiced tomato-cream sauce.",
+    "style": "Bold, creamy Indian-style curry with roasted spiced tofu"
   },
   {
     "slug": "veggie-black-bean-enchiladas",

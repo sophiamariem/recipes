@@ -1,0 +1,158 @@
+{
+  "slug": "tofu-tikka-masala",
+  "title": "Tofu Tikka Masala",
+  "image": "images/tofu-tikka-masala.jpg",
+  "time": "45–50 min",
+  "servings": 4,
+  "style": "Bold, creamy Indian-style curry with roasted spiced tofu",
+  "tags": [
+    "Vegetarian",
+    "Vegan option",
+    "High Protein",
+    "Gluten-free"
+  ],
+  "categories": [
+    "Dinner",
+    "Curry",
+    "Plant-based"
+  ],
+  "keywords": [
+    "tofu tikka masala",
+    "tofu curry",
+    "indian curry",
+    "creamy curry",
+    "plant-based protein"
+  ],
+  "description": "Classic-style tikka masala made with oven-roasted tofu folded into a rich, spiced tomato-cream sauce.",
+  "ingredients": {
+    "sections": [
+      {
+        "title": "Roasted Tofu",
+        "items": [
+          {
+            "qty": "2",
+            "unit": "x 280 g blocks",
+            "item": "extra-firm tofu",
+            "note": "pressed well"
+          },
+          {
+            "qty": "2",
+            "unit": "tbsp",
+            "item": "oil"
+          },
+          {
+            "qty": "1",
+            "unit": "tsp",
+            "item": "smoked paprika"
+          },
+          {
+            "qty": "1",
+            "unit": "tsp",
+            "item": "garam masala"
+          },
+          {
+            "qty": "",
+            "unit": "",
+            "item": "salt & black pepper",
+            "note": "to taste"
+          }
+        ]
+      },
+      {
+        "title": "Tikka Masala Sauce",
+        "items": [
+          {
+            "qty": "2",
+            "unit": "tbsp",
+            "item": "oil or butter"
+          },
+          {
+            "qty": "1",
+            "unit": "",
+            "item": "large onion",
+            "note": "blended or very finely chopped"
+          },
+          {
+            "qty": "4",
+            "unit": "cloves",
+            "item": "garlic",
+            "note": "minced"
+          },
+          {
+            "qty": "1",
+            "unit": "tbsp",
+            "item": "ginger",
+            "note": "grated"
+          },
+          {
+            "qty": "2",
+            "unit": "tsp",
+            "item": "garam masala"
+          },
+          {
+            "qty": "1",
+            "unit": "tsp",
+            "item": "ground coriander"
+          },
+          {
+            "qty": "0.5",
+            "unit": "tsp",
+            "item": "chilli powder",
+            "note": "to taste"
+          },
+          {
+            "qty": "1",
+            "unit": "tbsp",
+            "item": "tomato purée"
+          },
+          {
+            "qty": "400",
+            "unit": "g",
+            "item": "chopped tomatoes",
+            "note": "1 tin"
+          },
+          {
+            "qty": "150",
+            "unit": "ml",
+            "item": "cream or cashew cream"
+          },
+          {
+            "qty": "",
+            "unit": "",
+            "item": "salt",
+            "note": "to taste"
+          },
+          {
+            "qty": "0.5–1",
+            "unit": "",
+            "item": "lemon",
+            "note": "juice"
+          }
+        ]
+      },
+      {
+        "title": "Optional – To Serve",
+        "items": [
+          { "qty": "", "unit": "", "item": "steamed basmati rice" },
+          { "qty": "", "unit": "", "item": "naan bread" },
+          { "qty": "", "unit": "", "item": "flatbreads or rotis" },
+          { "qty": "", "unit": "", "item": "fresh coriander" },
+          { "qty": "", "unit": "", "item": "lime or lemon wedges" }
+        ]
+      }
+    ]
+  },
+  "steps": [
+    "<strong>Roast the Tofu:</strong> Heat oven to 200°C / 400°F. Tear pressed tofu into chunky pieces.",
+    "Toss tofu with oil, smoked paprika, garam masala, salt, and pepper. Spread on a lined tray and bake 30–35 minutes, flipping once, until deeply golden and firm.",
+    "<strong>Make the Sauce:</strong> Heat oil or butter in a pan over medium heat. Add onion and cook about 10 minutes until very soft and lightly caramelised.",
+    "Add garlic and ginger; cook 1 minute. Stir in garam masala, coriander, chilli powder, and tomato purée.",
+    "Add chopped tomatoes and simmer 10 minutes until thick and rich. Stir in cream or cashew cream and season with salt and lemon juice.",
+    "Fold roasted tofu into the sauce just before serving to keep it slightly crisp."
+  ],
+  "tips": [
+    "Tearing tofu instead of cubing gives better texture and sauce cling.",
+    "Cashew cream keeps it fully vegan and extra luxurious.",
+    "Add tofu at the end so it stays roasted, not spongey."
+  ]
+}

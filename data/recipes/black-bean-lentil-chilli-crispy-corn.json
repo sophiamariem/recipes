@@ -1,0 +1,85 @@
+{
+  "slug": "black-bean-lentil-chilli-crispy-corn",
+  "title": "Black Bean & Lentil Chilli with Crispy Corn",
+  "image": "images/black-bean-lentil-chilli.jpeg",
+  "time": "45 min",
+  "servings": 4,
+  "style": "Hearty, smoky plant-based chilli with protein-rich beans and lentils",
+  "tags": [
+    "Vegan",
+    "High Protein",
+    "Dairy-free",
+    "Gluten-free"
+  ],
+  "categories": [
+    "Dinner",
+    "Chilli",
+    "Plant-based"
+  ],
+  "keywords": [
+    "black beans",
+    "lentils",
+    "chilli",
+    "vegan chilli",
+    "crispy corn",
+    "comfort food"
+  ],
+  "description": "Deeply satisfying black bean and lentil chilli finished with smoky spices, lime, and crunchy roasted corn.",
+  "ingredients": {
+    "sections": [
+      {
+        "title": "Chilli",
+        "items": [
+          { "qty": "2", "unit": "tbsp", "item": "olive oil" },
+          { "qty": "1", "unit": "", "item": "large onion", "note": "chopped" },
+          { "qty": "4", "unit": "cloves", "item": "garlic", "note": "minced" },
+          { "qty": "1", "unit": "tbsp", "item": "ground cumin" },
+          { "qty": "1", "unit": "tbsp", "item": "smoked paprika" },
+          { "qty": "1", "unit": "tsp", "item": "dried oregano" },
+          { "qty": "0.5–1", "unit": "tsp", "item": "chilli powder", "note": "to taste" },
+          { "qty": "1", "unit": "tbsp", "item": "tomato purée" },
+          { "qty": "400", "unit": "g", "item": "chopped tomatoes", "note": "1 tin" },
+          { "qty": "2", "unit": "x 400 g tins", "item": "black beans", "note": "drained and rinsed" },
+          { "qty": "150", "unit": "g", "item": "red lentils", "note": "rinsed" },
+          { "qty": "600", "unit": "ml", "item": "vegetable stock" },
+          { "qty": "", "unit": "", "item": "salt", "note": "to taste" },
+          { "qty": "1", "unit": "", "item": "lime", "note": "juice" }
+        ]
+      },
+      {
+        "title": "Crispy Corn",
+        "items": [
+          { "qty": "1", "unit": "tin", "item": "sweetcorn", "note": "drained and thoroughly dried" },
+          { "qty": "1", "unit": "tbsp", "item": "oil" },
+          { "qty": "", "unit": "", "item": "smoked paprika", "note": "to taste" },
+          { "qty": "", "unit": "", "item": "salt", "note": "to taste" }
+        ]
+      },
+      {
+        "title": "Optional – To Serve",
+        "items": [
+          { "qty": "", "unit": "", "item": "cooked rice" },
+          { "qty": "", "unit": "", "item": "tortilla chips" },
+          { "qty": "", "unit": "", "item": "baked potatoes" },
+          { "qty": "", "unit": "", "item": "grated cheese", "note": "or vegan alternative" },
+          { "qty": "", "unit": "", "item": "yoghurt", "note": "or plant-based yoghurt" },
+          { "qty": "", "unit": "", "item": "vegan crema or sour cream" }
+        ]
+      }
+    ]
+  },
+  "steps": [
+    "<strong>Cook the Chilli:</strong> Heat olive oil in a large pot over medium heat. Add onion and cook for about 10 minutes until very soft and lightly golden.",
+    "Add garlic, cumin, smoked paprika, oregano, and chilli powder. Cook for 1 minute until fragrant.",
+    "Stir in tomato purée and chopped tomatoes. Add black beans, red lentils, and vegetable stock. Bring to a simmer.",
+    "Cook uncovered for 30–35 minutes, stirring occasionally, until thick, rich, and the lentils are tender. Mash some of the beans against the side of the pot for extra body.",
+    "Season aggressively with salt and finish with lime juice.",
+    "<strong>Crispy Corn:</strong> Heat oven to 220°C / 425°F. Toss dried sweetcorn with oil, smoked paprika, and salt. Spread on a baking tray.",
+    "Roast for about 25 minutes, shaking once or twice, until golden, crisp, and popping."
+  ],
+  "tips": [
+    "Mash some beans for thickness and leave others whole for texture.",
+    "Don’t skip the smoked paprika — it’s key to depth.",
+    "Finish with lime for balance; it makes the chilli feel complete."
+  ]
+}

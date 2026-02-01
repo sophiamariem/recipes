@@ -1,0 +1,84 @@
+{
+  "slug": "creamy-red-lentil-dal-crispy-crumbs",
+  "title": "Creamy Red Lentil Dal with Crispy Halloumi / Tofu / Seitan Crumbs",
+  "image": "images/creamy-red-lentil-dal.jpg",
+  "time": "40–45 min",
+  "servings": 4,
+  "style": "Ultra-creamy spiced red lentil dal topped with crunchy savoury crumbs",
+  "tags": [
+    "Vegetarian",
+    "High Protein",
+    "Gluten-free option",
+    "Comfort Food"
+  ],
+  "categories": [
+    "Dinner",
+    "Dal",
+    "One-pot"
+  ],
+  "keywords": [
+    "red lentil dal",
+    "creamy dal",
+    "halloumi crumbs",
+    "tofu crumbs",
+    "seitan",
+    "lentils"
+  ],
+  "description": "Rich, spoon-coating red lentil dal finished with lemon and topped with crispy halloumi, tofu, or seitan crumbs for contrast.",
+  "ingredients": {
+    "sections": [
+      {
+        "title": "Dal",
+        "items": [
+          { "qty": "300", "unit": "g", "item": "red lentils", "note": "rinsed" },
+          { "qty": "1.5", "unit": "tbsp", "item": "oil" },
+          { "qty": "1", "unit": "", "item": "large onion", "note": "finely chopped" },
+          { "qty": "4", "unit": "cloves", "item": "garlic", "note": "minced" },
+          { "qty": "1", "unit": "tbsp", "item": "ginger", "note": "grated" },
+          { "qty": "2", "unit": "tsp", "item": "ground cumin" },
+          { "qty": "1.5", "unit": "tsp", "item": "ground coriander" },
+          { "qty": "1", "unit": "tsp", "item": "turmeric" },
+          { "qty": "0.5–1", "unit": "tsp", "item": "chilli flakes", "note": "to taste" },
+          { "qty": "1", "unit": "tbsp", "item": "tomato purée" },
+          { "qty": "800", "unit": "ml", "item": "vegetable stock or water" },
+          { "qty": "200", "unit": "ml", "item": "coconut milk or thick yoghurt/cream" },
+          { "qty": "", "unit": "", "item": "salt", "note": "to taste" },
+          { "qty": "0.5–1", "unit": "", "item": "lemon", "note": "juice" }
+        ]
+      },
+      {
+        "title": "Crispy Topping (Choose One)",
+        "items": [
+          { "qty": "200–250", "unit": "g", "item": "halloumi OR extra-firm tofu OR seitan" },
+          { "qty": "2", "unit": "tbsp", "item": "olive oil" },
+          { "qty": "0.5", "unit": "tsp", "item": "smoked paprika" },
+          { "qty": "", "unit": "", "item": "black pepper", "note": "to taste" },
+          { "qty": "3–4", "unit": "tbsp", "item": "breadcrumbs", "note": "panko best; gluten-free if needed" }
+        ]
+      },
+      {
+        "title": "Optional – To Serve",
+        "items": [
+          { "qty": "", "unit": "", "item": "steamed rice" },
+          { "qty": "", "unit": "", "item": "naan or flatbread" },
+          { "qty": "", "unit": "", "item": "extra lemon wedges" },
+          { "qty": "", "unit": "", "item": "fresh herbs", "note": "coriander or parsley" }
+        ]
+      }
+    ]
+  },
+  "steps": [
+    "<strong>Cook the Dal:</strong> Heat oil in a large pot over medium heat. Add onion with a pinch of salt and cook 8–10 minutes until soft and lightly golden.",
+    "Add garlic and ginger; cook for 1 minute. Stir in cumin, coriander, turmeric, and chilli flakes; toast for 30 seconds.",
+    "Add tomato purée and stir well. Add lentils and stock; bring to a boil, then reduce to a simmer.",
+    "Cook 15–20 minutes, stirring often, until lentils are soft and breaking down.",
+    "Stir in coconut milk or yoghurt/cream and simmer 5 minutes more until thick and creamy. Season well and finish with lemon juice.",
+    "<strong>Crispy Topping:</strong> Heat oven to 200°C / 400°F. Grate halloumi or crumble tofu/seitan.",
+    "Toss with olive oil, smoked paprika, black pepper, and breadcrumbs. Spread on a baking tray and bake 20–25 minutes, stirring once, until golden and crunchy."
+  ],
+  "tips": [
+    "Dal should be thick and spoon-coating — loosen with hot water if needed.",
+    "Halloumi gives maximum crunch and salt; tofu or seitan keep it vegan.",
+    "Add topping just before serving to keep it crisp."
+  ]
+}
