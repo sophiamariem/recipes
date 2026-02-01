@@ -32,7 +32,7 @@
           { "qty": "2", "unit": "tbsp", "item": "olive oil" },
           { "qty": "4", "unit": "cloves", "item": "garlic", "note": "pressed or minced" },
           { "qty": "", "unit": "", "item": "fine sea salt" },
-          { "qty": "140-170", "unit": "g", "item": "baby spinach", "note": "5-6 packed cups" },
+          { "qty": "140-170", "unit": "g", "item": "baby spinach", "note": "5-6 packed cups" }
         ]
       },
       {

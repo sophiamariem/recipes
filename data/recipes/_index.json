@@ -1,5 +1,18 @@
 [
   {
+    "slug": "beans-and-greens-quesadillas",
+    "title": "Beans and Greens Quesadillas",
+    "image": "images/beans-and-greens-quesadillas.jpg",
+    "time": "25–30 min",
+    "tags": [
+      "Gluten-free",
+      "Comfort Food",
+      "Mexican"
+    ],
+    "description": "Crispy tortillas filled with garlicky collard greens, pinto beans, and melted cheese. Perfect for a quick lunch or dinner.",
+    "style": "Southern/Tex-Mex mash-up with garlicky collard greens, pinto beans, and melted cheese"
+  },
+  {
     "slug": "black-bean-lentil-chilli-crispy-corn",
     "title": "Black Bean & Lentil Chilli with Crispy Corn",
     "image": "images/black-bean-lentil-chilli.jpg",
@@ -168,6 +181,21 @@
     "style": "Quick, colorful stir-fry with a creamy, nutty peanut sauce"
   },
   {
+    "slug": "fresh-sesame-soba-spring-rolls-peanut-sauce",
+    "title": "Fresh Sesame Soba Spring Rolls with Peanut Dipping Sauce",
+    "image": "images/fresh-sesame-soba-spring-rolls.webp",
+    "time": "30–40 min",
+    "tags": [
+      "Vegan",
+      "Gluten-free",
+      "Dairy-free",
+      "Spicy",
+      "Summer"
+    ],
+    "description": "These fresh spring rolls combine Japanese soba noodles with classic Vietnamese rice paper rolls. Crunchy veggies and creamy peanut sauce make them a refreshing and flavorful plant-based snack or light meal.",
+    "style": "Nutty and fresh Japanese-Vietnamese fusion spring rolls served with a creamy peanut dipping sauce"
+  },
+  {
     "slug": "vegan-protein-salad",
     "title": "High-Protein Vegan Salad",
     "image": "images/vegan-protein-salad.jpg",
@@ -316,6 +344,19 @@
     ],
     "description": "Creamy sun-dried tomato borlotti beans paired with tamari-maple roasted aubergine—ready in 30 minutes and perfect for meal prep.",
     "style": "Saucy, creamy, and comforting high-protein beans with sweet-savoury roasted aubergine."
+  },
+  {
+    "slug": "sun-dried-tomato-fettuccine-alfredo",
+    "title": "Sun-Dried Tomato Fettuccine Alfredo with Spinach",
+    "image": "images/sun-dried-tomato-fettuccine-alfredo.jpg",
+    "time": "30–35 min",
+    "tags": [
+      "Vegan",
+      "Gluten-free",
+      "Comfort Food"
+    ],
+    "description": "This dairy-free fettuccine uses cashews blended with pasta water and lemon juice for a rich, creamy sauce. Sun-dried tomatoes and spinach add flavor and nutrition for a satisfying, plant-based comfort meal.",
+    "style": "Creamy, tangy cashew-based sauce with spinach and sun-dried tomatoes, perfect for a plant-powered weeknight meal"
   },
   {
     "slug": "sweet-potato-black-bean-tacos",

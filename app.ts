@@ -200,10 +200,6 @@ function getEffectiveTags(recipe: Recipe | { tags: string[], time?: string }): (
   const minutes = timeToMinutes(recipe.time);
   if (minutes !== null && minutes <= 30) {
     if (!tags.includes(UNDER_30_TAG)) tags.unshift(UNDER_30_TAG);
-    if (!tags.includes('High Protein')) {
-      const idx = tags.indexOf(UNDER_30_TAG);
-      tags.splice(idx + 1, 0, 'High Protein');
-    }
   }
   return tags as (ApprovedTag | typeof UNDER_30_TAG)[];
 }

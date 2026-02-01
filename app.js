@@ -203,10 +203,6 @@ function getEffectiveTags(recipe) {
     if (minutes !== null && minutes <= 30) {
         if (!tags.includes(UNDER_30_TAG))
             tags.unshift(UNDER_30_TAG);
-        if (!tags.includes('High Protein')) {
-            const idx = tags.indexOf(UNDER_30_TAG);
-            tags.splice(idx + 1, 0, 'High Protein');
-        }
     }
     return tags;
 }
