@@ -1,0 +1,93 @@
+{
+  "slug": "roasted-broccoli-tofu-peanut-bowl",
+  "title": "Roasted Broccoli, Bell Pepper & Tofu Bowl with Peanut Sauce",
+  "image": "images/roasted-broccoli-tofu-peanut-bowl.webp",
+  "time": "45 min",
+  "servings": 4,
+  "style": "Roasted vegetable and crispy tofu bowl with creamy peanut sauce",
+  "tags": [
+    "Vegan",
+    "High Protein",
+    "Dairy-free",
+    "Gluten-free",
+    "Comfort Food"
+  ],
+  "categories": [
+    "Dinner",
+    "Bowl",
+    "Plant-based"
+  ],
+  "keywords": [
+    "tofu bowl",
+    "roasted broccoli",
+    "peanut sauce",
+    "vegan dinner",
+    "meal prep"
+  ],
+  "description": "Caramelised roasted broccoli and bell pepper served over fluffy rice with crispy baked tofu and a rich, savoury peanut sauce.",
+  "ingredients": {
+    "sections": [
+      {
+        "title": "Base",
+        "items": [
+          { "qty": "200", "unit": "g", "item": "brown rice", "note": "short-grain preferred, dry weight" },
+          { "qty": "", "unit": "", "item": "fine sea salt", "note": "to taste" }
+        ]
+      },
+      {
+        "title": "Roasted Vegetables",
+        "items": [
+          { "qty": "450", "unit": "g", "item": "broccoli florets", "note": "bite-sized pieces" },
+          { "qty": "1", "unit": "", "item": "red bell pepper", "note": "cut into 2–3 cm pieces" },
+          { "qty": "2", "unit": "tbsp", "item": "extra virgin olive oil" }
+        ]
+      },
+      {
+        "title": "Extra-Crispy Baked Tofu",
+        "items": [
+          { "qty": "400", "unit": "g", "item": "extra-firm tofu" },
+          { "qty": "1", "unit": "tbsp", "item": "extra virgin olive oil" },
+          { "qty": "1", "unit": "tbsp", "item": "reduced-sodium tamari or soy sauce" },
+          { "qty": "1", "unit": "tbsp", "item": "arrowroot starch or cornflour" }
+        ]
+      },
+      {
+        "title": "Peanut Sauce",
+        "items": [
+          { "qty": "130", "unit": "g", "item": "creamy peanut butter" },
+          { "qty": "2", "unit": "tbsp", "item": "reduced-sodium tamari or soy sauce" },
+          { "qty": "1", "unit": "tbsp", "item": "rice vinegar" },
+          { "qty": "20", "unit": "g", "item": "maple syrup" },
+          { "qty": "2", "unit": "tsp", "item": "toasted sesame oil" },
+          { "qty": "1", "unit": "clove", "item": "garlic", "note": "finely minced" },
+          { "qty": "1", "unit": "pinch", "item": "red pepper flakes" },
+          { "qty": "15–30", "unit": "ml", "item": "water", "note": "as needed for consistency" }
+        ]
+      },
+      {
+        "title": "Garnishes",
+        "items": [
+          { "qty": "30", "unit": "g", "item": "roasted peanuts", "note": "chopped" },
+          { "qty": "10", "unit": "g", "item": "fresh cilantro", "note": "chopped" },
+          { "qty": "", "unit": "", "item": "chilli garlic sauce", "note": "to serve" }
+        ]
+      }
+    ]
+  },
+  "steps": [
+    "Preheat oven to 200°C with a rack in the upper third.",
+    "<strong>Cook the Rice:</strong> Boil rice in plenty of salted water for about 30 minutes until tender. Drain, return to pot, cover, and rest off heat for 5 minutes.",
+    "<strong>Roast the Vegetables:</strong> Toss broccoli and bell pepper with olive oil and a light sprinkle of salt. Spread evenly on a rimmed baking tray, flat sides down.",
+    "Roast for 25–30 minutes, turning once, until deeply golden and caramelised.",
+    "<strong>Prepare the Tofu:</strong> Drain tofu and gently squeeze out excess moisture. Cut into bite-sized cubes and press between towels under a weight for several minutes.",
+    "Toss tofu with olive oil and tamari, then coat evenly with arrowroot starch. Spread on a lined baking tray.",
+    "Bake at 200°C for 25–30 minutes, turning halfway, until crisp and golden.",
+    "<strong>Make the Peanut Sauce:</strong> Whisk together peanut butter, tamari, vinegar, maple syrup, sesame oil, garlic, and chilli flakes. Thin with water until thick but pourable.",
+    "<strong>Assemble:</strong> Fluff rice and season to taste. Divide into bowls, top with roasted vegetables and tofu, drizzle with peanut sauce, and finish with garnishes."
+  ],
+  "tips": [
+    "Arrange vegetables cut-side down for maximum caramelisation.",
+    "The peanut sauce keeps refrigerated for up to 4 days and works well as a dip.",
+    "For nut allergies, use sunflower seed butter and omit the peanut garnish."
+  ]
+}

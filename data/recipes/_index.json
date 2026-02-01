@@ -2,7 +2,7 @@
   {
     "slug": "black-bean-lentil-chilli-crispy-corn",
     "title": "Black Bean & Lentil Chilli with Crispy Corn",
-    "image": "images/black-bean-lentil-chilli.jpeg",
+    "image": "images/black-bean-lentil-chilli.jpg",
     "time": "45 min",
     "tags": [
       "Vegan",
@@ -234,6 +234,21 @@
     ],
     "description": "An easy, protein-packed buddha bowl with brown rice, chickpeas, roasted sweet potato, and a punchy peanut-maple dressing.",
     "style": "Simple, nourishing buddha bowl with roasted sweet potato and a creamy peanut dressing."
+  },
+  {
+    "slug": "roasted-broccoli-tofu-peanut-bowl",
+    "title": "Roasted Broccoli, Bell Pepper & Tofu Bowl with Peanut Sauce",
+    "image": "images/roasted-broccoli-tofu-peanut-bowl.webp",
+    "time": "45 min",
+    "tags": [
+      "Vegan",
+      "High Protein",
+      "Dairy-free",
+      "Gluten-free",
+      "Comfort Food"
+    ],
+    "description": "Caramelised roasted broccoli and bell pepper served over fluffy rice with crispy baked tofu and a rich, savoury peanut sauce.",
+    "style": "Roasted vegetable and crispy tofu bowl with creamy peanut sauce"
   },
   {
     "slug": "roasted-eggplant-tomato-orzo",
