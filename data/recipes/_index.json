@@ -42,6 +42,20 @@
     "style": "Protein-rich, wholesome plant-based dal with crunchy tempeh topping"
   },
   {
+    "slug": "chili-pan-mee-mushrooms-eggplant",
+    "title": "Chili Pan Mee with Mushrooms & Eggplant",
+    "image": "images/chili-pan-mee.jpg",
+    "time": "25 min",
+    "tags": [
+      "Vegan",
+      "Dairy-free",
+      "Asian",
+      "Spicy"
+    ],
+    "description": "Chewy flat noodles tossed with a spicy homemade sambal paste, topped with umami-rich mushroom and eggplant mince, fresh greens, and a hint of toasted sesame.",
+    "style": "Malaysian-style chewy noodles tossed with spicy sambal, umami mushroom-eggplant mince, and greens"
+  },
+  {
     "slug": "creamy-chickpea-paneer-curry",
     "title": "Creamy Butter Chickpea with Golden Paneer or Seitan Curry",
     "image": "images/creamy-chickpea-paneer-curry.jpg",
@@ -80,6 +94,21 @@
     ],
     "description": "A fast yet deeply flavoured coconut lime tofu that tastes like it’s been simmering for hours. Perfect over steamed rice.",
     "style": "Rich, creamy coconut-lime tofu with Thai-inspired red curry heat."
+  },
+  {
+    "slug": "creamy-gochujang-pasta-indian-twist",
+    "title": "Creamy Gochujang Pasta with Indian-Spiced Umami Twist",
+    "image": "images/creamy-gochujang-pasta.jpg",
+    "time": "25–30 min",
+    "tags": [
+      "Vegetarian",
+      "Asian-Indian Fusion",
+      "Spicy",
+      "Umami-rich",
+      "Comfort Food"
+    ],
+    "description": "A glossy, clingy, umami-rich creamy pasta with gochujang heat, Indian spices, miso depth, and a finishing touch of toasted sesame and fresh parsley.",
+    "style": "Creamy, umami-rich fusion pasta combining Korean heat, Indian spices, and toasted sesame"
   },
   {
     "slug": "creamy-red-lentil-dal-crispy-crumbs",
@@ -123,6 +152,20 @@
     "style": "Spicy, crunchy, fresh salad with aggressively crispy tofu and punchy kimchi dressing"
   },
   {
+    "slug": "easy-vegetable-stir-fry-peanut-sauce",
+    "title": "Easy Vegetable Stir-Fry with Creamy Peanut Sauce",
+    "image": "images/vegetable-peanut-stir-fry.jpg",
+    "time": "25–30 min",
+    "tags": [
+      "Vegan",
+      "Dairy-free",
+      "Gluten-free option",
+      "Quick meal"
+    ],
+    "description": "A vibrant stir-fry of fresh vegetables and noodles tossed in a creamy, flavorful peanut sauce — ready in under 30 minutes.",
+    "style": "Quick, colorful stir-fry with a creamy, nutty peanut sauce"
+  },
+  {
     "slug": "vegan-protein-salad",
     "title": "High-Protein Vegan Salad",
     "image": "images/vegan-protein-salad.jpg",
@@ -149,6 +192,21 @@
     "style": "Crispy, spice-roasted okra with classic Kerala flavours and zero slime."
   },
   {
+    "slug": "kimchi-burritos",
+    "title": "Kimchi Burritos with Black Beans & Veggies",
+    "image": "images/kimchi-burritos.webp",
+    "time": "30 min",
+    "tags": [
+      "Vegetarian",
+      "Asian Fusion",
+      "Spicy",
+      "Comfort Food",
+      "Quick Meal"
+    ],
+    "description": "A quick, flavorful fusion burrito combining tangy kimchi, black beans, veggies, rice, and melty cheese. Perfect for a 20–30 minute weeknight dinner with optional spice adjustments.",
+    "style": "Savory, spicy, and tangy fusion burrito filled with kimchi, black beans, rice, and melty cheese"
+  },
+  {
     "slug": "mexican-inspired-black-bean-bowl",
     "title": "Mexican-Inspired Black Bean Bowl",
     "image": "images/mexican-black-bean-bowl.jpg",
@@ -173,6 +231,22 @@
     ],
     "description": "An easy, protein-packed buddha bowl with brown rice, chickpeas, roasted sweet potato, and a punchy peanut-maple dressing.",
     "style": "Simple, nourishing buddha bowl with roasted sweet potato and a creamy peanut dressing."
+  },
+  {
+    "slug": "roasted-eggplant-tomato-orzo",
+    "title": "Roasted Eggplant and Tomato Orzo Pasta",
+    "image": "images/roasted-eggplant-tomato-orzo.jpg",
+    "time": "35 min",
+    "tags": [
+      "Vegetarian",
+      "Mediterranean",
+      "Gluten-Free Option",
+      "Summer",
+      "Healthy",
+      "Weeknight Dinner"
+    ],
+    "description": "A light and fresh pasta dish featuring roasted eggplant and cherry tomatoes tossed with whole wheat orzo, fresh herbs, toasted pine nuts, feta, and a bright lemon-garlic dressing. Perfect for a healthy weeknight dinner.",
+    "style": "Light, fresh, Mediterranean-inspired pasta with roasted eggplant, cherry tomatoes, herbs, and a bright lemon-garlic dressing"
   },
   {
     "slug": "roasted-sweet-potato-black-bean-burrito-bowls",
@@ -225,6 +299,20 @@
     ],
     "description": "Creamy sun-dried tomato borlotti beans paired with tamari-maple roasted aubergine—ready in 30 minutes and perfect for meal prep.",
     "style": "Saucy, creamy, and comforting high-protein beans with sweet-savoury roasted aubergine."
+  },
+  {
+    "slug": "sweet-potato-black-bean-tacos",
+    "title": "Sweet Potato & Black Bean Tacos with Avocado-Pepita Sauce",
+    "image": "images/sweet-potato-black-bean-tacos.jpg",
+    "time": "55–60 min",
+    "tags": [
+      "Vegetarian",
+      "Vegan option",
+      "Gluten-free",
+      "Crowd-pleaser"
+    ],
+    "description": "Roasted sweet potatoes, spiced black beans, and a punchy avocado-pepita sauce layered into warm corn tortillas.",
+    "style": "Hearty roasted veg tacos with creamy, crunchy avocado-pepita sauce"
   },
   {
     "slug": "tahini-chilli-tofu-stir-fry",
