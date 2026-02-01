@@ -1,0 +1,87 @@
+{
+  "slug": "crispy-kimchi-tofu-salad",
+  "title": "Crispy Kimchi Tofu Salad",
+  "image": "images/crispy-kimchi-tofu-salad.jpg",
+  "time": "25–30 min",
+  "servings": 2,
+  "style": "Spicy, crunchy, fresh salad with aggressively crispy tofu and punchy kimchi dressing",
+  "tags": [
+    "Vegan",
+    "Plant-based",
+    "High Protein",
+    "Gluten-free option"
+  ],
+  "categories": [
+    "Lunch",
+    "Salad",
+    "Quick Dinner"
+  ],
+  "keywords": [
+    "kimchi salad",
+    "crispy tofu",
+    "korean-inspired",
+    "vegan salad",
+    "high protein salad"
+  ],
+  "description": "A bold, no-sad-salad bowl with crispy tofu, spicy kimchi dressing, crunchy nuts, and bright fresh elements.",
+  "ingredients": {
+    "sections": [
+      {
+        "title": "Crispy Tofu",
+        "items": [
+          { "qty": "400", "unit": "g", "item": "firm tofu", "note": "pressed and cubed" },
+          { "qty": "1–2", "unit": "tbsp", "item": "soy sauce or tamari" },
+          { "qty": "1", "unit": "tbsp", "item": "cornstarch" },
+          { "qty": "0.5", "unit": "tsp", "item": "garlic powder" },
+          { "qty": "", "unit": "", "item": "white pepper", "note": "pinch" },
+          { "qty": "1", "unit": "tbsp", "item": "oil", "note": "or air-fry instead" }
+        ]
+      },
+      {
+        "title": "Salad",
+        "items": [
+          { "qty": "1", "unit": "cup", "item": "kimchi", "note": "roughly chopped" },
+          { "qty": "", "unit": "", "item": "mixed salad leaves" },
+          { "qty": "1", "unit": "", "item": "cucumber", "note": "ribboned or thinly sliced" },
+          { "qty": "", "unit": "", "item": "spring onions", "note": "sliced" },
+          { "qty": "1", "unit": "", "item": "pear or apple", "note": "thinly sliced" },
+          { "qty": "", "unit": "", "item": "fresh herbs", "note": "mint or coriander" },
+          { "qty": "", "unit": "", "item": "toasted peanuts or cashews" },
+          { "qty": "", "unit": "", "item": "sesame seeds" }
+        ]
+      },
+      {
+        "title": "Kimchi Dressing",
+        "items": [
+          { "qty": "2", "unit": "tbsp", "item": "kimchi juice" },
+          { "qty": "1", "unit": "tbsp", "item": "rice vinegar" },
+          { "qty": "1", "unit": "tsp", "item": "maple syrup" },
+          { "qty": "1", "unit": "tsp", "item": "toasted sesame oil" },
+          { "qty": "0.5", "unit": "tsp", "item": "gochujang" },
+          { "qty": "0.5", "unit": "tsp", "item": "grated garlic or ginger" },
+          { "qty": "", "unit": "", "item": "chilli flakes", "note": "optional" }
+        ]
+      },
+      {
+        "title": "Optional – To Serve",
+        "items": [
+          { "qty": "", "unit": "", "item": "steamed rice or sushi rice" },
+          { "qty": "", "unit": "", "item": "extra kimchi" },
+          { "qty": "", "unit": "", "item": "lime wedges" }
+        ]
+      }
+    ]
+  },
+  "steps": [
+    "<strong>Crispy Tofu:</strong> Toss pressed tofu with soy sauce or tamari, cornstarch, garlic powder, and white pepper until well coated.",
+    "Air-fry at 200°C / 400°F for 15–18 minutes, shaking halfway, or pan-fry in oil until deeply golden and crisp on all sides.",
+    "<strong>Salad Base:</strong> In a large bowl, combine salad leaves, cucumber, spring onions, kimchi, sliced pear or apple, herbs, and nuts.",
+    "<strong>Dressing:</strong> Whisk kimchi juice, rice vinegar, maple syrup, sesame oil, gochujang, garlic or ginger, and chilli flakes until emulsified.",
+    "Toss salad with dressing just to coat. Top with hot crispy tofu and finish with sesame seeds."
+  ],
+  "tips": [
+    "White pepper + garlic powder give tofu a subtle savoury depth without burning.",
+    "Fruit sounds odd — it’s not. It balances heat and funk perfectly.",
+    "Keep tofu separate until serving so it stays loud and crunchy."
+  ]
+}

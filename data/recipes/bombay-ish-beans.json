@@ -1,0 +1,78 @@
+{
+  "slug": "bombay-ish-beans",
+  "title": "Bombay-ish Beans",
+  "image": "images/bombay-ish-beans.webp",
+  "time": "30–35 min",
+  "servings": 3,
+  "style": "Creamy, aromatic Indian-inspired beans with jammy onions and warm spices",
+  "tags": [
+    "Vegan",
+    "Plant-based",
+    "Gluten-free",
+    "High Protein"
+  ],
+  "categories": [
+    "Dinner",
+    "Beans",
+    "One-pot"
+  ],
+  "keywords": [
+    "bombay beans",
+    "indian-style beans",
+    "vegan curry",
+    "white beans",
+    "spiced beans"
+  ],
+  "description": "Comforting, deeply flavoured beans cooked with whole spices, tomatoes, and a creamy nutty finish — rich without heaviness.",
+  "ingredients": {
+    "sections": [
+      {
+        "title": "Beans",
+        "items": [
+          { "qty": "2", "unit": "cans", "item": "mixed beans or white beans", "note": "drained and rinsed" },
+          { "qty": "1", "unit": "tbsp", "item": "coconut oil or olive oil" },
+          { "qty": "0.5", "unit": "tsp", "item": "cumin seeds" },
+          { "qty": "0.5", "unit": "tsp", "item": "mustard seeds" },
+          { "qty": "1", "unit": "", "item": "dried red chilli" },
+          { "qty": "1", "unit": "", "item": "onion", "note": "finely chopped" },
+          { "qty": "2", "unit": "cloves", "item": "garlic", "note": "minced" },
+          { "qty": "1", "unit": "inch", "item": "ginger", "note": "minced" },
+          { "qty": "1", "unit": "tsp", "item": "turmeric" },
+          { "qty": "1", "unit": "tsp", "item": "ground cumin" },
+          { "qty": "0.5", "unit": "tsp", "item": "ground coriander" },
+          { "qty": "1", "unit": "tsp", "item": "garam masala" },
+          { "qty": "400", "unit": "g", "item": "diced tomatoes", "note": "1 can" },
+          { "qty": "240", "unit": "ml", "item": "vegetable stock", "note": "about 1 cup" },
+          { "qty": "1", "unit": "tbsp", "item": "ground roasted peanuts or cashew butter" },
+          { "qty": "0.5", "unit": "tsp", "item": "kasuri methi", "note": "crushed between fingers" },
+          { "qty": "", "unit": "", "item": "salt", "note": "to taste" },
+          { "qty": "0.5", "unit": "", "item": "lemon", "note": "juice" },
+          { "qty": "", "unit": "", "item": "fresh coriander", "note": "chopped" }
+        ]
+      },
+      {
+        "title": "Optional – To Serve",
+        "items": [
+          { "qty": "", "unit": "", "item": "steamed basmati rice" },
+          { "qty": "", "unit": "", "item": "naan or flatbread" },
+          { "qty": "", "unit": "", "item": "coconut milk or vegan yoghurt", "note": "for swirling" },
+          { "qty": "", "unit": "", "item": "extra fresh coriander" }
+        ]
+      }
+    ]
+  },
+  "steps": [
+    "Heat oil in a wide pan over medium heat. Add cumin seeds, mustard seeds, and dried chilli. Let them crackle and become fragrant.",
+    "Add onion with a pinch of salt and cook 10–12 minutes, stirring often, until deeply soft, jammy, and lightly golden.",
+    "Add garlic and ginger; cook 1 minute. Stir in turmeric, ground cumin, coriander, and garam masala; toast briefly.",
+    "Add diced tomatoes and simmer about 5 minutes until thick and cooked down.",
+    "Add beans, vegetable stock, and ground peanuts or cashew butter. Simmer 10–12 minutes until creamy and cohesive.",
+    "Season well with salt. Stir in crushed kasuri methi, lemon juice, and most of the fresh coriander.",
+    "Finish with a swirl of coconut milk or vegan yoghurt if using, and scatter remaining coriander over the top."
+  ],
+  "tips": [
+    "Long-cooked onions are non-negotiable — they’re the backbone of flavour.",
+    "Kasuri methi adds restaurant-level depth; a little goes a long way.",
+    "This thickens as it sits — loosen with hot water or stock if needed."
+  ]
+}

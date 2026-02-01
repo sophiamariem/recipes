@@ -1,0 +1,78 @@
+{
+  "slug": "mexican-inspired-black-bean-bowl",
+  "title": "Mexican-Inspired Black Bean Bowl",
+  "image": "images/mexican-black-bean-bowl.jpg",
+  "time": "30–35 min",
+  "servings": 3,
+  "style": "Smoky, bright, deeply seasoned bean bowl with real texture and contrast",
+  "tags": [
+    "Vegan",
+    "Plant-based",
+    "Gluten-free",
+    "High Protein"
+  ],
+  "categories": [
+    "Dinner",
+    "Bowls",
+    "Weeknight"
+  ],
+  "keywords": [
+    "black bean bowl",
+    "mexican-inspired",
+    "vegan bowl",
+    "smoky beans",
+    "meal bowl"
+  ],
+  "description": "A bold, satisfying black bean bowl with properly bloomed spices, smoky depth, bright lime, and contrasting textures.",
+  "ingredients": {
+    "sections": [
+      {
+        "title": "Black Beans",
+        "items": [
+          { "qty": "2", "unit": "cans", "item": "black beans", "note": "drained and rinsed" },
+          { "qty": "1", "unit": "tbsp", "item": "olive oil" },
+          { "qty": "1", "unit": "", "item": "red bell pepper", "note": "diced" },
+          { "qty": "1", "unit": "", "item": "small red onion", "note": "diced" },
+          { "qty": "1–2", "unit": "cloves", "item": "garlic", "note": "minced" },
+          { "qty": "1", "unit": "tsp", "item": "ground cumin" },
+          { "qty": "1", "unit": "tsp", "item": "chilli powder or smoked paprika" },
+          { "qty": "1", "unit": "tsp", "item": "tomato paste" },
+          { "qty": "0.5", "unit": "tsp", "item": "cocoa powder", "note": "unsweetened" },
+          { "qty": "0.5", "unit": "tsp", "item": "chipotle paste", "note": "or 1/4 tsp liquid smoke" },
+          { "qty": "0.5", "unit": "tsp", "item": "sea salt", "note": "adjust to taste" },
+          { "qty": "1", "unit": "", "item": "lime", "note": "zest and juice" }
+        ]
+      },
+      {
+        "title": "Bowl Add-ins",
+        "items": [
+          { "qty": "1", "unit": "cup", "item": "cooked rice or quinoa", "note": "preferably toasted before cooking" },
+          { "qty": "1", "unit": "cup", "item": "corn kernels", "note": "pan-charred or roasted if possible" },
+          { "qty": "0.5", "unit": "cup", "item": "cherry tomatoes", "note": "halved" },
+          { "qty": "1", "unit": "", "item": "avocado", "note": "diced" },
+          { "qty": "", "unit": "", "item": "fresh cilantro", "note": "chopped" }
+        ]
+      },
+      {
+        "title": "Optional – To Serve",
+        "items": [
+          { "qty": "", "unit": "", "item": "lime-tahini or vegan crema" },
+          { "qty": "", "unit": "", "item": "quick-pickled red onions" },
+          { "qty": "", "unit": "", "item": "extra charred corn or tortilla strips" }
+        ]
+      }
+    ]
+  },
+  "steps": [
+    "Heat olive oil in a wide pan over medium heat. Add red onion and bell pepper with a pinch of salt and cook until soft and lightly caramelised.",
+    "Add garlic, cumin, chilli powder or smoked paprika, tomato paste, and cocoa powder. Cook, stirring constantly, until the mixture darkens to a brick-red colour and smells deeply fragrant.",
+    "Stir in chipotle paste (or liquid smoke), then add black beans and salt. Cook a few minutes until beans are hot and well coated.",
+    "Remove from heat and finish with lime zest and juice.",
+    "Build bowls with rice or quinoa, black beans, corn, cherry tomatoes, and avocado. Finish with fresh cilantro and any optional toppings."
+  ],
+  "tips": [
+    "Blooming spices with tomato paste transforms canned beans into something slow-cooked.",
+    "Cocoa adds depth, not chocolate — you shouldn’t taste it.",
+    "Lime zest at the end is non-negotiable for balance."
+  ]
+}

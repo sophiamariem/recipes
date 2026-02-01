@@ -14,6 +14,20 @@
     "style": "Hearty, smoky plant-based chilli with protein-rich beans and lentils"
   },
   {
+    "slug": "bombay-ish-beans",
+    "title": "Bombay-ish Beans",
+    "image": "images/bombay-ish-beans.webp",
+    "time": "30–35 min",
+    "tags": [
+      "Vegan",
+      "Plant-based",
+      "Gluten-free",
+      "High Protein"
+    ],
+    "description": "Comforting, deeply flavoured beans cooked with whole spices, tomatoes, and a creamy nutty finish — rich without heaviness.",
+    "style": "Creamy, aromatic Indian-inspired beans with jammy onions and warm spices"
+  },
+  {
     "slug": "carrot-dal-tempeh-breadcrumbs",
     "title": "Carrot Dal with Tempeh Breadcrumbs",
     "image": "images/carrot-dal.jpg",
@@ -95,6 +109,20 @@
     "style": "Ultra-crispy tofu tossed in a sticky, spicy chilli-garlic sauce."
   },
   {
+    "slug": "crispy-kimchi-tofu-salad",
+    "title": "Crispy Kimchi Tofu Salad",
+    "image": "images/crispy-kimchi-tofu-salad.jpg",
+    "time": "25–30 min",
+    "tags": [
+      "Vegan",
+      "Plant-based",
+      "High Protein",
+      "Gluten-free option"
+    ],
+    "description": "A bold, no-sad-salad bowl with crispy tofu, spicy kimchi dressing, crunchy nuts, and bright fresh elements.",
+    "style": "Spicy, crunchy, fresh salad with aggressively crispy tofu and punchy kimchi dressing"
+  },
+  {
     "slug": "vegan-protein-salad",
     "title": "High-Protein Vegan Salad",
     "image": "images/vegan-protein-salad.jpg",
@@ -121,6 +149,20 @@
     "style": "Crispy, spice-roasted okra with classic Kerala flavours and zero slime."
   },
   {
+    "slug": "mexican-inspired-black-bean-bowl",
+    "title": "Mexican-Inspired Black Bean Bowl",
+    "image": "images/mexican-black-bean-bowl.jpg",
+    "time": "30–35 min",
+    "tags": [
+      "Vegan",
+      "Plant-based",
+      "Gluten-free",
+      "High Protein"
+    ],
+    "description": "A bold, satisfying black bean bowl with properly bloomed spices, smoky depth, bright lime, and contrasting textures.",
+    "style": "Smoky, bright, deeply seasoned bean bowl with real texture and contrast"
+  },
+  {
     "slug": "protein-packed-buddha-bowl",
     "title": "Protein-Packed Buddha Bowl",
     "image": "images/protein-packed-buddha-bowl.jpg",
@@ -143,6 +185,20 @@
     ],
     "description": "Hearty burrito bowls with spiced roasted sweet potatoes, homemade refried black beans, and cilantro-lime rice.",
     "style": "Colorful vegan burrito bowls with roasted sweet potatoes, creamy refried black beans, and herbed rice."
+  },
+  {
+    "slug": "spiced-chickpea-orecchiette",
+    "title": "Spiced Chickpea Orecchiette",
+    "image": "images/spiced-chickpea-orecchiette.jpg",
+    "time": "25–30 min",
+    "tags": [
+      "Vegan",
+      "Plant-based",
+      "Dairy-free",
+      "Quick Dinner"
+    ],
+    "description": "Orecchiette tossed in a naturally creamy chickpea sauce with warm spices, lemon, capers, and fresh herbs.",
+    "style": "Glossy, flavour-layered pasta with spiced chickpeas and fresh herbs"
   },
   {
     "slug": "sticky-tofu-mushroom-bowl",
