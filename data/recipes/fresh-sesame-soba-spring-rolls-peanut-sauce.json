@@ -1,0 +1,81 @@
+{
+  "slug": "fresh-sesame-soba-spring-rolls-peanut-sauce",
+  "title": "Fresh Sesame Soba Spring Rolls with Peanut Dipping Sauce",
+  "image": "images/fresh-sesame-soba-spring-rolls.webp",
+  "time": "30–40 min",
+  "servings": 6,
+  "style": "Nutty and fresh Japanese-Vietnamese fusion spring rolls served with a creamy peanut dipping sauce",
+  "tags": [
+    "Vegan",
+    "Gluten-free",
+    "Dairy-free",
+    "Spicy",
+    "Summer"
+  ],
+  "categories": [
+    "Lunch",
+    "Appetizer",
+    "Fusion"
+  ],
+  "keywords": [
+    "soba noodles",
+    "spring rolls",
+    "peanut sauce",
+    "fresh rolls",
+    "vegan appetizer"
+  ],
+  "description": "These fresh spring rolls combine Japanese soba noodles with classic Vietnamese rice paper rolls. Crunchy veggies and creamy peanut sauce make them a refreshing and flavorful plant-based snack or light meal.",
+  "ingredients": {
+    "sections": [
+      {
+        "title": "Soba Noodles",
+        "items": [
+          { "qty": "113", "unit": "g", "item": "soba noodles" },
+          { "qty": "1", "unit": "tbsp", "item": "sesame seeds" },
+          { "qty": "2", "unit": "tsp", "item": "toasted sesame oil" }
+        ]
+      },
+      {
+        "title": "Peanut Dipping Sauce",
+        "items": [
+          { "qty": "83", "unit": "g", "item": "creamy peanut butter" },
+          { "qty": "2", "unit": "tbsp", "item": "rice vinegar or white wine vinegar" },
+          { "qty": "2", "unit": "tbsp", "item": "reduced-sodium tamari or soy sauce" },
+          { "qty": "2", "unit": "tbsp", "item": "honey" },
+          { "qty": "1", "unit": "tbsp", "item": "lime juice", "note": "or more if needed" },
+          { "qty": "2", "unit": "tsp", "item": "toasted sesame oil" },
+          { "qty": "1", "unit": "tsp", "item": "grated fresh ginger or ground ginger (1/4 tsp)" },
+          { "qty": "2", "unit": "cloves", "item": "garlic", "note": "medium - pressed or minced" },
+          { "qty": "pinch", "unit": "", "item": "red pepper flakes" }
+        ]
+      },
+      {
+        "title": "Spring Roll Fillings",
+        "items": [
+          { "qty": "1", "unit": "", "item": "large carrot", "note": "julienned" },
+          { "qty": "2", "unit": "", "item": "Persian cucumbers or 1 small cucumber", "note": "julienned" },
+          { "qty": "6-8", "unit": "", "item": "rice papers" },
+          { "qty": "2", "unit": "", "item": "medium jalapeños", "note": "seeded, deribbed, sliced into thin strips" },
+          { "qty": "1", "unit": "", "item": "avocado", "note": "cut into long thin strips" },
+          { "qty": "1/4", "unit": "cup", "item": "chopped green onions", "note": "about 2 stalks" },
+          { "qty": "handful", "unit": "", "item": "fresh cilantro leaves", "note": "chopped" }
+        ]
+      }
+    ]
+  },
+  "steps": [
+    "Bring a large pot of salted water to a boil. Cook the soba noodles just until al dente according to package directions. Rinse under cold water, drain, and return to the pot. Toss with sesame seeds and toasted sesame oil. Set aside.",
+    "In a small bowl, whisk together peanut butter, vinegar, tamari, honey, lime juice, sesame oil, ginger, garlic, and red pepper flakes until smooth. If too thick, add more lime juice. Set aside.",
+    "Use a julienne peeler or vegetable peeler to create long 'noodles' from the carrot and cucumber. Toss with the soba noodles.",
+    "Fill a shallow pan larger than the rice papers with warm water. Fold a lint-free tea towel in half and place next to the pan. Make sure fillings are within reach.",
+    "Soak one rice paper in warm water for about 20 seconds until pliable but not floppy. Lay flat on the towel.",
+    "Place a handful of soba, carrot, and cucumber noodles on the lower third of the rice paper, leaving about 1 inch around the edges. Top with jalapeño and avocado strips, then sprinkle with green onions and cilantro.",
+    "Fold the lower edge over the filling, fold the sides in like a burrito, and roll tightly to seal. Repeat with remaining ingredients.",
+    "Slice rolls diagonally to serve (optional). Serve with peanut dipping sauce. Leftover sauce can be used as a veggie dip."
+  ],
+  "tips": [
+    "Substitute almond butter or sunflower butter if serving someone with a peanut allergy.",
+    "Use gluten-free tamari and 100% buckwheat soba noodles for gluten-free version, or increase veggies if buckwheat soba is unavailable.",
+    "Use maple syrup instead of honey for vegan version."
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "slug": "sun-dried-tomato-fettuccine-alfredo",
+  "title": "Sun-Dried Tomato Fettuccine Alfredo with Spinach",
+  "image": "images/sun-dried-tomato-fettuccine-alfredo.jpg",
+  "time": "30–35 min",
+  "servings": 4,
+  "style": "Creamy, tangy cashew-based sauce with spinach and sun-dried tomatoes, perfect for a plant-powered weeknight meal",
+  "tags": [
+    "Vegan",
+    "Gluten-free",
+    "Comfort Food"
+  ],
+  "categories": [
+    "Dinner",
+    "Pasta",
+    "Italian-inspired"
+  ],
+  "keywords": [
+    "fettuccine alfredo",
+    "sun-dried tomatoes",
+    "cashew sauce",
+    "spinach pasta",
+    "vegan alfredo"
+  ],
+  "description": "This dairy-free fettuccine uses cashews blended with pasta water and lemon juice for a rich, creamy sauce. Sun-dried tomatoes and spinach add flavor and nutrition for a satisfying, plant-based comfort meal.",
+  "ingredients": {
+    "sections": [
+      {
+        "title": "Pasta and Spinach",
+        "items": [
+          { "qty": "226", "unit": "g", "item": "fettuccine or linguine pasta", "note": "whole grain or gluten-free" },
+          { "qty": "2", "unit": "tbsp", "item": "olive oil" },
+          { "qty": "4", "unit": "cloves", "item": "garlic", "note": "pressed or minced" },
+          { "qty": "", "unit": "", "item": "fine sea salt" },
+          { "qty": "140-170", "unit": "g", "item": "baby spinach", "note": "5-6 packed cups" },
+        ]
+      },
+      {
+        "title": "Cashew Alfredo Sauce",
+        "items": [
+          { "qty": "120", "unit": "g", "item": "raw cashews", "note": "soaked at least 4 hours if using a regular blender" },
+          { "qty": "2", "unit": "tbsp", "item": "lemon juice" },
+          { "qty": "0.5", "unit": "tsp", "item": "salt", "note": "adjust to taste" }
+        ]
+      },
+      {
+        "title": "Other Flavorings",
+        "items": [
+          { "qty": "30", "unit": "g", "item": "sun-dried tomatoes", "note": "drained and chopped" },
+          { "qty": "2", "unit": "tbsp", "item": "grated Parmesan cheese", "note": "optional or vegan alternative" },
+          { "qty": "1", "unit": "tbsp", "item": "fresh basil", "note": "chopped" },
+          { "qty": "pinch", "unit": "", "item": "red pepper flakes", "note": "optional" }
+        ]
+      }
+    ]
+  },
+  "steps": [
+    "Bring a large pot of salted water to boil. Cook the pasta until al dente according to package directions. Reserve about 120 ml of pasta cooking water before draining. Return pasta to the pot.",
+    "Meanwhile, in a large skillet, warm olive oil over medium heat. Add garlic and a pinch of salt; cook 20 seconds until fragrant. Add spinach in batches, stirring until wilted. Remove from heat.",
+    "Drain soaked cashews and rinse. In a blender, combine cashews with 120 ml reserved pasta water, lemon juice, and 0.5 tsp salt. Blend until smooth. Add more pasta water if needed to reach desired sauce consistency.",
+    "In a large serving bowl, combine cooked pasta, spinach mixture, sun-dried tomatoes, and cashew sauce. Toss gently to coat. Adjust salt as needed; add a splash of pasta water if sauce is too thick.",
+    "Portion pasta into bowls. Top with grated Parmesan or vegan alternative, chopped basil, and red pepper flakes if desired. Serve immediately.",
+    "Store leftovers in the fridge up to 4 days. Reheat gently before serving."
+  ],
+  "tips": [
+    "Soak cashews at least 4 hours for a smooth sauce if using a standard blender. A high-powered blender reduces soaking time.",
+    "Use whole grain or gluten-free pasta to add fiber and plant-based protein.",
+    "This sauce can be stored separately and gently reheated with a splash of water or plant milk."
+  ]
+}

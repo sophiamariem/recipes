@@ -30,7 +30,7 @@
       {
         "title": "Base",
         "items": [
-          { "qty": "200", "unit": "g", "item": "brown rice", "note": "short-grain preferred, dry weight" },
+          { "qty": "245", "unit": "g", "item": "brown rice or Arborio", "note": "short-grain preferred, dry weight" },
           { "qty": "", "unit": "", "item": "fine sea salt", "note": "to taste" }
         ]
       },
@@ -54,14 +54,14 @@
       {
         "title": "Peanut Sauce",
         "items": [
-          { "qty": "130", "unit": "g", "item": "creamy peanut butter" },
+          { "qty": "64", "unit": "g", "item": "creamy peanut butter" },
           { "qty": "2", "unit": "tbsp", "item": "reduced-sodium tamari or soy sauce" },
           { "qty": "1", "unit": "tbsp", "item": "rice vinegar" },
           { "qty": "20", "unit": "g", "item": "maple syrup" },
           { "qty": "2", "unit": "tsp", "item": "toasted sesame oil" },
           { "qty": "1", "unit": "clove", "item": "garlic", "note": "finely minced" },
           { "qty": "1", "unit": "pinch", "item": "red pepper flakes" },
-          { "qty": "15–30", "unit": "ml", "item": "water", "note": "as needed for consistency" }
+          { "qty": "1-2", "unit": "tbsp", "item": "water", "note": "as needed for consistency" }
         ]
       },
       {

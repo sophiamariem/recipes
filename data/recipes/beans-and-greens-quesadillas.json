@@ -1,0 +1,72 @@
+{
+  "slug": "beans-and-greens-quesadillas",
+  "title": "Beans and Greens Quesadillas",
+  "image": "images/beans-and-greens-quesadillas.jpg",
+  "time": "25–30 min",
+  "servings": 4,
+  "style": "Southern/Tex-Mex mash-up with garlicky collard greens, pinto beans, and melted cheese",
+  "tags": [
+    "Gluten-free",
+    "Comfort Food",
+    "Mexican"
+  ],
+  "categories": [
+    "Lunch",
+    "Dinner",
+    "Beans"
+  ],
+  "keywords": [
+    "quesadillas",
+    "collard greens",
+    "pinto beans",
+    "vegan quesadilla",
+    "mexican-style"
+  ],
+  "description": "Crispy tortillas filled with garlicky collard greens, pinto beans, and melted cheese. Perfect for a quick lunch or dinner.",
+  "ingredients": {
+    "sections": [
+      {
+        "title": "Collard Greens",
+        "items": [
+          { "qty": "226-340", "unit": "g", "item": "collard greens", "note": "stems removed, thinly sliced" },
+          { "qty": "1", "unit": "tbsp", "item": "olive oil" },
+          { "qty": "pinch", "unit": "", "item": "sea salt" },
+          { "qty": "2", "unit": "clove", "item": "garlic", "note": "pressed or minced" },
+          { "qty": "pinch", "unit": "", "item": "red pepper flakes" },
+          { "qty": "pinch", "unit": "", "item": "black pepper" },
+          { "qty": "1/2", "unit": "tsp", "item": "apple cider vinegar or lemon juice" }
+        ]
+      },
+      {
+        "title": "Quesadillas",
+        "items": [
+          { "qty": "4", "unit": "", "item": "tortillas", "note": "gluten-free if needed" },
+          { "qty": "226", "unit": "g", "item": "shredded cheese", "note": "mild cheddar or Monterey Jack" },
+          { "qty": "1", "unit": "can", "item": "pinto beans", "note": "cooked or canned, drained and rinsed" },
+          { "qty": "", "unit": "", "item": "avocado oil or vegetable oil", "note": "for brushing and cooking" }
+        ]
+      },
+      {
+        "title": "To Serve",
+        "items": [
+          { "qty": "", "unit": "", "item": "salsa" },
+          { "qty": "", "unit": "", "item": "guacamole" },
+          { "qty": "", "unit": "", "item": "sour cream or cashew cream" }
+        ]
+      }
+    ]
+  },
+  "steps": [
+    "Prepare the collard greens: remove the center ribs, stack, roll, and thinly slice into ribbons. Chop lightly if needed.",
+    "In a large skillet, heat 1 tbsp olive oil over medium heat. Add collard greens and pinch of salt. Cook 4–6 minutes, stirring often, until wilted and slightly charred.",
+    "Add garlic, red pepper flakes, and black pepper. Stir 1 minute until fragrant. Mix in vinegar and remove from heat. Transfer to a bowl to cool.",
+    "To make quesadillas: Heat a medium skillet over medium heat. Warm 1 tortilla for 30 seconds per side. Sprinkle half with 30 g shredded cheese, 60 g cooked collard greens, 60 g pinto beans, then another 30 g cheese. Fold over.",
+    "Brush top with 0.25 tbsp olive oil. Flip carefully and cook 1–2 minutes until golden. Brush other side and cook until crispy. Repeat with remaining tortillas.",
+    "Slice each quesadilla into 3 pieces. Serve immediately with salsa, guacamole, or sour cream/cashew cream. Store leftovers in fridge up to 4 days and reheat gently."
+  ],
+  "tips": [
+    "Use gluten-free tortillas if needed.",
+    "Omit cheese and use cashew cream for a vegan/dairy-free option.",
+    "For extra flavor, lightly char the collard greens before assembling the quesadillas."
+  ]
+}
