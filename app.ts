@@ -237,13 +237,14 @@ function initHome(){
   if (recipeCount) recipeCount.textContent = String(INDEX.length);
   if (tagCount) tagCount.textContent = String(allTags.length);
   const otherTags = allTags.filter(tag => tag !== UNDER_30_TAG && tag !== 'High Protein');
-  const FILTERS = ['★ Starred', UNDER_30_TAG, 'High Protein', ...otherTags];
+  const STARRED_LABEL = '★ Starred';
+  const FILTERS = [STARRED_LABEL, UNDER_30_TAG, 'High Protein', ...otherTags];
 
   let SHOW_ALL_TAGS = false;
   function renderFilters(){
     filtersEl!.innerHTML = '';
     
-    const visibleCount = 5;
+    const visibleCount = window.innerWidth < 600 ? 5 : 10;
     const itemsToShow = SHOW_ALL_TAGS ? FILTERS : FILTERS.slice(0, visibleCount);
 
     itemsToShow.forEach(tag => {
@@ -266,13 +267,17 @@ function initHome(){
     }
   }
 
+  window.addEventListener('resize', () => {
+    if (!SHOW_ALL_TAGS) renderFilters();
+  });
+
   function renderList(){
     grid!.innerHTML = '';
     const q = (searchInput?.value || '').trim().toLowerCase();
     const favs = getFavs();
 
     let items = INDEX
-      .filter(r => !ACTIVE_TAG || (ACTIVE_TAG === '★ Starred' ? favs.has(r.slug) : (getEffectiveTags(r) as string[]).includes(ACTIVE_TAG)))
+      .filter(r => !ACTIVE_TAG || (ACTIVE_TAG === STARRED_LABEL ? favs.has(r.slug) : (getEffectiveTags(r) as string[]).includes(ACTIVE_TAG)))
       .filter(r => {
         if (!q) return true;
         const hay = [r.title, r.description, r.style, ...getEffectiveTags(r)].join(' ').toLowerCase();
@@ -440,11 +445,24 @@ function renderIngredientSections(r: Recipe){
   `).join('');
 }
 
+function parseQty(s: string): number {
+  if (s.includes('/')) {
+    const [num, den] = s.split('/').map(n => parseFloat(n.trim()));
+    if (!isNaN(num) && !isNaN(den) && den !== 0) return num / den;
+  }
+  if (s.includes('-') || s.includes('–')) {
+    const parts = s.split(/[-–]/).map(n => parseFloat(n.trim()));
+    const validParts = parts.filter(n => !isNaN(n));
+    if (validParts.length > 0) return validParts.reduce((a, b) => a + b, 0) / validParts.length;
+  }
+  return parseFloat(s);
+}
+
 function renderQty(line: any){
   if (typeof line === 'string') return escapeHtml(line);
-  const hasNumQty = line.qty && /^\d+(?:[\./-]\d+)?/.test(String(line.qty));
+  const hasNumQty = line.qty && /^\d+(?:[\./\s-–]\d+)?/.test(String(line.qty));
   const qtyPart = hasNumQty
-    ? `<strong data-qty data-qty-base="${parseFloat(line.qty)}" data-qty-display="${escapeHtml(line.qty)}">${escapeHtml(line.qty)}</strong>`
+    ? `<strong data-qty data-qty-base="${parseQty(String(line.qty))}" data-qty-display="${escapeHtml(line.qty)}">${escapeHtml(line.qty)}</strong>`
     : (line.qty ? `<strong>${escapeHtml(line.qty)}</strong>` : '');
   const unit = line.unit ? ` ${escapeHtml(line.unit)}` : '';
   const item = line.item ? ` ${escapeHtml(line.item)}` : '';
