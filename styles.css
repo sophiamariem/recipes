@@ -303,6 +303,17 @@ body > * {
   transform: translateY(-1px);
 }
 
+.tag-more {
+  background: color-mix(in srgb, var(--chip-bg) 60%, white);
+  border-style: dashed;
+  font-weight: 500;
+}
+
+.tag-more:hover {
+  opacity: 1;
+  background: var(--chip-bg);
+}
+
 .tag:focus {
   outline: 2px solid color-mix(in srgb, var(--accent) 70%, transparent);
   outline-offset: 2px;
@@ -363,6 +374,13 @@ body > * {
   border: 1px solid var(--chip-border);
   background: var(--chip-bg);
   color: var(--chip-text);
+  white-space: nowrap;
+}
+
+.hp-tag {
+  border-color: var(--accent) !important;
+  color: var(--accent) !important;
+  font-weight: 600;
 }
 
 .card-star {

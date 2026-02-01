@@ -190,11 +190,22 @@ function timeToMinutes(str) {
 }
 
 const UNDER_30_TAG = 'Under 30 min';
+const APPROVED_TAGS = [
+  'Vegan', 'High Protein', 'Gluten-free', 'Dairy-free', 'Spicy', 
+  'One-pan', 'Comfort Food', 'Mexican', 'South Indian', 'Summer'
+];
+
 function getEffectiveTags(recipe) {
-  const tags = Array.isArray(recipe.tags) ? [...recipe.tags] : [];
+  let tags = Array.isArray(recipe.tags) ? [...recipe.tags] : [];
+  tags = tags.filter(t => APPROVED_TAGS.includes(t));
+  
   const minutes = timeToMinutes(recipe.time);
-  if (minutes !== null && minutes <= 30 && !tags.includes(UNDER_30_TAG)) {
-    tags.push(UNDER_30_TAG);
+  if (minutes !== null && minutes <= 30) {
+    if (!tags.includes(UNDER_30_TAG)) tags.unshift(UNDER_30_TAG);
+    if (!tags.includes('High Protein')) {
+      const idx = tags.indexOf(UNDER_30_TAG);
+      tags.splice(idx + 1, 0, 'High Protein');
+    }
   }
   return tags;
 }
@@ -225,20 +236,34 @@ function initHome(){
   const allTags = [...new Set(INDEX.flatMap(r => getEffectiveTags(r)))].sort();
   if (recipeCount) recipeCount.textContent = String(INDEX.length);
   if (tagCount) tagCount.textContent = String(allTags.length);
-  const otherTags = allTags.filter(tag => tag !== UNDER_30_TAG);
-  const FILTERS = ['★ Starred', UNDER_30_TAG, ...otherTags];
+  const otherTags = allTags.filter(tag => tag !== UNDER_30_TAG && tag !== 'High Protein');
+  const FILTERS = ['★ Starred', UNDER_30_TAG, 'High Protein', ...otherTags];
 
+  let SHOW_ALL_TAGS = false;
   function renderFilters(){
     filtersEl.innerHTML = '';
-    FILTERS.forEach(tag => {
+    
+    const visibleCount = 5;
+    const itemsToShow = SHOW_ALL_TAGS ? FILTERS : FILTERS.slice(0, visibleCount);
+
+    itemsToShow.forEach(tag => {
       const b = document.createElement('button');
       b.className = 'tag' + (ACTIVE_TAG === tag ? ' active' : '');
       b.type = 'button';
       b.textContent = tag;
       b.setAttribute('aria-pressed', ACTIVE_TAG === tag ? 'true' : 'false');
-      b.onclick = () => { ACTIVE_TAG = (ACTIVE_TAG === tag ? null : tag); renderList(); };
+      b.onclick = () => { ACTIVE_TAG = (ACTIVE_TAG === tag ? null : tag); renderList(); renderFilters(); };
       filtersEl.appendChild(b);
     });
+
+    if (FILTERS.length > visibleCount) {
+      const moreBtn = document.createElement('button');
+      moreBtn.className = 'tag tag-more';
+      moreBtn.type = 'button';
+      moreBtn.textContent = SHOW_ALL_TAGS ? 'Show less' : `+${FILTERS.length - visibleCount} more`;
+      moreBtn.onclick = () => { SHOW_ALL_TAGS = !SHOW_ALL_TAGS; renderFilters(); };
+      filtersEl.appendChild(moreBtn);
+    }
   }
 
   function renderList(){
@@ -279,7 +304,15 @@ function initHome(){
           <h2 class="card-title">${escapeHtml(r.title)}</h2>
           <div class="card-meta">
             ${r.time ? `<span>${r.time}</span>` : ''}
-            ${getEffectiveTags(r).slice(0,2).map(t => `<span>${escapeHtml(t)}</span>`).join('')}
+            ${(() => {
+              const tags = getEffectiveTags(r);
+              // Ensure High Protein is always visible if it exists
+              let visibleTags = tags.slice(0, 3);
+              if (tags.includes('High Protein') && !visibleTags.includes('High Protein')) {
+                visibleTags[2] = 'High Protein';
+              }
+              return visibleTags.map(t => `<span class="${t === 'High Protein' ? 'hp-tag' : ''}">${escapeHtml(t)}</span>`).join('');
+            })()}
           </div>
         </div>`;
       card.querySelector('.star-btn').addEventListener('click', (ev) => {
