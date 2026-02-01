@@ -1,0 +1,26 @@
+{
+  "name": "my-recipes",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sophiamariem/recipes.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/sophiamariem/recipes/issues"
+  },
+  "homepage": "https://github.com/sophiamariem/recipes#readme",
+  "devDependencies": {
+    "typescript": "^5.9.3"
+  }
+}

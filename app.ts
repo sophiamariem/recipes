@@ -1,22 +1,24 @@
 // Utility (dev-safe banner)
+import { Recipe, ApprovedTag, validateRecipeTags, APPROVED_TAGS, normalizeUnits } from './recipe.ts';
+
 console.log('Sophia\'s Recipes - dev-safe build');
 
-const qs  = (s, el = document) => el.querySelector(s);
-const qsa = (s, el = document) => [...el.querySelectorAll(s)];
-const byId = id => document.getElementById(id);
+const qs  = (s: string, el: ParentNode = document) => el.querySelector(s);
+const qsa = (s: string, el: ParentNode = document) => [...el.querySelectorAll(s)] as HTMLElement[];
+const byId = (id: string) => document.getElementById(id);
 
 // --- helpers (defined early) ---
-function escapeHtml(s) {
+function escapeHtml(s: string | number | boolean | null | undefined): string {
   return String(s).replace(/[&<>"']/g, m => (
-    { '&':'&amp;', '<':'&lt;', '>':'&gt;', '"':'&quot;', "'":'&#39;' }[m]
+    ({ '&':'&amp;', '<':'&lt;', '>':'&gt;', '"':'&quot;', "'":'&#39;' } as Record<string, string>)[m] || m
   ));
 }
-function formatQty(n) {
+function formatQty(n: number) {
   const s = (Math.round(n*100)/100).toFixed(2).replace(/\.?0+$/,'');
   return s;
 }
 
-function showToast(message) {
+function showToast(message: string) {
   const host = byId('toastHost');
   if (!host) return;
   const toast = document.createElement('div');
@@ -30,13 +32,13 @@ function showToast(message) {
   }, 2200);
 }
 
-let alarmAudioCtx = null;
+let alarmAudioCtx: AudioContext | null = null;
 function playAlarmSound() {
   try {
-    const AudioCtx = window.AudioContext || window.webkitAudioContext;
+    const AudioCtx = window.AudioContext || (window as any).webkitAudioContext;
     if (!AudioCtx) return;
     alarmAudioCtx = alarmAudioCtx || new AudioCtx();
-    const ctx = alarmAudioCtx;
+    const ctx = alarmAudioCtx!;
     const osc = ctx.createOscillator();
     const gain = ctx.createGain();
     osc.type = 'sine';
@@ -59,7 +61,7 @@ async function maybeRequestNotificationPermission() {
   try { await Notification.requestPermission(); } catch {}
 }
 
-async function notifyTimerDone(title, body) {
+async function notifyTimerDone(title: string, body: string) {
   if (!('Notification' in window)) return false;
   if (Notification.permission !== 'granted') return false;
   try {
@@ -71,7 +73,7 @@ async function notifyTimerDone(title, body) {
         renotify: true,
         icon: 'icons/icon-192.png',
         badge: 'icons/icon-192.png'
-      });
+      } as any);
       return true;
     }
   } catch {}
@@ -86,11 +88,11 @@ function initWakeLockButton() {
   const btn = byId('keepAwakeBtn');
   if (!btn) return;
 
-  let wakeLock = null;
+  let wakeLock: any = null;
   let wantWake = false;
 
   function updateButton() {
-    btn.setAttribute('aria-pressed', String(wantWake));
+    btn!.setAttribute('aria-pressed', String(wantWake));
   }
 
   async function requestWakeLock(silent = false) {
@@ -101,7 +103,7 @@ function initWakeLockButton() {
       return;
     }
     try {
-      wakeLock = await navigator.wakeLock.request('screen');
+      wakeLock = await (navigator as any).wakeLock.request('screen');
       if (!silent) showToast('Screen will stay awake');
       wakeLock.addEventListener('release', () => {
         wakeLock = null;
@@ -154,7 +156,7 @@ function initThemeToggle() {
   const stored = localStorage.getItem(storageKey);
   let theme = stored || (prefersDark ? 'dark' : 'light');
 
-  function apply(next) {
+  function apply(next: string) {
     theme = next;
     document.documentElement.setAttribute('data-theme', theme);
     localStorage.setItem(storageKey, theme);
@@ -172,32 +174,28 @@ function initThemeToggle() {
 }
 
 // Favorites (localStorage)
-let INDEX = [];
-let ACTIVE_TAG = null;
+let INDEX: Recipe[] = [];
+let ACTIVE_TAG: string | null = null;
 const FAV_KEY = 'sophias.favorites.v1';
-function getFavs(){ try { return new Set(JSON.parse(localStorage.getItem(FAV_KEY) || '[]')); } catch { return new Set(); } }
-function saveFavs(set){ localStorage.setItem(FAV_KEY, JSON.stringify([...set])); }
-function toggleFav(slug){ const f = getFavs(); f.has(slug) ? f.delete(slug) : f.add(slug); saveFavs(f); return f.has(slug); }
-function isFav(slug){ return getFavs().has(slug); }
+function getFavs(): Set<string> { try { return new Set(JSON.parse(localStorage.getItem(FAV_KEY) || '[]')); } catch { return new Set(); } }
+function saveFavs(set: Set<string>){ localStorage.setItem(FAV_KEY, JSON.stringify([...set])); }
+function toggleFav(slug: string){ const f = getFavs(); f.has(slug) ? f.delete(slug) : f.add(slug); saveFavs(f); return f.has(slug); }
+function isFav(slug: string){ return getFavs().has(slug); }
 
 // Convert time string (e.g., "12-15 min", "30 min") to minutes
-function timeToMinutes(str) {
+function timeToMinutes(str: string | undefined): number | null {
   if (!str) return null;
   const range = str.match(/(\d+)\s*[-–to]+\s*(\d+)/i);
-  if (range) return Math.round((+range[1] + +range[2]) / 2);
+  if (range && range[1] && range[2]) return Math.round((+range[1] + +range[2]) / 2);
   const single = str.match(/(\d+)/);
-  return single ? +single[1] : null;
+  return (single && single[1]) ? +single[1] : null;
 }
 
 const UNDER_30_TAG = 'Under 30 min';
-const APPROVED_TAGS = [
-  'Vegan', 'High Protein', 'Gluten-free', 'Dairy-free', 'Spicy', 
-  'One-pan', 'Comfort Food', 'Mexican', 'South Indian', 'Summer'
-];
 
-function getEffectiveTags(recipe) {
+function getEffectiveTags(recipe: Recipe | { tags: string[], time?: string }): (ApprovedTag | typeof UNDER_30_TAG)[] {
   let tags = Array.isArray(recipe.tags) ? [...recipe.tags] : [];
-  tags = tags.filter(t => APPROVED_TAGS.includes(t));
+  tags = tags.filter(t => (APPROVED_TAGS as readonly string[]).includes(t));
   
   const minutes = timeToMinutes(recipe.time);
   if (minutes !== null && minutes <= 30) {
@@ -207,7 +205,7 @@ function getEffectiveTags(recipe) {
       tags.splice(idx + 1, 0, 'High Protein');
     }
   }
-  return tags;
+  return tags as (ApprovedTag | typeof UNDER_30_TAG)[];
 }
 
 // PWA registration (production only; disabled on localhost/127.x)
@@ -221,13 +219,15 @@ if ('serviceWorker' in navigator && !/^(localhost|127\.0\.0\.1)$/.test(location.
 async function loadIndex(){
   const r = await fetch('data/recipes/_index.json');
   INDEX = await r.json();
+  // Basic validation for index items
+  INDEX.forEach((r: any) => validateRecipeTags(r.tags));
   initHome();
 }
 
 function initHome(){
   const grid = byId('recipeGrid');
   const filtersEl = byId('filters');
-  const searchInput = byId('searchInput');
+  const searchInput = byId('searchInput') as HTMLInputElement;
   const emptyState = byId('emptyState');
   const recipeCount = byId('recipeCount');
   const tagCount = byId('tagCount');
@@ -241,7 +241,7 @@ function initHome(){
 
   let SHOW_ALL_TAGS = false;
   function renderFilters(){
-    filtersEl.innerHTML = '';
+    filtersEl!.innerHTML = '';
     
     const visibleCount = 5;
     const itemsToShow = SHOW_ALL_TAGS ? FILTERS : FILTERS.slice(0, visibleCount);
@@ -253,7 +253,7 @@ function initHome(){
       b.textContent = tag;
       b.setAttribute('aria-pressed', ACTIVE_TAG === tag ? 'true' : 'false');
       b.onclick = () => { ACTIVE_TAG = (ACTIVE_TAG === tag ? null : tag); renderList(); renderFilters(); };
-      filtersEl.appendChild(b);
+      filtersEl!.appendChild(b);
     });
 
     if (FILTERS.length > visibleCount) {
@@ -262,17 +262,17 @@ function initHome(){
       moreBtn.type = 'button';
       moreBtn.textContent = SHOW_ALL_TAGS ? 'Show less' : `+${FILTERS.length - visibleCount} more`;
       moreBtn.onclick = () => { SHOW_ALL_TAGS = !SHOW_ALL_TAGS; renderFilters(); };
-      filtersEl.appendChild(moreBtn);
+      filtersEl!.appendChild(moreBtn);
     }
   }
 
   function renderList(){
-    grid.innerHTML = '';
+    grid!.innerHTML = '';
     const q = (searchInput?.value || '').trim().toLowerCase();
     const favs = getFavs();
 
     let items = INDEX
-      .filter(r => !ACTIVE_TAG || (ACTIVE_TAG === '★ Starred' ? favs.has(r.slug) : getEffectiveTags(r).includes(ACTIVE_TAG)))
+      .filter(r => !ACTIVE_TAG || (ACTIVE_TAG === '★ Starred' ? favs.has(r.slug) : (getEffectiveTags(r) as string[]).includes(ACTIVE_TAG)))
       .filter(r => {
         if (!q) return true;
         const hay = [r.title, r.description, r.style, ...getEffectiveTags(r)].join(' ').toLowerCase();
@@ -289,8 +289,8 @@ function initHome(){
         return a.title.localeCompare(b.title);
       });
 
-    if (items.length === 0){ emptyState.hidden = false; return; }
-    emptyState.hidden = true;
+    if (items.length === 0){ emptyState!.hidden = false; return; }
+    emptyState!.hidden = true;
 
     items.forEach((r, i) => {
       const card = document.createElement('a');
@@ -315,15 +315,15 @@ function initHome(){
             })()}
           </div>
         </div>`;
-      card.querySelector('.star-btn').addEventListener('click', (ev) => {
+      (card.querySelector('.star-btn') as HTMLElement).addEventListener('click', (ev) => {
         ev.preventDefault(); ev.stopPropagation();
         const starred = toggleFav(r.slug);
-        const btn = ev.currentTarget;
+        const btn = ev.currentTarget as HTMLElement;
         btn.dataset.starred = String(starred);
         btn.textContent = starred ? '★' : '☆';
         renderFilters();
       });
-      grid.appendChild(card);
+      grid!.appendChild(card);
     });
   }
 
@@ -340,17 +340,18 @@ async function initRecipePage(){
   if (!slug){ container.innerHTML = '<p class="empty">Recipe not found.</p>'; return; }
   const res = await fetch(`data/recipes/${encodeURIComponent(slug)}.json`);
   if (!res.ok){ container.innerHTML = '<p class="empty">Recipe not found.</p>'; return; }
-  const recipe = await res.json();
+  const recipe: Recipe = await res.json();
+  validateRecipeTags(recipe.tags);
   renderRecipe(container, recipe);
   injectSchema(recipe);
 
-  const favBtn = byId('favBtn');
-  function syncFavBtn(){ const starred = isFav(slug); favBtn.setAttribute('aria-pressed', String(starred)); favBtn.textContent = starred ? '★ Starred' : '☆ Star'; }
-  favBtn.addEventListener('click', () => { toggleFav(slug); syncFavBtn(); });
+  const favBtn = byId('favBtn') as HTMLButtonElement;
+  function syncFavBtn(){ const starred = isFav(slug!); favBtn.setAttribute('aria-pressed', String(starred)); favBtn.textContent = starred ? '★ Starred' : '☆ Star'; }
+  favBtn.addEventListener('click', () => { toggleFav(slug!); syncFavBtn(); });
   syncFavBtn();
 }
 
-function renderRecipe(root, r){
+function renderRecipe(root: HTMLElement, r: Recipe){
   root.innerHTML = `
     <article class="recipe">
       <header class="recipe-header">
@@ -408,7 +409,7 @@ function renderRecipe(root, r){
     showToast('Link copied');
   });
 
-  const scaleInput = byId('scaleInput');
+  const scaleInput = byId('scaleInput') as HTMLInputElement;
   const applyBtn = byId('applyScaleBtn');
   const resetBtn = byId('resetScaleBtn');
   function applyScale(){
@@ -416,30 +417,30 @@ function renderRecipe(root, r){
     const base = r.servings;
     if (!base || !target || target <= 0) return;
     qsa('[data-qty]').forEach(el => {
-      const baseVal = parseFloat(el.getAttribute('data-qty-base'));
+      const baseVal = parseFloat(el.getAttribute('data-qty-base')!);
       if (isNaN(baseVal)) return;
       const scaled = baseVal * (target/base);
       el.textContent = formatQty(scaled);
     });
   }
-  function resetScale(){ qsa('[data-qty]').forEach(el => { el.textContent = el.getAttribute('data-qty-display'); }); if (scaleInput) scaleInput.value = r.servings; }
+  function resetScale(){ qsa('[data-qty]').forEach(el => { el.textContent = el.getAttribute('data-qty-display')!; }); if (scaleInput) scaleInput.value = String(r.servings); }
   applyBtn?.addEventListener('click', applyScale);
   resetBtn?.addEventListener('click', resetScale);
 
   attachTimers();
 }
 
-function renderIngredientSections(r){
-  const sections = r.ingredients?.sections?.length ? r.ingredients.sections : [ { title: null, items: r.ingredients?.items || [] } ];
-  return sections.map(sec => `
+function renderIngredientSections(r: Recipe){
+  const sections = r.ingredients?.sections?.length ? r.ingredients.sections : [ { title: null, items: r.ingredients?.items || [] } as any ];
+  return sections.map((sec: any) => `
     ${sec.title ? `<h4>${escapeHtml(sec.title)}</h4>` : ''}
     <ul>
-      ${sec.items.map(line => `<li>${renderQty(line)}</li>`).join('')}
+      ${sec.items.map((line: any) => `<li>${renderQty(line)}</li>`).join('')}
     </ul>
   `).join('');
 }
 
-function renderQty(line){
+function renderQty(line: any){
   if (typeof line === 'string') return escapeHtml(line);
   const hasNumQty = line.qty && /^\d+(?:[\./-]\d+)?/.test(String(line.qty));
   const qtyPart = hasNumQty
@@ -451,7 +452,7 @@ function renderQty(line){
   return `${qtyPart}${unit}${item}${note}`.trim();
 }
 
-function renderSteps(r){
+function renderSteps(r: Recipe){
   const steps = r.steps || [];
   return `<ol>${steps.map((s,i) => {
     const dur = parseDuration(s);
@@ -460,7 +461,7 @@ function renderSteps(r){
   }).join('')}</ol>`;
 }
 
-function timerControlsHTML(seconds){
+function timerControlsHTML(seconds: number){
   const mm = Math.floor(seconds/60); const ss = seconds%60;
   return `
     <div class="timer-controls" data-default-seconds="${seconds}">
@@ -481,18 +482,23 @@ function optionalTimerHTML(){
 
 function attachTimers(){
   qsa('.timer-controls').forEach(ctrl => {
-    let defaultSeconds = parseInt(ctrl.getAttribute('data-default-seconds'), 10) || 0;
+    let defaultSeconds = parseInt(ctrl.getAttribute('data-default-seconds') || '0', 10) || 0;
     let remaining = defaultSeconds;
-    let interval = null;
+    let interval: number | null = null;
     const display = ctrl.querySelector('[data-remaining]');
     const stepText = ctrl.closest('li')?.getAttribute('data-step-text') || 'Timer';
 
-    function render(){ const mm = Math.floor(remaining/60); const ss = remaining%60; display.textContent = `${String(mm).padStart(2,'0')}:${String(ss).padStart(2,'0')}`; ctrl.parentElement.classList.toggle('timer-running', !!interval); }
+    function render(){ 
+      if (!display) return;
+      const mm = Math.floor(remaining/60); const ss = remaining%60; 
+      display.textContent = `${String(mm).padStart(2,'0')}:${String(ss).padStart(2,'0')}`; 
+      ctrl.parentElement!.classList.toggle('timer-running', !!interval); 
+    }
     function tick(){
       remaining = Math.max(0, remaining-1);
       render();
       if (remaining === 0){
-        clearInterval(interval);
+        if (interval) clearInterval(interval);
         interval = null;
         render();
         playAlarmSound();
@@ -501,40 +507,88 @@ function attachTimers(){
       }
     }
 
-    ctrl.addEventListener('click', (e) => {
-      const btn = e.target.closest('button'); if (!btn) return; const action = btn.getAttribute('data-action');
+    ctrl.addEventListener('click', (e: Event) => {
+      const target = e.target as HTMLElement;
+      const btn = target.closest('button'); if (!btn) return; 
+      const action = btn.getAttribute('data-action');
       if (action === 'plus'){ remaining += 60; render(); }
       else if (action === 'minus'){ remaining = Math.max(0, remaining-60); render(); }
       else if (action === 'start'){
         maybeRequestNotificationPermission();
         if (remaining === 0) remaining = defaultSeconds || 60;
-        if (interval){ clearInterval(interval); interval=null; render(); btn.textContent='⏱ Start'; }
-        else { interval=setInterval(tick, 1000); render(); btn.textContent='Pause'; }
+        if (interval){ 
+          clearInterval(interval); 
+          interval=null; 
+          render(); 
+          btn.textContent='⏱ Start'; 
+        } else { 
+          interval = window.setInterval(tick, 1000); 
+          render(); 
+          btn.textContent='Pause'; 
+        }
       }
-      else if (action === 'reset'){ remaining = defaultSeconds; clearInterval(interval); interval=null; render(); const s=ctrl.querySelector('[data-action="start"]'); if(s) s.textContent='⏱ Start'; }
-      else if (action === 'custom'){ const mins = parseInt(prompt('Minutes?'),10); if (!isNaN(mins) && mins>=0){ remaining = mins*60; defaultSeconds = remaining; render(); } }
+      else if (action === 'reset'){ 
+        remaining = defaultSeconds; 
+        if (interval) clearInterval(interval); 
+        interval=null; 
+        render(); 
+        const s = ctrl.querySelector('[data-action="start"]'); 
+        if(s) s.textContent='⏱ Start'; 
+      }
+      else if (action === 'custom'){ 
+        const minsStr = prompt('Minutes?'); 
+        if (minsStr) {
+          const mins = parseInt(minsStr, 10);
+          if (!isNaN(mins) && mins>=0){ 
+            remaining = mins*60; 
+            defaultSeconds = remaining; 
+            render(); 
+          } 
+        }
+      }
     });
 
     render();
   });
 }
 
-function parseDuration(text){
+function parseDuration(text: string | undefined): number | null {
   if (!text) return null;
   const m = String(text).match(/(\d+)\s*(?:[–\-to]+\s*(\d+)\s*)?(min|mins|minutes|sec|secs|seconds)/i);
-  if (!m) return null; let a = parseInt(m[1],10); let b = m[2] ? parseInt(m[2],10) : null; const unit = m[3].toLowerCase(); let base = b ? Math.round((a+b)/2) : a; if (unit.startsWith('sec')) return base; return base*60;
+  if (!m || !m[1] || !m[3]) return null; 
+  let a = parseInt(m[1],10); 
+  let b = m[2] ? parseInt(m[2],10) : null; 
+  const unit = m[3].toLowerCase(); 
+  let base = b ? Math.round((a+b)/2) : a; 
+  if (unit.startsWith('sec')) return base; 
+  return base*60;
 }
 
-function plainIngredientText(r){
-  const sections = r.ingredients?.sections?.length ? r.ingredients.sections : []; const lines = [];
-  sections.forEach(sec => { if (sec.title) lines.push(sec.title + ':'); sec.items.forEach(it => { if (typeof it === 'string') lines.push('- ' + it); else { const qty = it.qty ? it.qty : ''; const unit = it.unit ? ` ${it.unit}` : ''; const item = it.item ? ` ${it.item}` : ''; const note = it.note ? ` ${it.note}` : ''; lines.push(`- ${qty}${unit}${item}${note}`); } }); lines.push(''); });
+function plainIngredientText(r: Recipe){
+  const sections = r.ingredients?.sections?.length ? r.ingredients.sections : []; const lines: string[] = [];
+  sections.forEach((sec: any) => { if (sec.title) lines.push(sec.title + ':'); sec.items.forEach((it: any) => { if (typeof it === 'string') lines.push('- ' + it); else { const qty = it.qty ? it.qty : ''; const unit = it.unit ? ` ${it.unit}` : ''; const item = it.item ? ` ${it.item}` : ''; const note = it.note ? ` ${it.note}` : ''; lines.push(`- ${qty}${unit}${item}${note}`); } }); lines.push(''); });
   return lines.join('\n').trim();
 }
 
-function injectSchema(r){
+function injectSchema(r: Recipe){
   const minutes = timeToMinutes(r.time);
-  const schema = { "@context":"https://schema.org", "@type":"Recipe", "name":r.title, "image":[location.origin + '/' + r.image], "description": r.description || r.style || "", "recipeYield": r.servings ? String(r.servings) : undefined, "totalTime": minutes ? `PT${minutes}M` : undefined, "recipeCategory": r.categories || [], "keywords": (r.keywords || []).join(', '), "recipeIngredient": r.ingredients?.sections?.flatMap(s => s.items.map(it => typeof it === 'string' ? it : [it.qty, it.unit, it.item, it.note].filter(Boolean).join(' '))) || [], "recipeInstructions": (r.steps || []).map(s => ({ "@type":"HowToStep", "text": s })) };
-  const script = document.createElement('script'); script.type='application/ld+json'; script.textContent = JSON.stringify(schema); document.head.appendChild(script);
+  const schema = { 
+    "@context":"https://schema.org", 
+    "@type":"Recipe", 
+    "name":r.title, 
+    "image":[location.origin + '/' + r.image], 
+    "description": r.description || r.style || "", 
+    "recipeYield": r.servings ? String(r.servings) : undefined, 
+    "totalTime": minutes ? `PT${minutes}M` : undefined, 
+    "recipeCategory": r.categories || [], 
+    "keywords": (r.keywords || []).join(', '), 
+    "recipeIngredient": r.ingredients?.sections?.flatMap((s: any) => s.items.map((it: any) => typeof it === 'string' ? it : [it.qty, it.unit, it.item, it.note].filter(Boolean).join(' '))) || [], 
+    "recipeInstructions": (r.steps || []).map(s => ({ "@type":"HowToStep", "text": s })) 
+  };
+  const script = document.createElement('script'); 
+  script.type='application/ld+json'; 
+  script.textContent = JSON.stringify(schema); 
+  document.head.appendChild(script);
 }
 
 // Start
