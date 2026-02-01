@@ -1,5 +1,5 @@
 // Utility (dev-safe banner)
-import { Recipe, ApprovedTag, validateRecipeTags, APPROVED_TAGS, normalizeUnits } from './recipe.ts';
+import { Recipe, ApprovedTag, validateRecipeTags, APPROVED_TAGS, normalizeUnits } from './recipe.js';
 
 console.log('Sophia\'s Recipes - dev-safe build');
 

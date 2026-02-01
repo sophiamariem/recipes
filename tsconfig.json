@@ -3,15 +3,15 @@
     "target": "ESNext",
     "module": "ESNext",
     "lib": ["DOM", "DOM.Iterable", "ESNext"],
-    "moduleResolution": "bundler",
-    "allowImportingTsExtensions": true,
-    "rewriteRelativeImportExtensions": true,
-    "noEmit": true,
+    "moduleResolution": "node",
+    "outDir": ".",
+    "noEmit": false,
     "strict": true,
     "sourceMap": true,
     "esModuleInterop": true,
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true
   },
-  "include": ["app.ts", "recipe.ts"]
+  "include": ["app.ts", "recipe.ts"],
+  "exclude": ["node_modules"]
 }
