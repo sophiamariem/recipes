@@ -20,7 +20,6 @@
     "time": "30–35 min",
     "tags": [
       "Vegan",
-      "Plant-based",
       "Gluten-free",
       "High Protein"
     ],
@@ -49,7 +48,6 @@
     "tags": [
       "Vegan",
       "Dairy-free",
-      "Asian",
       "Spicy"
     ],
     "description": "Chewy flat noodles tossed with a spicy homemade sambal paste, topped with umami-rich mushroom and eggplant mince, fresh greens, and a hint of toasted sesame.",
@@ -62,7 +60,6 @@
     "time": "≈40 min",
     "tags": [
       "One-pan",
-      "Vegetarian",
       "Vegan",
       "Gluten-free"
     ],
@@ -101,10 +98,7 @@
     "image": "images/creamy-gochujang-pasta.jpg",
     "time": "25–30 min",
     "tags": [
-      "Vegetarian",
-      "Asian-Indian Fusion",
       "Spicy",
-      "Umami-rich",
       "Comfort Food"
     ],
     "description": "A glossy, clingy, umami-rich creamy pasta with gochujang heat, Indian spices, miso depth, and a finishing touch of toasted sesame and fresh parsley.",
@@ -116,9 +110,8 @@
     "image": "images/creamy-red-lentil-dal.jpg",
     "time": "40–45 min",
     "tags": [
-      "Vegetarian",
       "High Protein",
-      "Gluten-free option",
+      "Gluten-free",
       "Comfort Food"
     ],
     "description": "Rich, spoon-coating red lentil dal finished with lemon and topped with crispy halloumi, tofu, or seitan crumbs for contrast.",
@@ -144,9 +137,7 @@
     "time": "25–30 min",
     "tags": [
       "Vegan",
-      "Plant-based",
-      "High Protein",
-      "Gluten-free option"
+      "High Protein"
     ],
     "description": "A bold, no-sad-salad bowl with crispy tofu, spicy kimchi dressing, crunchy nuts, and bright fresh elements.",
     "style": "Spicy, crunchy, fresh salad with aggressively crispy tofu and punchy kimchi dressing"
@@ -159,8 +150,7 @@
     "tags": [
       "Vegan",
       "Dairy-free",
-      "Gluten-free option",
-      "Quick meal"
+      "Gluten-free"
     ],
     "description": "A vibrant stir-fry of fresh vegetables and noodles tossed in a creamy, flavorful peanut sauce — ready in under 30 minutes.",
     "style": "Quick, colorful stir-fry with a creamy, nutty peanut sauce"
@@ -197,11 +187,7 @@
     "image": "images/kimchi-burritos.webp",
     "time": "30 min",
     "tags": [
-      "Vegetarian",
-      "Asian Fusion",
-      "Spicy",
-      "Comfort Food",
-      "Quick Meal"
+      "Spicy"
     ],
     "description": "A quick, flavorful fusion burrito combining tangy kimchi, black beans, veggies, rice, and melty cheese. Perfect for a 20–30 minute weeknight dinner with optional spice adjustments.",
     "style": "Savory, spicy, and tangy fusion burrito filled with kimchi, black beans, rice, and melty cheese"
@@ -213,7 +199,6 @@
     "time": "30–35 min",
     "tags": [
       "Vegan",
-      "Plant-based",
       "Gluten-free",
       "High Protein"
     ],
@@ -238,12 +223,8 @@
     "image": "images/roasted-eggplant-tomato-orzo.jpg",
     "time": "35 min",
     "tags": [
-      "Vegetarian",
-      "Mediterranean",
-      "Gluten-Free Option",
-      "Summer",
-      "Healthy",
-      "Weeknight Dinner"
+      "Gluten-free",
+      "Summer"
     ],
     "description": "A light and fresh pasta dish featuring roasted eggplant and cherry tomatoes tossed with whole wheat orzo, fresh herbs, toasted pine nuts, feta, and a bright lemon-garlic dressing. Perfect for a healthy weeknight dinner.",
     "style": "Light, fresh, Mediterranean-inspired pasta with roasted eggplant, cherry tomatoes, herbs, and a bright lemon-garlic dressing"
@@ -255,7 +236,7 @@
     "time": "≈55 min",
     "tags": [
       "Vegan",
-      "Gluten-Free"
+      "Gluten-free"
     ],
     "description": "Hearty burrito bowls with spiced roasted sweet potatoes, homemade refried black beans, and cilantro-lime rice.",
     "style": "Colorful vegan burrito bowls with roasted sweet potatoes, creamy refried black beans, and herbed rice."
@@ -267,9 +248,7 @@
     "time": "25–30 min",
     "tags": [
       "Vegan",
-      "Plant-based",
-      "Dairy-free",
-      "Quick Dinner"
+      "Dairy-free"
     ],
     "description": "Orecchiette tossed in a naturally creamy chickpea sauce with warm spices, lemon, capers, and fresh herbs.",
     "style": "Glossy, flavour-layered pasta with spiced chickpeas and fresh herbs"
@@ -280,7 +259,6 @@
     "image": "images/five-spice-tofu-bowl.avif",
     "time": "≈30 min",
     "tags": [
-      "Oven-roasted",
       "Vegan",
       "High Protein"
     ],
@@ -306,10 +284,9 @@
     "image": "images/sweet-potato-black-bean-tacos.jpg",
     "time": "55–60 min",
     "tags": [
-      "Vegetarian",
-      "Vegan option",
+      "Vegan",
       "Gluten-free",
-      "Crowd-pleaser"
+      "Mexican"
     ],
     "description": "Roasted sweet potatoes, spiced black beans, and a punchy avocado-pepita sauce layered into warm corn tortillas.",
     "style": "Hearty roasted veg tacos with creamy, crunchy avocado-pepita sauce"
@@ -332,8 +309,7 @@
     "image": "images/tofu-tikka-masala.jpg",
     "time": "45–50 min",
     "tags": [
-      "Vegetarian",
-      "Vegan option",
+      "Vegan",
       "High Protein",
       "Gluten-free"
     ],
@@ -346,7 +322,7 @@
     "image": "images/veggie-black-bean-enchiladas.jpg",
     "time": "≈60 min",
     "tags": [
-      "Vegetarian"
+      "Mexican"
     ],
     "description": "Vegetarian enchiladas stuffed with black beans, broccoli, bell pepper, and spinach, topped with a rich homemade red sauce.",
     "style": "Hearty vegetarian enchiladas loaded with vegetables, black beans, and homemade red sauce."
