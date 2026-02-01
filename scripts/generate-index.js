@@ -1,7 +1,11 @@
 #!/usr/bin/env node
 /* eslint-disable no-console */
-const fs = require('fs');
-const path = require('path');
+import fs from 'fs';
+import path from 'path';
+import { fileURLToPath } from 'url';
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 
 const ROOT = path.join(__dirname, '..');
 const RECIPES_DIR = path.join(ROOT, 'data', 'recipes');
@@ -128,7 +132,7 @@ function generateIndex() {
     return recipes.length;
 }
 
-if (require.main === module) {
+if (import.meta.url === `file://${process.argv[1]}` || process.argv[1]?.endsWith('generate-index.js')) {
     try {
         const count = generateIndex();
         console.log(`Wrote ${count} recipes to ${rel(INDEX_PATH)}`);
@@ -138,4 +142,4 @@ if (require.main === module) {
     }
 }
 
-module.exports = { generateIndex };
+export { generateIndex };

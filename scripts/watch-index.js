@@ -1,8 +1,12 @@
 #!/usr/bin/env node
 /* eslint-disable no-console */
-const fs = require('fs');
-const path = require('path');
-const { generateIndex } = require('./generate-index');
+import fs from 'fs';
+import path from 'path';
+import { fileURLToPath } from 'url';
+import { generateIndex } from './generate-index.js';
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 
 const RECIPES_DIR = path.join(__dirname, '..', 'data', 'recipes');
 

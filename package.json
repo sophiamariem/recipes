@@ -4,8 +4,10 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "build": "tsc",
+    "build": "tsc && node scripts/generate-index.js",
     "watch": "tsc --watch",
+    "generate-index": "node scripts/generate-index.js",
+    "watch-index": "node scripts/watch-index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
