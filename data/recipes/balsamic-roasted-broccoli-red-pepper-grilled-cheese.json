@@ -1,0 +1,65 @@
+{
+  "slug": "balsamic-roasted-broccoli-red-pepper-grilled-cheese",
+  "title": "Balsamic Roasted Broccoli and Red Pepper Grilled Cheese",
+  "image": "images/balsamic-roasted-broccoli-grilled-cheese.webp",
+  "time": "40 min",
+  "servings": 4,
+  "style": "Hearty vegetarian grilled cheese stuffed with caramelized balsamic-roasted vegetables and plenty of sharp cheddar",
+  "tags": [
+    "Comfort Food",
+    "Spicy"
+  ],
+  "categories": [
+    "Lunch",
+    "Sandwiches",
+    "Vegetarian"
+  ],
+  "keywords": [
+    "grilled cheese",
+    "balsamic roasted vegetables",
+    "broccoli sandwich",
+    "vegetarian comfort food",
+    "cheddar grilled cheese"
+  ],
+  "description": "These hearty grilled cheese sandwiches are filled with deeply caramelized balsamic-roasted broccoli, red pepper, and onion, layered with generous amounts of cheddar cheese on whole grain bread. A satisfying vegetarian comfort meal.",
+  "ingredients": {
+    "sections": [
+      {
+        "title": "Roasted Vegetables",
+        "items": [
+          { "qty": "454", "unit": "g", "item": "broccoli", "note": "or 227 g broccoli florets" },
+          { "qty": "1", "unit": "", "item": "red bell pepper", "note": "sliced into thin strips" },
+          { "qty": "1", "unit": "", "item": "small yellow onion", "note": "thinly sliced" },
+          { "qty": "2", "unit": "tbsp", "item": "olive oil" },
+          { "qty": "2", "unit": "tbsp", "item": "balsamic vinegar" },
+          { "qty": "0.25", "unit": "tsp", "item": "salt" },
+          { "qty": "pinch", "unit": "", "item": "red pepper flakes", "note": "optional" },
+          { "qty": "", "unit": "", "item": "freshly ground black pepper", "note": "to taste" }
+        ]
+      },
+      {
+        "title": "Sandwiches",
+        "items": [
+          { "qty": "8", "unit": "slices", "item": "whole grain bread", "note": "preferably sourdough" },
+          { "qty": "340", "unit": "g", "item": "shredded cheddar cheese" },
+          { "qty": "1-2", "unit": "tsp", "item": "Dijon mustard" },
+          { "qty": "1+", "unit": "tbsp", "item": "butter", "note": "for grilling" }
+        ]
+      }
+    ]
+  },
+  "steps": [
+    "Preheat the oven to 220°C. Prepare the vegetables so they are roughly the same size for even cooking. Cut broccoli into bite-sized florets, slice the bell pepper into thin strips, and halve and thinly slice the onion.",
+    "Transfer the vegetables to a large rimmed baking sheet. Drizzle with olive oil and balsamic vinegar, add salt, and toss until evenly coated. Arrange in a single layer and sprinkle with red pepper flakes (if using) and black pepper.",
+    "Roast for about 20 minutes, tossing halfway, until the vegetables are tender and deeply caramelized. Remove from oven and set aside.",
+    "To assemble the sandwiches, spread a very thin layer of Dijon mustard on one slice of bread. Top with a generous layer of shredded cheddar, followed by as much roasted vegetables as will fit comfortably. Add another layer of cheese and top with a second slice of bread. Repeat to make 4 sandwiches.",
+    "Heat a large skillet (preferably cast iron) over medium heat. Add a generous pat of butter and let it melt. Place two sandwiches in the pan and cover with a lid or inverted baking dish to help the cheese melt.",
+    "Cook until the bottom is golden and the cheese is mostly melted. Remove sandwiches, add more butter if needed, and carefully flip. Return to the pan, cover again, and cook until both sides are golden and the cheese is fully melted.",
+    "Transfer to plates and repeat with remaining sandwiches. Serve warm."
+  ],
+  "tips": [
+    "Serve with tomato soup, roasted red pepper soup, or a simple green salad.",
+    "Any caramelized roasted vegetables work well in this sandwich.",
+    "Roast the vegetables ahead of time to make assembly quick and easy."
+  ]
+}

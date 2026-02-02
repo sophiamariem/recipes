@@ -1,5 +1,17 @@
 [
   {
+    "slug": "balsamic-roasted-broccoli-red-pepper-grilled-cheese",
+    "title": "Balsamic Roasted Broccoli and Red Pepper Grilled Cheese",
+    "image": "images/balsamic-roasted-broccoli-grilled-cheese.webp",
+    "time": "40 min",
+    "tags": [
+      "Comfort Food",
+      "Spicy"
+    ],
+    "description": "These hearty grilled cheese sandwiches are filled with deeply caramelized balsamic-roasted broccoli, red pepper, and onion, layered with generous amounts of cheddar cheese on whole grain bread. A satisfying vegetarian comfort meal.",
+    "style": "Hearty vegetarian grilled cheese stuffed with caramelized balsamic-roasted vegetables and plenty of sharp cheddar"
+  },
+  {
     "slug": "beans-and-greens-quesadillas",
     "title": "Beans and Greens Quesadillas",
     "image": "images/beans-and-greens-quesadillas.jpg",
@@ -386,6 +398,21 @@
     ],
     "description": "Golden baked tofu tossed with udon noodles, greens, and a rich tahini chilli sauce that’s savoury, spicy, and deeply satisfying.",
     "style": "Crispy baked tofu with chewy noodles and a creamy, spicy tahini chilli sauce."
+  },
+  {
+    "slug": "thai-red-curry-with-vegetables",
+    "title": "Thai Red Curry with Vegetables",
+    "image": "images/thai-red-curry-vegetables.webp",
+    "time": "40 min",
+    "tags": [
+      "Vegan",
+      "Gluten-free",
+      "Spicy",
+      "Comfort Food",
+      "Summer"
+    ],
+    "description": "This easy Thai red curry with vegetables is rich, flavorful, and better than takeout. Made with coconut milk, red curry paste, and a colorful mix of vegetables, it’s a comforting vegan and gluten-free meal that’s perfect for weeknights.",
+    "style": "Creamy, aromatic Thai-inspired vegetable curry with coconut milk and red curry paste"
   },
   {
     "slug": "tofu-tikka-masala",

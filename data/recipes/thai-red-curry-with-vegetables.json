@@ -1,0 +1,80 @@
+{
+  "slug": "thai-red-curry-with-vegetables",
+  "title": "Thai Red Curry with Vegetables",
+  "image": "images/thai-red-curry-vegetables.webp",
+  "time": "40 min",
+  "servings": 4,
+  "style": "Creamy, aromatic Thai-inspired vegetable curry with coconut milk and red curry paste",
+  "tags": [
+    "Vegan",
+    "Gluten-free",
+    "Spicy",
+    "Comfort Food",
+    "Summer"
+  ],
+  "categories": [
+    "Dinner",
+    "Curry",
+    "Thai-inspired"
+  ],
+  "keywords": [
+    "thai red curry",
+    "vegetable curry",
+    "coconut milk curry",
+    "vegan thai curry",
+    "gluten-free curry"
+  ],
+  "description": "This easy Thai red curry with vegetables is rich, flavorful, and better than takeout. Made with coconut milk, red curry paste, and a colorful mix of vegetables, it’s a comforting vegan and gluten-free meal that’s perfect for weeknights.",
+  "ingredients": {
+    "sections": [
+      {
+        "title": "Rice",
+        "items": [
+          { "qty": "1.25", "unit": "cups", "item": "brown jasmine rice or long-grain brown rice", "note": "rinsed" }
+        ]
+      },
+      {
+        "title": "Curry",
+        "items": [
+          { "qty": "1", "unit": "tbsp", "item": "coconut oil or olive oil" },
+          { "qty": "1", "unit": "", "item": "small white onion", "note": "chopped (about 1 cup)" },
+          { "qty": "pinch", "unit": "", "item": "salt", "note": "more to taste" },
+          { "qty": "1", "unit": "tbsp", "item": "fresh ginger", "note": "finely grated" },
+          { "qty": "2", "unit": "cloves", "item": "garlic", "note": "pressed or minced" },
+          { "qty": "1", "unit": "", "item": "red bell pepper", "note": "thinly sliced" },
+          { "qty": "1", "unit": "", "item": "yellow, orange, or green bell pepper", "note": "thinly sliced" },
+          { "qty": "3", "unit": "", "item": "carrots", "note": "sliced on the diagonal (about 1 cup)" },
+          { "qty": "2", "unit": "tbsp", "item": "Thai red curry paste" },
+          { "qty": "400", "unit": "g", "item": "coconut milk", "note": "full-fat" },
+          { "qty": "0.5", "unit": "cup", "item": "water" },
+          { "qty": "1.5", "unit": "cups", "item": "kale", "note": "thinly sliced, ribs removed" },
+          { "qty": "1.5", "unit": "tsp", "item": "coconut sugar or brown sugar" },
+          { "qty": "1", "unit": "tbsp", "item": "tamari or soy sauce" },
+          { "qty": "2", "unit": "tsp", "item": "rice vinegar or lime juice" }
+        ]
+      },
+      {
+        "title": "Garnishes (Optional)",
+        "items": [
+          { "qty": "handful", "unit": "", "item": "fresh basil or cilantro", "note": "chopped" },
+          { "qty": "", "unit": "", "item": "red pepper flakes" },
+          { "qty": "", "unit": "", "item": "sriracha or chili garlic sauce" }
+        ]
+      }
+    ]
+  },
+  "steps": [
+    "Bring a large pot of water to a boil. Add the rinsed rice and boil for 30 minutes, reducing heat as needed to prevent overflow. Drain, return to the pot, cover, and let rest for at least 10 minutes. Season with salt and fluff before serving.",
+    "Warm a large deep skillet over medium heat. Add the oil, then the onion and a pinch of salt. Cook, stirring often, until softened and translucent, about 5 minutes.",
+    "Add the ginger and garlic and cook until fragrant, about 30 seconds, stirring continuously.",
+    "Add the bell peppers and carrots. Cook until the peppers are fork-tender, about 3 to 5 minutes, stirring occasionally. Add the curry paste and cook for 2 minutes, stirring often.",
+    "Add the coconut milk, water, kale, and sugar. Stir to combine and bring to a gentle simmer. Reduce heat as needed and cook for 5 to 10 minutes, until vegetables are tender to your liking.",
+    "Remove from heat and season with tamari and rice vinegar. Add salt to taste (about 0.25 tsp recommended). Adjust tamari or vinegar if needed.",
+    "Serve the curry over rice and garnish with fresh herbs, red pepper flakes, or spicy sauce if desired."
+  ],
+  "tips": [
+    "Use vegetarian Thai red curry paste, as some brands contain fish sauce or shrimp paste.",
+    "Full-fat coconut milk with guar gum yields the creamiest texture.",
+    "To add protein, bake tofu separately and stir it in with the coconut milk."
+  ]
+}
