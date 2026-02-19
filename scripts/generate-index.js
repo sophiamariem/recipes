@@ -10,6 +10,18 @@ const __dirname = path.dirname(__filename);
 const ROOT = path.join(__dirname, '..');
 const RECIPES_DIR = path.join(ROOT, 'data', 'recipes');
 const INDEX_PATH = path.join(RECIPES_DIR, '_index.json');
+const APPROVED_TAGS = new Set([
+    'Vegan',
+    'High Protein',
+    'Gluten-free',
+    'Dairy-free',
+    'Spicy',
+    'One-pan',
+    'Comfort Food',
+    'Mexican',
+    'South Indian',
+    'Summer'
+]);
 
 function rel(p) {
     try { return path.relative(process.cwd(), p) || p; }
@@ -71,6 +83,22 @@ function parseJSONWithContext(raw, filePath) {
     }
 }
 
+function validateTagsWithContext(data, filePath) {
+    const tags = Array.isArray(data.tags) ? data.tags : [];
+    const invalid = tags.filter((tag) => !APPROVED_TAGS.has(tag));
+    if (invalid.length === 0) return { ok: true };
+
+    const allowed = [...APPROVED_TAGS].join(', ');
+    return {
+        ok: false,
+        error: new Error(
+            `Invalid tags in ${rel(filePath)}\n` +
+            `Invalid: ${invalid.join(', ')}\n` +
+            `Allowed: ${allowed}`
+        )
+    };
+}
+
 function loadRecipes() {
     const entries = fs.readdirSync(RECIPES_DIR, { withFileTypes: true });
     const files = entries
@@ -92,6 +120,11 @@ function loadRecipes() {
             continue;
         }
         const data = parsed.data;
+        const tagsValidation = validateTagsWithContext(data, fullPath);
+        if (!tagsValidation.ok) {
+            failures.push(tagsValidation.error);
+            continue;
+        }
 
         const slug = data.slug || path.basename(name, '.json');
         results.push({
