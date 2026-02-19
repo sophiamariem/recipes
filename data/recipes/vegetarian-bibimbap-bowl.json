@@ -1,0 +1,101 @@
+{
+  "slug": "vegetarian-bibimbap-bowl",
+  "title": "Vegetarian Bibimbap Bowl",
+  "image": "images/vegetarian-bibimbap-bowl.webp",
+  "time": "60 min",
+  "servings": 2,
+  "style": "Korean-inspired rice bowl layered with sautéed vegetables, crispy tofu, and spicy gochujang sauce",
+  "tags": [
+    "Vegetarian",
+    "Dairy-free",
+    "Spicy",
+    "High-Protein"
+  ],
+  "categories": [
+    "Dinner",
+    "Rice Bowls",
+    "Asian"
+  ],
+  "keywords": [
+    "bibimbap",
+    "Korean rice bowl",
+    "gochujang",
+    "tofu",
+    "mushrooms",
+    "vegetarian Korean food"
+  ],
+  "description": "A vibrant vegetarian take on the classic Korean bibimbap, featuring fluffy rice topped with sautéed mushrooms, fresh and wilted vegetables, crispy tofu, and a bold, spicy-sweet gochujang sauce.",
+  "ingredients": {
+    "sections": [
+      {
+        "title": "Rice Base",
+        "items": [
+          { "qty": "0.5", "unit": "cup", "item": "short-grain rice", "note": "traditionally Korean sticky rice; white or brown also works" }
+        ]
+      },
+      {
+        "title": "Gochujang Sauce",
+        "items": [
+          { "qty": "1.5–2", "unit": "tbsp", "item": "gochujang paste" },
+          { "qty": "1", "unit": "tbsp", "item": "sesame oil" },
+          { "qty": "2", "unit": "tsp", "item": "rice vinegar", "note": "or white wine vinegar" },
+          { "qty": "1", "unit": "tbsp", "item": "water" },
+          { "qty": "1", "unit": "tbsp + 1 tsp", "item": "light soy sauce" },
+          { "qty": "2–3", "unit": "tsp", "item": "white sesame seeds", "note": "toasted" },
+          { "qty": "2–3", "unit": "cloves", "item": "garlic", "note": "finely minced" },
+          { "qty": "1–2", "unit": "tsp", "item": "sriracha", "note": "or chili sauce of choice" },
+          { "qty": "1", "unit": "tsp", "item": "brown sugar", "note": "adjust to taste" }
+        ]
+      },
+      {
+        "title": "Crispy Tofu",
+        "items": [
+          { "qty": "1", "unit": "block", "item": "firm silken tofu", "note": "drained thoroughly" },
+          { "qty": "", "unit": "", "item": "cornflour", "note": "for coating" },
+          { "qty": "1", "unit": "tbsp", "item": "toasted sesame oil", "note": "for pan-frying" }
+        ]
+      },
+      {
+        "title": "Vegetable Components",
+        "items": [
+          { "qty": "1", "unit": "large", "item": "carrot", "note": "spiralized or julienned" },
+          { "qty": "1", "unit": "", "item": "zucchini", "note": "spiralized or sliced lengthwise" },
+          { "qty": "1", "unit": "", "item": "cucumber", "note": "thinly sliced or spiralized" },
+          { "qty": "0.5", "unit": "", "item": "bell pepper", "note": "sliced lengthwise" },
+          { "qty": "180", "unit": "g", "item": "mixed mushrooms", "note": "baby bella, button, shiitake, or shimeji" },
+          { "qty": "2", "unit": "large bunches", "item": "spinach" },
+          { "qty": "2–3", "unit": "cloves", "item": "garlic", "note": "finely minced" },
+          { "qty": "", "unit": "", "item": "sesame oil", "note": "for sautéing" },
+          { "qty": "", "unit": "", "item": "sea salt", "note": "to taste" }
+        ]
+      },
+      {
+        "title": "Optional",
+        "items": [
+          { "qty": "1", "unit": "", "item": "egg", "note": "fried with runny yolk" },
+          { "qty": "", "unit": "", "item": "toasted sesame seeds", "note": "for garnish" }
+        ]
+      }
+    ]
+  },
+  "steps": [
+    "<strong>Cook Rice:</strong> Prepare rice according to package instructions. Keep warm.",
+    "<strong>Make Gochujang Sauce:</strong> In a bowl, whisk together gochujang, sesame oil, rice vinegar, water, soy sauce, sesame seeds, garlic, sriracha, and brown sugar. Taste and adjust sweetness, heat, or acidity as preferred.",
+    "<strong>Prepare Tofu:</strong> Press tofu between paper towels with a weight for at least 30 minutes until firm. Cut into cubes or strips and coat lightly with cornflour.",
+    "Heat sesame oil in a skillet over medium heat. Pan-fry tofu 7–10 minutes, flipping until golden and crisp on all sides. Remove and set aside.",
+    "<strong>Prepare Vegetables:</strong> Toss cucumber with a little sesame oil, garlic, and salt. Set aside.",
+    "In a pan, heat 1 tsp sesame oil and sauté garlic briefly. Add spinach and cook until just wilted. Remove and squeeze out excess moisture.",
+    "Sauté mushrooms in sesame oil until golden and tender. Set aside.",
+    "Lightly sauté carrot, zucchini, and bell pepper until just tender but still crisp.",
+    "If using, fry egg in the same skillet to desired doneness with a runny yolk.",
+    "<strong>Assemble Bowls:</strong> Divide rice between bowls. Arrange vegetables and mushrooms in sections over the rice. Place crispy tofu (and egg if using) in the center.",
+    "Garnish with toasted sesame seeds and drizzle generously with gochujang sauce. Serve extra sauce on the side.",
+    "Before eating, mix everything thoroughly so the sauce coats the rice and vegetables evenly."
+  ],
+  "tips": [
+    "Press tofu longer for a firmer texture and crispier result.",
+    "Keep vegetables slightly crisp to preserve texture contrast.",
+    "Adjust sugar in the sauce to balance spice from the gochujang.",
+    "For a vegan version, skip the egg and add extra tofu or sautéed mushrooms."
+  ]
+}

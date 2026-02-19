@@ -431,6 +431,20 @@
     "style": "Bold, creamy Indian-style curry with roasted spiced tofu"
   },
   {
+    "slug": "vegetarian-bibimbap-bowl",
+    "title": "Vegetarian Bibimbap Bowl",
+    "image": "images/vegetarian-bibimbap-bowl.webp",
+    "time": "60 min",
+    "tags": [
+      "Vegetarian",
+      "Dairy-free",
+      "Spicy",
+      "High-Protein"
+    ],
+    "description": "A vibrant vegetarian take on the classic Korean bibimbap, featuring fluffy rice topped with sautéed mushrooms, fresh and wilted vegetables, crispy tofu, and a bold, spicy-sweet gochujang sauce.",
+    "style": "Korean-inspired rice bowl layered with sautéed vegetables, crispy tofu, and spicy gochujang sauce"
+  },
+  {
     "slug": "veggie-black-bean-enchiladas",
     "title": "Veggie Black Bean Enchiladas",
     "image": "images/veggie-black-bean-enchiladas.jpg",
