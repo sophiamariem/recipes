@@ -1,0 +1,163 @@
+{
+  "slug": "pad-kee-mao-seitan",
+  "title": "Pad Kee Mao (Drunken Noodles) – Seitan",
+  "image": "images/pad-kee-mao-seitan.jpg",
+  "time": "≈25 min",
+  "servings": 4,
+  "style": "Smoky, spicy Thai-style rice noodles tossed with seitan, basil, and charred vegetables.",
+  "tags": [
+    "Spicy",
+    "Vegan",
+    "High Protein"
+  ],
+  "categories": [
+    "Dinner",
+    "Stir-fry",
+    "Plant-based",
+    "Noodles"
+  ],
+  "keywords": [
+    "pad kee mao",
+    "drunken noodles",
+    "seitan noodles",
+    "vegan thai noodles",
+    "spicy basil noodles"
+  ],
+  "description": "Wide rice noodles stir-fried over high heat with seitan, basil, broccoli, pak choi, and a bold umami sauce with chilli flakes.",
+  "ingredients": {
+    "sections": [
+      {
+        "title": "Seitan Marinade",
+        "items": [
+          {
+            "qty": "225",
+            "unit": "g",
+            "item": "seitan",
+            "note": "thinly sliced"
+          },
+          {
+            "qty": "2",
+            "unit": "tsp",
+            "item": "soy sauce"
+          },
+          {
+            "qty": "0.5",
+            "unit": "tsp",
+            "item": "sugar"
+          },
+          {
+            "qty": "1",
+            "unit": "tbsp",
+            "item": "water"
+          }
+        ]
+      },
+      {
+        "title": "Stir Fry",
+        "items": [
+          {
+            "qty": "450",
+            "unit": "g",
+            "item": "fresh wide rice noodles",
+            "note": "loosely separated"
+          },
+          {
+            "qty": "2",
+            "unit": "tbsp",
+            "item": "vegetable oil"
+          },
+          {
+            "qty": "5",
+            "unit": "cloves",
+            "item": "garlic",
+            "note": "roughly chopped"
+          },
+          {
+            "qty": "1",
+            "unit": "tsp",
+            "item": "chilli flakes",
+            "note": "adjust to heat preference"
+          },
+          {
+            "qty": "1",
+            "unit": "medium",
+            "item": "yellow onion",
+            "note": "sliced"
+          },
+          {
+            "qty": "1",
+            "unit": "medium",
+            "item": "carrot",
+            "note": "thinly sliced (~100 g)"
+          },
+          {
+            "qty": "200",
+            "unit": "g",
+            "item": "broccoli florets"
+          },
+          {
+            "qty": "200",
+            "unit": "g",
+            "item": "pak choi",
+            "note": "stems and leaves separated"
+          },
+          {
+            "qty": "20-25",
+            "unit": "g",
+            "item": "fresh basil leaves"
+          }
+        ]
+      },
+      {
+        "title": "Sauce",
+        "items": [
+          {
+            "qty": "2.5",
+            "unit": "tbsp",
+            "item": "vegetarian oyster sauce"
+          },
+          {
+            "qty": "2",
+            "unit": "tbsp",
+            "item": "soy sauce"
+          },
+          {
+            "qty": "2",
+            "unit": "tbsp",
+            "item": "dark soy sauce"
+          },
+          {
+            "qty": "1",
+            "unit": "tbsp",
+            "item": "vegan fish sauce or extra soy sauce"
+          },
+          {
+            "qty": "1",
+            "unit": "tbsp",
+            "item": "sugar"
+          },
+          {
+            "qty": "1",
+            "unit": "tbsp",
+            "item": "water"
+          }
+        ]
+      }
+    ]
+  },
+  "steps": [
+    "Marinate seitan with soy sauce, sugar, and water for 10–15 minutes.",
+    "Whisk all sauce ingredients together until sugar dissolves. Set aside.",
+    "Heat 1 tbsp oil in a wok over medium-high heat. Sear seitan in a single layer 1–2 minutes per side until lightly browned. Remove and set aside.",
+    "Add remaining oil. Add garlic and chilli flakes and cook 10–15 seconds until fragrant (do not burn).",
+    "Add sliced onion and cook 1 minute. Add carrot and broccoli and stir fry 1–2 minutes. Add pak choi stems, cook 30 seconds, then add leaves and cook until just wilted.",
+    "Add rice noodles and pour sauce over. Toss gently and let noodles sit undisturbed 20–30 seconds to develop slight char.",
+    "Return seitan to the pan. Add basil and toss briefly until wilted. Serve immediately."
+  ],
+  "tips": [
+    "High heat is key for smoky flavour and proper charring.",
+    "Do not overcook seitan or it will become chewy.",
+    "If too salty, add a small splash of water; if flat, add a squeeze of lime.",
+    "Let noodles sit briefly in the pan to develop caramelised edges."
+  ]
+}

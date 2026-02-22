@@ -262,6 +262,19 @@
     "style": "Smoky, bright, deeply seasoned bean bowl with real texture and contrast"
   },
   {
+    "slug": "pad-kee-mao-seitan",
+    "title": "Pad Kee Mao (Drunken Noodles) – Seitan",
+    "image": "images/pad-kee-mao-seitan.jpg",
+    "time": "≈25 min",
+    "tags": [
+      "Spicy",
+      "Vegan",
+      "High Protein"
+    ],
+    "description": "Wide rice noodles stir-fried over high heat with seitan, basil, broccoli, pak choi, and a bold umami sauce with chilli flakes.",
+    "style": "Smoky, spicy Thai-style rice noodles tossed with seitan, basil, and charred vegetables."
+  },
+  {
     "slug": "protein-packed-buddha-bowl",
     "title": "Protein-Packed Buddha Bowl",
     "image": "images/protein-packed-buddha-bowl.jpg",
