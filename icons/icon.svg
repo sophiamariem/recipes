@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <!-- soft pink background -->
+  <rect width="512" height="512" rx="96" fill="#FFE8EE"/>
+
+  <!-- plate outer rim -->
+  <ellipse cx="256" cy="268" rx="182" ry="142" fill="#FFF2F5"/>
+  <!-- plate inner rim -->
+  <ellipse cx="256" cy="274" rx="160" ry="120" fill="#FADDE5"/>
+  <!-- plate well -->
+  <ellipse cx="256" cy="262" rx="136" ry="96" fill="#FFFFFF"/>
+
+  <!-- cheeks -->
+  <circle cx="196" cy="280" r="18" fill="#F6A8BC" opacity="0.5"/>
+  <circle cx="316" cy="280" r="18" fill="#F6A8BC" opacity="0.5"/>
+
+  <!-- eyes -->
+  <circle cx="216" cy="258" r="14" fill="#5A3A42"/>
+  <circle cx="296" cy="258" r="14" fill="#5A3A42"/>
+
+  <!-- smile -->
+  <path d="M228 298 Q256 326 284 298"
+        stroke="#5A3A42"
+        stroke-width="10"
+        fill="none"
+        stroke-linecap="round"/>
+</svg>

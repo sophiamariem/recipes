@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <!-- full bleed background for maskable safe zone -->
+  <rect width="512" height="512" fill="#FFE8EE"/>
+
+  <!-- plate outer rim (scaled to fit in 80% safe zone) -->
+  <ellipse cx="256" cy="268" rx="146" ry="114" fill="#FFF2F5"/>
+  <!-- plate inner rim -->
+  <ellipse cx="256" cy="273" rx="128" ry="96" fill="#FADDE5"/>
+  <!-- plate well -->
+  <ellipse cx="256" cy="264" rx="110" ry="77" fill="#FFFFFF"/>
+
+  <!-- cheeks -->
+  <circle cx="210" cy="278" r="14" fill="#F6A8BC" opacity="0.5"/>
+  <circle cx="302" cy="278" r="14" fill="#F6A8BC" opacity="0.5"/>
+
+  <!-- eyes -->
+  <circle cx="226" cy="260" r="11" fill="#5A3A42"/>
+  <circle cx="286" cy="260" r="11" fill="#5A3A42"/>
+
+  <!-- smile -->
+  <path d="M238 292 Q256 314 274 292"
+        stroke="#5A3A42"
+        stroke-width="8"
+        fill="none"
+        stroke-linecap="round"/>
+</svg>
