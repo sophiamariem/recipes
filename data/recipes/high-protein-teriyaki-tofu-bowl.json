@@ -1,0 +1,153 @@
+{
+  "slug": "high-protein-teriyaki-tofu-bowl",
+  "title": "High-Protein Teriyaki Tofu Bowl",
+  "image": "images/teriyaki-tofu-bowl.jpeg",
+  "time": "25-30 min",
+  "servings": 2,
+  "style": "Crispy tofu coated in a sticky homemade teriyaki-style sauce, served over rice with edamame, avocado, and sesame.",
+  "tags": [
+    "Vegan",
+    "High Protein",
+    "Dairy-free",
+    "Gluten-free",
+    "Comfort Food"
+  ],
+  "categories": [
+    "Dinner",
+    "Bowl",
+    "Plant-based"
+  ],
+  "keywords": [
+    "teriyaki tofu",
+    "tofu bowl",
+    "high protein vegan",
+    "edamame rice bowl"
+  ],
+  "description": "A quick high-protein tofu bowl with crispy pan-fried tofu, a gingery garlic teriyaki-style sauce, rice, edamame, avocado, and sesame.",
+  "ingredients": {
+    "sections": [
+      {
+        "title": "Sauce",
+        "items": [
+          {
+            "qty": "2",
+            "unit": "tbsp",
+            "item": "tamari sauce"
+          },
+          {
+            "qty": "1",
+            "unit": "tbsp",
+            "item": "rice wine vinegar"
+          },
+          {
+            "qty": "2",
+            "unit": "tbsp",
+            "item": "brown sugar"
+          },
+          {
+            "qty": "0.5",
+            "unit": "tbsp",
+            "item": "cornflour"
+          },
+          {
+            "qty": "2",
+            "unit": "tbsp",
+            "item": "water"
+          },
+          {
+            "qty": "1",
+            "unit": "tbsp",
+            "item": "ginger",
+            "note": "minced"
+          },
+          {
+            "qty": "2",
+            "unit": "cloves",
+            "item": "garlic",
+            "note": "minced"
+          }
+        ]
+      },
+      {
+        "title": "Tofu",
+        "items": [
+          {
+            "qty": "300",
+            "unit": "g",
+            "item": "firm tofu",
+            "note": "pressed and diced into cubes"
+          },
+          {
+            "qty": "1",
+            "unit": "tbsp",
+            "item": "cornflour"
+          },
+          {
+            "qty": "",
+            "unit": "",
+            "item": "salt and pepper",
+            "note": "pinch"
+          },
+          {
+            "qty": "1",
+            "unit": "tbsp",
+            "item": "cooking oil"
+          }
+        ]
+      },
+      {
+        "title": "For Serving",
+        "items": [
+          {
+            "qty": "",
+            "unit": "",
+            "item": "steamed rice"
+          },
+          {
+            "qty": "200",
+            "unit": "g",
+            "item": "frozen edamame",
+            "note": "boiled"
+          },
+          {
+            "qty": "1",
+            "unit": "",
+            "item": "spring onion shoot",
+            "note": "sliced"
+          },
+          {
+            "qty": "2",
+            "unit": "tbsp",
+            "item": "toasted sesame seeds"
+          },
+          {
+            "qty": "1",
+            "unit": "",
+            "item": "avocado",
+            "note": "halved and sliced"
+          },
+          {
+            "qty": "",
+            "unit": "",
+            "item": "vegan mayo",
+            "note": "optional drizzle"
+          }
+        ]
+      }
+    ]
+  },
+  "steps": [
+    "Press tofu to remove excess moisture, then dice into cubes.",
+    "Toss tofu with cornflour, a pinch of salt, and pepper until evenly coated.",
+    "Whisk together tamari, rice wine vinegar, brown sugar, cornflour, water, minced ginger, and minced garlic to make the sauce.",
+    "Heat a frypan over medium-high heat with cooking oil. Cook tofu until golden on all sides.",
+    "Pour in the sauce and toss to coat. Cook for a few minutes until the sauce reduces and thickens.",
+    "Serve tofu over steamed rice with boiled edamame, avocado, toasted sesame seeds, and sliced spring onion.",
+    "Drizzle with vegan mayo if desired and serve hot."
+  ],
+  "tips": [
+    "Use extra-firm tofu for the crispiest texture.",
+    "If the sauce thickens too much, loosen with a splash of water.",
+    "Meal-prep friendly: store tofu, rice, and toppings separately and assemble when serving."
+  ]
+}

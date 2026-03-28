@@ -208,6 +208,21 @@
     "style": "Nutty and fresh Japanese-Vietnamese fusion spring rolls served with a creamy peanut dipping sauce"
   },
   {
+    "slug": "high-protein-teriyaki-tofu-bowl",
+    "title": "High-Protein Teriyaki Tofu Bowl",
+    "image": "images/teriyaki-tofu-bowl.jpeg",
+    "time": "25-30 min",
+    "tags": [
+      "Vegan",
+      "High Protein",
+      "Dairy-free",
+      "Gluten-free",
+      "Comfort Food"
+    ],
+    "description": "A quick high-protein tofu bowl with crispy pan-fried tofu, a gingery garlic teriyaki-style sauce, rice, edamame, avocado, and sesame.",
+    "style": "Crispy tofu coated in a sticky homemade teriyaki-style sauce, served over rice with edamame, avocado, and sesame."
+  },
+  {
     "slug": "vegan-protein-salad",
     "title": "High-Protein Vegan Salad",
     "image": "images/vegan-protein-salad.jpg",
