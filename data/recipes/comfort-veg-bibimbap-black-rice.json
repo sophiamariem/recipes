@@ -1,0 +1,115 @@
+{
+  "slug": "comfort-veg-bibimbap-black-rice",
+  "title": "Comfort Veg Bibimbap (Black Rice + Gochujang Bowl)",
+  "image": "images/comfort-veg-bibimbap-black-rice.webp",
+  "time": "45–50 min",
+  "servings": 2,
+  "style": "Nutty black rice bowl loaded with fresh crunchy veg, deep-golden crispy tofu, quick-pickled onions, and a thick gochujang drizzle — pure cozy comfort",
+  "tags": [
+    "Vegan",
+    "Dairy-free",
+    "High Protein",
+    "Spicy",
+    "Comfort Food"
+  ],
+  "categories": [
+    "Dinner",
+    "Rice Bowls",
+    "Asian"
+  ],
+  "keywords": [
+    "bibimbap",
+    "black rice bowl",
+    "gochujang",
+    "crispy tofu",
+    "Korean comfort food",
+    "vegan bibimbap"
+  ],
+  "description": "A cozy, wholesome riff on bibimbap built on nutty black rice with deep-golden crispy tofu, rainbow veg arranged just-so, quick-pickled red onions, and a pourable gochujang sauce you'll want to put on everything. Warm rice meets cool crunch meets spicy-sweet heat — this is the bowl you make when you need a hug from dinner.",
+  "ingredients": {
+    "sections": [
+      {
+        "title": "Black Rice Base",
+        "items": [
+          { "qty": "1", "unit": "cup", "item": "black rice", "note": "also called forbidden rice — nutty, chewy, and gorgeous" },
+          { "qty": "2–2.5", "unit": "cups", "item": "water" }
+        ]
+      },
+      {
+        "title": "Crispy Tofu",
+        "items": [
+          { "qty": "1", "unit": "block", "item": "firm tofu", "note": "pressed and cubed — extra-firm works even better" },
+          { "qty": "1–2", "unit": "tbsp", "item": "cornflour" },
+          { "qty": "", "unit": "", "item": "salt", "note": "generous pinch" },
+          { "qty": "0.5", "unit": "tsp", "item": "garlic powder" },
+          { "qty": "1–2", "unit": "tbsp", "item": "neutral oil", "note": "for pan-frying" }
+        ]
+      },
+      {
+        "title": "Signature Gochujang Sauce",
+        "items": [
+          { "qty": "2", "unit": "tbsp", "item": "gochujang paste", "note": "the soul of this bowl" },
+          { "qty": "1", "unit": "tbsp", "item": "soy sauce" },
+          { "qty": "1", "unit": "tsp", "item": "sesame oil" },
+          { "qty": "1", "unit": "tsp", "item": "maple syrup", "note": "optional — rounds out the heat" },
+          { "qty": "1–2", "unit": "tbsp", "item": "water", "note": "enough to make it thick but pourable" }
+        ]
+      },
+      {
+        "title": "Vegetable Components",
+        "items": [
+          { "qty": "2", "unit": "large handfuls", "item": "baby spinach", "note": "blanched, squeezed dry" },
+          { "qty": "1", "unit": "medium", "item": "carrot", "note": "cut into thin matchsticks — raw for crunch" },
+          { "qty": "0.5", "unit": "", "item": "cucumber", "note": "cut into matchsticks — cool and refreshing" },
+          { "qty": "1", "unit": "", "item": "yellow bell pepper", "note": "thinly sliced — sweet crunch" },
+          { "qty": "1", "unit": "tsp", "item": "sesame oil", "note": "for the spinach" },
+          { "qty": "", "unit": "", "item": "salt", "note": "pinch, for the spinach" }
+        ]
+      },
+      {
+        "title": "Quick-Pickled Red Onion",
+        "items": [
+          { "qty": "0.5", "unit": "", "item": "red onion", "note": "thinly sliced into half-moons" },
+          { "qty": "3", "unit": "tbsp", "item": "rice vinegar", "note": "or white wine vinegar" },
+          { "qty": "", "unit": "", "item": "salt", "note": "generous pinch" },
+          { "qty": "", "unit": "", "item": "sugar", "note": "tiny pinch — just to soften the bite" }
+        ]
+      },
+      {
+        "title": "Garnish",
+        "items": [
+          { "qty": "1–2", "unit": "tbsp", "item": "toasted sesame seeds" },
+          { "qty": "", "unit": "", "item": "sesame oil", "note": "finishing drizzle" }
+        ]
+      },
+      {
+        "title": "Optional Power-Ups (pick one or go wild)",
+        "items": [
+          { "qty": "100", "unit": "g", "item": "mixed mushrooms", "note": "sautéed until golden — adds serious umami" },
+          { "qty": "2–3", "unit": "tbsp", "item": "kimchi", "note": "absolute game changer if you have it" },
+          { "qty": "1", "unit": "", "item": "fried egg", "note": "runny yolk, if not keeping it vegan" }
+        ]
+      }
+    ]
+  },
+  "steps": [
+    "<strong>Pickle the Onions First:</strong> Toss sliced red onion with vinegar, salt, and a pinch of sugar. Set aside — they'll be perfectly tangy and pink by the time you need them (minimum 10 minutes).",
+    "<strong>Cook the Black Rice:</strong> Rinse rice, combine with water, bring to a boil, then reduce to a low simmer and cover. Cook 30–35 minutes until tender with a slight chew. Don't overcook — the texture is everything in this bowl.",
+    "<strong>Prep the Tofu:</strong> While rice cooks, press tofu firmly between paper towels. Cube it, then toss with cornflour, salt, and garlic powder until every piece is coated.",
+    "<strong>Fry Until Properly Golden:</strong> Heat oil in a non-stick pan over medium-high. Pan-fry tofu 8–10 minutes, turning occasionally, until deep golden with genuinely crispy edges. If it's still pale, keep going — pale tofu is sad tofu. Set aside.",
+    "<strong>Blanch the Spinach:</strong> Drop spinach into boiling water for 30–60 seconds. Drain immediately, squeeze out all the water (really wring it), then toss with a drizzle of sesame oil and a pinch of salt.",
+    "<strong>Prep Remaining Veg:</strong> Cut carrots and cucumber into thin matchsticks. Slice bell pepper into thin strips. These stay raw — the fresh crunch is the counterpoint to the warm rice and crispy tofu.",
+    "<strong>Make the Gochujang Sauce:</strong> Whisk together gochujang, soy sauce, sesame oil, maple syrup, and water. It should be thick but pourable — add water a splash at a time. Taste it. If it needs more heat, add more gochujang. If it needs more sweet, another drop of maple.",
+    "<strong>Sauté the Power-Ups (Optional):</strong> If using mushrooms, sauté in a hot pan with a little oil until golden and slightly crispy at the edges. Set aside with the tofu.",
+    "<strong>Assemble with Intent:</strong> Divide warm black rice between bowls. Arrange each vegetable in its own section around the bowl — spinach, carrot, cucumber, bell pepper, pickled onions. Pile crispy tofu (and mushrooms if using) in the centre. Spoon a generous amount of gochujang sauce right in the middle. Add kimchi on the side if using.",
+    "<strong>Finish and Devour:</strong> Scatter toasted sesame seeds over everything. Drizzle with a final thread of sesame oil. Admire it for exactly two seconds — then mix everything together thoroughly right before eating. That's where the magic happens."
+  ],
+  "tips": [
+    "The whole point is contrast: hot rice + hot tofu against cool, crunchy raw veg. Don't cook the carrots, cucumber, or pepper.",
+    "If your tofu isn't deeply golden and crispy, you pulled it too early. Give it time — this is what makes the bowl.",
+    "Black rice takes longer than white rice (30–35 min). Start it first and build everything around it.",
+    "The sauce keeps in the fridge for a week. Make double — you'll put it on rice, noodles, eggs, toast, your hand.",
+    "For maximum comfort mode: add sautéed mushrooms AND kimchi AND a fried egg. No rules, only vibes.",
+    "Leftovers reheat well — keep sauce and raw veg separate, then reassemble when ready to eat."
+  ]
+}

@@ -111,6 +111,21 @@
     "style": "Comforting, creamy chickpeas with quick stovetop naan (vegan option)."
   },
   {
+    "slug": "comfort-veg-bibimbap-black-rice",
+    "title": "Comfort Veg Bibimbap (Black Rice + Gochujang Bowl)",
+    "image": "images/comfort-veg-bibimbap-black-rice.webp",
+    "time": "45–50 min",
+    "tags": [
+      "Vegan",
+      "Dairy-free",
+      "High Protein",
+      "Spicy",
+      "Comfort Food"
+    ],
+    "description": "A cozy, wholesome riff on bibimbap built on nutty black rice with deep-golden crispy tofu, rainbow veg arranged just-so, quick-pickled red onions, and a pourable gochujang sauce you'll want to put on everything.",
+    "style": "Nutty black rice bowl loaded with fresh crunchy veg, deep-golden crispy tofu, quick-pickled onions, and a thick gochujang drizzle — pure cozy comfort"
+  },
+  {
     "slug": "coconut-lime-tofu",
     "title": "Creamy Coconut Lime Tofu",
     "image": "images/coconut-lime-tofu.jpg",
