@@ -23,6 +23,21 @@ const APPROVED_TAGS = new Set([
     'Summer'
 ]);
 
+const TAG_ALIASES = {
+    'Vegetarian': 'Vegan',
+    'Vegan option': 'Vegan',
+
+    'Healthy': 'High Protein',
+    'High Fiber': 'High Protein',
+
+    'Italian-inspired': 'Comfort Food',
+    'Asian-inspired': 'Spicy',
+
+    'Meal Prep': 'One-pan',
+
+    'Salad': null
+};
+
 function rel(p) {
     try { return path.relative(process.cwd(), p) || p; }
     catch { return p; }
@@ -83,6 +98,21 @@ function parseJSONWithContext(raw, filePath) {
     }
 }
 
+function normalizeTags(tags = []) {
+    const cleaned = [];
+
+    for (const tag of tags) {
+        const mapped = TAG_ALIASES.hasOwnProperty(tag)
+            ? TAG_ALIASES[tag]
+            : tag;
+
+        if (!mapped) continue;
+        cleaned.push(mapped);
+    }
+
+    return [...new Set(cleaned)];
+}
+
 function validateTagsWithContext(data, filePath) {
     const tags = Array.isArray(data.tags) ? data.tags : [];
     const invalid = tags.filter((tag) => !APPROVED_TAGS.has(tag));
@@ -120,6 +150,7 @@ function loadRecipes() {
             continue;
         }
         const data = parsed.data;
+        data.tags = normalizeTags(data.tags);
         const tagsValidation = validateTagsWithContext(data, fullPath);
         if (!tagsValidation.ok) {
             failures.push(tagsValidation.error);
