@@ -1,0 +1,96 @@
+{
+  "slug": "crispy-rice-salad-gochujang-mushrooms",
+  "title": "Crispy Rice Salad with Gochujang Mushrooms",
+  "image": "images/crispy-rice-salad.webp",
+  "time": "50 min",
+  "servings": 2,
+  "style": "Bold, umami-rich salad with crispy rice, spicy mushrooms, and creamy peanut sauce",
+  "tags": [
+    "Vegan",
+    "High Protein",
+    "Gluten-free",
+    "Dairy-free",
+    "Spicy",
+    "One-pan"
+  ],
+  "categories": [
+    "Lunch",
+    "Dinner",
+    "Salad",
+    "Plant-based"
+  ],
+  "keywords": [
+    "crispy rice salad",
+    "gochujang mushrooms",
+    "peanut sauce",
+    "vegan salad",
+    "edamame salad",
+    "healthy bowl"
+  ],
+  "description": "Crispy baked rice paired with savory gochujang mushrooms, fresh vegetables, and a creamy, zesty peanut sauce for a satisfying plant-based meal.",
+  "ingredients": {
+    "sections": [
+      {
+        "title": "Crispy Rice",
+        "items": [
+          { "qty": "1", "unit": "cup", "item": "cooked rice", "note": "preferably day-old" },
+          { "qty": "1", "unit": "tbsp", "item": "chili oil" }
+        ]
+      },
+      {
+        "title": "Gochujang Mushrooms",
+        "items": [
+          { "qty": "9", "unit": "oz", "item": "king oyster mushrooms" },
+          { "qty": "6", "unit": "oz", "item": "shimeji mushrooms" },
+          { "qty": "0.5", "unit": "tbsp", "item": "gochujang paste" },
+          { "qty": "2", "unit": "tsp", "item": "tamari", "note": "low sodium preferred" },
+          { "qty": "0.5", "unit": "tbsp", "item": "maple syrup" },
+          { "qty": "1", "unit": "tsp", "item": "rice vinegar" },
+          { "qty": "1", "unit": "tsp", "item": "sesame oil" }
+        ]
+      },
+      {
+        "title": "Peanut Sauce",
+        "items": [
+          { "qty": "1.5", "unit": "tbsp", "item": "peanut butter", "note": "or tahini for nut-free" },
+          { "qty": "1", "unit": "tbsp", "item": "fresh ginger", "note": "finely grated" },
+          { "qty": "1", "unit": "clove", "item": "garlic" },
+          { "qty": "2", "unit": "tbsp", "item": "lime juice" },
+          { "qty": "2", "unit": "tsp", "item": "tamari" },
+          { "qty": "2", "unit": "tsp", "item": "maple syrup" },
+          { "qty": "0.25", "unit": "cup", "item": "dairy-free milk", "note": "e.g. soy" },
+          { "qty": "1", "unit": "tsp", "item": "gochujang paste" }
+        ]
+      },
+      {
+        "title": "Salad",
+        "items": [
+          { "qty": "1.5", "unit": "cups", "item": "edamame", "note": "shelled and thawed" },
+          { "qty": "1", "unit": "", "item": "cucumber", "note": "diced" },
+          { "qty": "2", "unit": "", "item": "spring onions", "note": "finely chopped" },
+          { "qty": "1", "unit": "", "item": "avocado", "note": "diced" },
+          { "qty": "0.25", "unit": "cup", "item": "fresh mint", "note": "finely chopped" }
+        ]
+      }
+    ]
+  },
+  "steps": [
+    "<strong>Prepare the Crispy Rice:</strong> Preheat oven to 200°C / 400°F (fan). Toss cooked rice with chili oil and spread in a thin layer on a lined baking tray.",
+    "Bake for 30 minutes, stirring halfway, until golden and crisp. Let cool slightly, then lightly crush to break up large clumps.",
+    "<strong>Prepare the Mushrooms:</strong> Slice king oyster mushroom caps and shred the stems with a fork. Trim and separate the shimeji mushrooms.",
+    "<strong>Marinate:</strong> Mix gochujang, tamari, maple syrup, and rice vinegar into a paste. Add mushrooms and toss well to coat.",
+    "<strong>Cook the Mushrooms:</strong> Heat a large pan over medium heat. Cook mushrooms for about 10 minutes until they release moisture.",
+    "Once mostly dry, add sesame oil and cook undisturbed for 2 minutes to brown. Stir, then repeat to develop deeper colour and flavour.",
+    "<strong>Make the Peanut Sauce:</strong> Blend peanut butter, ginger, garlic, lime juice, tamari, maple syrup, dairy-free milk, and gochujang until smooth.",
+    "<strong>Assemble:</strong> Divide edamame, cucumber, spring onions, avocado, mint, mushrooms, and crispy rice between bowls.",
+    "Drizzle generously with peanut sauce and serve."
+  ],
+  "tips": [
+    "Use day-old rice for the best crispy texture.",
+    "Don’t overcrowd the tray when baking rice — it needs space to crisp.",
+    "Let mushrooms sit undisturbed in the pan to develop deep browning.",
+    "Keep the sauce separate if storing leftovers to maintain texture.",
+    "Swap peanut butter for tahini to make the dish nut-free.",
+    "Brown rice works well if you prefer a chewier texture."
+  ]
+}

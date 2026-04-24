@@ -194,6 +194,22 @@
     "style": "Spicy, crunchy, fresh salad with aggressively crispy tofu and punchy kimchi dressing"
   },
   {
+    "slug": "crispy-rice-salad-gochujang-mushrooms",
+    "title": "Crispy Rice Salad with Gochujang Mushrooms",
+    "image": "images/crispy-rice-salad.webp",
+    "time": "50 min",
+    "tags": [
+      "Vegan",
+      "High Protein",
+      "Gluten-free",
+      "Dairy-free",
+      "Spicy",
+      "One-pan"
+    ],
+    "description": "Crispy baked rice paired with savory gochujang mushrooms, fresh vegetables, and a creamy, zesty peanut sauce for a satisfying plant-based meal.",
+    "style": "Bold, umami-rich salad with crispy rice, spicy mushrooms, and creamy peanut sauce"
+  },
+  {
     "slug": "easy-vegetable-stir-fry-peanut-sauce",
     "title": "Easy Vegetable Stir-Fry with Creamy Peanut Sauce",
     "image": "images/vegetable-peanut-stir-fry.jpg",
@@ -250,6 +266,22 @@
     ],
     "description": "A satisfying vegan protein salad with marinated tempeh, baked tofu, chickpeas, and greens—delivering ~30 g plant-based protein per serving.",
     "style": "Hearty, nourishing salad packed with plant-based protein and fibre."
+  },
+  {
+    "slug": "kale-caesar-pasta-salad",
+    "title": "Kale Caesar Pasta Salad with Crispy Chickpeas",
+    "image": "images/kale-caesar-pasta-salad.jpg",
+    "time": "40 min",
+    "tags": [
+      "Vegan",
+      "High Protein",
+      "Gluten-free",
+      "Dairy-free",
+      "Comfort Food",
+      "One-pan"
+    ],
+    "description": "A hearty and nourishing kale Caesar pasta salad tossed in a creamy vegan-friendly dressing and topped with crispy smoked chickpeas.",
+    "style": "Fresh, creamy, and hearty pasta salad with crispy roasted chickpeas and vibrant kale"
   },
   {
     "slug": "kerala-style-roasted-okra",

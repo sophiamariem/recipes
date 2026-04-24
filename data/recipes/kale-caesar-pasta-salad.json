@@ -1,0 +1,83 @@
+{
+  "slug": "kale-caesar-pasta-salad",
+  "title": "Kale Caesar Pasta Salad with Crispy Chickpeas",
+  "image": "images/kale-caesar-pasta-salad.jpg",
+  "time": "40 min",
+  "servings": 4,
+  "style": "Fresh, creamy, and hearty pasta salad with crispy roasted chickpeas and vibrant kale",
+  "tags": [
+    "Vegan",
+    "High Protein",
+    "Gluten-free",
+    "Dairy-free",
+    "Comfort Food",
+    "One-pan"
+  ],
+  "categories": [
+    "Lunch",
+    "Dinner",
+    "Salad",
+    "Pasta"
+  ],
+  "keywords": [
+    "kale caesar salad",
+    "pasta salad",
+    "crispy chickpeas",
+    "vegan caesar dressing",
+    "healthy pasta",
+    "vegetarian meal"
+  ],
+  "description": "A hearty and nourishing kale Caesar pasta salad tossed in a creamy vegan-friendly dressing and topped with crispy smoked chickpeas.",
+  "ingredients": {
+    "sections": [
+      {
+        "title": "Crispy Smoked Chickpeas",
+        "items": [
+          { "qty": "1", "unit": "can (15 oz)", "item": "chickpeas", "note": "drained and rinsed" },
+          { "qty": "1", "unit": "tbsp", "item": "olive oil" },
+          { "qty": "0.5", "unit": "tsp", "item": "smoked paprika" },
+          { "qty": "0.25", "unit": "tsp", "item": "sea salt" }
+        ]
+      },
+      {
+        "title": "Caesar Dressing (Vegan-friendly)",
+        "items": [
+          { "qty": "3", "unit": "tbsp", "item": "olive oil" },
+          { "qty": "4", "unit": "tbsp", "item": "lemon juice" },
+          { "qty": "2", "unit": "tbsp", "item": "tahini" },
+          { "qty": "1", "unit": "tbsp", "item": "Dijon mustard" },
+          { "qty": "1", "unit": "clove", "item": "garlic" },
+          { "qty": "1", "unit": "tsp", "item": "nutritional yeast" },
+          { "qty": "0.25", "unit": "tsp", "item": "salt" },
+          { "qty": "0.25", "unit": "tsp", "item": "black pepper" },
+          { "qty": "4", "unit": "tbsp", "item": "water" }
+        ]
+      },
+      {
+        "title": "Salad",
+        "items": [
+          { "qty": "8", "unit": "oz", "item": "pasta", "note": "cooked al dente" },
+          { "qty": "5", "unit": "cups", "item": "kale", "note": "shredded" },
+          { "qty": "0.33", "unit": "cup", "item": "parmesan cheese", "note": "optional or vegan alternative" }
+        ]
+      }
+    ]
+  },
+  "steps": [
+    "<strong>Roast the Chickpeas:</strong> Preheat oven to 190°C / 375°F. Dry chickpeas thoroughly using paper towels and remove loose skins.",
+    "Toss chickpeas with olive oil, smoked paprika, and salt. Spread on a baking tray and roast for 30–40 minutes until crispy.",
+    "<strong>Make the Dressing:</strong> Add olive oil, lemon juice, tahini, Dijon mustard, garlic, nutritional yeast, salt, pepper, and water to a blender.",
+    "Blend until smooth and creamy. Adjust consistency with more water or lemon juice if needed.",
+    "<strong>Assemble the Salad:</strong> In a large bowl, combine cooked pasta, shredded kale, roasted chickpeas, and parmesan cheese.",
+    "Pour over the dressing and toss well until everything is evenly coated.",
+    "Serve immediately or chill slightly before serving."
+  ],
+  "tips": [
+    "Massage the kale with a little olive oil for a softer texture.",
+    "Dry chickpeas thoroughly before roasting — this is the difference between soft and crispy.",
+    "Salt your pasta water well for better flavour.",
+    "Cook pasta just to al dente so it holds up in the salad.",
+    "Add extra parmesan if you want a richer, more indulgent flavour.",
+    "Thin the dressing with water or lemon juice depending on your preference."
+  ]
+}
