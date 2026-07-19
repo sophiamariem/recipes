@@ -1,0 +1,90 @@
+{
+  "slug": "lemon-tahini-dressing",
+  "title": "Lemon Tahini Dressing",
+  "image": "images/lemon-tahini-dressing.jpg",
+  "time": "≈5 min",
+  "servings": 4,
+  "style": "Creamy, tangy tahini dressing with lemon, garlic, and a touch of maple.",
+  "tags": [
+    "Vegan",
+    "Gluten-free",
+    "Dairy-free"
+  ],
+  "categories": [
+    "Sauce",
+    "Dressing",
+    "Plant-based"
+  ],
+  "keywords": [
+    "lemon tahini dressing",
+    "tahini sauce",
+    "vegan salad dressing"
+  ],
+  "description": "A smooth, drizzleable lemon tahini dressing whisked together in five minutes—perfect over salads, bowls, and roasted vegetables.",
+  "ingredients": {
+    "sections": [
+      {
+        "title": null,
+        "items": [
+          {
+            "qty": "60",
+            "unit": "g",
+            "item": "smooth tahini",
+            "note": "¼ cup"
+          },
+          {
+            "qty": "45",
+            "unit": "g",
+            "item": "water",
+            "note": "3 tbsp, plus more if needed"
+          },
+          {
+            "qty": "30",
+            "unit": "g",
+            "item": "fresh lemon juice",
+            "note": "2 tbsp"
+          },
+          {
+            "qty": "28",
+            "unit": "g",
+            "item": "extra-virgin olive oil",
+            "note": "2 tbsp"
+          },
+          {
+            "qty": "20",
+            "unit": "g",
+            "item": "maple syrup",
+            "note": "1 tbsp"
+          },
+          {
+            "qty": "5",
+            "unit": "g",
+            "item": "toasted sesame oil",
+            "note": "1 tsp"
+          },
+          {
+            "qty": "3",
+            "unit": "g",
+            "item": "garlic",
+            "note": "1 small clove, grated"
+          },
+          {
+            "qty": "1.5",
+            "unit": "g",
+            "item": "sea salt",
+            "note": "¼ tsp"
+          }
+        ]
+      }
+    ]
+  },
+  "steps": [
+    "In a small bowl, whisk together the tahini, water, lemon juice, olive oil, maple syrup, sesame oil, garlic, and salt until smooth.",
+    "If the dressing is too thick, add more water, 7 g (½ tbsp) at a time, until it reaches a drizzleable consistency."
+  ],
+  "tips": [
+    "Use a smooth, runny tahini—thick or bitter tahini will need extra water and a little more maple syrup to balance.",
+    "Keeps in an airtight jar in the fridge for up to 5 days; it thickens when chilled, so whisk in a splash of water before serving.",
+    "Great over the High-Protein Vegan Salad, grain bowls, or roasted vegetables."
+  ]
+}

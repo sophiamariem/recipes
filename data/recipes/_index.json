@@ -241,7 +241,7 @@
   {
     "slug": "high-protein-teriyaki-tofu-bowl",
     "title": "High-Protein Teriyaki Tofu Bowl",
-    "image": "images/teriyaki-tofu-bowl.jpg",
+    "image": "images/teriyaki-tofu-bowl.png",
     "time": "25-30 min",
     "tags": [
       "Vegan",
@@ -307,6 +307,19 @@
     ],
     "description": "A quick, flavorful fusion burrito combining tangy kimchi, black beans, veggies, rice, and melty cheese. Perfect for a 20–30 minute weeknight dinner with optional spice adjustments.",
     "style": "Savory, spicy, and tangy fusion burrito filled with kimchi, black beans, rice, and melty cheese"
+  },
+  {
+    "slug": "lemon-tahini-dressing",
+    "title": "Lemon Tahini Dressing",
+    "image": "images/lemon-tahini-dressing.jpg",
+    "time": "≈5 min",
+    "tags": [
+      "Vegan",
+      "Gluten-free",
+      "Dairy-free"
+    ],
+    "description": "A smooth, drizzleable lemon tahini dressing whisked together in five minutes—perfect over salads, bowls, and roasted vegetables.",
+    "style": "Creamy, tangy tahini dressing with lemon, garlic, and a touch of maple."
   },
   {
     "slug": "mexican-inspired-black-bean-bowl",

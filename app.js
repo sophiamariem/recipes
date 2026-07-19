@@ -8,6 +8,9 @@ const byId = (id) => document.getElementById(id);
 function escapeHtml(s) {
     return String(s).replace(/[&<>"']/g, m => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[m] || m));
 }
+function stripTags(s) {
+    return String(s ?? '').replace(/<[^>]*>/g, '');
+}
 function formatQty(n) {
     const s = (Math.round(n * 100) / 100).toFixed(2).replace(/\.?0+$/, '');
     return s;
@@ -479,7 +482,7 @@ function renderSteps(r) {
     return `<ol>${steps.map((s, i) => {
         const dur = parseDuration(s);
         const controls = dur ? timerControlsHTML(dur) : optionalTimerHTML();
-        return `<li data-step-index="${i}" data-step-text="${escapeHtml(s)}">${s}${controls}</li>`;
+        return `<li data-step-index="${i}" data-step-text="${escapeHtml(stripTags(s))}">${s}${controls}</li>`;
     }).join('')}</ol>`;
 }
 function timerControlsHTML(seconds) {
@@ -626,7 +629,7 @@ function injectSchema(r) {
         "recipeCategory": r.categories || [],
         "keywords": (r.keywords || []).join(', '),
         "recipeIngredient": r.ingredients?.sections?.flatMap((s) => s.items.map((it) => typeof it === 'string' ? it : [it.qty, it.unit, it.item, it.note].filter(Boolean).join(' '))) || [],
-        "recipeInstructions": (r.steps || []).map(s => ({ "@type": "HowToStep", "text": s }))
+        "recipeInstructions": (r.steps || []).map(s => ({ "@type": "HowToStep", "text": stripTags(s) }))
     };
     const script = document.createElement('script');
     script.type = 'application/ld+json';
