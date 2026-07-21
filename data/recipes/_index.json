@@ -337,6 +337,17 @@
     "style": "Smoky, bright, deeply seasoned bean bowl with real texture and contrast"
   },
   {
+    "slug": "nutella-banana-bread",
+    "title": "Nutella Banana Bread",
+    "image": "images/nutella-banana-bread.jpg",
+    "time": "1 h",
+    "tags": [
+      "Comfort Food"
+    ],
+    "description": "A classic banana bread marbled with a hazelnut-chocolate swirl, baked in a 9×5-inch loaf and cut into 10 slices.",
+    "style": "Soft, moist banana loaf swirled with warm Nutella."
+  },
+  {
     "slug": "pad-kee-mao-seitan",
     "title": "Pad Kee Mao (Drunken Noodles) – Seitan",
     "image": "images/pad-kee-mao-seitan.jpg",

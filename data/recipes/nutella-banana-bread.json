@@ -1,0 +1,131 @@
+{
+  "slug": "nutella-banana-bread",
+  "title": "Nutella Banana Bread",
+  "image": "images/nutella-banana-bread.jpg",
+  "time": "1 h",
+  "servings": 10,
+  "style": "Soft, moist banana loaf swirled with warm Nutella.",
+  "tags": [
+    "Comfort Food"
+  ],
+  "categories": [
+    "Baking",
+    "Dessert",
+    "Breakfast",
+    "Snack"
+  ],
+  "keywords": [
+    "nutella banana bread",
+    "banana loaf",
+    "chocolate hazelnut swirl",
+    "banana bread"
+  ],
+  "description": "A classic banana bread marbled with a hazelnut-chocolate swirl, baked in a 9×5-inch loaf and cut into 10 slices.",
+  "ingredients": {
+    "sections": [
+      {
+        "title": null,
+        "items": [
+          {
+            "qty": "250",
+            "unit": "g",
+            "item": "plain flour",
+            "note": "2 cups"
+          },
+          {
+            "qty": "4",
+            "unit": "g",
+            "item": "baking soda",
+            "note": "¾ tsp"
+          },
+          {
+            "qty": "3",
+            "unit": "g",
+            "item": "salt",
+            "note": "½ tsp"
+          },
+          {
+            "qty": "57",
+            "unit": "g",
+            "item": "butter",
+            "note": "¼ cup, softened"
+          },
+          {
+            "qty": "200",
+            "unit": "g",
+            "item": "sugar",
+            "note": "1 cup"
+          },
+          {
+            "qty": "2",
+            "unit": "",
+            "item": "eggs",
+            "note": "about 100 g, room temperature"
+          },
+          {
+            "qty": "280",
+            "unit": "g",
+            "item": "mashed bananas",
+            "note": "1¼ cups — about 3 medium ripe bananas"
+          },
+          {
+            "qty": "4",
+            "unit": "g",
+            "item": "vanilla extract",
+            "note": "1 tsp"
+          },
+          {
+            "qty": "80",
+            "unit": "g",
+            "item": "milk",
+            "note": "⅓ cup"
+          },
+          {
+            "qty": "220",
+            "unit": "g",
+            "item": "Nutella",
+            "note": "¾ cup"
+          }
+        ]
+      }
+    ]
+  },
+  "steps": [
+    "Preheat the oven to 175°C / 350°F and spray a 9×5-inch (23×13 cm) loaf tin with nonstick spray.",
+    "In a medium bowl, whisk together the flour, baking soda, and salt.",
+    "In a separate large bowl, cream the sugar and softened butter together.",
+    "Add the eggs one at a time, beating well after each addition.",
+    "Add the mashed bananas, milk, and vanilla, and beat until well combined.",
+    "Add the flour mixture and beat on low speed just until the flour is incorporated — do not over-mix.",
+    "In a small microwave-safe bowl, heat the Nutella for 15 seconds and stir until smooth. Stir in about 1 cup of the banana bread batter until well mixed.",
+    "Spoon the Nutella batter alternately with the plain batter into the prepared tin, then swirl the two together with a knife.",
+    "Bake for 50–60 minutes, until a skewer inserted in the centre comes out clean.",
+    "Cool in the tin for at least 15 minutes, then turn the loaf out onto a wire rack to cool completely."
+  ],
+  "tips": [
+    "Use very ripe, heavily spotted bananas — they mash smoothly and give the loaf its sweetness.",
+    "3 medium bananas gives roughly 280 g mashed; weigh rather than counting if yours are large or small.",
+    "Warming the Nutella is what lets it swirl instead of clump — don't skip the 15 seconds.",
+    "Tent the loaf with foil after 40 minutes if the top is browning too fast.",
+    "Keeps well wrapped at room temperature for 3 days, or sliced and frozen for up to 3 months."
+  ],
+  "nutrition": {
+    "calories": "374 kcal",
+    "carbohydrates": "60 g",
+    "protein": "6 g",
+    "fat": "13 g",
+    "saturatedFat": "10 g",
+    "polyunsaturatedFat": "0.5 g",
+    "monounsaturatedFat": "2 g",
+    "transFat": "0.2 g",
+    "cholesterol": "46 mg",
+    "sodium": "261 mg",
+    "potassium": "246 mg",
+    "fiber": "3 g",
+    "sugar": "36 g",
+    "vitaminA": "221 IU",
+    "vitaminC": "2 mg",
+    "calcium": "46 mg",
+    "iron": "2 mg"
+  }
+}
