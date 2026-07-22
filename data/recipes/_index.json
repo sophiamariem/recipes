@@ -55,6 +55,18 @@
     "style": "Creamy, aromatic Indian-inspired beans with jammy onions and warm spices"
   },
   {
+    "slug": "brownie-cookies",
+    "title": "Brownie Cookies",
+    "image": "images/brownie-cookies.jpg",
+    "time": "45 min",
+    "tags": [
+      "Comfort Food",
+      "Sweets"
+    ],
+    "description": "Extra rich, extra fudge-like, and extra chewy brownie cookies. For best results, use good chocolate and follow the recipe closely.",
+    "style": "Extra rich, fudgy, and chewy cookies with the flavour of a brownie."
+  },
+  {
     "slug": "carrot-dal-tempeh-breadcrumbs",
     "title": "Carrot Dal with Tempeh Breadcrumbs",
     "image": "images/carrot-dal.jpg",
@@ -141,6 +153,18 @@
     ],
     "description": "A fast yet deeply flavoured coconut lime tofu that tastes like it’s been simmering for hours. Perfect over steamed rice.",
     "style": "Rich, creamy coconut-lime tofu with Thai-inspired red curry heat."
+  },
+  {
+    "slug": "creamy-coffee-fudge",
+    "title": "Creamy Coffee Fudge",
+    "image": "images/creamy-coffee-fudge.avif",
+    "time": "40 min + setting",
+    "tags": [
+      "Comfort Food",
+      "Sweets"
+    ],
+    "description": "A rich, creamy coffee fudge made with condensed milk, demerara sugar, and instant espresso, spiked with coffee liqueur and set in a 20 cm square tin.",
+    "style": "Soft, buttery coffee tablet-style fudge with a hit of espresso and coffee liqueur."
   },
   {
     "slug": "creamy-gochujang-pasta-indian-twist",
@@ -322,6 +346,18 @@
     "style": "Creamy, tangy tahini dressing with lemon, garlic, and a touch of maple."
   },
   {
+    "slug": "mars-bar-krispie-treats",
+    "title": "Mars Bar Krispie Treats",
+    "image": "images/mars-bar-krispie-treats.jpg",
+    "time": "20 min + 1 h chill",
+    "tags": [
+      "Comfort Food",
+      "Sweets"
+    ],
+    "description": "No-bake squares of puffed rice bound with melted Mars bars and butter, topped with a layer of milk chocolate. Makes sixteen 2-inch squares.",
+    "style": "No-bake puffed rice bars set with melted Mars bars and a chocolate top."
+  },
+  {
     "slug": "mexican-inspired-black-bean-bowl",
     "title": "Mexican-Inspired Black Bean Bowl",
     "image": "images/mexican-black-bean-bowl.jpg",
@@ -337,15 +373,40 @@
     "style": "Smoky, bright, deeply seasoned bean bowl with real texture and contrast"
   },
   {
+    "slug": "mosaiko-chocolate-biscuit-salami",
+    "title": "Mosaiko — Chocolate Biscuit Salami",
+    "image": "images/mosaiko-chocolate-biscuit-salami.jpg",
+    "time": "40 min + chilling",
+    "tags": [
+      "Comfort Food",
+      "Sweets"
+    ],
+    "description": "A no-bake Greek chocolate biscuit salami — a rich cocoa buttercream folded through milk-soaked biscuits, rolled into two logs around cherry and fig preserves, then coated in white and raspberry-chocolate ganache. Makes two logs.",
+    "style": "No-bake Greek chocolate biscuit salami (mosaiko / kormos / doukissa) with fruit preserves, rolled into logs and coated in ganache."
+  },
+  {
     "slug": "nutella-banana-bread",
     "title": "Nutella Banana Bread",
     "image": "images/nutella-banana-bread.jpg",
     "time": "1 h",
     "tags": [
-      "Comfort Food"
+      "Comfort Food",
+      "Sweets"
     ],
     "description": "A classic banana bread marbled with a hazelnut-chocolate swirl, baked in a 9×5-inch loaf and cut into 10 slices.",
     "style": "Soft, moist banana loaf swirled with warm Nutella."
+  },
+  {
+    "slug": "oreo-cheesecake",
+    "title": "Oreo Cheesecake",
+    "image": "images/oreo-cheesecake.webp",
+    "time": "1 h 15 min + 4 h chill",
+    "tags": [
+      "Comfort Food",
+      "Sweets"
+    ],
+    "description": "A dense, creamy baked cheesecake studded with chopped Oreos on a buttery Oreo-crumb crust. Baked in a 9-inch springform and chilled until set.",
+    "style": "Rich, creamy cookies-and-cream cheesecake with an Oreo crust."
   },
   {
     "slug": "pad-kee-mao-seitan",

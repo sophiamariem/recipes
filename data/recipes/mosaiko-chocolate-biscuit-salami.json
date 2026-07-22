@@ -1,0 +1,151 @@
+{
+  "slug": "mosaiko-chocolate-biscuit-salami",
+  "title": "Mosaiko — Chocolate Biscuit Salami",
+  "image": "images/mosaiko-chocolate-biscuit-salami.jpg",
+  "time": "40 min + chilling",
+  "servings": 20,
+  "style": "No-bake Greek chocolate biscuit salami (mosaiko / kormos / doukissa) with fruit preserves, rolled into logs and coated in ganache.",
+  "tags": [
+    "Comfort Food",
+    "Sweets"
+  ],
+  "categories": [
+    "Dessert",
+    "Sweets",
+    "No-bake",
+    "Greek"
+  ],
+  "keywords": [
+    "mosaiko",
+    "kormos",
+    "doukissa",
+    "chocolate biscuit salami",
+    "greek chocolate salami",
+    "no bake dessert"
+  ],
+  "description": "A no-bake Greek chocolate biscuit salami — a rich cocoa buttercream folded through milk-soaked biscuits, rolled into two logs around cherry and fig preserves, then coated in white and raspberry-chocolate ganache. Makes two logs.",
+  "ingredients": {
+    "sections": [
+      {
+        "title": "Cocoa Buttercream",
+        "items": [
+          {
+            "qty": "250",
+            "unit": "g",
+            "item": "unsalted butter",
+            "note": "1 packet, at room temperature"
+          },
+          {
+            "qty": "1.5",
+            "unit": "cups",
+            "item": "icing sugar"
+          },
+          {
+            "qty": "50",
+            "unit": "g",
+            "item": "unsweetened cocoa powder",
+            "note": "sifted"
+          },
+          {
+            "qty": "125",
+            "unit": "g",
+            "item": "dark chocolate",
+            "note": "melted"
+          },
+          {
+            "qty": "0.25",
+            "unit": "tsp",
+            "item": "coarse sea salt"
+          },
+          {
+            "qty": "15",
+            "unit": "drops",
+            "item": "raspberry essence"
+          }
+        ]
+      },
+      {
+        "title": "Biscuits & Fillings",
+        "items": [
+          {
+            "qty": "3",
+            "unit": "packets (225 g each)",
+            "item": "plain biscuits",
+            "note": "such as Marie, morning coffee, or petit beurre"
+          },
+          {
+            "qty": "1",
+            "unit": "cup",
+            "item": "milk"
+          },
+          {
+            "qty": "6",
+            "unit": "",
+            "item": "fig preserves with roasted nut filling",
+            "note": "halved"
+          },
+          {
+            "qty": "0.5",
+            "unit": "cup",
+            "item": "cherry preserve",
+            "note": "drained from syrup"
+          }
+        ]
+      },
+      {
+        "title": "White Chocolate Coating (cherry log)",
+        "items": [
+          {
+            "qty": "125",
+            "unit": "g",
+            "item": "white chocolate"
+          },
+          {
+            "qty": "40",
+            "unit": "ml",
+            "item": "heavy cream"
+          }
+        ]
+      },
+      {
+        "title": "Chocolate Ganache (fig log)",
+        "items": [
+          {
+            "qty": "150",
+            "unit": "g",
+            "item": "raspberry chocolate",
+            "note": "or other chocolate"
+          },
+          {
+            "qty": "100",
+            "unit": "ml",
+            "item": "heavy cream",
+            "note": "or 100 ml milk plus 1 tbsp butter"
+          }
+        ]
+      }
+    ]
+  },
+  "steps": [
+    "Leave the butter out of the fridge for 2 hours to soften.",
+    "Sift the icing sugar and cocoa powder together.",
+    "Melt the dark chocolate over a double boiler (bain-marie) and set aside to cool.",
+    "Beat the butter, cocoa powder, and icing sugar with a hand mixer on low speed until fluffy. Add the melted chocolate, coarse sea salt, and raspberry essence, then mix to combine, increasing the speed.",
+    "In a separate bowl, break the biscuits into smaller pieces and pour over the milk. Mix quickly so they are evenly wet.",
+    "Add the biscuits to the buttercream gradually, folding with a spatula until all are incorporated.",
+    "Cut two big pieces of parchment paper and lay a piece of cling film on top of each.",
+    "Divide the mixture along the centre of both cling films, flattening it out.",
+    "Spoon the cherry preserve along the centre of one; on the other, place the halved fig preserves cut-side up along the centre.",
+    "Using the cling film to help, fold each into a salami shape and roll until round, then wrap in the cling film.",
+    "Wrap again with the parchment paper and refrigerate for a couple of hours before coating.",
+    "<strong>White chocolate coating:</strong> Put the 40 ml cream in a microwave-safe bowl, break in the white chocolate, and heat on medium for 1 minute. Stir until melted, repeating for 30 seconds if needed. Let it cool slightly, then coat the cherry log.",
+    "<strong>Chocolate ganache:</strong> Make a ganache with the raspberry chocolate and 100 ml cream using the double-boiler method, then coat the fig log.",
+    "Store in the fridge until the chocolate sets. You can also freeze once set — wrap again in cling film. If frozen, let it sit at room temperature for a few minutes before cutting or serving."
+  ],
+  "tips": [
+    "The logs can stay in the freezer for a long time before coating. If already coated, freeze them first and then wrap in cling film.",
+    "The first time you freeze them, place them on a flat surface such as a tray so they don't break.",
+    "Draining the cherry preserve well keeps the filling from making the log soggy.",
+    "Chill the logs thoroughly before coating so the warm ganache sets quickly and evenly."
+  ]
+}

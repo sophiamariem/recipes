@@ -1,0 +1,120 @@
+{
+  "slug": "brownie-cookies",
+  "title": "Brownie Cookies",
+  "image": "images/brownie-cookies.jpg",
+  "time": "45 min",
+  "servings": 16,
+  "style": "Extra rich, fudgy, and chewy cookies with the flavour of a brownie.",
+  "tags": [
+    "Comfort Food",
+    "Sweets"
+  ],
+  "categories": [
+    "Baking",
+    "Dessert",
+    "Sweets",
+    "Cookies"
+  ],
+  "keywords": [
+    "brownie cookies",
+    "fudgy chocolate cookies",
+    "chewy brownie cookies",
+    "chocolate cookies"
+  ],
+  "description": "Extra rich, extra fudge-like, and extra chewy brownie cookies. For best results, use good chocolate and follow the recipe closely.",
+  "ingredients": {
+    "sections": [
+      {
+        "title": null,
+        "items": [
+          {
+            "qty": "226",
+            "unit": "g",
+            "item": "semi-sweet chocolate",
+            "note": "two 4 oz bars, coarsely chopped"
+          },
+          {
+            "qty": "94",
+            "unit": "g",
+            "item": "all-purpose flour",
+            "note": "¾ cup, spooned & leveled"
+          },
+          {
+            "qty": "21",
+            "unit": "g",
+            "item": "cocoa powder",
+            "note": "¼ cup, natural unsweetened or dutch-process"
+          },
+          {
+            "qty": "1",
+            "unit": "tsp",
+            "item": "espresso powder"
+          },
+          {
+            "qty": "1",
+            "unit": "tsp",
+            "item": "baking powder"
+          },
+          {
+            "qty": "0.25",
+            "unit": "tsp",
+            "item": "salt"
+          },
+          {
+            "qty": "71",
+            "unit": "g",
+            "item": "unsalted butter",
+            "note": "5 tbsp, softened to room temperature"
+          },
+          {
+            "qty": "150",
+            "unit": "g",
+            "item": "light brown sugar",
+            "note": "¾ cup, packed"
+          },
+          {
+            "qty": "50",
+            "unit": "g",
+            "item": "granulated sugar",
+            "note": "¼ cup"
+          },
+          {
+            "qty": "2",
+            "unit": "",
+            "item": "eggs",
+            "note": "large, at room temperature"
+          },
+          {
+            "qty": "1",
+            "unit": "tsp",
+            "item": "pure vanilla extract"
+          },
+          {
+            "qty": "135",
+            "unit": "g",
+            "item": "semi-sweet chocolate chips",
+            "note": "¾ cup, optional"
+          }
+        ]
+      }
+    ]
+  },
+  "steps": [
+    "Melt the chopped chocolate in a double boiler or in the microwave in 20-second increments, stirring after each, until completely melted. Set aside to cool slightly so it doesn't melt the butter or cook the eggs.",
+    "Whisk the flour, cocoa powder, espresso powder, baking powder, and salt together and set aside.",
+    "In a large bowl using a handheld or stand mixer with a paddle attachment, beat the butter, brown sugar, and granulated sugar on medium-high speed until smooth and creamy, about 3 minutes.",
+    "Add the eggs and vanilla and beat on high for 2 full minutes. Scrape down the sides and bottom of the bowl, then beat on high for 1 more minute.",
+    "Pour in the slightly cooled melted chocolate and mix on medium-high speed for 2 full minutes.",
+    "Add the dry ingredients and beat on low speed until combined, then beat in the chocolate chips.",
+    "Preheat the oven to 177°C / 350°F and line large baking sheets with parchment paper or silicone mats.",
+    "Cover and chill the dough in the refrigerator for just 20 minutes as the oven preheats — this slightly solidifies the chocolate and butter for a nice spread. If chilling longer, let the dough sit at room temperature for 15 minutes before rolling and baking.",
+    "Roll or scoop the dough into balls, 1.5 tbsp / 35 g each (a medium cookie scoop is ideal). Place 3 inches apart on the baking sheets and bake for 12–13 minutes, until the edges appear set. The centres will be quite soft but set as the cookies cool.",
+    "Let the cookies cool on the baking sheet for 5 minutes, then transfer to a wire rack to cool completely."
+  ],
+  "tips": [
+    "Use good-quality chocolate bars rather than only chips — it makes a real difference to the fudgy texture.",
+    "Chill for exactly 20 minutes: longer makes thicker cookies that may not spread at all.",
+    "The centres should look underdone when you pull them out; they firm up as they cool.",
+    "Cookies stay fresh covered at room temperature for up to 1 week."
+  ]
+}

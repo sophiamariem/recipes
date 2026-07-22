@@ -1,0 +1,104 @@
+{
+  "slug": "oreo-cheesecake",
+  "title": "Oreo Cheesecake",
+  "image": "images/oreo-cheesecake.webp",
+  "time": "1 h 15 min + 4 h chill",
+  "servings": 16,
+  "style": "Rich, creamy cookies-and-cream cheesecake with an Oreo crust.",
+  "tags": [
+    "Comfort Food",
+    "Sweets"
+  ],
+  "categories": [
+    "Baking",
+    "Dessert",
+    "Sweets",
+    "Cheesecake"
+  ],
+  "keywords": [
+    "oreo cheesecake",
+    "cookies and cream cheesecake",
+    "baked cheesecake",
+    "springform cheesecake"
+  ],
+  "description": "A dense, creamy baked cheesecake studded with chopped Oreos on a buttery Oreo-crumb crust. Baked in a 9-inch springform and chilled until set.",
+  "ingredients": {
+    "sections": [
+      {
+        "title": "Crust",
+        "items": [
+          {
+            "qty": "26",
+            "unit": "",
+            "item": "Oreo cookies",
+            "note": "finely crushed"
+          },
+          {
+            "qty": "76",
+            "unit": "g",
+            "item": "butter or margarine",
+            "note": "⅓ cup, melted"
+          }
+        ]
+      },
+      {
+        "title": "Filling",
+        "items": [
+          {
+            "qty": "678",
+            "unit": "g",
+            "item": "brick cream cheese",
+            "note": "3 packages (8 oz each), softened"
+          },
+          {
+            "qty": "150",
+            "unit": "g",
+            "item": "sugar",
+            "note": "¾ cup"
+          },
+          {
+            "qty": "240",
+            "unit": "g",
+            "item": "sour cream",
+            "note": "1 cup"
+          },
+          {
+            "qty": "4",
+            "unit": "g",
+            "item": "vanilla extract",
+            "note": "1 tsp"
+          },
+          {
+            "qty": "4",
+            "unit": "",
+            "item": "eggs",
+            "note": "room temperature"
+          },
+          {
+            "qty": "10",
+            "unit": "",
+            "item": "Oreo cookies",
+            "note": "coarsely chopped, for the batter"
+          }
+        ]
+      }
+    ]
+  },
+  "steps": [
+    "Heat the oven to 175°C / 350°F.",
+    "<strong>Crust:</strong> Mix the finely crushed Oreos with the melted butter. Press onto the bottom and about 2 inches up the side of a 9-inch springform pan.",
+    "<strong>Filling:</strong> Beat the cream cheese and sugar in a large bowl with a mixer until blended. Add the sour cream and vanilla; mix well.",
+    "Add the eggs one at a time, mixing on low speed after each just until blended — don't overbeat.",
+    "Stir in the coarsely chopped Oreos, then pour the batter into the crust.",
+    "Bake 55 minutes to 1 hour, until the centre is almost set.",
+    "Run a knife around the rim of the pan to loosen the cake, then cool before removing the rim.",
+    "Refrigerate at least 4 hours before serving."
+  ],
+  "tips": [
+    "This uses 36 Oreos in total: 26 finely crushed for the crust and the remaining 10 coarsely chopped into the batter. In the UK that's about 3 packs, which leaves a few spare.",
+    "Room-temperature cream cheese and eggs blend smoothly and help avoid a lumpy batter.",
+    "Overbeating after adding the eggs whips in air that causes cracks — mix on low just until blended.",
+    "The centre should still wobble slightly when you take it out; it firms up as it chills.",
+    "For the cleanest set, chill overnight rather than the minimum 4 hours."
+  ]
+}

@@ -20,7 +20,8 @@ const APPROVED_TAGS = new Set([
     'Comfort Food',
     'Mexican',
     'South Indian',
-    'Summer'
+    'Summer',
+    'Sweets'
 ]);
 
 const TAG_ALIASES = {

@@ -1,0 +1,79 @@
+{
+  "slug": "mars-bar-krispie-treats",
+  "title": "Mars Bar Krispie Treats",
+  "image": "images/mars-bar-krispie-treats.jpg",
+  "time": "20 min + 1 h chill",
+  "servings": 16,
+  "style": "No-bake puffed rice bars set with melted Mars bars and a chocolate top.",
+  "tags": [
+    "Comfort Food",
+    "Sweets"
+  ],
+  "categories": [
+    "Baking",
+    "Dessert",
+    "Sweets",
+    "No-bake",
+    "Snack"
+  ],
+  "keywords": [
+    "mars bar krispie treats",
+    "mars bar squares",
+    "no bake chocolate bars",
+    "rice krispie treats"
+  ],
+  "description": "No-bake squares of puffed rice bound with melted Mars bars and butter, topped with a layer of milk chocolate. Makes sixteen 2-inch squares.",
+  "ingredients": {
+    "sections": [
+      {
+        "title": "Base",
+        "items": [
+          {
+            "qty": "75",
+            "unit": "g",
+            "item": "unsalted butter"
+          },
+          {
+            "qty": "5",
+            "unit": "",
+            "item": "Mars bars",
+            "note": "58 g each, chopped"
+          },
+          {
+            "qty": "3",
+            "unit": "cups",
+            "item": "rice krispies",
+            "note": "or generic puffed rice"
+          }
+        ]
+      },
+      {
+        "title": "Topping",
+        "items": [
+          {
+            "qty": "150",
+            "unit": "g",
+            "item": "milk chocolate"
+          },
+          {
+            "qty": "30",
+            "unit": "g",
+            "item": "unsalted butter"
+          }
+        ]
+      }
+    ]
+  },
+  "steps": [
+    "Melt the Mars bars and 75 g butter together in a double boiler, stirring until smooth.",
+    "Mix in the puffed rice until well combined. Spread into an 8×8-inch tin and refrigerate for 30 minutes.",
+    "Melt the milk chocolate and 30 g butter together. Spread over the krispie base and return to the fridge for 30 minutes.",
+    "Remove from the fridge and cut into squares."
+  ],
+  "tips": [
+    "The Mars bars melt more evenly if you chop them first; keep the heat gentle so the caramel doesn't seize.",
+    "Line the tin with parchment, leaving an overhang, so you can lift the whole slab out before cutting.",
+    "Let the bars sit for a couple of minutes at room temperature before slicing so the chocolate top doesn't crack.",
+    "Warm the knife under hot water and wipe between cuts for clean edges."
+  ]
+}

@@ -1,7 +1,7 @@
 // recipe.ts
 export const APPROVED_TAGS = [
     'Vegan', 'High Protein', 'Gluten-free', 'Dairy-free', 'Spicy',
-    'One-pan', 'Comfort Food', 'Mexican', 'South Indian', 'Summer'
+    'One-pan', 'Comfort Food', 'Mexican', 'South Indian', 'Summer', 'Sweets'
 ];
 export function normalizeUnits(item) {
     if (item.unit === 'oz' && typeof item.qty === 'number') {

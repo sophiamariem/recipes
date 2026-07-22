@@ -1,8 +1,8 @@
 // recipe.ts
 
 export const APPROVED_TAGS = [
-  'Vegan', 'High Protein', 'Gluten-free', 'Dairy-free', 'Spicy', 
-  'One-pan', 'Comfort Food', 'Mexican', 'South Indian', 'Summer'
+  'Vegan', 'High Protein', 'Gluten-free', 'Dairy-free', 'Spicy',
+  'One-pan', 'Comfort Food', 'Mexican', 'South Indian', 'Summer', 'Sweets'
 ] as const;
 
 export type ApprovedTag = (typeof APPROVED_TAGS)[number];

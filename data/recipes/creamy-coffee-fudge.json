@@ -1,0 +1,82 @@
+{
+  "slug": "creamy-coffee-fudge",
+  "title": "Creamy Coffee Fudge",
+  "image": "images/creamy-coffee-fudge.avif",
+  "time": "40 min + setting",
+  "servings": 25,
+  "style": "Soft, buttery coffee tablet-style fudge with a hit of espresso and coffee liqueur.",
+  "tags": [
+    "Comfort Food",
+    "Sweets"
+  ],
+  "categories": [
+    "Dessert",
+    "Sweets",
+    "No-bake",
+    "Confectionery"
+  ],
+  "keywords": [
+    "coffee fudge",
+    "coffee tablet",
+    "condensed milk fudge",
+    "azera fudge",
+    "no bake sweets"
+  ],
+  "description": "A rich, creamy coffee fudge made with condensed milk, demerara sugar, and instant espresso, spiked with coffee liqueur and set in a 20 cm square tin.",
+  "ingredients": {
+    "sections": [
+      {
+        "title": null,
+        "items": [
+          {
+            "qty": "150",
+            "unit": "ml",
+            "item": "milk"
+          },
+          {
+            "qty": "4",
+            "unit": "tsp",
+            "item": "NESCAFÉ Azera Americano",
+            "note": "or other instant espresso"
+          },
+          {
+            "qty": "397",
+            "unit": "g",
+            "item": "condensed milk",
+            "note": "1 can, such as Carnation"
+          },
+          {
+            "qty": "450",
+            "unit": "g",
+            "item": "demerara sugar"
+          },
+          {
+            "qty": "115",
+            "unit": "g",
+            "item": "butter"
+          },
+          {
+            "qty": "2",
+            "unit": "tbsp",
+            "item": "coffee liqueur",
+            "note": "optional"
+          }
+        ]
+      }
+    ]
+  },
+  "steps": [
+    "Line a 20 cm square tin with baking parchment.",
+    "Stir the coffee into the milk until thoroughly mixed, then pour into a large non-stick saucepan with the remaining ingredients except the coffee liqueur. Melt everything together over a low heat, stirring until the sugar dissolves.",
+    "Bring to a steady boil for 10–15 minutes, stirring continuously and scraping the base of the pan to stop it catching. The mixture should reach 113–115°C on a sugar thermometer; if you don't have one, drop a little into ice-cold water — it's ready when it forms a soft ball that doesn't stick to your fingers.",
+    "Remove from the heat and leave to cool for 5 minutes, then add the coffee liqueur (if using) and mix thoroughly.",
+    "Beat the mixture until it just loses its shine and becomes very thick, about 5–10 minutes. The longer you beat once it thickens, the more crumbly the fudge; for a smoother set, beat only until it comes away from the sides of the pan and is just pourable.",
+    "Press into the prepared tin with the back of a spoon and leave to set before cutting into squares."
+  ],
+  "tips": [
+    "Stir constantly during the boil and scrape the base — sugar and condensed milk catch and burn quickly.",
+    "Beat for texture: stop early for smooth and dense, keep going for a firmer, crumblier tablet-style fudge.",
+    "Keeps for up to 2 weeks in an airtight container at room temperature.",
+    "Leave out the coffee liqueur for an alcohol-free version — the fudge sets just the same."
+  ]
+}
