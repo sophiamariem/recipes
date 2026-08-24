@@ -1,0 +1,103 @@
+{
+  "slug": "charred-halloumi-crispy-chickpea-salad",
+  "title": "Charred Halloumi & Crispy Chickpea Salad",
+  "image": "images/charred-halloumi-crispy-chickpea-salad.webp",
+  "time": "20 min",
+  "servings": 2,
+  "style": "Cold, crunchy summer salad with squeaky charred halloumi, crispy oregano chickpeas, and a lemony yogurt-tahini dressing — no oven, one pan",
+  "tags": [
+    "High Protein",
+    "Summer",
+    "Gluten-free"
+  ],
+  "categories": [
+    "Lunch",
+    "Salad",
+    "Quick Dinner"
+  ],
+  "keywords": [
+    "halloumi salad",
+    "crispy chickpeas",
+    "high protein vegetarian",
+    "no oven summer salad",
+    "greek inspired salad"
+  ],
+  "description": "A no-oven, 20-minute salad delivering ~45 g protein per serving: pan-charred halloumi and crispy oregano chickpeas over cold cucumber, tomato, and herbs with a lemon yogurt-tahini dressing.",
+  "ingredients": {
+    "sections": [
+      {
+        "title": "Crispy Chickpeas",
+        "items": [
+          { "qty": "1", "unit": "can", "item": "chickpeas", "note": "400 g, drained, rinsed and patted very dry" },
+          { "qty": "1", "unit": "tbsp", "item": "olive oil" },
+          { "qty": "1", "unit": "tsp", "item": "dried oregano" },
+          { "qty": "0.5", "unit": "tsp", "item": "smoked paprika" },
+          { "qty": "", "unit": "", "item": "salt & black pepper", "note": "to taste" }
+        ]
+      },
+      {
+        "title": "Charred Halloumi",
+        "items": [
+          { "qty": "225", "unit": "g", "item": "halloumi", "note": "sliced 1 cm thick and patted dry" },
+          { "qty": "0.5", "unit": "tsp", "item": "olive oil", "note": "only if the pan looks dry" },
+          { "qty": "0.5", "unit": "", "item": "lemon", "note": "for squeezing over the hot cheese" }
+        ]
+      },
+      {
+        "title": "Lemon Yogurt-Tahini Dressing",
+        "items": [
+          { "qty": "200", "unit": "g", "item": "Greek yogurt", "note": "full-fat or 2%" },
+          { "qty": "1", "unit": "tbsp", "item": "tahini" },
+          { "qty": "1", "unit": "tbsp", "item": "lemon juice" },
+          { "qty": "1", "unit": "clove", "item": "garlic", "note": "grated" },
+          { "qty": "2", "unit": "tbsp", "item": "fresh dill or mint", "note": "finely chopped" },
+          { "qty": "1", "unit": "tbsp", "item": "cold water", "note": "more as needed to loosen" },
+          { "qty": "", "unit": "", "item": "salt", "note": "to taste" }
+        ]
+      },
+      {
+        "title": "Cold Salad Base",
+        "items": [
+          { "qty": "1", "unit": "", "item": "cucumber", "note": "halved and thickly sliced" },
+          { "qty": "250", "unit": "g", "item": "cherry tomatoes", "note": "halved" },
+          { "qty": "0.5", "unit": "", "item": "red onion", "note": "very thinly sliced" },
+          { "qty": "0.25", "unit": "cup", "item": "Kalamata olives", "note": "pitted, torn" },
+          { "qty": "", "unit": "", "item": "fresh parsley, dill or mint", "note": "big handful, torn" },
+          { "qty": "2", "unit": "tbsp", "item": "pumpkin or sunflower seeds", "note": "toasted" }
+        ]
+      },
+      {
+        "title": "Optional – To Serve",
+        "items": [
+          { "qty": "", "unit": "", "item": "warm pita or flatbread", "note": "skip to keep it gluten-free" },
+          { "qty": "", "unit": "", "item": "chilli flakes" },
+          { "qty": "", "unit": "", "item": "extra lemon wedges" }
+        ]
+      }
+    ]
+  },
+  "steps": [
+    "<strong>Prep cold:</strong> Toss cucumber, tomatoes, red onion, and olives in a wide bowl with a pinch of salt. Set in the fridge while you cook — the salt draws out juices that become part of the dressing.",
+    "<strong>Dressing:</strong> Whisk Greek yogurt, tahini, lemon juice, grated garlic, chopped herbs, and cold water until pourable. Season with salt and chill.",
+    "<strong>Crispy chickpeas:</strong> Heat olive oil in a large non-stick or cast-iron pan over medium-high. Add the dry chickpeas in a single layer and cook 6–8 minutes, shaking every couple of minutes, until blistered and crisp at the edges.",
+    "Stir in oregano, smoked paprika, salt, and pepper for 30 seconds, then tip the chickpeas out onto a plate.",
+    "<strong>Halloumi:</strong> Return the pan to medium-high (add the ½ tsp oil only if dry). Fry the halloumi slices 1½–2 minutes per side, undisturbed, until deeply golden with charred spots. Squeeze lemon over them straight in the pan.",
+    "<strong>Assemble:</strong> Spread the chilled dressing across two plates, pile the cold salad on top, then scatter over the chickpeas, hot halloumi, torn herbs, and toasted seeds. Eat immediately while the cheese is still squeaky."
+  ],
+  "tips": [
+    "Dry chickpeas and dry halloumi are the whole game — wet ones steam instead of crisping. Pat both with a towel first.",
+    "Halloumi is already salty, so hold back on salt until the final taste — with olives and pre-salted cucumbers in there too, it adds up fast.",
+    "Swap halloumi for pan-seared paneer or a 200 g block of feta (crumbled, not fried) if that's what you have. Paneer is unsalted where halloumi is brined, so reverse the advice above: salt the slices before they hit the pan and season the assembled salad properly, or it tastes flat. Paneer also browns rather than squeaks, and it crumbles more easily — get the pan hot and leave the slices alone.",
+    "Meal prep: keep chickpeas, dressing, and salad in separate containers up to 3 days and fry the halloumi fresh — it turns rubbery once chilled.",
+    "For a vegan version, use extra-firm tofu in place of halloumi and swap the yogurt for a thick coconut or soy yogurt.",
+    "For a warm, oven-roasted take on the same ingredients, see the Harissa Halloumi, Sweet Potato & Kale Salad."
+  ],
+  "nutrition": {
+    "calories": "685 kcal",
+    "protein": "45 g",
+    "carbohydrates": "37 g",
+    "fat": "40 g",
+    "fiber": "11 g",
+    "sugar": "12 g"
+  }
+}

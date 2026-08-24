@@ -1,0 +1,90 @@
+{
+  "slug": "harissa-halloumi-sweet-potato-kale-salad",
+  "title": "Harissa Halloumi, Sweet Potato & Kale Salad",
+  "image": "images/harissa-halloumi-sweet-potato-kale-salad.jpg",
+  "time": "40 min",
+  "servings": 4,
+  "style": "Warm sheet-pan salad — roasted sweet potato and crispy chickpeas over massaged kale, golden halloumi, and a sweet-hot harissa tahini dressing",
+  "tags": [
+    "High Protein",
+    "Gluten-free",
+    "Spicy",
+    "Comfort Food"
+  ],
+  "categories": [
+    "Main",
+    "Salad",
+    "Dinner"
+  ],
+  "keywords": [
+    "halloumi salad",
+    "harissa tahini dressing",
+    "sweet potato chickpea",
+    "massaged kale salad",
+    "mediterranean sheet pan"
+  ],
+  "description": "Roasted sweet potato and chickpeas piled onto kale massaged with harissa tahini, topped with pan-fried halloumi. Warm, substantial, and about 22 g protein per serving.",
+  "ingredients": {
+    "sections": [
+      {
+        "title": "Sheet Pan",
+        "items": [
+          { "qty": "1", "unit": "can", "item": "chickpeas", "note": "400–425 g, drained, rinsed and rubbed dry" },
+          { "qty": "340", "unit": "g", "item": "sweet potato", "note": "1 medium, cut into 2 cm cubes" },
+          { "qty": "1", "unit": "tbsp", "item": "olive oil" },
+          { "qty": "", "unit": "", "item": "salt & black pepper", "note": "to taste" }
+        ]
+      },
+      {
+        "title": "Halloumi & Greens",
+        "items": [
+          { "qty": "250", "unit": "g", "item": "halloumi", "note": "thinly sliced" },
+          { "qty": "1", "unit": "bunch", "item": "lacinato kale", "note": "ribs and stems removed, chopped — about 5 heaping cups" }
+        ]
+      },
+      {
+        "title": "Harissa Tahini Dressing",
+        "items": [
+          { "qty": "3", "unit": "tbsp", "item": "tahini" },
+          { "qty": "0.5", "unit": "tbsp", "item": "harissa paste", "note": "heat varies wildly by brand — start low" },
+          { "qty": "2", "unit": "tsp", "item": "maple syrup or honey" },
+          { "qty": "0.5", "unit": "", "item": "lemon", "note": "juiced, a small one" },
+          { "qty": "3", "unit": "tbsp", "item": "water", "note": "more as needed" },
+          { "qty": "", "unit": "", "item": "salt", "note": "to taste" }
+        ]
+      },
+      {
+        "title": "Optional – To Serve",
+        "items": [
+          { "qty": "", "unit": "", "item": "flat-leaf parsley", "note": "chopped" },
+          { "qty": "", "unit": "", "item": "extra lemon wedges" }
+        ]
+      }
+    ]
+  },
+  "steps": [
+    "<strong>Prep:</strong> Heat the oven to 220°C / 425°F. After draining and rinsing the chickpeas, rub them between a clean tea towel to dry them thoroughly and shed the loose skins — wet chickpeas steam instead of crisping.",
+    "<strong>Sheet pan:</strong> Tip the chickpeas and cubed sweet potato onto a large baking sheet, drizzle with the olive oil, and season with salt and pepper. Toss to coat, then spread out in a single layer with nothing overlapping.",
+    "Roast for 25 minutes, until the sweet potato is tender and the chickpeas have crisped up. Let cool slightly.",
+    "<strong>Halloumi:</strong> Meanwhile, bring a non-stick pan to medium heat. Fry the halloumi slices until golden, about 2–3 minutes per side, then set aside.",
+    "<strong>Dressing:</strong> Combine the tahini, harissa, maple syrup, lemon juice, water, and salt in a jar and shake, or stir in a small bowl. Adjust the water to get a pourable consistency — it thickens as it sits.",
+    "<strong>Massage the kale:</strong> Put the chopped kale in a large bowl, pour over most of the dressing, holding some back, and work it into the leaves with your hands until they soften and darken.",
+    "Top the kale with the roasted sweet potato and chickpeas, then the halloumi, and spoon over the remaining dressing. Garnish with parsley and serve warm."
+  ],
+  "tips": [
+    "This lands as a lightly dressed salad. If you like things wetter, double every dressing ingredient — it's the change most people want on the second make.",
+    "Harissa heat is wildly inconsistent between brands. Start at half a tablespoon, taste, and climb from there rather than committing up front.",
+    "Massaging the kale isn't optional theatre — it breaks down the tough cell walls so lacinato goes tender instead of squeaky.",
+    "Dry the chickpeas properly before they hit the oil. It's the single biggest factor in whether they crisp or go leathery.",
+    "Halloumi is at its best straight out of the pan; it turns squeaky and firm as it cools, so fry it last and assemble immediately.",
+    "For a no-oven summer version of the same flavours, see the Charred Halloumi & Crispy Chickpea Salad instead."
+  ],
+  "nutrition": {
+    "calories": "439 kcal",
+    "protein": "22 g",
+    "carbohydrates": "35 g",
+    "fat": "24 g",
+    "fiber": "8 g",
+    "sugar": "10 g"
+  }
+}
