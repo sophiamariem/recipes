@@ -1,0 +1,105 @@
+{
+  "slug": "bun-chay-lemongrass-tofu-noodle-bowl",
+  "title": "Bún Chay – Lemongrass Tofu Noodle Bowl",
+  "image": "images/bun-chay-lemongrass-tofu-noodle-bowl.jpg",
+  "time": "30 min",
+  "servings": 2,
+  "style": "Vietnamese-style cold rice noodle bowl with sticky lemongrass tofu, mountains of herbs, and sharp-sweet nước chấm",
+  "tags": [
+    "Vegan",
+    "High Protein",
+    "Gluten-free",
+    "Dairy-free",
+    "Summer"
+  ],
+  "categories": [
+    "Main",
+    "Lunch",
+    "Noodles"
+  ],
+  "keywords": [
+    "bun chay",
+    "vietnamese noodle bowl",
+    "lemongrass tofu",
+    "vegan nuoc cham",
+    "cold noodle salad"
+  ],
+  "description": "Cold rice vermicelli under charred lemongrass tofu, crunchy raw veg, and a fistful of herbs, all dressed in vegan nước chấm — no oven, ~35 g protein per serving.",
+  "ingredients": {
+    "sections": [
+      {
+        "title": "Lemongrass Tofu",
+        "items": [
+          { "qty": "400", "unit": "g", "item": "extra-firm tofu", "note": "pressed 15 min, cut into 2 cm cubes" },
+          { "qty": "2", "unit": "stalks", "item": "lemongrass", "note": "tough outer layers removed, very finely minced" },
+          { "qty": "3", "unit": "cloves", "item": "garlic", "note": "minced" },
+          { "qty": "1.5", "unit": "tbsp", "item": "soy sauce or tamari" },
+          { "qty": "1", "unit": "tsp", "item": "sugar" },
+          { "qty": "0.5", "unit": "tsp", "item": "ground turmeric", "note": "for colour" },
+          { "qty": "1", "unit": "tbsp", "item": "cornstarch" },
+          { "qty": "1.5", "unit": "tbsp", "item": "neutral oil" }
+        ]
+      },
+      {
+        "title": "Nước Chấm (vegan)",
+        "items": [
+          { "qty": "105", "unit": "ml", "item": "boiling water" },
+          { "qty": "3", "unit": "tbsp", "item": "coconut or palm sugar", "note": "up to 4 for a sweeter Southern-style dressing" },
+          { "qty": "1", "unit": "tsp", "item": "sea salt", "note": "does the job fish sauce would — don't skip it" },
+          { "qty": "2", "unit": "tbsp", "item": "tamari or soy sauce", "note": "or vegan fish sauce" },
+          { "qty": "2", "unit": "tbsp", "item": "lime juice", "note": "about 1 lime" },
+          { "qty": "1", "unit": "clove", "item": "garlic", "note": "finely minced" },
+          { "qty": "1–2", "unit": "", "item": "bird's eye chilli", "note": "thinly sliced" },
+          { "qty": "2", "unit": "tbsp", "item": "carrot", "note": "finely julienned, added to the sauce" }
+        ]
+      },
+      {
+        "title": "The Bowl",
+        "items": [
+          { "qty": "200", "unit": "g", "item": "rice vermicelli", "note": "bún, dried" },
+          { "qty": "2", "unit": "cups", "item": "lettuce", "note": "shredded, romaine or butterhead" },
+          { "qty": "1", "unit": "", "item": "cucumber", "note": "julienned" },
+          { "qty": "1", "unit": "cup", "item": "bean sprouts", "note": "raw or briefly blanched" },
+          { "qty": "1", "unit": "", "item": "carrot", "note": "julienned" },
+          { "qty": "0.5", "unit": "", "item": "red bell pepper", "note": "thinly sliced, optional" },
+          { "qty": "", "unit": "", "item": "mint, coriander & Thai basil", "note": "large handful, leaves picked" },
+          { "qty": "3", "unit": "tbsp", "item": "roasted peanuts", "note": "roughly crushed" },
+          { "qty": "2", "unit": "tbsp", "item": "crispy fried shallots" }
+        ]
+      },
+      {
+        "title": "Optional – To Serve",
+        "items": [
+          { "qty": "", "unit": "", "item": "lime wedges" },
+          { "qty": "", "unit": "", "item": "quick pickled carrot & daikon", "note": "đồ chua" },
+          { "qty": "", "unit": "", "item": "extra sliced chilli" }
+        ]
+      }
+    ]
+  },
+  "steps": [
+    "<strong>Marinate:</strong> Toss the tofu cubes with lemongrass, garlic, soy sauce, sugar, and turmeric. Leave 10 minutes while you prep everything else, then dust with cornstarch just before frying.",
+    "<strong>Nước chấm:</strong> In a heatproof bowl, stir the sugar and salt into the boiling water until fully dissolved — do this first, while the water is hot, or you get grit at the bottom. Add the garlic and chilli, then the tamari and lime juice, and finally the julienned carrot. Leave to cool. Taste when cool: it should hit sour, sweet, and salty in that order, and be pourable rather than concentrated — you want enough to pool at the bottom of the bowl.",
+    "<strong>Noodles:</strong> Cook the vermicelli per packet (usually 3–5 minutes), then drain and rinse thoroughly under cold water until completely cool. Shake dry and set aside — cold, loose noodles are the point.",
+    "<strong>Fry the tofu:</strong> Heat oil in a large pan over medium-high. Add the tofu in one layer and leave it undisturbed 3–4 minutes until a crust forms, then turn and repeat until golden on most sides, 8–10 minutes total. The lemongrass will char slightly — that's the flavour.",
+    "<strong>Assemble:</strong> Layer lettuce, cucumber, bean sprouts, and carrot in two wide bowls. Add the cold noodles, then pile the hot tofu on top.",
+    "Shower with herbs, peanuts, and fried shallots. Pour the nước chấm over at the table and toss everything together before eating."
+  ],
+  "tips": [
+    "Mince the lemongrass finer than feels necessary — coarse pieces are woody and unpleasant to bite.",
+    "Rinsing the noodles cold isn't optional; warm vermicelli clumps into a solid brick as it sits.",
+    "Add the cornstarch right before the pan, not with the marinade, or it turns to paste.",
+    "Swap the tofu for 250 g tempeh cut into thin slabs — same marinade, 3 minutes per side.",
+    "Faster tofu, no marinade: fry plain sliced tofu 4–5 minutes a side, then turn the heat off, pour over 2 tbsp tamari and clamp a lid on. After a minute, flip the slices. The residual heat steams the seasoning in instead of leaving it sitting on the surface — less aromatic than the lemongrass version but much quicker.",
+    "1 long red chilli in the dressing gives warmth without real heat; bird's eye gives a proper kick. Pick according to who is eating.",
+    "Meal prep: everything keeps separately for 3 days. Store the nước chấm in a jar; it only improves."
+  ],
+  "nutrition": {
+    "calories": "640 kcal",
+    "protein": "35 g",
+    "carbohydrates": "78 g",
+    "fat": "22 g",
+    "fiber": "8 g",
+    "sugar": "16 g"
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "slug": "vegetarian-mapo-tofu-tempeh",
+  "title": "Mapo Tofu with Tempeh Mince",
+  "image": "images/vegetarian-mapo-tofu-tempeh.jpg",
+  "time": "30 min",
+  "servings": 2,
+  "style": "Sichuan-style silken tofu in a fiery, numbing doubanjiang sauce with crumbled tempeh standing in for the pork",
+  "tags": [
+    "Vegan",
+    "High Protein",
+    "Dairy-free",
+    "Spicy",
+    "One-pan",
+    "Comfort Food"
+  ],
+  "categories": [
+    "Main",
+    "Quick Dinner",
+    "Plant-based"
+  ],
+  "keywords": [
+    "vegan mapo tofu",
+    "sichuan tofu",
+    "doubanjiang",
+    "tempeh mince",
+    "mala numbing spice"
+  ],
+  "description": "A vegan take on the Sichuan classic: soft tofu swimming in red doubanjiang chilli oil with tempeh mince, finished with ground Sichuan pepper for the numbing má tingle.",
+  "ingredients": {
+    "sections": [
+      {
+        "title": "Tofu",
+        "items": [
+          { "qty": "400", "unit": "g", "item": "silken or soft tofu", "note": "cut into 2.5 cm cubes" },
+          { "qty": "1", "unit": "tsp", "item": "salt", "note": "for the blanching water" }
+        ]
+      },
+      {
+        "title": "Tempeh Mince",
+        "items": [
+          { "qty": "150", "unit": "g", "item": "tempeh", "note": "crumbled or pulsed to a coarse mince — or use a plant-based mince if you find tempeh bitter" },
+          { "qty": "4", "unit": "", "item": "dried shiitake mushrooms", "note": "soaked 15 min, finely chopped, soaking water kept" },
+          { "qty": "2", "unit": "tbsp", "item": "neutral oil" },
+          { "qty": "1", "unit": "tsp", "item": "soy sauce" }
+        ]
+      },
+      {
+        "title": "The Sauce",
+        "items": [
+          { "qty": "1.5", "unit": "tbsp", "item": "doubanjiang", "note": "Pixian fermented broad bean paste" },
+          { "qty": "1", "unit": "tsp", "item": "douchi", "note": "fermented black beans, rinsed and mashed, optional" },
+          { "qty": "1", "unit": "tbsp", "item": "Sichuan chilli flakes", "note": "or 1 tsp for less heat" },
+          { "qty": "4", "unit": "cloves", "item": "garlic", "note": "minced" },
+          { "qty": "2", "unit": "cm", "item": "ginger", "note": "minced" },
+          { "qty": "3", "unit": "", "item": "spring onions", "note": "white parts only, finely sliced — the greens go on at the end" },
+          { "qty": "1", "unit": "tbsp", "item": "chilli oil", "note": "optional, spooned in with the stock for extra depth" },
+          { "qty": "250", "unit": "ml", "item": "vegetable stock", "note": "or the shiitake soaking water" },
+          { "qty": "1", "unit": "tsp", "item": "sugar" },
+          { "qty": "1", "unit": "tbsp", "item": "cornstarch", "note": "mixed with 2 tbsp cold water" }
+        ]
+      },
+      {
+        "title": "To Finish",
+        "items": [
+          { "qty": "1", "unit": "tsp", "item": "Sichuan peppercorns", "note": "toasted and ground to a powder" },
+          { "qty": "3", "unit": "", "item": "spring onions", "note": "sliced, green parts" },
+          { "qty": "1", "unit": "tsp", "item": "toasted sesame oil", "note": "or Sichuan chilli oil" },
+          { "qty": "", "unit": "", "item": "steamed jasmine rice", "note": "to serve — non-negotiable" }
+        ]
+      }
+    ]
+  },
+  "steps": [
+    "<strong>Blanch the tofu:</strong> Bring a pan of water to a bare simmer with the salt. Slide in the tofu cubes and leave 2 minutes, then drain gently. This firms them just enough to survive the sauce.",
+    "<strong>Brown the mince:</strong> Heat the oil in a wok or deep pan over medium-high. Add the crumbled tempeh and chopped shiitake and fry 5–6 minutes, pressing it flat, until browned and dry at the edges. Splash in the soy sauce and scrape it up.",
+    "<strong>Bloom the paste:</strong> Turn the heat to medium. Push the mince aside, add the doubanjiang, douchi, and chilli flakes to the oil and fry 1–2 minutes until the oil runs deep red and smells intensely savoury. This step is the whole dish — don't rush it.",
+    "Add the garlic, ginger, and the white parts of the spring onions and fry 30 seconds more, then pour in the stock, sugar, and the chilli oil if using, and bring to a simmer.",
+    "<strong>Add the tofu:</strong> Slide in the drained tofu and simmer 4–5 minutes. Do not stir with a spoon — swirl the pan or nudge gently with the back of a ladle so the cubes stay whole.",
+    "<strong>Thicken:</strong> Stir the cornstarch slurry and add it in two goes, swirling the pan between each, until the sauce coats the tofu and turns glossy.",
+    "Off the heat, drizzle over the sesame or chilli oil, then scatter the ground Sichuan pepper and spring onions. Serve immediately over rice."
+  ],
+  "tips": [
+    "Grind the Sichuan peppercorns yourself and add them at the very end — heat destroys the numbing tingle, and pre-ground powder has usually lost it already.",
+    "Doubanjiang is salty enough that this needs no added salt. Taste before you reach for any.",
+    "Silken tofu gives the classic custardy texture but breaks easily; soft or medium-firm is the forgiving choice.",
+    "Both doubanjiang and most douchi contain wheat, so this isn't gluten-free as written.",
+    "For more protein, use 200 g tempeh and a firm silken tofu — pushes it past 35 g per serving.",
+    "Keeps 3–4 days in the fridge and reheats well in a pan over medium heat. Don't freeze it: silken tofu turns spongy and riddled with holes once frozen and thawed, which is the one texture this dish can't survive."
+  ],
+  "nutrition": {
+    "calories": "520 kcal",
+    "protein": "31 g",
+    "carbohydrates": "30 g",
+    "fat": "30 g",
+    "fiber": "7 g",
+    "sugar": "7 g"
+  }
+}

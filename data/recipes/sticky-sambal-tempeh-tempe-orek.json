@@ -1,0 +1,98 @@
+{
+  "slug": "sticky-sambal-tempeh-tempe-orek",
+  "title": "Sticky Sambal Tempeh (Tempe Orek)",
+  "image": "images/sticky-sambal-tempeh-tempe-orek.jpg",
+  "time": "25–30 min",
+  "servings": 2,
+  "style": "Indonesian-style crisp tempeh matchsticks lacquered in sweet, salty, chilli-hot kecap manis caramel",
+  "tags": [
+    "Vegan",
+    "High Protein",
+    "Dairy-free",
+    "Spicy",
+    "One-pan"
+  ],
+  "categories": [
+    "Main",
+    "Quick Dinner",
+    "Plant-based"
+  ],
+  "keywords": [
+    "tempe orek",
+    "sambal tempeh",
+    "kecap manis",
+    "indonesian tempeh",
+    "high protein tempeh"
+  ],
+  "description": "Tempeh cut into matchsticks, fried until crisp, then tossed in a sticky kecap manis and sambal glaze — one pan, 25 minutes, ~30 g protein per serving.",
+  "ingredients": {
+    "sections": [
+      {
+        "title": "Crisp Tempeh",
+        "items": [
+          { "qty": "300", "unit": "g", "item": "tempeh", "note": "cut into 5 mm matchsticks" },
+          { "qty": "3", "unit": "tbsp", "item": "neutral oil", "note": "for shallow frying" },
+          { "qty": "", "unit": "", "item": "salt", "note": "pinch" }
+        ]
+      },
+      {
+        "title": "Aromatics",
+        "items": [
+          { "qty": "4", "unit": "", "item": "shallots", "note": "thinly sliced" },
+          { "qty": "4", "unit": "cloves", "item": "garlic", "note": "thinly sliced" },
+          { "qty": "2", "unit": "", "item": "red chillies", "note": "sliced on the diagonal, seeds in or out" },
+          { "qty": "2", "unit": "", "item": "green chillies", "note": "sliced — sharper, fresher heat than the red" },
+          { "qty": "2", "unit": "cm", "item": "galangal or ginger", "note": "bruised, optional" },
+          { "qty": "1", "unit": "stalk", "item": "lemongrass", "note": "bruised" },
+          { "qty": "3", "unit": "", "item": "kaffir lime leaves", "note": "the fragrance that makes it taste Indonesian" },
+          { "qty": "2", "unit": "", "item": "salam leaves or bay leaves", "note": "optional" }
+        ]
+      },
+      {
+        "title": "Sticky Glaze",
+        "items": [
+          { "qty": "3", "unit": "tbsp", "item": "kecap manis", "note": "Indonesian sweet soy sauce" },
+          { "qty": "1", "unit": "tbsp", "item": "soy sauce" },
+          { "qty": "1–2", "unit": "tsp", "item": "sambal oelek", "note": "to taste" },
+          { "qty": "1", "unit": "tbsp", "item": "tamarind paste", "note": "or 1 tbsp lime juice" },
+          { "qty": "1", "unit": "tsp", "item": "palm sugar or brown sugar" },
+          { "qty": "1", "unit": "tsp", "item": "mushroom seasoning", "note": "optional, for savoury depth — or a pinch of salt" },
+          { "qty": "3", "unit": "tbsp", "item": "water" }
+        ]
+      },
+      {
+        "title": "To Serve",
+        "items": [
+          { "qty": "", "unit": "", "item": "steamed jasmine rice" },
+          { "qty": "3", "unit": "tbsp", "item": "roasted peanuts", "note": "stirred through at the end" },
+          { "qty": "", "unit": "", "item": "cucumber slices", "note": "to cool it down" },
+          { "qty": "", "unit": "", "item": "lime wedges" },
+          { "qty": "", "unit": "", "item": "fried shallots", "note": "for the top" }
+        ]
+      }
+    ]
+  },
+  "steps": [
+    "<strong>Crisp the tempeh — air fryer:</strong> Spray or toss the matchsticks with a little oil and air-fry at 200°C / 390°F for 15 minutes, shaking once, until golden and crisp. Uses a fraction of the oil and needs no attention.",
+    "<strong>Or shallow-fry:</strong> Heat the oil in a wok or wide pan over medium-high and fry the tempeh in two batches, 4–5 minutes each, turning occasionally until deep golden. Lift onto kitchen paper and salt lightly. Crisper edges than the air fryer, but noticeably more oil.",
+    "<strong>Aromatics:</strong> In a wide pan over medium heat with about 1 tablespoon of oil, fry the shallots, garlic, and both lots of chillies for 3–4 minutes until soft and fragrant, not browned. Add the galangal, bruised lemongrass, kaffir lime leaves, and salam leaves and fry 1–2 minutes more to release their oils.",
+    "<strong>Glaze:</strong> Stir together kecap manis, soy sauce, sambal, tamarind, sugar, and water, then pour into the pan. Let it bubble 1–2 minutes until it thickens to a syrup that coats the back of a spoon.",
+    "<strong>Toss:</strong> Return the tempeh to the pan, add the mushroom seasoning if using, and toss hard for 1 minute so every piece is lacquered. The pan should look glossy, not wet — cook off any pooling liquid. Fish out the lemongrass and lime leaves before serving if you like.",
+    "Kill the heat, stir through the peanuts, and serve straight away over rice with cucumber and lime."
+  ],
+  "tips": [
+    "The thinner you cut the tempeh, the crispier it gets — aim for matchsticks, not chunks.",
+    "Get the tempeh properly crisp before the sauce goes anywhere near it. Sauce first means soggy tempeh, always.",
+    "Kecap manis is the backbone here; regular soy plus sugar is a poor substitute, but 2 tbsp soy + 1.5 tbsp molasses will do at a push.",
+    "This is traditionally eaten at room temperature as part of a bigger spread, so leftovers are genuinely good cold.",
+    "Note: most kecap manis contains wheat, so this isn't gluten-free unless you find a tamari-based version."
+  ],
+  "nutrition": {
+    "calories": "560 kcal",
+    "protein": "30 g",
+    "carbohydrates": "45 g",
+    "fat": "28 g",
+    "fiber": "9 g",
+    "sugar": "18 g"
+  }
+}

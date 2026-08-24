@@ -1,0 +1,93 @@
+{
+  "slug": "thai-basil-tofu-pad-kra-pao",
+  "title": "Thai Basil Tofu (Pad Kra Pao)",
+  "image": "images/thai-basil-tofu-pad-kra-pao.avif",
+  "time": "20 min",
+  "servings": 2,
+  "style": "Thai street-food classic: crumbled tofu blitzed over screaming heat with garlic, chilli, and a final avalanche of holy basil",
+  "tags": [
+    "Vegan",
+    "High Protein",
+    "Dairy-free",
+    "Spicy",
+    "One-pan"
+  ],
+  "categories": [
+    "Main",
+    "Quick Dinner",
+    "Plant-based"
+  ],
+  "keywords": [
+    "pad kra pao",
+    "thai basil tofu",
+    "thai holy basil stir fry",
+    "vegan thai street food",
+    "20 minute dinner"
+  ],
+  "description": "The fastest real Thai dinner there is — crumbled tofu stir-fried with pounded garlic and chilli, sweet-salty sauce, and a huge handful of holy basil, over rice in 20 minutes.",
+  "ingredients": {
+    "sections": [
+      {
+        "title": "Tofu",
+        "items": [
+          { "qty": "400", "unit": "g", "item": "extra-firm tofu", "note": "pressed and crumbled into rough mince" },
+          { "qty": "2", "unit": "tbsp", "item": "neutral oil", "note": "high smoke point" }
+        ]
+      },
+      {
+        "title": "Pounded Paste",
+        "items": [
+          { "qty": "6", "unit": "cloves", "item": "garlic", "note": "peeled" },
+          { "qty": "4–8", "unit": "", "item": "bird's eye chillies", "note": "to taste — four is medium, eight is authentic" },
+          { "qty": "", "unit": "", "item": "salt", "note": "pinch, helps the pounding" }
+        ]
+      },
+      {
+        "title": "Sauce",
+        "items": [
+          { "qty": "1.5", "unit": "tbsp", "item": "vegan oyster sauce", "note": "mushroom-based" },
+          { "qty": "1", "unit": "tbsp", "item": "soy sauce" },
+          { "qty": "1", "unit": "tsp", "item": "dark soy sauce", "note": "for colour" },
+          { "qty": "1", "unit": "tsp", "item": "palm sugar or brown sugar" },
+          { "qty": "2", "unit": "tbsp", "item": "water" }
+        ]
+      },
+      {
+        "title": "To Finish",
+        "items": [
+          { "qty": "3", "unit": "cups", "item": "Thai holy basil", "note": "kra pao — leaves picked, loosely packed" },
+          { "qty": "1", "unit": "", "item": "long red chilli", "note": "sliced, optional" },
+          { "qty": "0.5", "unit": "", "item": "onion", "note": "sliced, optional" },
+          { "qty": "1", "unit": "cup", "item": "green beans", "note": "optional, cut into 1 cm lengths — long beans are traditional and bulk it out" },
+          { "qty": "0.5", "unit": "", "item": "red bell pepper", "note": "optional, chopped" },
+          { "qty": "", "unit": "", "item": "jasmine rice", "note": "to serve" },
+          { "qty": "", "unit": "", "item": "fried egg", "note": "optional — vegetarian, not vegan" },
+          { "qty": "", "unit": "", "item": "cucumber slices & lime", "note": "on the side" }
+        ]
+      }
+    ]
+  },
+  "steps": [
+    "<strong>Pound the paste:</strong> Crush the garlic and chillies with a pinch of salt in a mortar to a rough, uneven paste. Don't use a blender — you want texture, not purée.",
+    "<strong>Mix the sauce</strong> in a small bowl so it's ready to go in one pour. This dish moves too fast to measure mid-stir-fry.",
+    "<strong>Brown the tofu:</strong> Heat the oil in a wok over high until it shimmers. Add the crumbled tofu, spread it out, and leave it 3–4 minutes without touching it, then stir and fry another 3–4 until the edges are golden and dry.",
+    "<strong>Aromatics:</strong> Push the tofu to one side, drop the paste into the hot oil, and stir 20–30 seconds until it smells sharp and fragrant. Add the onion, green beans, and bell pepper if using, and stir-fry 2–3 minutes until just tender but still squeaky.",
+    "<strong>Sauce:</strong> Pour it in all at once and toss hard for about 1 minute, until it reduces and clings to the tofu.",
+    "<strong>Basil:</strong> Kill the heat, throw in all the basil, and fold twice — it should wilt from residual heat alone, staying green and fragrant. Serve immediately over jasmine rice with a fried egg on top if you like."
+  ],
+  "tips": [
+    "Holy basil (kra pao) is peppery and clove-like — it's the actual point of the dish. Thai sweet basil is a decent stand-in; Italian basil is a different dish entirely.",
+    "Three cups of basil looks absurd. It collapses to almost nothing. Use it all.",
+    "The mortar matters: pounded garlic releases far more than chopped, and it's the difference between good and street-stall good.",
+    "Crumbled tofu mimics the traditional pork mince texture better than cubes, and it catches more sauce.",
+    "Vegan oyster sauce and dark soy usually contain wheat, so this isn't gluten-free unless you swap both for tamari-based versions."
+  ],
+  "nutrition": {
+    "calories": "480 kcal",
+    "protein": "32 g",
+    "carbohydrates": "38 g",
+    "fat": "23 g",
+    "fiber": "5 g",
+    "sugar": "8 g"
+  }
+}

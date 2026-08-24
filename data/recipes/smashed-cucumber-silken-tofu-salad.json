@@ -1,0 +1,97 @@
+{
+  "slug": "smashed-cucumber-silken-tofu-salad",
+  "title": "Smashed Cucumber & Silken Tofu Salad",
+  "image": "images/smashed-cucumber-silken-tofu-salad.jpg",
+  "time": "15 min",
+  "servings": 2,
+  "style": "Chinese-style cold plate — cool silken tofu under bashed cucumbers, black vinegar, chilli oil, and toasted peanuts. No cooking at all",
+  "tags": [
+    "Vegan",
+    "High Protein",
+    "Dairy-free",
+    "Spicy",
+    "Summer"
+  ],
+  "categories": [
+    "Lunch",
+    "Salad",
+    "Side"
+  ],
+  "keywords": [
+    "smashed cucumber salad",
+    "cold silken tofu",
+    "liangban tofu",
+    "chilli oil salad",
+    "no cook summer recipe"
+  ],
+  "description": "A 15-minute no-cook cold plate: silken tofu spooned onto a platter, topped with salted smashed cucumbers and a black vinegar chilli-oil dressing. About 20 g protein per serving.",
+  "ingredients": {
+    "sections": [
+      {
+        "title": "Smashed Cucumbers",
+        "items": [
+          { "qty": "2", "unit": "", "item": "cucumbers", "note": "or 1 large, smashed and torn into rough chunks" },
+          { "qty": "0.5", "unit": "tsp", "item": "salt", "note": "for drawing out water" }
+        ]
+      },
+      {
+        "title": "Tofu",
+        "items": [
+          { "qty": "400", "unit": "g", "item": "silken tofu", "note": "well chilled, drained carefully" }
+        ]
+      },
+      {
+        "title": "Chilli Oil Dressing",
+        "items": [
+          { "qty": "2", "unit": "tbsp", "item": "soy sauce or tamari" },
+          { "qty": "1.5", "unit": "tbsp", "item": "Chinkiang black vinegar", "note": "or rice vinegar" },
+          { "qty": "1.5", "unit": "tbsp", "item": "neutral oil", "note": "groundnut or sunflower — heated smoking hot, see step 3" },
+          { "qty": "1", "unit": "tsp", "item": "gochugaru or chilli flakes" },
+          { "qty": "1", "unit": "tsp", "item": "sesame seeds", "note": "goes into the bowl the hot oil hits" },
+          { "qty": "2", "unit": "cloves", "item": "garlic", "note": "finely chopped, not crushed" },
+          { "qty": "1", "unit": "tsp", "item": "toasted sesame oil" },
+          { "qty": "1", "unit": "tsp", "item": "sugar" },
+          { "qty": "0.5", "unit": "tsp", "item": "Sichuan pepper", "note": "toasted and ground, optional" }
+        ]
+      },
+      {
+        "title": "To Finish",
+        "items": [
+          { "qty": "3", "unit": "tbsp", "item": "roasted peanuts", "note": "crushed" },
+          { "qty": "2", "unit": "", "item": "spring onions", "note": "thinly sliced" },
+          { "qty": "", "unit": "", "item": "coriander", "note": "handful, torn" },
+          { "qty": "", "unit": "", "item": "mint leaves", "note": "handful, torn — excellent against the cucumber" },
+          { "qty": "1", "unit": "tsp", "item": "sesame seeds", "note": "toasted" },
+          { "qty": "", "unit": "", "item": "edamame", "note": "optional, for extra protein" },
+          { "qty": "150", "unit": "g", "item": "cold rice noodles or soba", "note": "optional — turns this from a side into a dinner" }
+        ]
+      }
+    ]
+  },
+  "steps": [
+    "<strong>Smash the cucumbers:</strong> Lay them on a board and hit them firmly with the flat of a wide knife or a rolling pin until they split. Tear into rough bite-size chunks — the ragged edges hold dressing far better than clean slices.",
+    "Toss the cucumber with the salt in a colander and leave 10 minutes over the sink. Discard the liquid that collects and pat dry.",
+    "<strong>Dressing — bloom the aromatics:</strong> Put the chopped garlic, gochugaru, ground Sichuan pepper, and sesame seeds in a small heatproof bowl. Heat the neutral oil in a pan until it is genuinely smoking, then pour it straight over — it should hiss and foam. This takes 20 seconds and is the difference between a sharp dressing and a deeply fragrant one.",
+    "Once the sizzling stops, stir in the soy sauce, black vinegar, sugar, and sesame oil. Let it sit while the cucumbers drain.",
+    "<strong>Plate the tofu:</strong> Tip the chilled silken tofu onto a wide shallow plate — either as one block or spooned into big soft curds. Don't cube it neatly; broken is better here.",
+    "Pile the drained cucumbers over and around the tofu, then spoon the dressing over everything so it pools at the bottom of the plate.",
+    "Finish with peanuts, spring onions, coriander, and sesame seeds. Eat cold, right away, scooping tofu and cucumber together."
+  ],
+  "tips": [
+    "Making it dinner — as written this serves 2 as a side — cucumber and silken tofu are both mostly water, so it won't hold you for long. For a proper meal either eat the whole plate yourself (~590 kcal, 40 g protein), or toss it through 150 g cold rice noodles or soba and keep it at 2 servings.",
+    "The dressing keeps in a jar in the fridge for a week and is excellent on noodles, greens, or plain rice — worth making a double batch while the oil is already hot. Skip the sizzle and use shop-bought chilli oil if you're in a hurry, but it won't be as fragrant.",
+    "Salting and draining the cucumbers is the step people skip, and it's why their salad turns into a puddle 10 minutes later.",
+    "Silken tofu straight from the fridge is essential — this dish is about temperature contrast against the hot chilli oil.",
+    "Tip the tofu out by inverting the tub onto the plate rather than lifting it; it breaks less.",
+    "Dress it at the table, not in advance. Assembled, it holds maybe 15 minutes before going watery.",
+    "Chinkiang black vinegar often contains wheat — use rice vinegar instead if you need this gluten-free, along with tamari."
+  ],
+  "nutrition": {
+    "calories": "295 kcal",
+    "protein": "20 g",
+    "carbohydrates": "14 g",
+    "fat": "19 g",
+    "fiber": "4 g",
+    "sugar": "7 g"
+  }
+}

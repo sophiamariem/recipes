@@ -1,0 +1,87 @@
+{
+  "slug": "creamy-chilli-tofu",
+  "title": "Creamy Chilli Tofu",
+  "image": "images/creamy-chilli-tofu.jpg",
+  "time": "25 min",
+  "servings": 2,
+  "style": "Crisp tofu in a silky chilli-garlic sauce that gets its creaminess from blended silken tofu instead of coconut milk — big flavour, light on calories",
+  "tags": [
+    "Vegan",
+    "High Protein",
+    "Dairy-free",
+    "Gluten-free",
+    "Spicy"
+  ],
+  "categories": [
+    "Main",
+    "Quick Dinner",
+    "Plant-based"
+  ],
+  "keywords": [
+    "creamy chilli tofu",
+    "low calorie tofu",
+    "silken tofu sauce",
+    "high protein dinner",
+    "no cream sauce"
+  ],
+  "description": "Air-fried tofu in a creamy chilli-garlic sauce built on blended silken tofu — about 365 kcal and 34 g protein per serving, with none of the coconut milk or cream.",
+  "ingredients": {
+    "sections": [
+      {
+        "title": "Crisp Tofu",
+        "items": [
+          { "qty": "400", "unit": "g", "item": "extra-firm tofu", "note": "pressed 15 min, cut into 2 cm cubes" },
+          { "qty": "1", "unit": "tbsp", "item": "cornstarch" },
+          { "qty": "1", "unit": "tbsp", "item": "soy sauce or tamari" },
+          { "qty": "0.5", "unit": "tsp", "item": "garlic powder" },
+          { "qty": "1", "unit": "tsp", "item": "neutral oil", "note": "or a quick spray if air-frying" }
+        ]
+      },
+      {
+        "title": "Creamy Chilli Sauce",
+        "items": [
+          { "qty": "200", "unit": "g", "item": "silken tofu", "note": "drained — this is the cream" },
+          { "qty": "1.5", "unit": "tbsp", "item": "sambal oelek or gochujang", "note": "to taste" },
+          { "qty": "1.5", "unit": "tbsp", "item": "soy sauce or tamari" },
+          { "qty": "1", "unit": "tbsp", "item": "rice vinegar" },
+          { "qty": "2", "unit": "cloves", "item": "garlic", "note": "grated" },
+          { "qty": "1", "unit": "tsp", "item": "maple syrup" },
+          { "qty": "1", "unit": "tsp", "item": "toasted sesame oil" },
+          { "qty": "2–4", "unit": "tbsp", "item": "water", "note": "to loosen" }
+        ]
+      },
+      {
+        "title": "To Finish",
+        "items": [
+          { "qty": "2", "unit": "", "item": "spring onions", "note": "sliced" },
+          { "qty": "1", "unit": "tsp", "item": "sesame seeds", "note": "toasted" },
+          { "qty": "", "unit": "", "item": "chilli oil or crispy chilli flakes", "note": "optional, adds calories" },
+          { "qty": "", "unit": "", "item": "steamed rice, soba, or greens", "note": "to serve" }
+        ]
+      }
+    ]
+  },
+  "steps": [
+    "<strong>Coat the tofu:</strong> Toss the cubes with soy sauce first, then cornstarch and garlic powder, so the starch sticks in a thin even layer.",
+    "<strong>Crisp it:</strong> Air-fry at 200°C / 400°F for 15–18 minutes, shaking twice, until golden and firm. Or dry-fry in a non-stick pan with 1 tsp oil over medium-high, 10–12 minutes, leaving each side undisturbed to form a crust.",
+    "<strong>Sauce:</strong> Blend the silken tofu, sambal, soy sauce, rice vinegar, garlic, maple syrup, and sesame oil until completely smooth. Add water a tablespoon at a time until it pours like double cream.",
+    "<strong>Warm it through:</strong> Pour the sauce into a small pan over low heat and warm gently for 2–3 minutes, stirring. Keep it low — silken tofu splits if you boil it hard.",
+    "Taste and adjust: more sambal for heat, vinegar for sharpness, a pinch of salt if it reads flat.",
+    "Spoon the warm sauce over the crisp tofu, or pool it underneath so the tofu stays crunchy. Finish with spring onions and sesame seeds."
+  ],
+  "tips": [
+    "Blended silken tofu is the whole trick — you get the mouthfeel of a cream sauce for roughly a tenth of the fat.",
+    "Never let the sauce boil. Low and slow keeps it glossy instead of grainy.",
+    "Sauce under the tofu, not over it, if you care about the crunch surviving to the table.",
+    "The sauce is also excellent cold as a dip or a noodle-salad dressing — it thickens in the fridge, so loosen with water.",
+    "To push protein higher without the calories, serve over edamame and greens instead of rice."
+  ],
+  "nutrition": {
+    "calories": "365 kcal",
+    "protein": "34 g",
+    "carbohydrates": "18 g",
+    "fat": "19 g",
+    "fiber": "5 g",
+    "sugar": "6 g"
+  }
+}
