@@ -67,6 +67,21 @@
     "style": "Extra rich, fudgy, and chewy cookies with the flavour of a brownie."
   },
   {
+    "slug": "bun-chay-lemongrass-tofu-noodle-bowl",
+    "title": "Bún Chay – Lemongrass Tofu Noodle Bowl",
+    "image": "images/bun-chay-lemongrass-tofu-noodle-bowl.jpg",
+    "time": "30 min",
+    "tags": [
+      "Vegan",
+      "High Protein",
+      "Gluten-free",
+      "Dairy-free",
+      "Summer"
+    ],
+    "description": "Cold rice vermicelli under charred lemongrass tofu, crunchy raw veg, and a fistful of herbs, all dressed in vegan nước chấm — no oven, ~35 g protein per serving.",
+    "style": "Vietnamese-style cold rice noodle bowl with sticky lemongrass tofu, mountains of herbs, and sharp-sweet nước chấm"
+  },
+  {
     "slug": "carrot-dal-tempeh-breadcrumbs",
     "title": "Carrot Dal with Tempeh Breadcrumbs",
     "image": "images/carrot-dal.jpg",
@@ -80,6 +95,19 @@
     ],
     "description": "Comforting lentil dal loaded with carrots and topped with super-crispy tempeh breadcrumbs.",
     "style": "Protein-rich, wholesome plant-based dal with crunchy tempeh topping"
+  },
+  {
+    "slug": "charred-halloumi-crispy-chickpea-salad",
+    "title": "Charred Halloumi & Crispy Chickpea Salad",
+    "image": "images/charred-halloumi-crispy-chickpea-salad.webp",
+    "time": "20 min",
+    "tags": [
+      "High Protein",
+      "Summer",
+      "Gluten-free"
+    ],
+    "description": "A no-oven, 20-minute salad delivering ~45 g protein per serving: pan-charred halloumi and crispy oregano chickpeas over cold cucumber, tomato, and herbs with a lemon yogurt-tahini dressing.",
+    "style": "Cold, crunchy summer salad with squeaky charred halloumi, crispy oregano chickpeas, and a lemony yogurt-tahini dressing — no oven, one pan"
   },
   {
     "slug": "chili-pan-mee-mushrooms-eggplant",
@@ -136,6 +164,21 @@
     ],
     "description": "Le Cocque-inspired butter chickpeas with a quick, garlicky stovetop naan.",
     "style": "Comforting, creamy chickpeas with quick stovetop naan (vegan option)."
+  },
+  {
+    "slug": "creamy-chilli-tofu",
+    "title": "Creamy Chilli Tofu",
+    "image": "images/creamy-chilli-tofu.jpg",
+    "time": "25 min",
+    "tags": [
+      "Vegan",
+      "High Protein",
+      "Dairy-free",
+      "Gluten-free",
+      "Spicy"
+    ],
+    "description": "Air-fried tofu in a creamy chilli-garlic sauce built on blended silken tofu — about 365 kcal and 34 g protein per serving, with none of the coconut milk or cream.",
+    "style": "Crisp tofu in a silky chilli-garlic sauce that gets its creaminess from blended silken tofu instead of coconut milk — big flavour, light on calories"
   },
   {
     "slug": "coconut-lime-tofu",
@@ -263,9 +306,39 @@
     "style": "Nutty and fresh Japanese-Vietnamese fusion spring rolls served with a creamy peanut dipping sauce"
   },
   {
+    "slug": "gigantes-plaki",
+    "title": "Gigantes Plaki",
+    "image": "images/gigantes-plaki.jpg",
+    "time": "2 hr 30 min + overnight soak",
+    "tags": [
+      "Vegan",
+      "High Protein",
+      "Gluten-free",
+      "Dairy-free",
+      "Comfort Food",
+      "One-pan"
+    ],
+    "description": "The Greek taverna classic: giant beans simmered until properly tender, then baked slowly in tomato, onion, and a serious amount of olive oil until the sauce thickens and the top browns.",
+    "style": "Greek baked giant beans — slow-cooked in a sweet tomato and olive oil sauce until the top catches and the sauce turns jammy"
+  },
+  {
+    "slug": "harissa-halloumi-sweet-potato-kale-salad",
+    "title": "Harissa Halloumi, Sweet Potato & Kale Salad",
+    "image": "images/harissa-halloumi-sweet-potato-kale-salad.jpg",
+    "time": "40 min",
+    "tags": [
+      "High Protein",
+      "Gluten-free",
+      "Spicy",
+      "Comfort Food"
+    ],
+    "description": "Roasted sweet potato and chickpeas piled onto kale massaged with harissa tahini, topped with pan-fried halloumi. Warm, substantial, and about 22 g protein per serving.",
+    "style": "Warm sheet-pan salad — roasted sweet potato and crispy chickpeas over massaged kale, golden halloumi, and a sweet-hot harissa tahini dressing"
+  },
+  {
     "slug": "high-protein-teriyaki-tofu-bowl",
     "title": "High-Protein Teriyaki Tofu Bowl",
-    "image": "images/teriyaki-tofu-bowl.png",
+    "image": "images/teriyaki-tofu-bowl.jpg",
     "time": "25-30 min",
     "tags": [
       "Vegan",
@@ -344,6 +417,22 @@
     ],
     "description": "A smooth, drizzleable lemon tahini dressing whisked together in five minutes—perfect over salads, bowls, and roasted vegetables.",
     "style": "Creamy, tangy tahini dressing with lemon, garlic, and a touch of maple."
+  },
+  {
+    "slug": "vegetarian-mapo-tofu-tempeh",
+    "title": "Mapo Tofu with Tempeh Mince",
+    "image": "images/vegetarian-mapo-tofu-tempeh.jpg",
+    "time": "30 min",
+    "tags": [
+      "Vegan",
+      "High Protein",
+      "Dairy-free",
+      "Spicy",
+      "One-pan",
+      "Comfort Food"
+    ],
+    "description": "A vegan take on the Sichuan classic: soft tofu swimming in red doubanjiang chilli oil with tempeh mince, finished with ground Sichuan pepper for the numbing má tingle.",
+    "style": "Sichuan-style silken tofu in a fiery, numbing doubanjiang sauce with crumbled tempeh standing in for the pork"
   },
   {
     "slug": "mars-bar-krispie-treats",
@@ -478,6 +567,21 @@
     "style": "Colorful vegan burrito bowls with roasted sweet potatoes, creamy refried black beans, and herbed rice."
   },
   {
+    "slug": "smashed-cucumber-silken-tofu-salad",
+    "title": "Smashed Cucumber & Silken Tofu Salad",
+    "image": "images/smashed-cucumber-silken-tofu-salad.jpg",
+    "time": "15 min",
+    "tags": [
+      "Vegan",
+      "High Protein",
+      "Dairy-free",
+      "Spicy",
+      "Summer"
+    ],
+    "description": "A 15-minute no-cook cold plate: silken tofu spooned onto a platter, topped with salted smashed cucumbers and a black vinegar chilli-oil dressing. About 20 g protein per serving.",
+    "style": "Chinese-style cold plate — cool silken tofu under bashed cucumbers, black vinegar, chilli oil, and toasted peanuts. No cooking at all"
+  },
+  {
     "slug": "spiced-chickpea-orecchiette",
     "title": "Spiced Chickpea Orecchiette",
     "image": "images/spiced-chickpea-orecchiette.jpg",
@@ -489,6 +593,21 @@
     ],
     "description": "Orecchiette tossed in a naturally creamy chickpea sauce with warm spices, lemon, capers, and fresh herbs.",
     "style": "Glossy, flavour-layered pasta with spiced chickpeas and fresh herbs"
+  },
+  {
+    "slug": "sticky-sambal-tempeh-tempe-orek",
+    "title": "Sticky Sambal Tempeh (Tempe Orek)",
+    "image": "images/sticky-sambal-tempeh-tempe-orek.jpg",
+    "time": "25–30 min",
+    "tags": [
+      "Vegan",
+      "High Protein",
+      "Dairy-free",
+      "Spicy",
+      "One-pan"
+    ],
+    "description": "Tempeh cut into matchsticks, fried until crisp, then tossed in a sticky kecap manis and sambal glaze — one pan, 25 minutes, ~30 g protein per serving.",
+    "style": "Indonesian-style crisp tempeh matchsticks lacquered in sweet, salty, chilli-hot kecap manis caramel"
   },
   {
     "slug": "sticky-tofu-mushroom-bowl",
@@ -558,6 +677,21 @@
     ],
     "description": "Golden baked tofu tossed with udon noodles, greens, and a rich tahini chilli sauce that’s savoury, spicy, and deeply satisfying.",
     "style": "Crispy baked tofu with chewy noodles and a creamy, spicy tahini chilli sauce."
+  },
+  {
+    "slug": "thai-basil-tofu-pad-kra-pao",
+    "title": "Thai Basil Tofu (Pad Kra Pao)",
+    "image": "images/thai-basil-tofu-pad-kra-pao.avif",
+    "time": "20 min",
+    "tags": [
+      "Vegan",
+      "High Protein",
+      "Dairy-free",
+      "Spicy",
+      "One-pan"
+    ],
+    "description": "The fastest real Thai dinner there is — crumbled tofu stir-fried with pounded garlic and chilli, sweet-salty sauce, and a huge handful of holy basil, over rice in 20 minutes.",
+    "style": "Thai street-food classic: crumbled tofu blitzed over screaming heat with garlic, chilli, and a final avalanche of holy basil"
   },
   {
     "slug": "thai-red-curry-with-vegetables",
