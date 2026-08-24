@@ -474,8 +474,11 @@ function renderQty(line) {
         : (line.qty ? `<strong>${escapeHtml(line.qty)}</strong>` : '');
     const unit = line.unit ? ` ${escapeHtml(line.unit)}` : '';
     const item = line.item ? ` ${escapeHtml(line.item)}` : '';
-    const note = line.note ? ` ${escapeHtml(line.note)}` : '';
-    return `${qtyPart}${unit}${item}${note}`.trim();
+    const head = `${qtyPart}${unit}${item}`.trim();
+    const note = line.note
+        ? `<span class="ing-note">${head ? ', ' : ''}${escapeHtml(line.note)}</span>`
+        : '';
+    return `${head}${note}`;
 }
 function renderSteps(r) {
     const steps = r.steps || [];
@@ -611,8 +614,9 @@ function plainIngredientText(r) {
         const qty = it.qty ? it.qty : '';
         const unit = it.unit ? ` ${it.unit}` : '';
         const item = it.item ? ` ${it.item}` : '';
-        const note = it.note ? ` ${it.note}` : '';
-        lines.push(`- ${qty}${unit}${item}${note}`);
+        const head = `${qty}${unit}${item}`.trim();
+        const note = it.note ? `${head ? ', ' : ''}${it.note}` : '';
+        lines.push(`- ${head}${note}`);
     } }); lines.push(''); });
     return lines.join('\n').trim();
 }

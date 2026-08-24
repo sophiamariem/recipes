@@ -594,6 +594,10 @@ body > * {
   font-size: 0.98rem;
 }
 
+.ing-note {
+  color: var(--muted);
+}
+
 .scale-row {
   display: flex;
   align-items: center;

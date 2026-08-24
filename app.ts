@@ -465,8 +465,11 @@ function renderQty(line: any){
     : (line.qty ? `<strong>${escapeHtml(line.qty)}</strong>` : '');
   const unit = line.unit ? ` ${escapeHtml(line.unit)}` : '';
   const item = line.item ? ` ${escapeHtml(line.item)}` : '';
-  const note = line.note ? ` ${escapeHtml(line.note)}` : '';
-  return `${qtyPart}${unit}${item}${note}`.trim();
+  const head = `${qtyPart}${unit}${item}`.trim();
+  const note = line.note
+    ? `<span class="ing-note">${head ? ', ' : ''}${escapeHtml(line.note)}</span>`
+    : '';
+  return `${head}${note}`;
 }
 
 function renderSteps(r: Recipe){
@@ -583,7 +586,7 @@ function parseDuration(text: string | undefined): number | null {
 
 function plainIngredientText(r: Recipe){
   const sections = r.ingredients?.sections?.length ? r.ingredients.sections : []; const lines: string[] = [];
-  sections.forEach((sec: any) => { if (sec.title) lines.push(sec.title + ':'); sec.items.forEach((it: any) => { if (typeof it === 'string') lines.push('- ' + it); else { const qty = it.qty ? it.qty : ''; const unit = it.unit ? ` ${it.unit}` : ''; const item = it.item ? ` ${it.item}` : ''; const note = it.note ? ` ${it.note}` : ''; lines.push(`- ${qty}${unit}${item}${note}`); } }); lines.push(''); });
+  sections.forEach((sec: any) => { if (sec.title) lines.push(sec.title + ':'); sec.items.forEach((it: any) => { if (typeof it === 'string') lines.push('- ' + it); else { const qty = it.qty ? it.qty : ''; const unit = it.unit ? ` ${it.unit}` : ''; const item = it.item ? ` ${it.item}` : ''; const head = `${qty}${unit}${item}`.trim(); const note = it.note ? `${head ? ', ' : ''}${it.note}` : ''; lines.push(`- ${head}${note}`); } }); lines.push(''); });
   return lines.join('\n').trim();
 }
 
