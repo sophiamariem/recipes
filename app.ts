@@ -178,7 +178,7 @@ function initThemeToggle() {
 
 // Favorites (localStorage)
 let INDEX: Recipe[] = [];
-let ACTIVE_TAG: string | null = null;
+let ACTIVE_TAGS = new Set<string>();
 const FAV_KEY = 'sophias.favorites.v1';
 function getFavs(): Set<string> { try { return new Set(JSON.parse(localStorage.getItem(FAV_KEY) || '[]')); } catch { return new Set(); } }
 function saveFavs(set: Set<string>){ localStorage.setItem(FAV_KEY, JSON.stringify([...set])); }
@@ -257,19 +257,33 @@ function initHome(){
 
     itemsToShow.forEach(tag => {
       const b = document.createElement('button');
-      b.className = 'tag' + (ACTIVE_TAG === tag ? ' active' : '');
+      const isOn = ACTIVE_TAGS.has(tag);
+      b.className = 'tag' + (isOn ? ' active' : '');
       b.type = 'button';
       b.textContent = tag;
-      b.setAttribute('aria-pressed', ACTIVE_TAG === tag ? 'true' : 'false');
-      b.onclick = () => { ACTIVE_TAG = (ACTIVE_TAG === tag ? null : tag); renderList(); renderFilters(); };
+      b.setAttribute('aria-pressed', isOn ? 'true' : 'false');
+      b.onclick = () => {
+        if (ACTIVE_TAGS.has(tag)) ACTIVE_TAGS.delete(tag); else ACTIVE_TAGS.add(tag);
+        renderList(); renderFilters();
+      };
       filtersEl!.appendChild(b);
     });
+
+    if (ACTIVE_TAGS.size > 0) {
+      const clearBtn = document.createElement('button');
+      clearBtn.className = 'tag tag-clear';
+      clearBtn.type = 'button';
+      clearBtn.textContent = `\u2715 Clear (${ACTIVE_TAGS.size})`;
+      clearBtn.title = 'Clear all active filters';
+      clearBtn.onclick = () => { ACTIVE_TAGS.clear(); renderList(); renderFilters(); };
+      filtersEl!.appendChild(clearBtn);
+    }
 
     if (FILTERS.length > visibleCount) {
       const moreBtn = document.createElement('button');
       moreBtn.className = 'tag tag-more';
       moreBtn.type = 'button';
-      moreBtn.textContent = SHOW_ALL_TAGS ? 'Show less' : `+${FILTERS.length - visibleCount} more`;
+      moreBtn.textContent = SHOW_ALL_TAGS ? 'Show less \u25B4' : `+${FILTERS.length - visibleCount} more \u25BE`;
       moreBtn.onclick = () => { SHOW_ALL_TAGS = !SHOW_ALL_TAGS; renderFilters(); };
       filtersEl!.appendChild(moreBtn);
     }
@@ -285,7 +299,12 @@ function initHome(){
     const favs = getFavs();
 
     let items = INDEX
-      .filter(r => !ACTIVE_TAG || (ACTIVE_TAG === STARRED_LABEL ? favs.has(r.slug) : (getEffectiveTags(r) as string[]).includes(ACTIVE_TAG)))
+      .filter(r => {
+        if (ACTIVE_TAGS.size === 0) return true;
+        const tags = getEffectiveTags(r) as string[];
+        // AND semantics: every selected filter must match
+        return [...ACTIVE_TAGS].every(t => t === STARRED_LABEL ? favs.has(r.slug) : tags.includes(t));
+      })
       .filter(r => {
         if (!q) return true;
         const hay = [r.title, r.description, r.style, ...getEffectiveTags(r)].join(' ').toLowerCase();

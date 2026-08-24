@@ -304,14 +304,32 @@ body > * {
 }
 
 .tag-more {
-  background: color-mix(in srgb, var(--chip-bg) 60%, white);
-  border-style: dashed;
+  background: transparent;
+  border-color: transparent;
+  color: var(--muted);
   font-weight: 500;
+  padding-inline: 0.5rem;
+  text-decoration: underline;
+  text-decoration-color: transparent;
+  text-underline-offset: 3px;
+  transition: color 0.2s ease, text-decoration-color 0.2s ease;
 }
 
 .tag-more:hover {
-  opacity: 1;
-  background: var(--chip-bg);
+  color: var(--text);
+  text-decoration-color: currentColor;
+}
+
+.tag-clear {
+  background: transparent;
+  border-color: color-mix(in srgb, var(--accent-2) 45%, var(--border));
+  color: var(--accent-2);
+  font-weight: 600;
+}
+
+.tag-clear:hover {
+  background: color-mix(in srgb, var(--accent-2) 12%, transparent);
+  border-color: var(--accent-2);
 }
 
 .tag:focus {
