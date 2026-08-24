@@ -192,10 +192,19 @@ function isFav(slug) { return getFavs().has(slug); }
 function timeToMinutes(str) {
     if (!str)
         return null;
-    const range = str.match(/(\d+)\s*[-–to]+\s*(\d+)/i);
+    // Only the active time counts — ignore trailing "+ 4 h chill", "+ overnight soak".
+    const active = String(str).split('+')[0];
+    // Ranges first: "25–30 min", "20 to 30 min" → midpoint.
+    const range = active.match(/(\d+)\s*(?:[-–]|\s+to\s+)\s*(\d+)/i);
     if (range && range[1] && range[2])
         return Math.round((+range[1] + +range[2]) / 2);
-    const single = str.match(/(\d+)/);
+    // Then hours and minutes together: "2 hr 30 min", "1 h", "45 min".
+    const hours = active.match(/(\d+)\s*(?:h|hr|hrs|hour|hours)\b/i);
+    const mins = active.match(/(\d+)\s*(?:min|mins|minutes)\b/i);
+    if (hours || mins) {
+        return (hours ? +hours[1] * 60 : 0) + (mins ? +mins[1] : 0);
+    }
+    const single = active.match(/(\d+)/);
     return (single && single[1]) ? +single[1] : null;
 }
 const UNDER_30_TAG = 'Under 30 min';
