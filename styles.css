@@ -662,6 +662,18 @@ body > * {
   font-size: 0.98rem;
 }
 
+.ingredients li.ing-fresh::before {
+  content: "";
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  margin-right: 0.5rem;
+  border-radius: 50%;
+  background: var(--accent-2);
+  vertical-align: middle;
+  transform: translateY(-1px);
+}
+
 .ing-note {
   color: var(--muted);
 }

@@ -422,6 +422,7 @@ function renderRecipe(root: HTMLElement, r: Recipe){
         }<small>per serving</small></div>` : ''}
         <div class="actions">
           <button class="btn" id="copyIngredientsBtn">Copy ingredients</button>
+          <button class="btn" id="copyFreshBtn" title="Just the perishables — skips cupboard staples">Copy fresh only</button>
           <button class="btn" id="shareBtn">Share</button>
           <button class="btn primary" onclick="window.print()">Print</button>
         </div>
@@ -461,6 +462,11 @@ function renderRecipe(root: HTMLElement, r: Recipe){
     navigator.clipboard.writeText(text).then(() => showToast('Ingredients copied'));
   });
 
+  byId('copyFreshBtn')?.addEventListener('click', () => {
+    const text = plainIngredientText(r, (it: any) => isPerishable(typeof it === 'string' ? it : it?.item));
+    navigator.clipboard.writeText(text).then(() => showToast('Fresh ingredients copied'));
+  });
+
   byId('shareBtn')?.addEventListener('click', async () => {
     const shareData = { title: r.title, text: r.description || r.title, url: location.href };
     if (navigator.share) { try { await navigator.share(shareData); return; } catch {} }
@@ -494,7 +500,7 @@ function renderIngredientSections(r: Recipe){
   return sections.map((sec: any) => `
     ${sec.title ? `<h4>${escapeHtml(sec.title)}</h4>` : ''}
     <ul>
-      ${sec.items.map((line: any) => `<li>${renderQty(line)}</li>`).join('')}
+      ${sec.items.map((line: any) => { const fresh = typeof line !== 'string' && isPerishable(line?.item); return `<li${fresh ? ' class="ing-fresh"' : ''}>${renderQty(line)}</li>`; }).join('')}
     </ul>
   `).join('');
 }
@@ -525,6 +531,32 @@ function renderQty(line: any){
     ? `<span class="ing-note">${head ? ', ' : ''}${escapeHtml(line.note)}</span>`
     : '';
   return `${head}${note}`;
+}
+
+// --- Perishables ----------------------------------------------------------------
+// Anything that isn't a recognisable cupboard staple is treated as fresh. Errs toward
+// marking things fresh, which is the safe direction for a shopping prompt.
+const PANTRY_RE = new RegExp([
+  '\\boil\\b', 'vinegar', 'soy sauce', 'tamari', '\\bsalt\\b', 'pepper(corn)?s?\\b', 'sugar',
+  'syrup', 'honey', 'flour', 'cornstarch|corn flour|starch', 'baking (powder|soda)',
+  'oregano|paprika|cumin|turmeric|cinnamon|nutmeg|cardamom|garam|five-spice|bay lea|salam lea',
+  'chilli flakes|chili flakes|gochugaru', 'sesame seeds?', 'stock|broth|bouillon',
+  'tahini', 'peanut butter', '\\brice\\b',
+  'noodle|vermicelli|pasta|orzo|orecchiette|soba|fettuccine|linguine',
+  '\\bcan\\b|\\btin\\b|canned|tinned',
+  'chickpeas|black beans|pinto beans|borlotti|butter beans|lentils',
+  'sambal|gochujang|doubanjiang|douchi|kecap|curry|harissa|sriracha|miso',
+  'seasoning|nutritional yeast|mustard', '\\bwater\\b', 'dried',
+  'peanuts|cashews|walnuts|almonds|pine nuts|seeds\\b|hemp',
+  'breadcrumbs|panko|krispies|oats', 'coconut milk|coconut cream', 'olives', 'sun-dried',
+  'wine|mirin|sake', 'cocoa|chocolate|vanilla|biscuit|oreo',
+  'powder\\b', '\\bpaste\\b', 'sauce\\b', 'preserve', 'liqueur|rum|brandy',
+  'condensed|evaporated', 'extract', 'gelatin|agar', '\\bjam\\b', 'nutella|spread\\b'
+].join('|'), 'i');
+
+function isPerishable(name: string | undefined): boolean {
+  if (!name) return false;
+  return !PANTRY_RE.test(name);
 }
 
 function renderSteps(r: Recipe){
@@ -639,9 +671,9 @@ function parseDuration(text: string | undefined): number | null {
   return base*60;
 }
 
-function plainIngredientText(r: Recipe){
+function plainIngredientText(r: Recipe, only?: (item: any) => boolean){
   const sections = r.ingredients?.sections?.length ? r.ingredients.sections : []; const lines: string[] = [];
-  sections.forEach((sec: any) => { if (sec.title) lines.push(sec.title + ':'); sec.items.forEach((it: any) => { if (typeof it === 'string') lines.push('- ' + it); else { const qty = it.qty ? it.qty : ''; const unit = it.unit ? ` ${it.unit}` : ''; const item = it.item ? ` ${it.item}` : ''; const head = `${qty}${unit}${item}`.trim(); const note = it.note ? `${head ? ', ' : ''}${it.note}` : ''; lines.push(`- ${head}${note}`); } }); lines.push(''); });
+  sections.forEach((sec: any) => { if (sec.title) lines.push(sec.title + ':'); sec.items.forEach((it: any) => { if (only && !only(it)) return; if (typeof it === 'string') lines.push('- ' + it); else { const qty = it.qty ? it.qty : ''; const unit = it.unit ? ` ${it.unit}` : ''; const item = it.item ? ` ${it.item}` : ''; const head = `${qty}${unit}${item}`.trim(); const note = it.note ? `${head ? ', ' : ''}${it.note}` : ''; lines.push(`- ${head}${note}`); } }); lines.push(''); });
   return lines.join('\n').trim();
 }
 
