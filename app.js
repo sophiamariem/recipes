@@ -569,12 +569,155 @@ function isPerishable(name) {
         return false;
     return !PANTRY_RE.test(name);
 }
+// --- Inline quantities in steps -------------------------------------------------
+// Annotates ingredient mentions in a step with their amount, so you don't have to
+// scroll back to the ingredient list mid-cook. Wrong numbers are worse than no
+// numbers, so anything ambiguous is left alone.
+const LEADING_ADJECTIVES = /^(?:extra-?firm|firm|fresh|dried|ground|toasted|raw|large|small|medium|smooth|thick|good|light|whole|ripe|cooked|crushed|chopped|grated|sliced|silken|soft|full-fat|low-sodium|reduced-sodium|flat-leaf|baby|sweet|hot|warm|cold|plain)\s+/i;
+const GENERIC_HEADS = new Set([
+    'sauce', 'oil', 'water', 'paste', 'stock', 'broth', 'milk', 'cream', 'powder',
+    'juice', 'vinegar', 'syrup', 'flakes', 'seeds', 'leaves', 'mince', 'dough',
+    'batter', 'dressing', 'marinade', 'mixture', 'seasoning', 'sugar', 'salt'
+]);
+function ingredientKeys(name) {
+    const base = name.toLowerCase().trim();
+    if (!base)
+        return [];
+    const keys = [base];
+    let short = base;
+    while (LEADING_ADJECTIVES.test(short))
+        short = short.replace(LEADING_ADJECTIVES, '');
+    if (short !== base && short.length > 3)
+        keys.push(short);
+    const words = short.split(/\s+/);
+    const last = words[words.length - 1];
+    // A bare head noun ("tofu" for "silken or soft tofu"). Generic ones like "sauce" or
+    // "sugar" usually mean the dish, not the ingredient, so they only count when the
+    // step is tied to the section that ingredient lives in.
+    if (words.length > 1 && last && last.length > 3)
+        keys.push(last);
+    return keys;
+}
+function buildIngredientLookup(r) {
+    const map = new Map();
+    const sections = r.ingredients?.sections?.length ? r.ingredients.sections : [];
+    sections.forEach((sec, si) => {
+        (sec.items || []).forEach((it) => {
+            if (typeof it === 'string' || !it || !it.item || !it.qty)
+                return;
+            const qty = String(it.qty).trim();
+            const unit = String(it.unit || '').trim();
+            if (!qty)
+                return;
+            if (qty === '1' && !unit)
+                return; // "1 cucumber" adds nothing
+            const amount = `${qty} ${unit}`.trim();
+            for (const key of ingredientKeys(it.item)) {
+                const weak = GENERIC_HEADS.has(key) && key !== String(it.item).toLowerCase().trim();
+                if (!map.has(key))
+                    map.set(key, []);
+                map.get(key).push({ amount, qty, unit, section: si, weak });
+            }
+        });
+    });
+    return map;
+}
+function stepSectionIndex(step, r) {
+    const m = /^\s*<strong>(.*?)<\/strong>/.exec(step);
+    if (!m || !m[1])
+        return -1;
+    const label = m[1].replace(/[:–—-]\s*$/, '').trim().toLowerCase();
+    if (!label)
+        return -1;
+    const sections = r.ingredients?.sections || [];
+    let best = -1;
+    sections.forEach((sec, i) => {
+        const title = String(sec.title || '').toLowerCase();
+        if (!title)
+            return;
+        if (title.includes(label) || label.includes(title))
+            best = i;
+    });
+    return best;
+}
+function resolveAmount(candidates, section) {
+    if (!candidates || candidates.length === 0)
+        return null;
+    // The step's own section is the most reliable signal — a step headed "Nước chấm"
+    // means that section's sugar, not the marinade's.
+    if (section >= 0) {
+        const inSection = candidates.filter(c => c.section === section);
+        const distinct = [...new Set(inSection.map(c => c.amount))];
+        if (distinct.length === 1)
+            return inSection[0];
+    }
+    // Otherwise only a strong (full-name or distinctive head-noun) match may speak.
+    const strong = candidates.filter(c => !c.weak);
+    const distinctStrong = [...new Set(strong.map(c => c.amount))];
+    if (distinctStrong.length === 1)
+        return strong[0];
+    return null; // ambiguous — say nothing
+}
+function amountHTML(m) {
+    const numeric = /^\d+(?:[\./\s–-]\d+)?/.test(m.qty);
+    const qtyHTML = numeric
+        ? `<strong data-qty data-qty-base="${parseQty(m.qty)}" data-qty-display="${escapeHtml(m.qty)}">${escapeHtml(m.qty)}</strong>`
+        : escapeHtml(m.qty);
+    const unit = m.unit ? ` ${escapeHtml(m.unit)}` : '';
+    return `<span class="step-qty">(${qtyHTML}${unit})</span>`;
+}
+function annotateStep(html, lookup, section) {
+    // Leave the bold lead-in alone — annotating a heading reads as noise.
+    let prefix = '';
+    let rest = html;
+    const lead = /^(\s*<strong>.*?<\/strong>)/.exec(html);
+    if (lead && lead[1]) {
+        prefix = lead[1];
+        rest = html.slice(lead[1].length);
+    }
+    const keys = [...lookup.keys()].sort((a, b) => b.length - a.length);
+    const used = new Set();
+    const parts = rest.split(/(<[^>]*>)/); // odd indices are tags, left untouched
+    for (let i = 0; i < parts.length; i += 2) {
+        const text = parts[i];
+        if (!text)
+            continue;
+        const taken = [];
+        const inserts = [];
+        for (const key of keys) {
+            if (used.has(key))
+                continue;
+            const re = new RegExp(`\\b${key.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}\\b`, 'i');
+            const m = re.exec(text);
+            if (!m)
+                continue;
+            const start = m.index, end = m.index + m[0].length;
+            if (taken.some(([s2, e2]) => start < e2 && end > s2))
+                continue; // overlaps a longer match
+            const resolved = resolveAmount(lookup.get(key), section);
+            if (!resolved)
+                continue;
+            taken.push([start, end]);
+            inserts.push({ at: end, html: ' ' + amountHTML(resolved) });
+            used.add(key);
+        }
+        inserts.sort((a, b) => b.at - a.at);
+        let out = text;
+        for (const ins of inserts)
+            out = out.slice(0, ins.at) + ins.html + out.slice(ins.at);
+        parts[i] = out;
+    }
+    return prefix + parts.join('');
+}
 function renderSteps(r) {
     const steps = r.steps || [];
+    const lookup = buildIngredientLookup(r);
     return `<ol>${steps.map((s, i) => {
+        // Timer and copied text come from the ORIGINAL string; annotation is display-only.
         const dur = parseDuration(s);
         const controls = dur ? timerControlsHTML(dur) : optionalTimerHTML();
-        return `<li data-step-index="${i}" data-step-text="${escapeHtml(stripTags(s))}">${s}${controls}</li>`;
+        const body = annotateStep(s, lookup, stepSectionIndex(s, r));
+        return `<li data-step-index="${i}" data-step-text="${escapeHtml(stripTags(s))}">${body}${controls}</li>`;
     }).join('')}</ol>`;
 }
 function timerControlsHTML(seconds) {

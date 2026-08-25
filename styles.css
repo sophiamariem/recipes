@@ -662,6 +662,17 @@ body > * {
   font-size: 0.98rem;
 }
 
+.step-qty {
+  color: var(--muted);
+  font-size: 0.92em;
+  white-space: nowrap;
+}
+
+.step-qty strong {
+  color: var(--text);
+  font-weight: 600;
+}
+
 .ingredients li.ing-fresh::before {
   content: "";
   display: inline-block;
