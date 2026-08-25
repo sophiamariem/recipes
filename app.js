@@ -341,6 +341,7 @@ function initHome() {
           <h2 class="card-title">${escapeHtml(r.title)}</h2>
           <div class="card-meta">
             ${r.time ? `<span>${r.time}</span>` : ''}
+            ${r.protein ? `<span class="protein-tag">${escapeHtml(r.protein)} protein</span>` : ''}
             ${(() => {
                 const tags = getEffectiveTags(r);
                 // Ensure High Protein is always visible if it exists
@@ -404,6 +405,9 @@ function renderRecipe(root, r) {
           ${r.style ? `<span>${escapeHtml(r.style)}</span>` : ''}
         </div>
         <div class="badges">${getEffectiveTags(r).map(t => `<span class="badge">${escapeHtml(t)}</span>`).join('')}</div>
+        ${r.nutrition ? `<div class="nutrition-row">${[['protein', 'protein'], ['calories', 'calories'], ['carbohydrates', 'carbs'], ['fat', 'fat'], ['fiber', 'fibre']]
+        .filter(([key]) => r.nutrition[key])
+        .map(([key, label]) => `<span><strong>${escapeHtml(r.nutrition[key])}</strong> ${label}</span>`).join('')}<small>per serving</small></div>` : ''}
         <div class="actions">
           <button class="btn" id="copyIngredientsBtn">Copy ingredients</button>
           <button class="btn" id="shareBtn">Share</button>

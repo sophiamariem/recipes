@@ -10,6 +10,7 @@
     ],
     "description": "These hearty grilled cheese sandwiches are filled with deeply caramelized balsamic-roasted broccoli, red pepper, and onion, layered with generous amounts of cheddar cheese on whole grain bread. A satisfying vegetarian comfort meal.",
     "style": "Hearty vegetarian grilled cheese stuffed with caramelized balsamic-roasted vegetables and plenty of sharp cheddar",
+    "protein": "",
     "search": "grilled cheese | balsamic roasted vegetables | broccoli sandwich | vegetarian comfort food | cheddar grilled cheese | lunch | sandwiches | vegetarian | broccoli | red bell pepper | small yellow onion | olive oil | balsamic vinegar | salt | red pepper flakes | freshly ground black pepper | whole grain bread | shredded cheddar cheese | dijon mustard | butter"
   },
   {
@@ -24,6 +25,7 @@
     ],
     "description": "Crispy tortillas filled with garlicky collard greens, pinto beans, and melted cheese. Perfect for a quick lunch or dinner.",
     "style": "Southern/Tex-Mex mash-up with garlicky collard greens, pinto beans, and melted cheese",
+    "protein": "",
     "search": "quesadillas | collard greens | pinto beans | vegan quesadilla | mexican-style | lunch | dinner | beans | olive oil | sea salt | garlic | red pepper flakes | black pepper | apple cider vinegar or lemon juice | tortillas | shredded cheese | avocado oil or vegetable oil | salsa | guacamole | sour cream or cashew cream"
   },
   {
@@ -42,6 +44,7 @@
     ],
     "description": "Deeply satisfying black bean and lentil chilli finished with smoky spices, lime, and crunchy roasted corn.",
     "style": "Hearty, smoky plant-based chilli with protein-rich beans and lentils",
+    "protein": "",
     "search": "black beans | lentils | chilli | vegan chilli | crispy corn | comfort food | dinner | plant-based | olive oil | large onion | garlic | ground cumin | smoked paprika | dried oregano | chilli powder | tomato purée | chopped tomatoes | red lentils | vegetable stock | salt | lime | sweetcorn | oil | cooked rice | tortilla chips | baked potatoes | grated cheese | yoghurt | vegan crema or sour cream"
   },
   {
@@ -56,6 +59,7 @@
     ],
     "description": "Comforting, deeply flavoured beans cooked with whole spices, tomatoes, and a creamy nutty finish — rich without heaviness.",
     "style": "Creamy, aromatic Indian-inspired beans with jammy onions and warm spices",
+    "protein": "",
     "search": "bombay beans | indian-style beans | vegan curry | white beans | spiced beans | dinner | beans | one-pot | mixed beans or white beans | coconut oil or olive oil | cumin seeds | mustard seeds | dried red chilli | onion | garlic | ginger | turmeric | ground cumin | ground coriander | garam masala | diced tomatoes | vegetable stock | ground roasted peanuts or cashew butter | kasuri methi | salt | lemon | fresh coriander | steamed basmati rice | naan or flatbread | coconut milk or vegan yoghurt | extra fresh coriander"
   },
   {
@@ -69,6 +73,7 @@
     ],
     "description": "Extra rich, extra fudge-like, and extra chewy brownie cookies. For best results, use good chocolate and follow the recipe closely.",
     "style": "Extra rich, fudgy, and chewy cookies with the flavour of a brownie.",
+    "protein": "",
     "search": "brownie cookies | fudgy chocolate cookies | chewy brownie cookies | chocolate cookies | baking | dessert | sweets | cookies | semi-sweet chocolate | all-purpose flour | cocoa powder | espresso powder | baking powder | salt | unsalted butter | light brown sugar | granulated sugar | eggs | pure vanilla extract | semi-sweet chocolate chips"
   },
   {
@@ -85,6 +90,7 @@
     ],
     "description": "Cold rice vermicelli under charred lemongrass tofu, crunchy raw veg, and a fistful of herbs, all dressed in vegan nước chấm — no oven, ~35 g protein per serving.",
     "style": "Vietnamese-style cold rice noodle bowl with sticky lemongrass tofu, mountains of herbs, and sharp-sweet nước chấm",
+    "protein": "35 g",
     "search": "bun chay | vietnamese noodle bowl | lemongrass tofu | vegan nuoc cham | cold noodle salad | main | lunch | noodles | extra-firm tofu | lemongrass | garlic | soy sauce or tamari | sugar | ground turmeric | cornstarch | neutral oil | boiling water | coconut or palm sugar | sea salt | tamari or soy sauce | lime juice | bird's eye chilli | carrot | rice vermicelli | lettuce | cucumber | bean sprouts | red bell pepper | mint, coriander & thai basil | roasted peanuts | crispy fried shallots | lime wedges | quick pickled carrot & daikon | extra sliced chilli"
   },
   {
@@ -101,6 +107,7 @@
     ],
     "description": "Comforting lentil dal loaded with carrots and topped with super-crispy tempeh breadcrumbs.",
     "style": "Protein-rich, wholesome plant-based dal with crunchy tempeh topping",
+    "protein": "",
     "search": "dal | lentils | carrots | tempeh | breadcrumbs | vegan protein | dinner | plant-based | red lentils | large carrots | medium onion | garlic | thumb-size ginger | cumin | turmeric | curry powder or garam masala | chilli flakes | water or vegetable stock | coconut milk | salt & pepper | lemon/lime | tamari | garlic granules | olive oil | smoked paprika or curry seasoning"
   },
   {
@@ -115,6 +122,7 @@
     ],
     "description": "A no-oven, 20-minute salad delivering ~45 g protein per serving: pan-charred halloumi and crispy oregano chickpeas over cold cucumber, tomato, and herbs with a lemon yogurt-tahini dressing.",
     "style": "Cold, crunchy summer salad with squeaky charred halloumi, crispy oregano chickpeas, and a lemony yogurt-tahini dressing — no oven, one pan",
+    "protein": "45 g",
     "search": "halloumi salad | crispy chickpeas | high protein vegetarian | no oven summer salad | greek inspired salad | lunch | salad | quick dinner | chickpeas | olive oil | dried oregano | smoked paprika | salt & black pepper | halloumi | lemon | greek yogurt | tahini | lemon juice | garlic | fresh dill or mint | cold water | salt | cucumber | cherry tomatoes | red onion | kalamata olives | fresh parsley, dill or mint | pumpkin or sunflower seeds | warm pita or flatbread | chilli flakes | extra lemon wedges"
   },
   {
@@ -130,6 +138,7 @@
     ],
     "description": "Chewy flat noodles tossed with a spicy homemade sambal paste, topped with umami-rich mushroom and eggplant mince, fresh greens, and a hint of toasted sesame.",
     "style": "Malaysian-style chewy noodles tossed with spicy sambal, umami mushroom-eggplant mince, and greens",
+    "protein": "",
     "search": "pan mee | malaysian noodles | mushrooms | eggplant | sambal | spicy noodles | dinner | noodles | asian | dried red chilies | shallots | garlic | fresh red chili | vegan shrimp paste | neutral oil | coconut sugar | salt | shiitake mushrooms | sesame oil | light soy sauce | dark soy sauce | vegan oyster sauce | sweetener | white pepper | cornstarch | ban mian noodles | kailan or bok choy | toasted sesame oil | toasted peanuts or cashews | chopped fresh herbs | extra chili flakes | drizzle of sesame oil or chili oil"
   },
   {
@@ -146,6 +155,7 @@
     ],
     "description": "A cozy, wholesome riff on bibimbap built on nutty black rice with deep-golden crispy tofu, rainbow veg arranged just-so, quick-pickled red onions, and a pourable gochujang sauce you'll want to put on everything. Warm rice meets cool crunch meets spicy-sweet heat — this is the bowl you make when you need a hug from dinner.",
     "style": "Nutty black rice bowl loaded with fresh crunchy veg, deep-golden crispy tofu, quick-pickled onions, and a thick gochujang drizzle — pure cozy comfort",
+    "protein": "",
     "search": "bibimbap | black rice bowl | gochujang | crispy tofu | korean comfort food | vegan bibimbap | dinner | rice bowls | asian | black rice | water | firm tofu | cornflour | salt | garlic powder | neutral oil | gochujang paste | soy sauce | sesame oil | maple syrup | baby spinach | carrot | cucumber | yellow bell pepper | red onion | rice vinegar | sugar | toasted sesame seeds | mixed mushrooms | kimchi | fried egg"
   },
   {
@@ -162,6 +172,7 @@
     ],
     "description": "A rich, slow-simmered chickpea curry finished with cream or coconut milk and topped with crispy golden paneer or seitan. Even better the next day.",
     "style": "Comforting, creamy chickpea curry with spiced tomato gravy and golden paneer or seitan.",
+    "protein": "",
     "search": "chickpea curry | paneer curry | seitan curry | creamy curry | garam masala curry | chana curry | dinner | curry | indian-inspired | comfort food | butter or vegan butter | oil | onion | garlic | ginger | garam masala | ground cumin | paprika or mild chilli powder | tomato purée | chopped tomatoes | chickpeas | cream or coconut milk | salt | sugar | lemon juice | paneer or seitan | paprika"
   },
   {
@@ -175,6 +186,7 @@
     ],
     "description": "Le Cocque-inspired butter chickpeas with a quick, garlicky stovetop naan.",
     "style": "Comforting, creamy chickpeas with quick stovetop naan (vegan option).",
+    "protein": "",
     "search": "butter chickpeas | chickpea curry | garlic naan | vegan | dinner | one-pan | plant-based | neutral oil | medium onion | garlic | ginger | garam masala | ground cumin | turmeric | mild paprika or chilli powder | tomato paste | chickpeas | full-fat coconut milk | water/veg stock | nutritional yeast or vegan butter | salt & black pepper | lemon or lime | fresh coriander | all-purpose flour | baking powder | salt | yoghurt | warm water | oil or melted vegan butter | fresh parsley or coriander"
   },
   {
@@ -191,6 +203,7 @@
     ],
     "description": "Air-fried tofu in a creamy chilli-garlic sauce built on blended silken tofu — about 365 kcal and 34 g protein per serving, with none of the coconut milk or cream.",
     "style": "Crisp tofu in a silky chilli-garlic sauce that gets its creaminess from blended silken tofu instead of coconut milk — big flavour, light on calories",
+    "protein": "34 g",
     "search": "creamy chilli tofu | low calorie tofu | silken tofu sauce | high protein dinner | no cream sauce | main | quick dinner | plant-based | extra-firm tofu | cornstarch | soy sauce or tamari | garlic powder | neutral oil | silken tofu | sambal oelek or gochujang | rice vinegar | garlic | maple syrup | toasted sesame oil | water | spring onions | sesame seeds | chilli oil or crispy chilli flakes | steamed rice, soba, or greens"
   },
   {
@@ -209,6 +222,7 @@
     ],
     "description": "A fast yet deeply flavoured coconut lime tofu that tastes like it’s been simmering for hours. Perfect over steamed rice.",
     "style": "Rich, creamy coconut-lime tofu with Thai-inspired red curry heat.",
+    "protein": "",
     "search": "tofu | coconut | lime | red curry | coconut tofu | lime tofu | red curry tofu | thai tofu curry | dinner | curry | plant-based | asian-inspired | dried red chillies | garlic | kaffir lime leaves | galangal or ginger | lemongrass | medium onion | ground coriander | ground cumin | white or black peppercorns | salt | silken-firm tofu | corn flour | sesame oil | onion | ginger | sriracha or hot sauce | red curry paste | coconut milk | brown sugar | light soy sauce | lemon | scallions | sesame seeds"
   },
   {
@@ -222,6 +236,7 @@
     ],
     "description": "A rich, creamy coffee fudge made with condensed milk, demerara sugar, and instant espresso, spiked with coffee liqueur and set in a 20 cm square tin.",
     "style": "Soft, buttery coffee tablet-style fudge with a hit of espresso and coffee liqueur.",
+    "protein": "",
     "search": "coffee fudge | coffee tablet | condensed milk fudge | azera fudge | no bake sweets | dessert | sweets | no-bake | confectionery | milk | nescafé azera americano | condensed milk | demerara sugar | butter | coffee liqueur"
   },
   {
@@ -235,6 +250,7 @@
     ],
     "description": "A glossy, clingy, umami-rich creamy pasta with gochujang heat, Indian spices, miso depth, and a finishing touch of toasted sesame and fresh parsley.",
     "style": "Creamy, umami-rich fusion pasta combining Korean heat, Indian spices, and toasted sesame",
+    "protein": "",
     "search": "gochujang | pasta | creamy | miso | toasted sesame | indian spices | umami | dinner | fusion | butter | oil | shallots | garlic | gochujang paste | tomato paste | red chili flakes | salt | cumin powder | coriander powder | garam masala | turmeric powder | red chili powder | whole milk | white miso paste | toasted sesame oil | toasted sesame seeds | parsley | grated parmesan or vegan cheese | extra milk or cream | sautéed mushrooms or spinach | extra toasted sesame seeds | squeeze of lime or lemon juice"
   },
   {
@@ -249,6 +265,7 @@
     ],
     "description": "Rich, spoon-coating red lentil dal finished with lemon and topped with crispy halloumi, tofu, or seitan crumbs for contrast.",
     "style": "Ultra-creamy spiced red lentil dal topped with crunchy savoury crumbs",
+    "protein": "",
     "search": "red lentil dal | creamy dal | halloumi crumbs | tofu crumbs | seitan | lentils | dinner | dal | one-pot | red lentils | oil | large onion | garlic | ginger | ground cumin | ground coriander | turmeric | chilli flakes | tomato purée | vegetable stock or water | coconut milk or thick yoghurt/cream | salt | lemon | halloumi or extra-firm tofu or seitan | olive oil | smoked paprika | black pepper | breadcrumbs | steamed rice | naan or flatbread | extra lemon wedges | fresh herbs"
   },
   {
@@ -263,6 +280,7 @@
     ],
     "description": "Golden fried tofu coated in a glossy chilli-garlic sauce with tamari, agave, and crispy chilli oil.",
     "style": "Ultra-crispy tofu tossed in a sticky, spicy chilli-garlic sauce.",
+    "protein": "",
     "search": "crispy tofu | chilli garlic tofu | spicy tofu | vegan tofu | dinner | stir-fry | plant-based | firm tofu | cornstarch | salt & black pepper | crispy chilli oil | tamari or dark soy sauce | agave syrup | rice vinegar | water | garlic | spring onions | sesame seeds"
   },
   {
@@ -277,6 +295,7 @@
     ],
     "description": "A bold, no-sad-salad bowl with crispy tofu, spicy kimchi dressing, crunchy nuts, and bright fresh elements.",
     "style": "Spicy, crunchy, fresh salad with aggressively crispy tofu and punchy kimchi dressing",
+    "protein": "",
     "search": "kimchi salad | crispy tofu | korean-inspired | vegan salad | high protein salad | lunch | salad | quick dinner | firm tofu | soy sauce or tamari | cornstarch | garlic powder | white pepper | oil | kimchi | mixed salad leaves | cucumber | spring onions | pear or apple | fresh herbs | toasted peanuts or cashews | sesame seeds | kimchi juice | rice vinegar | maple syrup | toasted sesame oil | gochujang | grated garlic or ginger | chilli flakes | steamed rice or sushi rice | extra kimchi | lime wedges"
   },
   {
@@ -294,6 +313,7 @@
     ],
     "description": "Crispy baked rice paired with savory gochujang mushrooms, fresh vegetables, and a creamy, zesty peanut sauce for a satisfying plant-based meal.",
     "style": "Bold, umami-rich salad with crispy rice, spicy mushrooms, and creamy peanut sauce",
+    "protein": "",
     "search": "crispy rice salad | gochujang mushrooms | peanut sauce | vegan salad | edamame salad | healthy bowl | lunch | dinner | salad | plant-based | cooked rice | chili oil | king oyster mushrooms | shimeji mushrooms | gochujang paste | tamari | maple syrup | rice vinegar | sesame oil | peanut butter | fresh ginger | garlic | lime juice | dairy-free milk | edamame | cucumber | spring onions | avocado | fresh mint"
   },
   {
@@ -309,6 +329,7 @@
     ],
     "description": "A vibrant stir-fry of fresh vegetables and noodles tossed in a creamy, flavorful peanut sauce — ready in under 30 minutes.",
     "style": "Quick, colorful stir-fry with a creamy, nutty peanut sauce",
+    "protein": "",
     "search": "vegetable stir fry | peanut sauce | vegan noodles | quick dinner | weeknight meal | dinner | main | stir-fry | peanut oil | garlic | ginger | onion | mixed vegetables | snow peas | baby corn | noodles | peanuts | peanut butter | soy sauce | sweet chili sauce | water | maple syrup | lemongrass | extra peanuts or cashews | fresh herbs | lime wedges | chili oil or sriracha"
   },
   {
@@ -325,6 +346,7 @@
     ],
     "description": "These fresh spring rolls combine Japanese soba noodles with classic Vietnamese rice paper rolls. Crunchy veggies and creamy peanut sauce make them a refreshing and flavorful plant-based snack or light meal.",
     "style": "Nutty and fresh Japanese-Vietnamese fusion spring rolls served with a creamy peanut dipping sauce",
+    "protein": "",
     "search": "soba noodles | spring rolls | peanut sauce | fresh rolls | vegan appetizer | lunch | appetizer | fusion | sesame seeds | toasted sesame oil | creamy peanut butter | rice vinegar or white wine vinegar | reduced-sodium tamari or soy sauce | honey | lime juice | grated fresh ginger or ground ginger (1/4 tsp) | garlic | red pepper flakes | large carrot | persian cucumbers or 1 small cucumber | rice papers | medium jalapeños | avocado | chopped green onions | fresh cilantro leaves"
   },
   {
@@ -342,6 +364,7 @@
     ],
     "description": "The Greek taverna classic: giant beans simmered until properly tender, then baked slowly in tomato, onion, and a serious amount of olive oil until the sauce thickens and the top browns.",
     "style": "Greek baked giant beans — slow-cooked in a sweet tomato and olive oil sauce until the top catches and the sauce turns jammy",
+    "protein": "22 g",
     "search": "gigantes plaki | greek giant beans | baked butter beans | ladera | greek vegan main | main | side | plant-based | dried gigantes beans | salt | bay leaf | good olive oil | onions | carrot | celery | garlic | chopped tomatoes | tomato purée | sweet paprika | dried oregano | sugar | salt & black pepper | chard or spinach | fresh dill | flat-leaf parsley | fresh mint | olive oil | lemon | feta | crusty bread"
   },
   {
@@ -357,6 +380,7 @@
     ],
     "description": "Roasted sweet potato and chickpeas piled onto kale massaged with harissa tahini, topped with pan-fried halloumi. Warm, substantial, and about 22 g protein per serving.",
     "style": "Warm sheet-pan salad — roasted sweet potato and crispy chickpeas over massaged kale, golden halloumi, and a sweet-hot harissa tahini dressing",
+    "protein": "22 g",
     "search": "halloumi salad | harissa tahini dressing | sweet potato chickpea | massaged kale salad | mediterranean sheet pan | main | salad | dinner | chickpeas | sweet potato | olive oil | salt & black pepper | halloumi | lacinato kale | tahini | harissa paste | maple syrup or honey | lemon | water | salt | flat-leaf parsley | extra lemon wedges"
   },
   {
@@ -373,6 +397,7 @@
     ],
     "description": "A quick high-protein tofu bowl with crispy pan-fried tofu, a gingery garlic teriyaki-style sauce, rice, edamame, avocado, and sesame.",
     "style": "Crispy tofu coated in a sticky homemade teriyaki-style sauce, served over rice with edamame, avocado, and sesame.",
+    "protein": "",
     "search": "teriyaki tofu | tofu bowl | high protein vegan | edamame rice bowl | dinner | bowl | plant-based | tamari sauce | rice wine vinegar | brown sugar | cornflour | water | ginger | garlic | firm tofu | salt and pepper | cooking oil | steamed rice | frozen edamame | spring onion shoot | toasted sesame seeds | avocado | vegan mayo"
   },
   {
@@ -388,6 +413,7 @@
     ],
     "description": "A satisfying vegan protein salad with marinated tempeh, baked tofu, chickpeas, and greens—delivering ~30 g plant-based protein per serving.",
     "style": "Hearty, nourishing salad packed with plant-based protein and fibre.",
+    "protein": "31 g",
     "search": "vegan protein salad | tempeh salad | high protein vegan | main | salad | plant-based | tempeh | balsamic vinegar | soy sauce or tamari | maple syrup | garlic powder | salt & black pepper | firm or extra-firm tofu | soy sauce | broccoli | arugula, spinach, or mixed greens | cucumber | avocado | chickpeas | hemp seeds | tahini or dressing of choice | fresh lemon"
   },
   {
@@ -405,6 +431,7 @@
     ],
     "description": "A hearty and nourishing kale Caesar pasta salad tossed in a creamy vegan-friendly dressing and topped with crispy smoked chickpeas.",
     "style": "Fresh, creamy, and hearty pasta salad with crispy roasted chickpeas and vibrant kale",
+    "protein": "",
     "search": "kale caesar salad | pasta salad | crispy chickpeas | vegan caesar dressing | healthy pasta | vegetarian meal | lunch | dinner | salad | pasta | chickpeas | olive oil | smoked paprika | sea salt | lemon juice | tahini | dijon mustard | garlic | nutritional yeast | salt | black pepper | water | kale | parmesan cheese"
   },
   {
@@ -419,6 +446,7 @@
     ],
     "description": "A simple Kerala-style okra stir-fry that’s crispy, aromatic, and perfectly spiced—no slime, just flavour.",
     "style": "Crispy, spice-roasted okra with classic Kerala flavours and zero slime.",
+    "protein": "",
     "search": "vendakka mezhukkupuratti | kerala okra | okra stir fry | bhindi fry vegan | sides | plant-based | indian | okra | avocado oil | brown mustard seeds | curry leaves | ground turmeric | cayenne pepper | ground cumin | salt"
   },
   {
@@ -432,6 +460,7 @@
     ],
     "description": "A quick, flavorful fusion burrito combining tangy kimchi, black beans, veggies, rice, and melty cheese. Perfect for a 20–30 minute weeknight dinner with optional spice adjustments.",
     "style": "Savory, spicy, and tangy fusion burrito filled with kimchi, black beans, rice, and melty cheese",
+    "protein": "",
     "search": "kimchi | burrito | black beans | rice | spicy | fusion | cheese | veggie | dinner | lunch | burritos | olive oil | onion | garlic | red bell pepper | ginger | salt | pepper | gochujang, sriracha, or garlic chili paste | green onions | cilantro | shredded cheese | extra-large tortillas | hot sauce or sriracha | sour cream or vegan sour cream | extra cilantro"
   },
   {
@@ -446,6 +475,7 @@
     ],
     "description": "A smooth, drizzleable lemon tahini dressing whisked together in five minutes—perfect over salads, bowls, and roasted vegetables.",
     "style": "Creamy, tangy tahini dressing with lemon, garlic, and a touch of maple.",
+    "protein": "",
     "search": "lemon tahini dressing | tahini sauce | vegan salad dressing | sauce | dressing | plant-based | smooth tahini | water | fresh lemon juice | extra-virgin olive oil | maple syrup | toasted sesame oil | garlic | sea salt"
   },
   {
@@ -463,6 +493,7 @@
     ],
     "description": "A vegan take on the Sichuan classic: soft tofu swimming in red doubanjiang chilli oil with tempeh mince, finished with ground Sichuan pepper for the numbing má tingle.",
     "style": "Sichuan-style silken tofu in a fiery, numbing doubanjiang sauce with crumbled tempeh standing in for the pork",
+    "protein": "31 g",
     "search": "vegan mapo tofu | sichuan tofu | doubanjiang | tempeh mince | mala numbing spice | main | quick dinner | plant-based | silken or soft tofu | salt | tempeh | dried shiitake mushrooms | neutral oil | soy sauce | douchi | sichuan chilli flakes | garlic | ginger | spring onions | chilli oil | vegetable stock | sugar | cornstarch | sichuan peppercorns | toasted sesame oil | steamed jasmine rice"
   },
   {
@@ -476,6 +507,7 @@
     ],
     "description": "No-bake squares of puffed rice bound with melted Mars bars and butter, topped with a layer of milk chocolate. Makes sixteen 2-inch squares.",
     "style": "No-bake puffed rice bars set with melted Mars bars and a chocolate top.",
+    "protein": "",
     "search": "mars bar krispie treats | mars bar squares | no bake chocolate bars | rice krispie treats | baking | dessert | sweets | no-bake | snack | unsalted butter | mars bars | rice krispies | milk chocolate"
   },
   {
@@ -492,6 +524,7 @@
     ],
     "description": "A bold, satisfying black bean bowl with properly bloomed spices, smoky depth, bright lime, and contrasting textures.",
     "style": "Smoky, bright, deeply seasoned bean bowl with real texture and contrast",
+    "protein": "",
     "search": "black bean bowl | mexican-inspired | vegan bowl | smoky beans | meal bowl | dinner | bowls | weeknight | black beans | olive oil | red bell pepper | small red onion | garlic | ground cumin | chilli powder or smoked paprika | tomato paste | cocoa powder | chipotle paste | sea salt | lime | cooked rice or quinoa | corn kernels | cherry tomatoes | avocado | fresh cilantro | lime-tahini or vegan crema | quick-pickled red onions | extra charred corn or tortilla strips"
   },
   {
@@ -505,6 +538,7 @@
     ],
     "description": "A no-bake Greek chocolate biscuit salami — a rich cocoa buttercream folded through milk-soaked biscuits, rolled into two logs around cherry and fig preserves, then coated in white and raspberry-chocolate ganache. Makes two logs.",
     "style": "No-bake Greek chocolate biscuit salami (mosaiko / kormos / doukissa) with fruit preserves, rolled into logs and coated in ganache.",
+    "protein": "",
     "search": "mosaiko | kormos | doukissa | chocolate biscuit salami | greek chocolate salami | no bake dessert | dessert | sweets | no-bake | greek | unsalted butter | icing sugar | unsweetened cocoa powder | dark chocolate | coarse sea salt | raspberry essence | plain biscuits | milk | fig preserves with roasted nut filling | cherry preserve | white chocolate | heavy cream | raspberry chocolate"
   },
   {
@@ -518,6 +552,7 @@
     ],
     "description": "A classic banana bread marbled with a hazelnut-chocolate swirl, baked in a 9×5-inch loaf and cut into 10 slices.",
     "style": "Soft, moist banana loaf swirled with warm Nutella.",
+    "protein": "6 g",
     "search": "nutella banana bread | banana loaf | chocolate hazelnut swirl | banana bread | baking | dessert | sweets | breakfast | snack | plain flour | baking soda | salt | butter | sugar | eggs | mashed bananas | vanilla extract | milk | nutella"
   },
   {
@@ -531,6 +566,7 @@
     ],
     "description": "A dense, creamy baked cheesecake studded with chopped Oreos on a buttery Oreo-crumb crust. Baked in a 9-inch springform and chilled until set.",
     "style": "Rich, creamy cookies-and-cream cheesecake with an Oreo crust.",
+    "protein": "",
     "search": "oreo cheesecake | cookies and cream cheesecake | baked cheesecake | springform cheesecake | baking | dessert | sweets | cheesecake | oreo cookies | butter or margarine | brick cream cheese | sugar | sour cream | vanilla extract | eggs"
   },
   {
@@ -545,6 +581,7 @@
     ],
     "description": "Wide rice noodles stir-fried over high heat with seitan, basil, broccoli, pak choi, and a bold umami sauce with chilli flakes.",
     "style": "Smoky, spicy Thai-style rice noodles tossed with seitan, basil, and charred vegetables.",
+    "protein": "",
     "search": "pad kee mao | drunken noodles | seitan noodles | vegan thai noodles | spicy basil noodles | dinner | stir-fry | plant-based | noodles | seitan | soy sauce | sugar | water | fresh wide rice noodles | vegetable oil | garlic | chilli flakes | yellow onion | carrot | broccoli florets | pak choi | fresh basil leaves | vegetarian oyster sauce | dark soy sauce | vegan fish sauce or extra soy sauce"
   },
   {
@@ -560,6 +597,7 @@
     ],
     "description": "An easy, protein-packed buddha bowl with brown rice, chickpeas, roasted sweet potato, and a punchy peanut-maple dressing.",
     "style": "Simple, nourishing buddha bowl with roasted sweet potato and a creamy peanut dressing.",
+    "protein": "",
     "search": "buddha bowl | peanut dressing | sweet potato bowl | protein vegan bowl | lunch | bowl | plant-based | peanut butter | maple syrup | balsamic vinegar | soy sauce | lettuce leaves | short grain brown rice | sweet potato | canned chickpeas | cherry tomatoes | avocado | salt or steak spices"
   },
   {
@@ -576,6 +614,7 @@
     ],
     "description": "Caramelised roasted broccoli and bell pepper served over fluffy rice with crispy baked tofu and a rich, savoury peanut sauce.",
     "style": "Roasted vegetable and crispy tofu bowl with creamy peanut sauce",
+    "protein": "",
     "search": "tofu bowl | roasted broccoli | peanut sauce | vegan dinner | meal prep | dinner | bowl | plant-based | brown rice or arborio | fine sea salt | broccoli florets | red bell pepper | extra virgin olive oil | extra-firm tofu | reduced-sodium tamari or soy sauce | arrowroot starch or cornflour | creamy peanut butter | rice vinegar | maple syrup | toasted sesame oil | garlic | red pepper flakes | water | roasted peanuts | fresh cilantro | chilli garlic sauce"
   },
   {
@@ -589,6 +628,7 @@
     ],
     "description": "A light and fresh pasta dish featuring roasted eggplant and cherry tomatoes tossed with whole wheat orzo, fresh herbs, toasted pine nuts, feta, and a bright lemon-garlic dressing. Perfect for a healthy weeknight dinner.",
     "style": "Light, fresh, Mediterranean-inspired pasta with roasted eggplant, cherry tomatoes, herbs, and a bright lemon-garlic dressing",
+    "protein": "",
     "search": "eggplant | tomato | orzo | feta | lemon-garlic dressing | herbs | pine nuts | mediterranean | vegetarian | dinner | pasta | olive oil | salt and pepper | cherry or grape tomatoes | whole wheat orzo | fresh basil | fresh parsley | lemon juice | garlic | salt | red pepper flakes | freshly ground black pepper"
   },
   {
@@ -605,6 +645,7 @@
     ],
     "description": "Hearty burrito bowls with spiced roasted sweet potatoes, homemade refried black beans, and cilantro-lime rice.",
     "style": "Colorful vegan burrito bowls with roasted sweet potatoes, creamy refried black beans, and herbed rice.",
+    "protein": "",
     "search": "burrito bowls | sweet potato bowls | black bean bowls | vegan dinner | dinner | bowl | plant-based | sweet potato | oil of choice | ground cumin | granulated garlic | paprika | smoked paprika | olive oil | green bell pepper | onion | jalapeño | garlic | black beans | salt & pepper | cooked rice or grain | lime | fresh cilantro"
   },
   {
@@ -621,6 +662,7 @@
     ],
     "description": "A 15-minute no-cook cold plate: silken tofu spooned onto a platter, topped with salted smashed cucumbers and a black vinegar chilli-oil dressing. About 20 g protein per serving.",
     "style": "Chinese-style cold plate — cool silken tofu under bashed cucumbers, black vinegar, chilli oil, and toasted peanuts. No cooking at all",
+    "protein": "20 g",
     "search": "smashed cucumber salad | cold silken tofu | liangban tofu | chilli oil salad | no cook summer recipe | lunch | salad | side | cucumbers | salt | silken tofu | soy sauce or tamari | chinkiang black vinegar | neutral oil | gochugaru or chilli flakes | sesame seeds | garlic | toasted sesame oil | sugar | sichuan pepper | roasted peanuts | spring onions | coriander | mint leaves | edamame | cold rice noodles or soba"
   },
   {
@@ -635,6 +677,7 @@
     ],
     "description": "Orecchiette tossed in a naturally creamy chickpea sauce with warm spices, lemon, capers, and fresh herbs.",
     "style": "Glossy, flavour-layered pasta with spiced chickpeas and fresh herbs",
+    "protein": "",
     "search": "chickpea pasta | orecchiette | spiced chickpeas | vegan pasta | glossy pasta | dinner | pasta | weeknight | orecchiette pasta | olive oil | red onion | garlic | chickpeas | smoked paprika | ground cumin | fennel seeds | ground cinnamon | chilli flakes | cherry tomatoes | spinach or rocket | capers or olives | white miso or nutritional yeast | salt & black pepper | lemon | fresh parsley | fresh basil | chilli oil | vegan parmesan or grated cheese | toasted breadcrumbs or pangrattato | extra lemon wedges"
   },
   {
@@ -651,6 +694,7 @@
     ],
     "description": "Tempeh cut into matchsticks, fried until crisp, then tossed in a sticky kecap manis and sambal glaze — one pan, 25 minutes, ~30 g protein per serving.",
     "style": "Indonesian-style crisp tempeh matchsticks lacquered in sweet, salty, chilli-hot kecap manis caramel",
+    "protein": "30 g",
     "search": "tempe orek | sambal tempeh | kecap manis | indonesian tempeh | high protein tempeh | main | quick dinner | plant-based | tempeh | neutral oil | salt | shallots | garlic | red chillies | green chillies | galangal or ginger | lemongrass | kaffir lime leaves | salam leaves or bay leaves | soy sauce | sambal oelek | tamarind paste | palm sugar or brown sugar | mushroom seasoning | water | steamed jasmine rice | roasted peanuts | cucumber slices | lime wedges | fried shallots"
   },
   {
@@ -665,6 +709,7 @@
     ],
     "description": "Golden roasted tofu and mushrooms tossed in a savoury soy–chilli glaze, served over rice with quick-pickled cucumber and fresh herbs.",
     "style": "Crispy roasted tofu and shiitake mushrooms with bold five-spice flavour and a punchy soy-chili glaze.",
+    "protein": "",
     "search": "tofu bowl | five spice tofu | shiitake mushrooms | vegan rice bowl | dinner | bowl | plant-based | rice | extra-firm silken tofu | neutral oil | chinese five-spice powder | kosher salt | reduced-sodium soy sauce | dark brown sugar | chilli garlic sauce | english cucumber | rice vinegar | scallions, sesame seeds, cilantro"
   },
   {
@@ -680,6 +725,7 @@
     ],
     "description": "Creamy sun-dried tomato borlotti beans paired with tamari-maple roasted aubergine—ready in 30 minutes and perfect for meal prep.",
     "style": "Saucy, creamy, and comforting high-protein beans with sweet-savoury roasted aubergine.",
+    "protein": "",
     "search": "sun-dried tomato beans | roasted aubergine | high protein vegan | creamy beans | dinner | bowl | plant-based | aubergine | olive oil | tamari soy sauce | maple syrup | garlic | salt & black pepper | spring onions | cherry tomatoes | borlotti beans | sun-dried tomatoes | thick coconut yoghurt or coconut cream | tomato purée | lemon | baby spinach | bread or toast | coconut yoghurt | pine nuts | fresh basil & black pepper"
   },
   {
@@ -694,6 +740,7 @@
     ],
     "description": "This dairy-free fettuccine uses cashews blended with pasta water and lemon juice for a rich, creamy sauce. Sun-dried tomatoes and spinach add flavor and nutrition for a satisfying, plant-based comfort meal.",
     "style": "Creamy, tangy cashew-based sauce with spinach and sun-dried tomatoes, perfect for a plant-powered weeknight meal",
+    "protein": "",
     "search": "fettuccine alfredo | sun-dried tomatoes | cashew sauce | spinach pasta | vegan alfredo | dinner | pasta | italian-inspired | fettuccine or linguine pasta | olive oil | garlic | fine sea salt | baby spinach | raw cashews | lemon juice | salt | grated parmesan cheese | fresh basil | red pepper flakes"
   },
   {
@@ -710,6 +757,7 @@
     ],
     "description": "Roasted sweet potatoes, spiced black beans, and a punchy avocado-pepita sauce layered into warm corn tortillas.",
     "style": "Hearty roasted veg tacos with creamy, crunchy avocado-pepita sauce",
+    "protein": "",
     "search": "sweet potato tacos | black bean tacos | vegetarian tacos | avocado sauce | pepitas | dinner | tacos | mexican-inspired | sweet potatoes | olive oil | cayenne pepper | fine salt | small onion | ground cumin | chilli powder | black beans | water | sherry vinegar or lime juice | salt & black pepper | avocados | fresh coriander | jalapeño | garlic | lime juice | black pepper | small corn tortillas | crumbled feta | pickled red onions or radishes | pickled jalapeños | hot sauce | extra toasted pepitas"
   },
   {
@@ -725,6 +773,7 @@
     ],
     "description": "Golden baked tofu tossed with udon noodles, greens, and a rich tahini chilli sauce that’s savoury, spicy, and deeply satisfying.",
     "style": "Crispy baked tofu with chewy noodles and a creamy, spicy tahini chilli sauce.",
+    "protein": "",
     "search": "tahini tofu | chilli tofu | udon stir fry | sesame noodles | dinner | stir-fry | plant-based | firm tofu | msg | salt | soy sauce | olive oil | cornstarch | tahini | maple syrup | rice vinegar | chilli oil | water | udon noodles | ginger | garlic | tenderstem broccoli | kale | spring onions | mixed sesame seeds"
   },
   {
@@ -741,6 +790,7 @@
     ],
     "description": "The fastest real Thai dinner there is — crumbled tofu stir-fried with pounded garlic and chilli, sweet-salty sauce, and a huge handful of holy basil, over rice in 20 minutes.",
     "style": "Thai street-food classic: crumbled tofu blitzed over screaming heat with garlic, chilli, and a final avalanche of holy basil",
+    "protein": "32 g",
     "search": "pad kra pao | thai basil tofu | thai holy basil stir fry | vegan thai street food | 20 minute dinner | main | quick dinner | plant-based | extra-firm tofu | neutral oil | garlic | bird's eye chillies | salt | vegan oyster sauce | soy sauce | dark soy sauce | palm sugar or brown sugar | water | thai holy basil | long red chilli | onion | green beans | red bell pepper | jasmine rice | fried egg | cucumber slices & lime"
   },
   {
@@ -757,6 +807,7 @@
     ],
     "description": "This easy Thai red curry with vegetables is rich, flavorful, and better than takeout. Made with coconut milk, red curry paste, and a colorful mix of vegetables, it’s a comforting vegan and gluten-free meal that’s perfect for weeknights.",
     "style": "Creamy, aromatic Thai-inspired vegetable curry with coconut milk and red curry paste",
+    "protein": "",
     "search": "thai red curry | vegetable curry | coconut milk curry | vegan thai curry | gluten-free curry | dinner | curry | thai-inspired | brown jasmine rice or long-grain brown rice | coconut oil or olive oil | small white onion | salt | fresh ginger | garlic | red bell pepper | yellow, orange, or green bell pepper | carrots | thai red curry paste | coconut milk | water | kale | coconut sugar or brown sugar | tamari or soy sauce | rice vinegar or lime juice | fresh basil or cilantro | red pepper flakes | sriracha or chili garlic sauce"
   },
   {
@@ -774,6 +825,7 @@
     ],
     "description": "Classic-style tikka masala made with oven-roasted tofu folded into a rich, spiced tomato-cream sauce.",
     "style": "Bold, creamy Indian-style curry with roasted spiced tofu",
+    "protein": "",
     "search": "tofu tikka masala | tofu curry | indian curry | creamy curry | plant-based protein | dinner | curry | plant-based | extra-firm tofu | oil | smoked paprika | garam masala | salt & black pepper | oil or butter | large onion | garlic | ginger | ground coriander | chilli powder | tomato purée | chopped tomatoes | cream or cashew cream | salt | lemon | steamed basmati rice | naan bread | flatbreads or rotis | fresh coriander | lime or lemon wedges"
   },
   {
@@ -789,6 +841,7 @@
     ],
     "description": "A vibrant vegetarian take on the classic Korean bibimbap, featuring fluffy rice topped with sautéed mushrooms, fresh and wilted vegetables, crispy tofu, and a bold, spicy-sweet gochujang sauce.",
     "style": "Korean-inspired rice bowl layered with sautéed vegetables, crispy tofu, and spicy gochujang sauce",
+    "protein": "",
     "search": "bibimbap | korean rice bowl | gochujang | tofu | mushrooms | vegetarian korean food | dinner | rice bowls | asian | short-grain rice | gochujang paste | sesame oil | rice vinegar | water | light soy sauce | white sesame seeds | garlic | sriracha | brown sugar | firm silken tofu | cornflour | toasted sesame oil | carrot | zucchini | cucumber | bell pepper | mixed mushrooms | spinach | sea salt | egg | toasted sesame seeds"
   },
   {
@@ -803,6 +856,7 @@
     ],
     "description": "Vegetarian enchiladas stuffed with black beans, broccoli, bell pepper, and spinach, topped with a rich homemade red sauce.",
     "style": "Hearty vegetarian enchiladas loaded with vegetables, black beans, and homemade red sauce.",
+    "protein": "",
     "search": "vegetarian enchiladas | black bean enchiladas | veggie enchiladas | meatless dinner | dinner | baked | mexican-inspired | olive oil | red onion | red bell pepper | broccoli or cauliflower | ground cumin | ground cinnamon | baby spinach | black beans | fine salt | black pepper | enchilada sauce | monterey jack cheese | whole wheat tortillas | fresh cilantro"
   }
 ]

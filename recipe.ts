@@ -32,6 +32,9 @@ export interface Recipe {
   /** Pre-joined haystack (keywords, categories, ingredient names) built by generate-index. */
   search?: string;
   description?: string;
+  nutrition?: { calories?: string; protein?: string; carbohydrates?: string; fat?: string; fiber?: string; sugar?: string };
+  /** Protein per serving, lifted into the index by generate-index. */
+  protein?: string;
   ingredients: { sections: IngredientSection[]; items?: IngredientItem[] | string[] };
   steps: string[];
   tips?: string[];

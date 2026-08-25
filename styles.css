@@ -407,6 +407,37 @@ body > * {
   white-space: nowrap;
 }
 
+.protein-tag {
+  border-color: color-mix(in srgb, var(--accent-2) 55%, var(--border)) !important;
+  color: var(--accent-2) !important;
+  font-weight: 600;
+}
+
+.nutrition-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem 1.1rem;
+  align-items: baseline;
+  margin-top: 0.9rem;
+  padding-top: 0.9rem;
+  border-top: 1px solid var(--border);
+  font-size: 0.92rem;
+  color: var(--muted);
+}
+
+.nutrition-row strong {
+  color: var(--text);
+  font-weight: 600;
+}
+
+.nutrition-row small {
+  margin-left: auto;
+  font-size: 0.78rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  opacity: 0.75;
+}
+
 .hp-tag {
   border-color: var(--accent) !important;
   color: var(--accent) !important;

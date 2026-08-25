@@ -186,6 +186,7 @@ function loadRecipes() {
             tags: Array.isArray(data.tags) ? data.tags : [],
             description: data.description || '',
             style: data.style || '',
+            protein: (data.nutrition && data.nutrition.protein) || '',
             search: buildSearchText(data)
         });
     }
