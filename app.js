@@ -609,14 +609,16 @@ function buildIngredientLookup(r) {
             const unit = String(it.unit || '').trim();
             if (!qty)
                 return;
-            if (qty === '1' && !unit)
-                return; // "1 cucumber" adds nothing
+            // "1 cucumber" adds nothing, but it must stay in the map: otherwise a second
+            // ingredient sharing the word looks unambiguous and gets used by mistake.
+            const silent = qty === '1' && !unit;
             const amount = `${qty} ${unit}`.trim();
+            const name = String(it.item).toLowerCase().trim();
             for (const key of ingredientKeys(it.item)) {
-                const weak = GENERIC_HEADS.has(key) && key !== String(it.item).toLowerCase().trim();
+                const weak = GENERIC_HEADS.has(key) && key !== name;
                 if (!map.has(key))
                     map.set(key, []);
-                map.get(key).push({ amount, qty, unit, section: si, weak });
+                map.get(key).push({ amount, qty, unit, section: si, weak, silent, name });
             }
         });
     });
@@ -649,13 +651,13 @@ function resolveAmount(candidates, section) {
         const inSection = candidates.filter(c => c.section === section);
         const distinct = [...new Set(inSection.map(c => c.amount))];
         if (distinct.length === 1)
-            return inSection[0];
+            return inSection[0].silent ? null : inSection[0];
     }
     // Otherwise only a strong (full-name or distinctive head-noun) match may speak.
     const strong = candidates.filter(c => !c.weak);
     const distinctStrong = [...new Set(strong.map(c => c.amount))];
     if (distinctStrong.length === 1)
-        return strong[0];
+        return strong[0].silent ? null : strong[0];
     return null; // ambiguous — say nothing
 }
 function amountHTML(m) {
@@ -665,6 +667,24 @@ function amountHTML(m) {
         : escapeHtml(m.qty);
     const unit = m.unit ? ` ${escapeHtml(m.unit)}` : '';
     return `<span class="step-qty">(${qtyHTML}${unit})</span>`;
+}
+// A quantity already spelled out in the step ("30 g shredded cheese") makes the
+// recipe total redundant and confusing.
+const EXPLICIT_AMOUNT = /(?:\d|[½¼¾⅓⅔])[\d\/.\s–-]*\s*(?:g|kg|ml|l|tbsp|tsp|cups?|slices?|cans?|tins?|cloves?|stalks?)\b(?:\s+\S+){0,3}\s*$/i;
+// "fresh coriander" must not pick up "ground coriander"'s amount.
+const DISTINGUISHERS = ['fresh', 'dried', 'ground', 'toasted', 'raw', 'frozen', 'dark', 'light', 'semi-sweet', 'whole', 'sweet'];
+function matchIsSafe(text, start, end, key, m, keys) {
+    const before = text.slice(0, start);
+    if (EXPLICIT_AMOUNT.test(before))
+        return false;
+    const prevWord = (before.trim().split(/\s+/).pop() || '').toLowerCase().replace(/[^a-z-]/g, '');
+    if (prevWord && DISTINGUISHERS.includes(prevWord) && !m.name.includes(prevWord) && !key.includes(prevWord))
+        return false;
+    // "chocolate chips" / "cream cheese" — the phrase continues into a different ingredient.
+    const nextWord = (text.slice(end).trim().split(/\s+/)[0] || '').toLowerCase().replace(/[^a-z-]/g, '');
+    if (nextWord && keys.includes(nextWord) && nextWord !== key)
+        return false;
+    return true;
 }
 function annotateStep(html, lookup, section) {
     // Leave the bold lead-in alone — annotating a heading reads as noise.
@@ -696,6 +716,8 @@ function annotateStep(html, lookup, section) {
                 continue; // overlaps a longer match
             const resolved = resolveAmount(lookup.get(key), section);
             if (!resolved)
+                continue;
+            if (!matchIsSafe(text, start, end, key, resolved, keys))
                 continue;
             taken.push([start, end]);
             inserts.push({ at: end, html: ' ' + amountHTML(resolved) });
