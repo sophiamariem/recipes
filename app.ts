@@ -8,6 +8,24 @@ const qsa = (s: string, el: ParentNode = document) => [...el.querySelectorAll(s)
 const byId = (id: string) => document.getElementById(id);
 
 // --- helpers (defined early) ---
+// Inline placeholder for missing photos. A data: URI so it also works offline.
+const FALLBACK_IMAGE =
+  "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2064%2064'%20fill='none'%20stroke='%23a08e78'%20stroke-width='2.5'%20stroke-linecap='round'%3E%3Ccircle%20cx='32'%20cy='30'%20r='17'/%3E%3Ccircle%20cx='32'%20cy='30'%20r='10'/%3E%3Cpath%20d='M12%2050h40'/%3E%3C/svg%3E";
+
+function attachImageFallback(img: HTMLImageElement | null) {
+  if (!img) return;
+  const applyFallback = () => {
+    if (img.dataset.fallback) return;
+    img.dataset.fallback = '1';
+    img.classList.add('img-fallback');
+    img.src = FALLBACK_IMAGE;
+  };
+  if (!img.getAttribute('src')) { applyFallback(); return; }
+  img.addEventListener('error', applyFallback);
+  // Cached-but-broken images can finish before the listener attaches.
+  if (img.complete && img.naturalWidth === 0) applyFallback();
+}
+
 function escapeHtml(s: string | number | boolean | null | undefined): string {
   return String(s).replace(/[&<>"']/g, m => (
     ({ '&':'&amp;', '<':'&lt;', '>':'&gt;', '"':'&quot;', "'":'&#39;' } as Record<string, string>)[m] || m
@@ -348,6 +366,7 @@ function initHome(){
             })()}
           </div>
         </div>`;
+      attachImageFallback(card.querySelector('.card-img') as HTMLImageElement);
       (card.querySelector('.star-btn') as HTMLElement).addEventListener('click', (ev) => {
         ev.preventDefault(); ev.stopPropagation();
         const starred = toggleFav(r.slug);
@@ -434,6 +453,8 @@ function renderRecipe(root: HTMLElement, r: Recipe){
       </div>
     </article>
   `;
+
+  attachImageFallback(root.querySelector('.recipe-hero') as HTMLImageElement);
 
   byId('copyIngredientsBtn')?.addEventListener('click', () => {
     const text = plainIngredientText(r);
