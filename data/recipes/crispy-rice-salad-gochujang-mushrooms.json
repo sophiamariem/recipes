@@ -33,43 +33,141 @@
       {
         "title": "Crispy Rice",
         "items": [
-          { "qty": "1", "unit": "cup", "item": "cooked rice", "note": "preferably day-old" },
-          { "qty": "1", "unit": "tbsp", "item": "chili oil" }
+          {
+            "qty": "1",
+            "unit": "cup",
+            "item": "cooked rice",
+            "note": "preferably day-old"
+          },
+          {
+            "qty": "1",
+            "unit": "tbsp",
+            "item": "chili oil"
+          }
         ]
       },
       {
         "title": "Gochujang Mushrooms",
         "items": [
-          { "qty": "9", "unit": "oz", "item": "king oyster mushrooms" },
-          { "qty": "6", "unit": "oz", "item": "shimeji mushrooms" },
-          { "qty": "0.5", "unit": "tbsp", "item": "gochujang paste" },
-          { "qty": "2", "unit": "tsp", "item": "tamari", "note": "low sodium preferred" },
-          { "qty": "0.5", "unit": "tbsp", "item": "maple syrup" },
-          { "qty": "1", "unit": "tsp", "item": "rice vinegar" },
-          { "qty": "1", "unit": "tsp", "item": "sesame oil" }
+          {
+            "qty": "255",
+            "unit": "g",
+            "item": "king oyster mushrooms"
+          },
+          {
+            "qty": "170",
+            "unit": "g",
+            "item": "shimeji mushrooms"
+          },
+          {
+            "qty": "0.5",
+            "unit": "tbsp",
+            "item": "gochujang paste"
+          },
+          {
+            "qty": "2",
+            "unit": "tsp",
+            "item": "tamari",
+            "note": "low sodium preferred"
+          },
+          {
+            "qty": "0.5",
+            "unit": "tbsp",
+            "item": "maple syrup"
+          },
+          {
+            "qty": "1",
+            "unit": "tsp",
+            "item": "rice vinegar"
+          },
+          {
+            "qty": "1",
+            "unit": "tsp",
+            "item": "sesame oil"
+          }
         ]
       },
       {
         "title": "Peanut Sauce",
         "items": [
-          { "qty": "1.5", "unit": "tbsp", "item": "peanut butter", "note": "or tahini for nut-free" },
-          { "qty": "1", "unit": "tbsp", "item": "fresh ginger", "note": "finely grated" },
-          { "qty": "1", "unit": "clove", "item": "garlic" },
-          { "qty": "2", "unit": "tbsp", "item": "lime juice" },
-          { "qty": "2", "unit": "tsp", "item": "tamari" },
-          { "qty": "2", "unit": "tsp", "item": "maple syrup" },
-          { "qty": "0.25", "unit": "cup", "item": "dairy-free milk", "note": "e.g. soy" },
-          { "qty": "1", "unit": "tsp", "item": "gochujang paste" }
+          {
+            "qty": "1.5",
+            "unit": "tbsp",
+            "item": "peanut butter",
+            "note": "or tahini for nut-free"
+          },
+          {
+            "qty": "1",
+            "unit": "tbsp",
+            "item": "fresh ginger",
+            "note": "finely grated"
+          },
+          {
+            "qty": "1",
+            "unit": "clove",
+            "item": "garlic"
+          },
+          {
+            "qty": "2",
+            "unit": "tbsp",
+            "item": "lime juice"
+          },
+          {
+            "qty": "2",
+            "unit": "tsp",
+            "item": "tamari"
+          },
+          {
+            "qty": "2",
+            "unit": "tsp",
+            "item": "maple syrup"
+          },
+          {
+            "qty": "0.25",
+            "unit": "cup",
+            "item": "dairy-free milk",
+            "note": "e.g. soy"
+          },
+          {
+            "qty": "1",
+            "unit": "tsp",
+            "item": "gochujang paste"
+          }
         ]
       },
       {
         "title": "Salad",
         "items": [
-          { "qty": "1.5", "unit": "cups", "item": "edamame", "note": "shelled and thawed" },
-          { "qty": "1", "unit": "", "item": "cucumber", "note": "diced" },
-          { "qty": "2", "unit": "", "item": "spring onions", "note": "finely chopped" },
-          { "qty": "1", "unit": "", "item": "avocado", "note": "diced" },
-          { "qty": "0.25", "unit": "cup", "item": "fresh mint", "note": "finely chopped" }
+          {
+            "qty": "1.5",
+            "unit": "cups",
+            "item": "edamame",
+            "note": "shelled and thawed"
+          },
+          {
+            "qty": "1",
+            "unit": "",
+            "item": "cucumber",
+            "note": "diced"
+          },
+          {
+            "qty": "2",
+            "unit": "",
+            "item": "spring onions",
+            "note": "finely chopped"
+          },
+          {
+            "qty": "1",
+            "unit": "",
+            "item": "avocado",
+            "note": "diced"
+          },
+          {
+            "qty": "0.25",
+            "unit": "cup",
+            "item": "fresh mint",
+            "note": "finely chopped"
+          }
         ]
       }
     ]

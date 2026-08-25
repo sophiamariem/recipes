@@ -40,11 +40,18 @@ export interface Recipe {
   tips?: string[];
 }
 
+/** Grams and millilitres only. Converts any imperial quantity in place so an
+ *  imported recipe never shows oz or lb. qty is a string in the JSON, so parse it. */
+const TO_GRAMS: Record<string, number> = { oz: 28.3495, ounce: 28.3495, ounces: 28.3495, lb: 453.592, lbs: 453.592, pound: 453.592, pounds: 453.592 };
+
 export function normalizeUnits(item: IngredientItem) {
-  if(item.unit === 'oz' && typeof item.qty === 'number') {
-    item.qty = Math.round(item.qty * 28.3495 * 100) / 100;
-    item.unit = 'g';
-  }
+  if (!item || !item.unit) return;
+  const factor = TO_GRAMS[String(item.unit).trim().toLowerCase()];
+  if (!factor) return;
+  const value = typeof item.qty === 'number' ? item.qty : parseFloat(String(item.qty));
+  if (!isFinite(value)) return;
+  item.qty = String(Math.round(value * factor));
+  item.unit = 'g';
 }
 
 export function validateRecipeTags(tags: string[]): asserts tags is ApprovedTag[] {

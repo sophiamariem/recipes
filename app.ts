@@ -393,6 +393,10 @@ async function initRecipePage(){
   const res = await fetch(`data/recipes/${encodeURIComponent(slug)}.json`);
   if (!res.ok){ container.innerHTML = '<p class="empty">Recipe not found.</p>'; return; }
   const recipe: Recipe = await res.json();
+  // Imperial units never reach the page — convert on load, before anything renders.
+  recipe.ingredients?.sections?.forEach((sec: any) => (sec.items || []).forEach((it: any) => {
+    if (it && typeof it !== 'string') normalizeUnits(it);
+  }));
   validateRecipeTags(recipe.tags);
   renderRecipe(container, recipe);
   injectSchema(recipe);

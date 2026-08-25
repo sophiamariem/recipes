@@ -1,5 +1,5 @@
 // Utility (dev-safe banner)
-import { validateRecipeTags, APPROVED_TAGS } from './recipe.js';
+import { validateRecipeTags, APPROVED_TAGS, normalizeUnits } from './recipe.js';
 console.log('Sophia\'s Recipes - dev-safe build');
 const qs = (s, el = document) => el.querySelector(s);
 const qsa = (s, el = document) => [...el.querySelectorAll(s)];
@@ -407,6 +407,11 @@ async function initRecipePage() {
         return;
     }
     const recipe = await res.json();
+    // Imperial units never reach the page — convert on load, before anything renders.
+    recipe.ingredients?.sections?.forEach((sec) => (sec.items || []).forEach((it) => {
+        if (it && typeof it !== 'string')
+            normalizeUnits(it);
+    }));
     validateRecipeTags(recipe.tags);
     renderRecipe(container, recipe);
     injectSchema(recipe);

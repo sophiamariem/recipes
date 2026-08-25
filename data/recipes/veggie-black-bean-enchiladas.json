@@ -31,8 +31,8 @@
           { "qty": "1", "unit": "cup", "item": "red onion", "note": "chopped" },
           { "qty": "1", "unit": "", "item": "red bell pepper", "note": "chopped" },
           {
-            "qty": "1",
-            "unit": "lb",
+            "qty": "454",
+            "unit": "g",
             "item": "broccoli or cauliflower",
             "note": "small florets, bite-sized"
           },

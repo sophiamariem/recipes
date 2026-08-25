@@ -33,32 +33,100 @@
       {
         "title": "Crispy Smoked Chickpeas",
         "items": [
-          { "qty": "1", "unit": "can (15 oz)", "item": "chickpeas", "note": "drained and rinsed" },
-          { "qty": "1", "unit": "tbsp", "item": "olive oil" },
-          { "qty": "0.5", "unit": "tsp", "item": "smoked paprika" },
-          { "qty": "0.25", "unit": "tsp", "item": "sea salt" }
+          {
+            "qty": "1",
+            "unit": "can",
+            "item": "chickpeas",
+            "note": "425 g, drained and rinsed"
+          },
+          {
+            "qty": "1",
+            "unit": "tbsp",
+            "item": "olive oil"
+          },
+          {
+            "qty": "0.5",
+            "unit": "tsp",
+            "item": "smoked paprika"
+          },
+          {
+            "qty": "0.25",
+            "unit": "tsp",
+            "item": "sea salt"
+          }
         ]
       },
       {
         "title": "Caesar Dressing (Vegan-friendly)",
         "items": [
-          { "qty": "3", "unit": "tbsp", "item": "olive oil" },
-          { "qty": "4", "unit": "tbsp", "item": "lemon juice" },
-          { "qty": "2", "unit": "tbsp", "item": "tahini" },
-          { "qty": "1", "unit": "tbsp", "item": "Dijon mustard" },
-          { "qty": "1", "unit": "clove", "item": "garlic" },
-          { "qty": "1", "unit": "tsp", "item": "nutritional yeast" },
-          { "qty": "0.25", "unit": "tsp", "item": "salt" },
-          { "qty": "0.25", "unit": "tsp", "item": "black pepper" },
-          { "qty": "4", "unit": "tbsp", "item": "water" }
+          {
+            "qty": "3",
+            "unit": "tbsp",
+            "item": "olive oil"
+          },
+          {
+            "qty": "4",
+            "unit": "tbsp",
+            "item": "lemon juice"
+          },
+          {
+            "qty": "2",
+            "unit": "tbsp",
+            "item": "tahini"
+          },
+          {
+            "qty": "1",
+            "unit": "tbsp",
+            "item": "Dijon mustard"
+          },
+          {
+            "qty": "1",
+            "unit": "clove",
+            "item": "garlic"
+          },
+          {
+            "qty": "1",
+            "unit": "tsp",
+            "item": "nutritional yeast"
+          },
+          {
+            "qty": "0.25",
+            "unit": "tsp",
+            "item": "salt"
+          },
+          {
+            "qty": "0.25",
+            "unit": "tsp",
+            "item": "black pepper"
+          },
+          {
+            "qty": "4",
+            "unit": "tbsp",
+            "item": "water"
+          }
         ]
       },
       {
         "title": "Salad",
         "items": [
-          { "qty": "8", "unit": "oz", "item": "pasta", "note": "cooked al dente" },
-          { "qty": "5", "unit": "cups", "item": "kale", "note": "shredded" },
-          { "qty": "0.33", "unit": "cup", "item": "parmesan cheese", "note": "optional or vegan alternative" }
+          {
+            "qty": "227",
+            "unit": "g",
+            "item": "pasta",
+            "note": "cooked al dente"
+          },
+          {
+            "qty": "5",
+            "unit": "cups",
+            "item": "kale",
+            "note": "shredded"
+          },
+          {
+            "qty": "0.33",
+            "unit": "cup",
+            "item": "parmesan cheese",
+            "note": "optional or vegan alternative"
+          }
         ]
       }
     ]
