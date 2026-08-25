@@ -446,7 +446,7 @@ function renderRecipe(root: HTMLElement, r: Recipe){
           ${r.tips?.length ? `
             <div class="section" style="margin-top:1rem">
               <h3>Notes & Tips</h3>
-              <ul>${r.tips.map(t => `<li>${escapeHtml(t)}</li>`).join('')}</ul>
+              <ul>${r.tips.map(t => `<li>${t}</li>`).join('')}</ul>
             </div>` : ''
           }
         </section>
