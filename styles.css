@@ -673,16 +673,9 @@ body > * {
   font-weight: 600;
 }
 
-.ingredients li.ing-fresh::before {
-  content: "";
-  display: inline-block;
-  width: 6px;
-  height: 6px;
-  margin-right: 0.5rem;
-  border-radius: 50%;
-  background: var(--accent-2);
-  vertical-align: middle;
-  transform: translateY(-1px);
+/* Tint the list's own bullet rather than adding a second dot beside it. */
+.ingredients li.ing-fresh::marker {
+  color: var(--accent-2);
 }
 
 .ing-note {
