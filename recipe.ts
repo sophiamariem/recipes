@@ -29,6 +29,8 @@ export interface Recipe {
   tags: ApprovedTag[];
   categories?: string[];
   keywords?: string[];
+  /** Pre-joined haystack (keywords, categories, ingredient names) built by generate-index. */
+  search?: string;
   description?: string;
   ingredients: { sections: IngredientSection[]; items?: IngredientItem[] | string[] };
   steps: string[];

@@ -307,7 +307,7 @@ function initHome(){
       })
       .filter(r => {
         if (!q) return true;
-        const hay = [r.title, r.description, r.style, ...getEffectiveTags(r)].join(' ').toLowerCase();
+        const hay = [r.title, r.description, r.style, r.search, ...getEffectiveTags(r)].join(' ').toLowerCase();
         return hay.includes(q);
       })
       .sort((a,b) => {

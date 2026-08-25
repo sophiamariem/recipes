@@ -130,6 +130,25 @@ function validateTagsWithContext(data, filePath) {
     };
 }
 
+function buildSearchText(data) {
+    const parts = [];
+    for (const k of data.keywords || []) parts.push(k);
+    for (const c of data.categories || []) parts.push(c);
+    for (const sec of data.ingredients?.sections || []) {
+        for (const it of sec.items || []) {
+            if (typeof it === 'string') parts.push(it);
+            else if (it && it.item) parts.push(it.item);
+        }
+    }
+    const seen = new Set();
+    const out = [];
+    for (const part of parts) {
+        const v = String(part).toLowerCase().trim();
+        if (v && !seen.has(v)) { seen.add(v); out.push(v); }
+    }
+    return out.join(' | ');
+}
+
 function loadRecipes() {
     const entries = fs.readdirSync(RECIPES_DIR, { withFileTypes: true });
     const files = entries
@@ -166,7 +185,8 @@ function loadRecipes() {
             time: data.time || '',
             tags: Array.isArray(data.tags) ? data.tags : [],
             description: data.description || '',
-            style: data.style || ''
+            style: data.style || '',
+            search: buildSearchText(data)
         });
     }
 
