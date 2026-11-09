@@ -240,6 +240,21 @@
     "search": "coffee fudge | coffee tablet | condensed milk fudge | azera fudge | no bake sweets | dessert | sweets | no-bake | confectionery | milk | nescafé azera americano | condensed milk | demerara sugar | butter | coffee liqueur"
   },
   {
+    "slug": "creamy-crispy-chili-tofu",
+    "title": "Creamy Crispy Chili Tofu",
+    "image": "images/creamy-crispy-chili-tofu.jpg",
+    "time": "30 min",
+    "tags": [
+      "Vegan",
+      "Dairy-free",
+      "Spicy"
+    ],
+    "description": "Torn tofu coated in curry powder, cornstarch and soy, baked until crisp, then tossed in a creamy sauce of vegan skyr, mayo, sriracha and crispy chilli oil. Served over rice — about 550 kcal and 24 g protein per serving.",
+    "style": "Curry-spiced baked tofu tossed in a creamy, fiery bang bang sauce with crispy chilli oil, served over rice",
+    "protein": "24 g",
+    "search": "bang bang tofu | creamy chili tofu | crispy baked tofu | crispy chilli oil | vegan bang bang sauce | air fryer tofu | dinner | plant-based | bowl | firm tofu | curry powder | cornstarch | soy sauce | vegan skyr alternative | vegan mayonnaise | sriracha | salt | garlic powder | soy milk | cooked rice | black sesame seeds | chives"
+  },
+  {
     "slug": "creamy-gochujang-pasta-indian-twist",
     "title": "Creamy Gochujang Pasta with Indian-Spiced Umami Twist",
     "image": "images/creamy-gochujang-pasta.jpg",

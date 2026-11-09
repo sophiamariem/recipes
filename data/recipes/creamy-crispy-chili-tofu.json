@@ -1,0 +1,80 @@
+{
+  "slug": "creamy-crispy-chili-tofu",
+  "title": "Creamy Crispy Chili Tofu",
+  "image": "images/creamy-crispy-chili-tofu.jpg",
+  "time": "30 min",
+  "servings": 2,
+  "style": "Curry-spiced baked tofu tossed in a creamy, fiery bang bang sauce with crispy chilli oil, served over rice",
+  "tags": [
+    "Vegan",
+    "Dairy-free",
+    "Spicy"
+  ],
+  "categories": [
+    "Dinner",
+    "Plant-based",
+    "Bowl"
+  ],
+  "keywords": [
+    "bang bang tofu",
+    "creamy chili tofu",
+    "crispy baked tofu",
+    "crispy chilli oil",
+    "vegan bang bang sauce",
+    "air fryer tofu"
+  ],
+  "description": "Torn tofu coated in curry powder, cornstarch and soy, baked until crisp, then tossed in a creamy sauce of vegan skyr, mayo, sriracha and crispy chilli oil. Served over rice — about 550 kcal and 24 g protein per serving.",
+  "ingredients": {
+    "sections": [
+      {
+        "title": "Tofu",
+        "items": [
+          { "qty": "200", "unit": "g", "item": "firm tofu" },
+          { "qty": "1", "unit": "tsp", "item": "curry powder", "note": "divided" },
+          { "qty": "1", "unit": "tbsp", "item": "cornstarch", "note": "divided" },
+          { "qty": "1", "unit": "tbsp", "item": "soy sauce" }
+        ]
+      },
+      {
+        "title": "Bang Bang Sauce",
+        "items": [
+          { "qty": "2", "unit": "tbsp", "item": "vegan skyr alternative" },
+          { "qty": "0.5", "unit": "tbsp", "item": "vegan mayonnaise" },
+          { "qty": "2", "unit": "tbsp", "item": "sriracha" },
+          { "qty": "0.5", "unit": "tbsp", "item": "crispy chilli oil" },
+          { "qty": "1", "unit": "tsp", "item": "salt", "note": "adjust to taste" },
+          { "qty": "0.5", "unit": "tsp", "item": "garlic powder" },
+          { "qty": "25", "unit": "ml", "item": "soy milk" }
+        ]
+      },
+      {
+        "title": "To Serve",
+        "items": [
+          { "qty": "500", "unit": "g", "item": "cooked rice", "note": "about 170 g uncooked" },
+          { "qty": "", "unit": "", "item": "black sesame seeds", "note": "optional" },
+          { "qty": "", "unit": "", "item": "chives", "note": "optional, finely chopped" }
+        ]
+      }
+    ]
+  },
+  "steps": [
+    "<strong>Prep the tofu:</strong> Break the tofu into bite-sized pieces by hand. Toss with half of the curry powder and half of the cornstarch.",
+    "<strong>Coat:</strong> Add the soy sauce and mix well, then fold in the remaining curry powder and cornstarch until the tofu is evenly coated.",
+    "<strong>Bake:</strong> Bake in a fan oven at 180°C for about 20 minutes, turning occasionally so it crisps evenly. An air fryer also works — check it early, as times vary.",
+    "<strong>Sauce:</strong> Mix the vegan skyr alternative, vegan mayonnaise, sriracha, crispy chilli oil, salt, garlic powder and soy milk until smooth.",
+    "<strong>Toss:</strong> Add the crispy tofu to the sauce and toss until coated.",
+    "Serve straight away over rice, topped with sesame seeds and chives if you like."
+  ],
+  "tips": [
+    "Tearing the tofu rather than cutting it gives more rough edges to crisp up.",
+    "Toss the tofu in the sauce at the last minute so it stays crunchy.",
+    "Start with less salt in the sauce — the soy and chilli oil are already salty.",
+    "Adapted from vegan-high-protein.com (crispy bang bang tofu)."
+  ],
+  "nutrition": {
+    "calories": "550 kcal",
+    "protein": "24 g",
+    "carbohydrates": "79 g",
+    "fat": "15 g"
+  }
+}
