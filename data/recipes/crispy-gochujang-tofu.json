@@ -1,0 +1,89 @@
+{
+  "slug": "crispy-gochujang-tofu",
+  "title": "Crispy Gochujang Tofu",
+  "image": "images/crispy-gochujang-tofu.jpg",
+  "time": "35 min",
+  "servings": 2,
+  "style": "Air-fried tofu tossed in a sticky, sweet-spicy gochujang glaze, served over basmati with cool cucumber and salted edamame",
+  "tags": [
+    "High Protein",
+    "Dairy-free",
+    "Spicy"
+  ],
+  "categories": [
+    "Main",
+    "Quick Dinner",
+    "Plant-based"
+  ],
+  "keywords": [
+    "gochujang tofu",
+    "crispy tofu",
+    "air fryer tofu",
+    "korean tofu bowl",
+    "high protein dinner",
+    "edamame rice bowl"
+  ],
+  "description": "Cornstarch-coated tofu air-fried until crisp, then glazed in a thick gochujang, soy, honey and sesame sauce. Served with rice, sliced cucumber and salted edamame — about 490 kcal and 31 g protein per serving.",
+  "ingredients": {
+    "sections": [
+      {
+        "title": "Crispy Tofu",
+        "items": [
+          { "qty": "500", "unit": "g", "item": "firm tofu", "note": "pressed, cut into bite-sized cubes" },
+          { "qty": "1", "unit": "tbsp", "item": "olive oil" },
+          { "qty": "1", "unit": "tbsp", "item": "cornstarch" },
+          { "qty": "", "unit": "", "item": "salt", "note": "a good pinch" }
+        ]
+      },
+      {
+        "title": "Sauce",
+        "items": [
+          { "qty": "2", "unit": "tbsp", "item": "gochujang" },
+          { "qty": "2", "unit": "tbsp", "item": "soy sauce" },
+          { "qty": "1", "unit": "tbsp", "item": "rice wine vinegar" },
+          { "qty": "160", "unit": "ml", "item": "water" },
+          { "qty": "1", "unit": "tbsp", "item": "sesame oil" },
+          { "qty": "1", "unit": "tbsp", "item": "honey" },
+          { "qty": "1", "unit": "clove", "item": "garlic", "note": "minced" }
+        ]
+      },
+      {
+        "title": "Cornflour Slurry",
+        "items": [
+          { "qty": "1", "unit": "tsp", "item": "cornflour" },
+          { "qty": "1", "unit": "tbsp", "item": "cold water" }
+        ]
+      },
+      {
+        "title": "To Serve",
+        "items": [
+          { "qty": "500", "unit": "g", "item": "cooked basmati rice", "note": "about 170 g uncooked" },
+          { "qty": "200", "unit": "g", "item": "cucumber", "note": "sliced" },
+          { "qty": "200", "unit": "g", "item": "edamame beans", "note": "cooked and salted" },
+          { "qty": "2", "unit": "tsp", "item": "sesame seeds" }
+        ]
+      }
+    ]
+  },
+  "steps": [
+    "<strong>Press the tofu:</strong> Press the block to squeeze out excess moisture, then cut into bite-sized cubes.",
+    "<strong>Coat:</strong> Toss the tofu in a bowl with the olive oil, cornstarch and a pinch of salt until every piece is evenly coated.",
+    "<strong>Air-fry:</strong> Cook at 200°C for about 25 minutes, shaking the basket halfway through for even crisping.",
+    "<strong>Sauce:</strong> Meanwhile, whisk the sauce ingredients together in a small bowl. In a separate bowl, mix the cornflour with the cold water, then stir the slurry into the sauce.",
+    "<strong>Thicken:</strong> Pour into a pan and simmer over medium-low heat for 4 minutes, stirring, until glossy and thickened.",
+    "<strong>Glaze:</strong> Add the crispy tofu to the pan and toss until well coated. Sprinkle with sesame seeds.",
+    "Serve over rice with the sliced cucumber and salted edamame on the side."
+  ],
+  "tips": [
+    "Press the tofu properly — drier tofu crisps faster and holds its crunch under the sauce.",
+    "Toss the tofu in the sauce right before serving so it doesn't go soft.",
+    "Swap the honey for maple syrup to make it vegan.",
+    "Frozen edamame works well: boil for 3–4 minutes, drain and salt."
+  ],
+  "nutrition": {
+    "calories": "490 kcal",
+    "protein": "31 g",
+    "carbohydrates": "63 g",
+    "fat": "11 g"
+  }
+}

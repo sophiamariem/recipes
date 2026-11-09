@@ -299,6 +299,21 @@
     "search": "crispy tofu | chilli garlic tofu | spicy tofu | vegan tofu | dinner | stir-fry | plant-based | firm tofu | cornstarch | salt & black pepper | crispy chilli oil | tamari or dark soy sauce | agave syrup | rice vinegar | water | garlic | spring onions | sesame seeds"
   },
   {
+    "slug": "crispy-gochujang-tofu",
+    "title": "Crispy Gochujang Tofu",
+    "image": "images/crispy-gochujang-tofu.jpg",
+    "time": "35 min",
+    "tags": [
+      "High Protein",
+      "Dairy-free",
+      "Spicy"
+    ],
+    "description": "Cornstarch-coated tofu air-fried until crisp, then glazed in a thick gochujang, soy, honey and sesame sauce. Served with rice, sliced cucumber and salted edamame — about 490 kcal and 31 g protein per serving.",
+    "style": "Air-fried tofu tossed in a sticky, sweet-spicy gochujang glaze, served over basmati with cool cucumber and salted edamame",
+    "protein": "31 g",
+    "search": "gochujang tofu | crispy tofu | air fryer tofu | korean tofu bowl | high protein dinner | edamame rice bowl | main | quick dinner | plant-based | firm tofu | olive oil | cornstarch | salt | gochujang | soy sauce | rice wine vinegar | water | sesame oil | honey | garlic | cornflour | cold water | cooked basmati rice | cucumber | edamame beans | sesame seeds"
+  },
+  {
     "slug": "crispy-kimchi-tofu-salad",
     "title": "Crispy Kimchi Tofu Salad",
     "image": "images/crispy-kimchi-tofu-salad.jpg",
