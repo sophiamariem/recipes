@@ -630,6 +630,21 @@
     "search": "peanut tofu | peanut butter tofu | satay tofu bowl | coconut peanut sauce | tofu rice bowl | high protein dinner | dinner | bowl | plant-based | firm tofu | oil | salt | black pepper | peanut butter | honey | sriracha | soy sauce | rice vinegar | chilli oil | coconut milk | cooked rice | roasted peanuts | fresh coriander | tenderstem broccoli"
   },
   {
+    "slug": "peanut-tofu-rice-bowl",
+    "title": "Peanut Tofu Rice Bowl",
+    "image": "images/peanut-tofu-rice-bowl.jpg",
+    "time": "15 min",
+    "tags": [
+      "High Protein",
+      "Dairy-free",
+      "Vegan"
+    ],
+    "description": "Baked tofu, rice, edamame and fresh veg with a stir-together peanut sauce, topped with sesame seeds and crispy onions. Ready in about 15 minutes — about 920 kcal and 45 g protein per serving.",
+    "style": "Warm rice and baked tofu with edamame, cucumber and avocado, drizzled with a quick peanut sauce and finished with sesame seeds and crispy onions",
+    "protein": "45 g",
+    "search": "peanut tofu rice bowl | quick tofu bowl | baked tofu bowl | edamame bowl | peanut sauce | 10 minute dinner | dinner | bowl | plant-based | cooked rice | baked tofu | frozen shelled edamame | cucumber | avocado | spring onions | peanut butter | soy sauce | lime juice or rice vinegar | honey or maple syrup | sriracha or chili crisp | hot water | sesame seeds | crispy fried onions | lime wedges"
+  },
+  {
     "slug": "protein-packed-buddha-bowl",
     "title": "Protein-Packed Buddha Bowl",
     "image": "images/protein-packed-buddha-bowl.jpg",

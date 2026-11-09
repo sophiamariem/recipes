@@ -1,0 +1,80 @@
+{
+  "slug": "peanut-tofu-rice-bowl",
+  "title": "Peanut Tofu Rice Bowl",
+  "image": "images/peanut-tofu-rice-bowl.jpg",
+  "time": "15 min",
+  "servings": 2,
+  "style": "Warm rice and baked tofu with edamame, cucumber and avocado, drizzled with a quick peanut sauce and finished with sesame seeds and crispy onions",
+  "tags": [
+    "High Protein",
+    "Dairy-free",
+    "Vegan"
+  ],
+  "categories": [
+    "Dinner",
+    "Bowl",
+    "Plant-based"
+  ],
+  "keywords": [
+    "peanut tofu rice bowl",
+    "quick tofu bowl",
+    "baked tofu bowl",
+    "edamame bowl",
+    "peanut sauce",
+    "10 minute dinner"
+  ],
+  "description": "Baked tofu, rice, edamame and fresh veg with a stir-together peanut sauce, topped with sesame seeds and crispy onions. Ready in about 15 minutes — about 920 kcal and 45 g protein per serving.",
+  "ingredients": {
+    "sections": [
+      {
+        "title": "Bowl",
+        "items": [
+          { "qty": "360", "unit": "g", "item": "cooked rice" },
+          { "qty": "240", "unit": "g", "item": "baked tofu" },
+          { "qty": "150", "unit": "g", "item": "frozen shelled edamame" },
+          { "qty": "160", "unit": "g", "item": "cucumber", "note": "sliced" },
+          { "qty": "1", "unit": "", "item": "avocado", "note": "about 140 g, sliced" },
+          { "qty": "4", "unit": "", "item": "spring onions", "note": "thinly sliced" }
+        ]
+      },
+      {
+        "title": "Peanut Sauce",
+        "items": [
+          { "qty": "48", "unit": "g", "item": "peanut butter" },
+          { "qty": "24", "unit": "g", "item": "soy sauce" },
+          { "qty": "16", "unit": "g", "item": "lime juice or rice vinegar" },
+          { "qty": "8", "unit": "g", "item": "honey or maple syrup" },
+          { "qty": "6", "unit": "g", "item": "sriracha or chili crisp", "note": "optional" },
+          { "qty": "45", "unit": "ml", "item": "hot water" }
+        ]
+      },
+      {
+        "title": "To Serve",
+        "items": [
+          { "qty": "10", "unit": "g", "item": "sesame seeds" },
+          { "qty": "15", "unit": "g", "item": "crispy fried onions" },
+          { "qty": "2", "unit": "", "item": "lime wedges", "note": "optional" }
+        ]
+      }
+    ]
+  },
+  "steps": [
+    "<strong>Cook the edamame:</strong> Put the frozen edamame in a bowl with a splash of water, cover and microwave for 3–4 minutes until hot, then drain. (Or boil for 3 minutes.)",
+    "<strong>Warm rice and tofu:</strong> Microwave the rice until hot, about 2–3 minutes. Warm the baked tofu alongside for 1 minute if it's cold.",
+    "<strong>Make the sauce:</strong> Stir together the peanut butter, soy sauce, lime juice or rice vinegar, honey or maple syrup and sriracha or chili crisp. Add the hot water a little at a time until smooth and pourable.",
+    "<strong>Prep the veg:</strong> Slice the cucumber, avocado and spring onions.",
+    "<strong>Build the bowls:</strong> Divide the rice between two bowls, then top with the tofu, edamame, cucumber and avocado. Drizzle with the peanut sauce.",
+    "<strong>Finish:</strong> Scatter over the spring onions, sesame seeds and crispy onions, and squeeze a lime wedge over each bowl."
+  ],
+  "tips": [
+    "For extra tang, toss the cucumber in a splash of rice vinegar with a pinch of salt and sugar while you make the sauce.",
+    "Use maple syrup instead of honey to keep it vegan.",
+    "Add the crispy onions right before eating so they stay crunchy."
+  ],
+  "nutrition": {
+    "calories": "920 kcal",
+    "protein": "45 g",
+    "carbohydrates": "86 g",
+    "fat": "47 g"
+  }
+}
