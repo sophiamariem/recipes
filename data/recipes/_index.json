@@ -615,6 +615,21 @@
     "search": "pad kee mao | drunken noodles | seitan noodles | vegan thai noodles | spicy basil noodles | dinner | stir-fry | plant-based | noodles | seitan | soy sauce | sugar | water | fresh wide rice noodles | vegetable oil | garlic | chilli flakes | yellow onion | carrot | broccoli florets | pak choi | fresh basil leaves | vegetarian oyster sauce | dark soy sauce | vegan fish sauce or extra soy sauce"
   },
   {
+    "slug": "peanut-tofu-bowl",
+    "title": "Peanut Tofu Bowl",
+    "image": "images/peanut-tofu-bowl.jpg",
+    "time": "30 min",
+    "tags": [
+      "High Protein",
+      "Dairy-free",
+      "Spicy"
+    ],
+    "description": "Tofu fried until golden, then simmered for five minutes in a creamy sauce of peanut butter, coconut milk, soy, honey, sriracha and chilli oil. Served over rice with crushed peanuts and coriander — about 1040 kcal and 48 g protein per serving.",
+    "style": "Golden pan-fried tofu simmered in a sticky peanut, coconut and sriracha sauce, piled over rice with peanuts and coriander",
+    "protein": "48 g",
+    "search": "peanut tofu | peanut butter tofu | satay tofu bowl | coconut peanut sauce | tofu rice bowl | high protein dinner | dinner | bowl | plant-based | firm tofu | oil | salt | black pepper | peanut butter | honey | sriracha | soy sauce | rice vinegar | chilli oil | coconut milk | cooked rice | roasted peanuts | fresh coriander | tenderstem broccoli"
+  },
+  {
     "slug": "protein-packed-buddha-bowl",
     "title": "Protein-Packed Buddha Bowl",
     "image": "images/protein-packed-buddha-bowl.jpg",

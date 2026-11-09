@@ -1,0 +1,79 @@
+{
+  "slug": "peanut-tofu-bowl",
+  "title": "Peanut Tofu Bowl",
+  "image": "images/peanut-tofu-bowl.jpg",
+  "time": "30 min",
+  "servings": 2,
+  "style": "Golden pan-fried tofu simmered in a sticky peanut, coconut and sriracha sauce, piled over rice with peanuts and coriander",
+  "tags": [
+    "High Protein",
+    "Dairy-free",
+    "Spicy"
+  ],
+  "categories": [
+    "Dinner",
+    "Bowl",
+    "Plant-based"
+  ],
+  "keywords": [
+    "peanut tofu",
+    "peanut butter tofu",
+    "satay tofu bowl",
+    "coconut peanut sauce",
+    "tofu rice bowl",
+    "high protein dinner"
+  ],
+  "description": "Tofu fried until golden, then simmered for five minutes in a creamy sauce of peanut butter, coconut milk, soy, honey, sriracha and chilli oil. Served over rice with crushed peanuts and coriander — about 1040 kcal and 48 g protein per serving.",
+  "ingredients": {
+    "sections": [
+      {
+        "title": "Tofu",
+        "items": [
+          { "qty": "400", "unit": "g", "item": "firm tofu", "note": "1 block, pressed and cut into bite-sized cubes" },
+          { "qty": "1", "unit": "tbsp", "item": "oil", "note": "for frying" },
+          { "qty": "", "unit": "", "item": "salt" },
+          { "qty": "", "unit": "", "item": "black pepper" }
+        ]
+      },
+      {
+        "title": "Peanut Sauce",
+        "items": [
+          { "qty": "2", "unit": "tbsp", "item": "peanut butter" },
+          { "qty": "1", "unit": "tbsp", "item": "honey" },
+          { "qty": "2", "unit": "tsp", "item": "sriracha" },
+          { "qty": "2", "unit": "tbsp", "item": "soy sauce" },
+          { "qty": "1", "unit": "tbsp", "item": "rice vinegar" },
+          { "qty": "1", "unit": "tsp", "item": "chilli oil" },
+          { "qty": "100", "unit": "g", "item": "coconut milk" }
+        ]
+      },
+      {
+        "title": "To Serve",
+        "items": [
+          { "qty": "500", "unit": "g", "item": "cooked rice", "note": "about 170 g uncooked" },
+          { "qty": "30", "unit": "g", "item": "roasted peanuts" },
+          { "qty": "", "unit": "", "item": "fresh coriander", "note": "chopped" },
+          { "qty": "200", "unit": "g", "item": "tenderstem broccoli", "note": "optional, steamed" }
+        ]
+      }
+    ]
+  },
+  "steps": [
+    "<strong>Prep the tofu:</strong> Press the tofu, cut into bite-sized cubes and season with salt and pepper.",
+    "<strong>Fry:</strong> Heat the oil in a frying pan over medium-high heat and fry the tofu, turning occasionally, until golden on all sides.",
+    "<strong>Sauce:</strong> Meanwhile, whisk the peanut butter, honey, sriracha, soy sauce, rice vinegar, chilli oil and coconut milk together in a bowl until smooth.",
+    "<strong>Simmer:</strong> Pour the sauce over the tofu in the pan and cook for 5 minutes, stirring, until thick and glossy.",
+    "Serve over rice, topped with the peanuts and coriander, with steamed broccoli on the side if you like."
+  ],
+  "tips": [
+    "Press the tofu well so it browns properly before the sauce goes in.",
+    "Use maple syrup instead of honey to make it vegan.",
+    "If the sauce gets too thick, loosen it with a splash of water."
+  ],
+  "nutrition": {
+    "calories": "1040 kcal",
+    "protein": "48 g",
+    "carbohydrates": "95 g",
+    "fat": "52 g"
+  }
+}
