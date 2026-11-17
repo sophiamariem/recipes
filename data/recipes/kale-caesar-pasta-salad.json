@@ -118,12 +118,14 @@
           {
             "qty": "5",
             "unit": "cups",
+            "grams": "335",
             "item": "kale",
             "note": "shredded"
           },
           {
             "qty": "0.33",
             "unit": "cup",
+            "grams": "35",
             "item": "parmesan cheese",
             "note": "optional or vegan alternative"
           }

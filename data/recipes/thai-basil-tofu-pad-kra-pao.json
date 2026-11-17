@@ -55,10 +55,10 @@
       {
         "title": "To Finish",
         "items": [
-          { "qty": "3", "unit": "cups", "item": "Thai holy basil", "note": "kra pao — leaves picked, loosely packed" },
+          { "qty": "3", "unit": "cups", "grams": "60", "item": "Thai holy basil", "note": "kra pao — leaves picked, loosely packed" },
           { "qty": "1", "unit": "", "item": "long red chilli", "note": "sliced, optional" },
           { "qty": "0.5", "unit": "", "item": "onion", "note": "sliced, optional" },
-          { "qty": "1", "unit": "cup", "item": "green beans", "note": "optional, cut into 1 cm lengths — long beans are traditional and bulk it out" },
+          { "qty": "1", "unit": "cup", "grams": "110", "item": "green beans", "note": "optional, cut into 1 cm lengths — long beans are traditional and bulk it out" },
           { "qty": "0.5", "unit": "", "item": "red bell pepper", "note": "optional, chopped" },
           { "qty": "", "unit": "", "item": "jasmine rice", "note": "to serve" },
           { "qty": "", "unit": "", "item": "fried egg", "note": "optional — vegetarian, not vegan" },

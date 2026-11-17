@@ -36,6 +36,7 @@
           {
             "qty": "1",
             "unit": "cup",
+            "grams": "185",
             "item": "cooked rice",
             "note": "preferably day-old"
           },
@@ -125,6 +126,7 @@
           {
             "qty": "0.25",
             "unit": "cup",
+            "grams": "60",
             "item": "dairy-free milk",
             "note": "e.g. soy"
           },
@@ -141,6 +143,7 @@
           {
             "qty": "1.5",
             "unit": "cups",
+            "grams": "225",
             "item": "edamame",
             "note": "shelled and thawed"
           },
@@ -165,6 +168,7 @@
           {
             "qty": "0.25",
             "unit": "cup",
+            "grams": "10",
             "item": "fresh mint",
             "note": "finely chopped"
           }

@@ -114,12 +114,14 @@
           {
             "qty": "1",
             "unit": "cup",
+            "grams": "15",
             "item": "fresh coriander",
             "note": "mostly leaves"
           },
           {
             "qty": "0.5",
             "unit": "cup",
+            "grams": "65",
             "item": "pepitas",
             "note": "toasted"
           },

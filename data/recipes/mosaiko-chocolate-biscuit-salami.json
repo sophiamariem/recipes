@@ -38,6 +38,7 @@
           {
             "qty": "1.5",
             "unit": "cups",
+            "grams": "180",
             "item": "icing sugar"
           },
           {
@@ -76,6 +77,7 @@
           {
             "qty": "1",
             "unit": "cup",
+            "grams": "245",
             "item": "milk"
           },
           {
@@ -87,6 +89,7 @@
           {
             "qty": "0.5",
             "unit": "cup",
+            "grams": "160",
             "item": "cherry preserve",
             "note": "drained from syrup"
           }

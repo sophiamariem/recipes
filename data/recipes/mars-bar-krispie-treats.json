@@ -42,6 +42,7 @@
           {
             "qty": "3",
             "unit": "cups",
+            "grams": "85",
             "item": "rice krispies",
             "note": "or generic puffed rice"
           }

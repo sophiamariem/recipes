@@ -57,7 +57,7 @@
           { "qty": "6-8", "unit": "", "item": "rice papers" },
           { "qty": "2", "unit": "", "item": "medium jalapeños", "note": "seeded, deribbed, sliced into thin strips" },
           { "qty": "1", "unit": "", "item": "avocado", "note": "cut into long thin strips" },
-          { "qty": "1/4", "unit": "cup", "item": "chopped green onions", "note": "about 2 stalks" },
+          { "qty": "1/4", "unit": "cup", "grams": "25", "item": "chopped green onions", "note": "about 2 stalks" },
           { "qty": "handful", "unit": "", "item": "fresh cilantro leaves", "note": "chopped" }
         ]
       }

@@ -28,7 +28,7 @@
         "title": "Vegetable Filling",
         "items": [
           { "qty": "2", "unit": "tbsp", "item": "olive oil" },
-          { "qty": "1", "unit": "cup", "item": "red onion", "note": "chopped" },
+          { "qty": "1", "unit": "cup", "grams": "160", "item": "red onion", "note": "chopped" },
           { "qty": "1", "unit": "", "item": "red bell pepper", "note": "chopped" },
           {
             "qty": "454",
@@ -60,12 +60,14 @@
           {
             "qty": "2",
             "unit": "cups",
+            "grams": "490",
             "item": "enchilada sauce",
             "note": "homemade or store-bought"
           },
           {
             "qty": "1",
             "unit": "cup",
+            "grams": "115",
             "item": "Monterey Jack cheese",
             "note": "shredded, divided"
           },

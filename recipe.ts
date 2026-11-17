@@ -10,6 +10,8 @@ export type ApprovedTag = (typeof APPROVED_TAGS)[number];
 export interface IngredientItem {
   qty?: number | string;
   unit?: string;
+  /** Weight equivalent for volume units (e.g. cups), shown in brackets: "1 cup (185 g) rice". */
+  grams?: number | string;
   item: string;
   note?: string;
 }

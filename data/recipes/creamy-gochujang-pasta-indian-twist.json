@@ -43,7 +43,7 @@
           { "qty": "0.5", "unit": "tsp", "item": "garam masala" },
           { "qty": "0.25", "unit": "tsp", "item": "turmeric powder" },
           { "qty": "0.5", "unit": "tsp", "item": "red chili powder" },
-          { "qty": "1", "unit": "cup", "item": "whole milk", "note": "or cashew cream for vegan version" },
+          { "qty": "1", "unit": "cup", "grams": "245", "item": "whole milk", "note": "or cashew cream for vegan version" },
           { "qty": "1", "unit": "tsp", "item": "white miso paste", "note": "for depth of umami" }
         ]
       },
@@ -52,7 +52,7 @@
         "items": [
           { "qty": "1", "unit": "tsp", "item": "toasted sesame oil", "note": "finish for nutty aroma" },
           { "qty": "2", "unit": "tsp", "item": "toasted sesame seeds" },
-          { "qty": "0.25", "unit": "cup", "item": "parsley", "note": "finely chopped" }
+          { "qty": "0.25", "unit": "cup", "grams": "15", "item": "parsley", "note": "finely chopped" }
         ]
       },
       {

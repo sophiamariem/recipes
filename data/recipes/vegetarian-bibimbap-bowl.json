@@ -30,7 +30,7 @@
       {
         "title": "Rice Base",
         "items": [
-          { "qty": "0.5", "unit": "cup", "item": "short-grain rice", "note": "traditionally Korean sticky rice; white or brown also works" }
+          { "qty": "0.5", "unit": "cup", "grams": "100", "item": "short-grain rice", "note": "traditionally Korean sticky rice; white or brown also works" }
         ]
       },
       {

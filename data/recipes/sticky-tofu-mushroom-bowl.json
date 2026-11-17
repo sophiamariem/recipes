@@ -30,8 +30,9 @@
           {
             "qty": "1",
             "unit": "cup",
+            "grams": "185",
             "item": "rice",
-            "note": "cooked per package directions"
+            "note": "uncooked — cook per package directions"
           }
         ]
       },
@@ -75,6 +76,7 @@
           {
             "qty": "0.25",
             "unit": "cup",
+            "grams": "70",
             "item": "reduced-sodium soy sauce"
           },
           {

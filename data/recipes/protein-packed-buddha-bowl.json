@@ -61,6 +61,7 @@
           {
             "qty": "1",
             "unit": "cup",
+            "grams": "195",
             "item": "short grain brown rice",
             "note": "cooked"
           },
@@ -73,6 +74,7 @@
           {
             "qty": "0.5",
             "unit": "cup",
+            "grams": "80",
             "item": "canned chickpeas",
             "note": "rinsed & drained (125 ml)"
           },

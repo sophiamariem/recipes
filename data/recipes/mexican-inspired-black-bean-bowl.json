@@ -47,9 +47,9 @@
       {
         "title": "Bowl Add-ins",
         "items": [
-          { "qty": "1", "unit": "cup", "item": "cooked rice or quinoa", "note": "preferably toasted before cooking" },
-          { "qty": "1", "unit": "cup", "item": "corn kernels", "note": "pan-charred or roasted if possible" },
-          { "qty": "0.5", "unit": "cup", "item": "cherry tomatoes", "note": "halved" },
+          { "qty": "1", "unit": "cup", "grams": "185", "item": "cooked rice or quinoa", "note": "preferably toasted before cooking" },
+          { "qty": "1", "unit": "cup", "grams": "165", "item": "corn kernels", "note": "pan-charred or roasted if possible" },
+          { "qty": "0.5", "unit": "cup", "grams": "75", "item": "cherry tomatoes", "note": "halved" },
           { "qty": "1", "unit": "", "item": "avocado", "note": "diced" },
           { "qty": "", "unit": "", "item": "fresh cilantro", "note": "chopped" }
         ]

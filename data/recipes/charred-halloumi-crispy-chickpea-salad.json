@@ -61,7 +61,7 @@
           { "qty": "1", "unit": "", "item": "cucumber", "note": "halved and thickly sliced" },
           { "qty": "250", "unit": "g", "item": "cherry tomatoes", "note": "halved" },
           { "qty": "0.5", "unit": "", "item": "red onion", "note": "very thinly sliced" },
-          { "qty": "0.25", "unit": "cup", "item": "Kalamata olives", "note": "pitted, torn" },
+          { "qty": "0.25", "unit": "cup", "grams": "35", "item": "Kalamata olives", "note": "pitted, torn" },
           { "qty": "", "unit": "", "item": "fresh parsley, dill or mint", "note": "big handful, torn" },
           { "qty": "2", "unit": "tbsp", "item": "pumpkin or sunflower seeds", "note": "toasted" }
         ]

@@ -39,7 +39,7 @@
       {
         "title": "Salad",
         "items": [
-          { "qty": "1", "unit": "cup", "item": "kimchi", "note": "roughly chopped" },
+          { "qty": "1", "unit": "cup", "grams": "150", "item": "kimchi", "note": "roughly chopped" },
           { "qty": "", "unit": "", "item": "mixed salad leaves" },
           { "qty": "1", "unit": "", "item": "cucumber", "note": "ribboned or thinly sliced" },
           { "qty": "", "unit": "", "item": "spring onions", "note": "sliced" },

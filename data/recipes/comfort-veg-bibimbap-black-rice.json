@@ -31,8 +31,8 @@
       {
         "title": "Black Rice Base",
         "items": [
-          { "qty": "1", "unit": "cup", "item": "black rice", "note": "also called forbidden rice — nutty, chewy, and gorgeous" },
-          { "qty": "2–2.5", "unit": "cups", "item": "water" }
+          { "qty": "1", "unit": "cup", "grams": "200", "item": "black rice", "note": "also called forbidden rice — nutty, chewy, and gorgeous" },
+          { "qty": "2–2.5", "unit": "cups", "grams": "475–590", "item": "water" }
         ]
       },
       {

@@ -36,6 +36,7 @@
           {
             "qty": "0.25",
             "unit": "cup",
+            "grams": "65",
             "item": "balsamic vinegar",
             "note": "60 ml"
           },
@@ -96,17 +97,20 @@
           {
             "qty": "4",
             "unit": "cups",
+            "grams": "365",
             "item": "broccoli",
             "note": "chopped, lightly steamed"
           },
           {
             "qty": "4",
             "unit": "cups",
+            "grams": "120",
             "item": "arugula, spinach, or mixed greens"
           },
           {
             "qty": "2",
             "unit": "cups",
+            "grams": "265",
             "item": "cucumber",
             "note": "diced"
           },
@@ -119,6 +123,7 @@
           {
             "qty": "1",
             "unit": "cup",
+            "grams": "165",
             "item": "chickpeas",
             "note": "drained & rinsed"
           },

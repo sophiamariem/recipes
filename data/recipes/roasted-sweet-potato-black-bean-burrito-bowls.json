@@ -41,8 +41,8 @@
         "title": "Refried Black Beans",
         "items": [
           { "qty": "2", "unit": "tsp", "item": "olive oil" },
-          { "qty": "1", "unit": "cup", "item": "green bell pepper", "note": "small diced" },
-          { "qty": "0.33", "unit": "cup", "item": "onion", "note": "diced" },
+          { "qty": "1", "unit": "cup", "grams": "150", "item": "green bell pepper", "note": "small diced" },
+          { "qty": "0.33", "unit": "cup", "grams": "55", "item": "onion", "note": "diced" },
           {
             "qty": "1-2",
             "unit": "tbsp",
@@ -73,6 +73,7 @@
           {
             "qty": "2",
             "unit": "cups",
+            "grams": "370",
             "item": "cooked rice or grain",
             "note": "white, brown, or cauliflower rice"
           },

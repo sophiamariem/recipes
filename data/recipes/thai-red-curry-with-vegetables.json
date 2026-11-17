@@ -30,7 +30,7 @@
       {
         "title": "Rice",
         "items": [
-          { "qty": "1.25", "unit": "cups", "item": "brown jasmine rice or long-grain brown rice", "note": "rinsed" }
+          { "qty": "1.25", "unit": "cups", "grams": "235", "item": "brown jasmine rice or long-grain brown rice", "note": "rinsed" }
         ]
       },
       {
@@ -46,8 +46,8 @@
           { "qty": "3", "unit": "", "item": "carrots", "note": "sliced on the diagonal (about 1 cup)" },
           { "qty": "2", "unit": "tbsp", "item": "Thai red curry paste" },
           { "qty": "400", "unit": "g", "item": "coconut milk", "note": "full-fat" },
-          { "qty": "0.5", "unit": "cup", "item": "water" },
-          { "qty": "1.5", "unit": "cups", "item": "kale", "note": "thinly sliced, ribs removed" },
+          { "qty": "0.5", "unit": "cup", "grams": "120", "item": "water" },
+          { "qty": "1.5", "unit": "cups", "grams": "100", "item": "kale", "note": "thinly sliced, ribs removed" },
           { "qty": "1.5", "unit": "tsp", "item": "coconut sugar or brown sugar" },
           { "qty": "1", "unit": "tbsp", "item": "tamari or soy sauce" },
           { "qty": "2", "unit": "tsp", "item": "rice vinegar or lime juice" }

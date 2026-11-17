@@ -57,9 +57,9 @@
         "title": "The Bowl",
         "items": [
           { "qty": "200", "unit": "g", "item": "rice vermicelli", "note": "bún, dried" },
-          { "qty": "2", "unit": "cups", "item": "lettuce", "note": "shredded, romaine or butterhead" },
+          { "qty": "2", "unit": "cups", "grams": "70", "item": "lettuce", "note": "shredded, romaine or butterhead" },
           { "qty": "1", "unit": "", "item": "cucumber", "note": "julienned" },
-          { "qty": "1", "unit": "cup", "item": "bean sprouts", "note": "raw or briefly blanched" },
+          { "qty": "1", "unit": "cup", "grams": "100", "item": "bean sprouts", "note": "raw or briefly blanched" },
           { "qty": "1", "unit": "", "item": "carrot", "note": "julienned" },
           { "qty": "0.5", "unit": "", "item": "red bell pepper", "note": "thinly sliced, optional" },
           { "qty": "", "unit": "", "item": "mint, coriander & Thai basil", "note": "large handful, leaves picked" },

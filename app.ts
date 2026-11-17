@@ -491,8 +491,13 @@ function renderRecipe(root: HTMLElement, r: Recipe){
       const scaled = baseVal * (target/base);
       el.textContent = formatQty(scaled);
     });
+    qsa('[data-grams]').forEach(el => {
+      const baseVal = parseFloat(el.getAttribute('data-grams-base')!);
+      if (isNaN(baseVal)) return;
+      el.textContent = String(Math.round(baseVal * (target/base)));
+    });
   }
-  function resetScale(){ qsa('[data-qty]').forEach(el => { el.textContent = el.getAttribute('data-qty-display')!; }); if (scaleInput) scaleInput.value = String(r.servings); }
+  function resetScale(){ qsa('[data-qty]').forEach(el => { el.textContent = el.getAttribute('data-qty-display')!; }); qsa('[data-grams]').forEach(el => { el.textContent = el.getAttribute('data-grams-display')!; }); if (scaleInput) scaleInput.value = String(r.servings); }
   applyBtn?.addEventListener('click', applyScale);
   resetBtn?.addEventListener('click', resetScale);
 
@@ -529,8 +534,11 @@ function renderQty(line: any){
     ? `<strong data-qty data-qty-base="${parseQty(String(line.qty))}" data-qty-display="${escapeHtml(line.qty)}">${escapeHtml(line.qty)}</strong>`
     : (line.qty ? `<strong>${escapeHtml(line.qty)}</strong>` : '');
   const unit = line.unit ? ` ${escapeHtml(line.unit)}` : '';
+  const grams = line.grams != null && line.grams !== ''
+    ? ` (<span data-grams data-grams-base="${parseQty(String(line.grams))}" data-grams-display="${escapeHtml(line.grams)}">${escapeHtml(line.grams)}</span> g)`
+    : '';
   const item = line.item ? ` ${escapeHtml(line.item)}` : '';
-  const head = `${qtyPart}${unit}${item}`.trim();
+  const head = `${qtyPart}${unit}${grams}${item}`.trim();
   const note = line.note
     ? `<span class="ing-note">${head ? ', ' : ''}${escapeHtml(line.note)}</span>`
     : '';
@@ -830,7 +838,7 @@ function parseDuration(text: string | undefined): number | null {
 
 function plainIngredientText(r: Recipe, only?: (item: any) => boolean){
   const sections = r.ingredients?.sections?.length ? r.ingredients.sections : []; const lines: string[] = [];
-  sections.forEach((sec: any) => { if (sec.title) lines.push(sec.title + ':'); sec.items.forEach((it: any) => { if (only && !only(it)) return; if (typeof it === 'string') lines.push('- ' + it); else { const qty = it.qty ? it.qty : ''; const unit = it.unit ? ` ${it.unit}` : ''; const item = it.item ? ` ${it.item}` : ''; const head = `${qty}${unit}${item}`.trim(); const note = it.note ? `${head ? ', ' : ''}${it.note}` : ''; lines.push(`- ${head}${note}`); } }); lines.push(''); });
+  sections.forEach((sec: any) => { if (sec.title) lines.push(sec.title + ':'); sec.items.forEach((it: any) => { if (only && !only(it)) return; if (typeof it === 'string') lines.push('- ' + it); else { const qty = it.qty ? it.qty : ''; const unit = it.unit ? ` ${it.unit}` : ''; const grams = it.grams ? ` (${it.grams} g)` : ''; const item = it.item ? ` ${it.item}` : ''; const head = `${qty}${unit}${grams}${item}`.trim(); const note = it.note ? `${head ? ', ' : ''}${it.note}` : ''; lines.push(`- ${head}${note}`); } }); lines.push(''); });
   return lines.join('\n').trim();
 }
 
@@ -846,7 +854,7 @@ function injectSchema(r: Recipe){
     "totalTime": minutes ? `PT${minutes}M` : undefined, 
     "recipeCategory": r.categories || [], 
     "keywords": (r.keywords || []).join(', '), 
-    "recipeIngredient": r.ingredients?.sections?.flatMap((s: any) => s.items.map((it: any) => typeof it === 'string' ? it : [it.qty, it.unit, it.item, it.note].filter(Boolean).join(' '))) || [], 
+    "recipeIngredient": r.ingredients?.sections?.flatMap((s: any) => s.items.map((it: any) => typeof it === 'string' ? it : [it.qty, it.unit, it.grams ? `(${it.grams} g)` : '', it.item, it.note].filter(Boolean).join(' '))) || [], 
     "recipeInstructions": (r.steps || []).map(s => ({ "@type":"HowToStep", "text": stripTags(s) }))
   };
   const script = document.createElement('script'); 
